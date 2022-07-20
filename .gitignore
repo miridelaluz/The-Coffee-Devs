@@ -19,16 +19,6 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# JPEG
-*.jpg
-*.jpeg
-*.jpe
-*.jif
-*.jfif
-*.jfi
 
 # JPEG 2000
 *.jp2
@@ -52,8 +42,6 @@ hs_err_pid*
 # Web P
 *.webp
 
-# Portable Network Graphics
-*.png
 
 # Animated Portable Network Graphics
 *.apng
