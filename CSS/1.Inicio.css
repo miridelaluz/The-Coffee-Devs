@@ -1,0 +1,110 @@
+body{
+    min-width: 300px
+
+}
+
+h1{
+    font-size:xx-large;
+}
+
+header button{
+border: 0px solid;
+}
+
+.grid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.grid .item {
+margin-left: 200px;
+}
+
+.carousel-inner{     
+    height: 150px;
+    width: 380px;
+    border-radius: 40px;
+    
+    }
+
+.menu{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+     justify-content:end;
+     margin: 5%;
+     margin-left: 15%;    
+}
+
+
+.menu img{
+   
+    height: 200px;
+    width: 200px;
+    border: 7px solid #a42c33;
+    border-radius: 100px;
+    }
+
+.menu button{
+    margin-top: 5px;
+    text-align-last: center;
+    background-color: #a42c33;
+    margin-left: 63px;
+    border: 1px solid #a42c33;
+    border-radius: 40px;
+}
+
+.noticias{
+background-color: #a42c33;
+border-radius: 50px;
+display: flex;
+width: 90%;
+height: 280px;
+margin: auto;
+object-fit: cover;
+padding: 20px;
+
+}
+
+.noticias .noticia{
+    background-color: #f2f3f4;
+    text-align: center;
+    font-size: medium;
+    object-fit: cover;
+    width: 100%;
+    height: 240px;
+    overflow-y: auto;
+    border-radius: 50px;
+    
+}
+
+.noticias button{
+    border: 0px solid;
+    width: 400px;
+    
+}
+
+.noticias img{
+    border-radius: 40px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.clearfix{
+    clear:both;
+}
+
+footer{
+    border: 0px;
+  margin-top: 3%;  
+  margin-bottom: 3%;
+}
+
+footer button{
+border: 0px solid;
+}
