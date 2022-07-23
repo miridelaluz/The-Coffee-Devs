@@ -1,8 +1,3 @@
-body{
-    min-width: 300px
-
-}
-
 h1{
     font-size:xx-large;
 }
@@ -12,15 +7,16 @@ border: 0px solid;
 }
 
 .grid{
-  display: grid;
+ 
   width: 100%;
-  grid-template-columns: 50% 50%;
     justify-content: center;
     margin-top: 50px;
+    
 }
 
 .grid .item {
-margin-left: 200px;
+margin-left: 250px;
+
 }
 
 .carousel-inner{     
@@ -32,10 +28,11 @@ margin-left: 200px;
 
 .menu{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-     justify-content:end;
-     margin: 5%;
-     margin-left: 15%;    
+    grid-template-columns: 30% 30% 30%;
+    min-width: 300px;
+    justify-content:end;
+    margin: 5%;
+    margin-left: 15%;    
 }
 
 
