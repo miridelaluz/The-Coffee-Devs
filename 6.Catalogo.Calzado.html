@@ -7,152 +7,282 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio - Godiva </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->
-        <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Link Booststrap 5-->
+    <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script>
+    <!--Link de Font Awesome 5-->
 </head>
-<header>
 
-    <div id="main:wrapper">
+<body>
+    <header>
+
+        <div id="main:wrapper">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <a href="/2.Acerca de Godiva.html">
+                            <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
+                            <label>
+                                <strong>Acerca de nosotros</strong>
+                            </label>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <img src="iconos/godiva_img.png" width="60%">
+                    </div>
+                    <div class="col">
+                        <a href="/7.Login.SignUp.html">
+                            <!-- Aquí  arriba se agrega la página de login-->
+                            <label>
+                                <strong>Iniciar Sesión</strong>
+                            </label>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="/8.Carrito.Compra.html" target="_blank">
+                            <button><img src="iconos/Basket_no_icon_48.png" alt=""> </button>
+                        </a>
+                        <!--ícono de carrito de pagos-->
+                    </div>
+                </div>
+                <!--inicia el menú-->
+                <nav class="navbar navbar-expand-md bg-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Catálogo de productos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Acerca de Godiva
+                                    </a>
+
+                                <li>
+                                    <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Noticias
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropdown-item" href="1.Inicio.html" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Eventos
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!--AQUÍ TERMINA EL MENÚ -->
+            </div>
+        </div>
+    </header>
+    <!-- TERMINA EL ENCABEZADO-->
+
+
+    <label style="font-size: 150px;"> Calzado </label>
+    <div class="row row-cols-1 row-cols-md-5 g-4"id="main_container" style="text-align: center;">
+        <div id="contents">
+            <br><br>
+            <section>
+                <article>
+                    <!-- Empieza el card de zapato campesino 1 -->
+                    <div class="card" style="width: 18rem;  ">
+                        <img src="assets/img/zapatocampesino.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapato campesino</h5>
+                            <p class="card-text">Descripción de artículo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <a href="#" class="btn btn primary"
+                                style="align-content: flex-end;">
+                                <img src="iconos/5172567_heart_like_love_icon.png" alt=""
+                                    aria-placeholder="Agregar al carrito"></a>
+                        </div>
+                    </div>
+                    <!-- Termina card de zapato campesino 1 -->
+                </article>
+
+                <article>
+                    <!-- Empieza el card de zapato campesino 2 -->
+                    <div class="card" style="width: 18rem;  ">
+                        <img src="assets/img/zapatocampesino2.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapato campesino</h5>
+                            <p class="card-text">Descripción de artículo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <a href="#" class="btn btn primary"
+                                style="align-content: flex-end;">
+                                <img src="iconos/5172567_heart_like_love_icon.png" alt=""
+                                    aria-placeholder="Agregar al carrito"></a>
+                        </div>
+                    </div>
+                    <!-- Termina card de zapato campesino 2 -->
+                </article>
+                
+                <article>
+                    <!-- Empieza el card de zapato campesino 3 -->
+                    <div class="card" style="width: 18rem;  ">
+                        <img src="assets/img/zapatocampesino3.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapato campesino</h5>
+                            <p class="card-text">Descripción de artículo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <a href="#" class="btn btn primary"
+                                style="align-content: flex-end;">
+                                <img src="iconos/5172567_heart_like_love_icon.png" alt=""
+                                    aria-placeholder="Agregar al carrito"></a>
+                        </div>
+                    </div>
+                    <!-- Termina card de zapato campesino 3 -->
+                </article>
+
+                <article>
+                    <!-- Empieza el card de soletas 1 -->
+                    <div class="card" style="width: 18rem;  ">
+                        <img src="assets/img/soletas.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Soleta</h5>
+                            <p class="card-text">Descripción de artículo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <a href="#" class="btn btn primary"
+                                style="align-content: flex-end;">
+                                <img src="iconos/5172567_heart_like_love_icon.png" alt=""
+                                    aria-placeholder="Agregar al carrito"></a>
+                        </div>
+                    </div>
+                    <!-- Termina card de soletas 1 -->
+                </article>
+
+                <article>
+                    <!-- Empieza el card de soletas 2 -->
+                    <div class="card" style="width: 18rem;  ">
+                        <img src="assets/img/soletas.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Soleta</h5>
+                            <p class="card-text">Descripción de artículo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <a href="#" class="btn btn primary"
+                                style="align-content: flex-end;">
+                                <img src="iconos/5172567_heart_like_love_icon.png" alt=""
+                                    aria-placeholder="Agregar al carrito"></a>
+                        </div>
+                    </div>
+                    <!-- Termina card de soletas 3 -->
+                </article>
+
+                <article>
+                    <!-- Empieza el card de zapato con lengüeta 1 -->
+                    <div class="card" style="width: 18rem;  ">
+                        <img src="assets/img/soletas.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapato con lengüeta</h5>
+                            <p class="card-text">Descripción de artículo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <a href="#" class="btn btn primary"
+                                style="align-content: flex-end;">
+                                <img src="iconos/5172567_heart_like_love_icon.png" alt=""
+                                    aria-placeholder="Agregar al carrito"></a>
+                        </div>
+                    </div>
+                    <!-- Termina card de zapato con lengüeta 1 -->
+                </article>
+
+                <article>
+                    <!-- Empieza el card de zapato con lengüeta 2 -->
+                    <div class="card" style="width: 18rem;  ">
+                        <img src="assets/img/soletas.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Zapato con lengüeta</h5>
+                            <p class="card-text">Descripción de artículo</p>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            <a href="#" class="btn btn primary"
+                                style="align-content: flex-end;">
+                                <img src="iconos/5172567_heart_like_love_icon.png" alt=""
+                                    aria-placeholder="Agregar al carrito"></a>
+                        </div>
+                    </div>
+                    <!-- Termina card de zapato con lengüeta 2 -->
+                </article>
+
+            </section>
+            
+        </div>
+    </div>
+
+
+    <footer>
+        <!--PIE-->
         <div class="container text-center">
             <div class="row align-items-center">
                 <div class="col">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                      </form>
+                    <p>¡Contactanos!</p>
+                    <br>
+                    <a href="https://www.facebook.com/GodivaSH" target="_blank">
+                        <button><img src="iconos/facebook_logo_48.png" alt=""> </button>
+                    </a>
+                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
+                        <button><img src="iconos/Instagram_logo_48.png" alt=""> </button>
+                    </a>
+                </div>
+                <div class="col">
                 </div>
                 <div class="col">
                     <a href="/2.Acerca de Godiva.html">
-                        <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
+                        <!--Aquí  arriba se agrega la página de Acerca de nosotros-->
                         <label>
-                            <strong>Acerca de nosotros</strong>
+                            <strong>Preguntas frecuentes</strong>
                         </label>
                     </a>
                 </div>
                 <div class="col">
-                    <img src="iconos/godiva_img.png" width="60%">
+
                 </div>
                 <div class="col">
-                    <a href="/7.Login.SignUp.html">
-                        <!-- Aquí  arriba se agrega la página de login-->
-                        <label>
-                            <strong>Iniciar Sesión</strong>
-                        </label>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="/8.Carrito.Compra.html" target="_blank"> 
-                        <button><img src="iconos/Basket_no_icon_48.png" alt=""> </button>
-                    </a>
-                    <!--ícono de carrito de pagos-->
+                    <p>Aceptamos:</p>
+                    <img src="iconos/Visa_logo_48.png" alt="">
+                    <img src="iconos/Mastercar_loco_48.png" alt="">
+                    <img src="iconos/Paypal_logo_48.png" alt="">
                 </div>
             </div>
-            <!--inicia el menú-->
-            <nav class="navbar navbar-expand-md bg-light">
-                <div class="container-fluid">
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Catálogo de productos
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Acerca de Godiva
-                        </a>
-                       
-                        <li>
-                            <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Noticias
-                              </a>
-                        </li>
-                        <li>
-                            <a class="nav-link dropdown-item" href="1.Inicio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Eventos
-                              </a>
-                        </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            <!--AQUÍ TERMINA EL MENÚ -->
+
         </div>
-    </div>
-</header>
-<!-- TERMINA EL ENCABEZADO-->
+    </footer>
 
 
 
-
-<body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-
-        <label> ESTO ES EL CUERPO :D </label>
-        <div id="main_container">
-            <div id="contents">
-                <section>
-                    <article>
-        
-                    </article>
-                </section>
-                <section>
-                    <article>
-        
-                    </article>
-                </section>
-            </div>
-        </div>
 </body>
 
-
-
-
-
-<footer>
-    <!--PIE-->
-    <div class="container text-center">
-        <div class="row align-items-center">
-            <div class="col">
-                <p>¡Contactanos!</p>
-                <br>
-                <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
-                    <button><img src="iconos/facebook_logo_48.png" alt=""> </button>
-                </a>
-                <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
-                    <button><img src="iconos/Instagram_logo_48.png" alt=""> </button>
-                </a>
-            </div>
-            <div class="col">
-            </div>
-            <div class="col">
-                <a href="/2.Acerca de Godiva.html">
-                    <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
-                    <label>
-                        <strong>Preguntas frecuentes</strong>
-                    </label>
-                </a>
-            </div>
-            <div class="col">
-
-            </div>
-            <div class="col">
-                <p>Aceptamos:</p>
-                <img src="iconos/Visa_logo_48.png" alt="">
-                <img src="iconos/Mastercar_loco_48.png" alt="">
-                <img src="iconos/Paypal_logo_48.png" alt="">
-            </div>
-        </div>
-
-    </div>
-</footer>
 </html>
