@@ -110,82 +110,131 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
 
-        <br>
-        <br>
-        <div class="container">
-            <div class="row">
-              <div class="col-xl-3 col-md-2 col-sm-4">
-                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                <label class="btn btn-primary" for="btn-check">Crear</label>
-              </div>
-              <div class="col-xl-3 col-md-2 col-sm-4">
-                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                <label class="btn btn-primary" for="btn-check">Actualizar</label>
-              </div>
-              <div class="col-xl-3 col-md-2 col-sm-4">
-                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                <label class="btn btn-primary" for="btn-check">Eliminar</label>
-
-              </div>
-              <div class="col-xl-3 col-md-2 col-sm-4">
-                
-                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                <label class="btn btn-primary" for="btn-check">Buscar</label>
-              </div>
-            </div>
-          </div>
 
 
+        <div class="menu">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="col-xl-3 col-md-2 col-sm-4">
+                        <div class="item">
+                            <button type="button" class="btn btn-primary btn-sm">Crear</button>
+                          </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-2 col-sm-4">
+                        <div class="item">
+                            <button type="button" class="btn btn-primary btn-sm">Actualizar</button>
+                          </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-2 col-sm-4">
+                        <div class="item">
+                            <button type="button" class="btn btn-primary btn-sm">Eliminar</button>
+                          </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-2 col-sm-4">
+                        <div class="item">
+                            <button type="button" class="btn btn-primary btn-sm">Buscar</button>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>    
+        </div>
 
 
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-md-2 col-sm-4">
-                <form action="#">
-                    <br><br><br>
 
-                    <h1>Nuevo articulo</h1>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-2 col-sm-4">
+                        <form action="#">
+
+
+
+                            <div class="art">
+
+                                <br><br><br><br>
+                                <input type="texto" placeholder="Nombre del articulo" />
+    
+                                <div class="mb-3">
+                                    <label for="descrip" class="form-label"></label>
+                                    <p><textarea placeholder="Descripcion"></textarea></p> 
+                                </div>
+    
+    
+                                <div class="container">
+                                    <div class="row">
+    
+                                        <div class="col-sm-2 col-sm-5 col-sm-4">
+                                            <div class="item">
+                                                <input type="text" placeholder="Precio" />
+                                              </div>
+                                        </div>
                     
-                    <input type="texto" placeholder="Nombre del articulo" /><br><br>
-                    <input type="texto" placeholder="Descripcion" /><br><br><br>
-                    <div class="row">
-                        <div class="col-xl-3 col-md-5 col-sm-4">
-                            <input type="texto" placeholder="Precio" />
-                
-                        </div>
-                        <div class="col-xl-3 col-md-5 col-sm-4">
-                            <input type="texto" placeholder="Categoria" />
-                        </div>
-                        <div class="col-xl-3 col-md-5 col-sm-4">
-                            <input type="texto" placeholder="Unidades" />
-                
-                        </div>
-                
-                      </div>
-                
+                                        <div class="col-sd-2 col-sm-5 col-sm-4">
+                                            <div class="item">
+                                                <input type="text" placeholder="Categoria" />
+                                            </div>
+                                        </div>
                     
-                      <br><br>
-                
-                        <button>Cargar imagenes</button>
-                    </form>
-            </div>
+                                        <div class="col-sm-2 col-sm-2 col-sm-4">
+                                            <div class="item">
+                                                <input type="text" placeholder="Unidades" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+        
+                                <button class="btn btn-warning btn_carrito"><small>Cargar imagenes</small></button>
+                            
+                            
+                            </div>
+    
+                        
+                            
+                        
+                        </form>
+                    </div>
 
-            <div class="col-xl-6 col-md-2 col-sm-4">
-                <div class="item">
-                    <br><br><br>
-                    <img src="assets/img/3.Admin-Muestra.jpg" class="img">
+
+
+                    <div class="col-xl-6 col-md-2 col-sm-4">
+                        <div class="item" align="center">
+                            
                     <br><br>
-                    <button class="btn btn-warning btn_carrito"><small>Adjuntar imagen</small></button>
-                    
-                  </div>
-            </div>
+                            <img src="assets/img/3.Admin-Muestra.jpg" class="img">
+                            <br><br>
+                            <div class="input-group mb-3">
+                                <input type="file" class="form-control" id="inputGroupFile02">
+                                <label class="input-group-text" for="inputGroupFile02">Subir</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>    
+        
+
+
+
+
+
+
 
             
-        </div>
-    </div>
-   
+       
 
     
 
@@ -195,10 +244,8 @@
 
 
         
-        <div class="mb-3">
-            <label for="formFile" class="form-label">Default file input example</label>
-            <input class="form-control" type="file" id="formFile">
-          </div>
+
+
           
 
 
@@ -272,7 +319,7 @@
 
 
    <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
-
+   <link href="CSS/3. Logi.Admi.css" rel="stylesheet">
     </body>
 
 </html>
