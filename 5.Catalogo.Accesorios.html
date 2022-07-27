@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,12 +13,9 @@
     <!--Link de Font Awesome 5-->
 </head>
 
-
-
-
-<body>
+<body style="background-color:#a42c33 ;">
     <header>
-        <div id="main:wrapper">
+        <div id="main:wrapper" style="background-color:#f2f3f4 ;">
             <div class="container text-center">
                 <div class="row align-items-center">
                     <div class="col">
@@ -30,25 +27,27 @@
                     <div class="col">
                         <a href="/2.Acerca de Godiva.html">
                             <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
-                            <label>
+                            <label id="lblAcercaDeNos">
                                 <strong>Acerca de nosotros</strong>
                             </label>
                         </a>
                     </div>
                     <div class="col">
-                        <img src="iconos/godiva_img.png" width="60%">
+                        <a href="1.Inicio.html">
+                            <img id="btnLogoEncabezado" src="/assets/iconos/godiva_img.png" width="60%">
+                        </a>
                     </div>
                     <div class="col">
                         <a href="/7.Login.SignUp.html">
                             <!-- Aquí  arriba se agrega la página de login-->
-                            <label>
+                            <label id="lblIniciarSesion">
                                 <strong>Iniciar Sesión</strong>
                             </label>
                         </a>
                     </div>
                     <div class="col">
                         <a href="/8.Carrito.Compra.html" target="_blank">
-                            <button><img src="iconos/Basket_no_icon_48.png" alt=""> </button>
+                            <button id="carritoCompra"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
                         </a>
                         <!--ícono de carrito de pagos-->
                     </div>
@@ -59,7 +58,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    <a id="menuCatálogo" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         Catálogo de productos
                                     </a>
@@ -77,19 +76,19 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button"
+                                    <a id="menuAcerca" class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Acerca de Godiva
                                     </a>
 
                                 <li>
-                                    <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button"
+                                    <a id="menuNoticias" class="nav-link dropdown-item" href="/1.Inicio.html" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Noticias
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="nav-link dropdown-item" href="1.Inicio.html" role="button"
+                                    <a id="menuEventos" class="nav-link dropdown-item" href="1.Inicio.html" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Eventos
                                     </a>
@@ -98,167 +97,177 @@
                         </div>
                     </div>
                 </nav>
-                <!--AQUÍ TERMINA EL MENÚ -->
+                AQUÍ TERMINA EL MENÚ
             </div>
         </div>
     </header>
     <!-- TERMINA EL ENCABEZADO-->
 
     <!--EMPIEZA LA SECCIÓN MEDIA-->
-    <label> ESTO ES EL CUERPO :D </label>
-    <div id="main_container">
-        <div id="contents">
-            <section>
-                <article>
-
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="row">
-                                <div class="carousel-item active">
-                                    <div class="row row-cols-md-4 row-cols-lg-5">
-                                        <img src="..." class="d-block w-100" alt="">
-                                        <!-- <div class="col">
-
-                                        </div> -->
-                                        <div class="col" style="text-align: center;">
-                                            <div class="card" style="width: 18rem;  ">
-                                                <img src="https://thumbs.dreamstime.com/b/joyer%C3%ADa-de-cobre-medieval-hecha-mano-119689006.jpg"
-                                                    class="card-img-top, img-fluid" alt="Responsive image">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Joyería</h5>
-                                                    <p class="card-text">Una completa selección de las mejores joyas y
-                                                        adornos
-                                                        medievales</p>
-                                                    <a href="#" class="btn btn-primary">Joyería</a>
-                                                    <a href="#" class="btn btn primary"
-                                                        style="align-content: flex-end;">
-                                                        <img src="iconos/Basket_no_icon_48.png" alt=""
-                                                            aria-placeholder="Agregar al carrito"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col" style="text-align: center;">
-                                            <div class="card" style="width: 18rem; ">
-                                                <img src="https://http2.mlstatic.com/D_NQ_NP_709590-MLM49033759177_022022-W.jpg"
-                                                class="card-img-top, img-fluid" alt="Responsive image">
-                                                <div class="card-body">
-                                                    <!-- <h5 class="card-title">Talegas</h5> -->
-                                                    <!-- <p class="card-text">Descripción de Talega</p> -->
-                                                    <a href="#" class="btn btn-primary">Talegas</a>
-                                                    <img src="iconos/Basket_no_icon_48.png" alt=""
-                                                        aria-placeholder="Agregar al carrito"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col" style="text-align: center;">
-                                            <div class="card" style="width: 18rem; ">
-                                                <img src="data:image/jpeg;base64,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"
-                                                class="card-img-top img-fluid" alt="Responsive image">
-                                                <div class="card-body">
-                                                    <!-- <h5 class="card-title">Talegas</h5> -->
-                                                    <!-- <p class="card-text">Descripción de Talega</p> -->
-                                                    <a href="#" class="btn btn-primary">Zurrones</a>
-                                                    <img src="iconos/Basket_no_icon_48.png" alt=""
-                                                        aria-placeholder="Agregar al carrito"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col" style="text-align: center;">
-                                            <div class="card" style="width: 18rem; ">
-                                                <img src="https://www.darkknightarmoury.com/wp-content/uploads/2019/10/200312-300x300.jpg"
-                                                class="card-img-top img-fluid" alt="Responsive image">
-                                                <div class="card-body">
-                                                    <!-- <h5 class="card-title">Sporrans</h5> -->
-                                                    <!-- <p class="card-text">Descripción de Sporrans</p> -->
-                                                    <a href="#" class="btn btn-primary">Ssporrans</a>
-                                                    <img src="iconos/Basket_no_icon_48.png" alt=""
-                                                        aria-placeholder="Agregar al carrito"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col" style="text-align: center;">
-                                            <div class="card" style="width: 18rem;  ">
-                                                <img src="https://ae01.alicdn.com/kf/HTB1gij7SFXXXXcnXXXXq6xXFXXX7/Cintur-n-medieval-Cintur-n-Masculino-Cintur-n-Hombre-Vintage-Cosplay-LARP-Viking-Battle-Knight-Cintur.jpg"
-                                                class="card-img-top img-fluid" alt="Responsive image">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Cinturones</h5>
-                                                    <p class="card-text">Descripción de cinturones</p>
-                                                    <a href="#" class="btn btn-primary">Cinturones</a>
-                                                    <a href="#" class="btn btn primary"
-                                                        style="align-content: flex-end;">
-                                                        <img src="iconos/Basket_no_icon_48.png" alt=""
-                                                            aria-placeholder="Agregar al carrito"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col" style="text-align: center;">
-                                            <div class="card" style="width: 18rem; ">
-                                                <img src="https://forgedground.com/image/cache/catalog/bolso-medieval-marron-cuero/bolso-medieval-marron-cuero-3-560x789.jpg"
-                                                class="card-img-top img-fluid" alt="Responsive image">
-                                                <div class="card-body">
-                                                    <!-- <h5 class="card-title">Bolsos</h5> -->
-                                                    <!-- <p class="card-text">Descripción de bolsos</p> -->
-                                                    <a href="#" class="btn btn-primary">Bolsos</a>
-                                                    <img src="iconos/Basket_no_icon_48.png" alt=""
-                                                        aria-placeholder="Agregar al carrito"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+    <!-- <label> ESTO ES EL CUERPO :D </label> -->
+    <div id="container accesorios">
+        <!-- Inicia el contenedor de Accesorios-->
+        <h2 id="titulo_accesorios" class="accesorios_titulo" style="text-align:center;"> ACCESORIOS</h2>
+        <!-- <div id="contents"> -->
+        <section class=" align-self-md-center" style="margin:50px;">
+            <article>
+                <div class="col">
+                    <h1> </h1>
+                </div>
+                <div class="row">
+                    <div class="row  row-cols-md-3 row-cols-lg-4">
+                        <img src="..." class="d-block w-100" alt="">
+                        <div class="col" style="text-align: center;">
+                            <div class="card h-100" >
+                                <img src="https://thumbs.dreamstime.com/b/joyer%C3%ADa-de-cobre-medieval-hecha-mano-119689006.jpg"
+                                    class="card-img-top; img-fluid" alt="Responsive image">
+                                <!-- <div class="card-body"> -->
+                                    <!-- <h5 class="card-title">Joyería</h5>
+                                        <p class="card-text">Una completa selección de las mejores joyas y
+                                            adornos
+                                            medievales</p> -->
+                                    <!-- <a href="#" class="btn btn-primary">Joyería</a>
+                                    <a href="#" class="btn btn primary" style="align-content: flex-end;">
+                                        <img src="iconos/Basket_no_icon_48.png" alt=""
+                                            aria-placeholder="Agregar al carrito"></a>
+                                </div> -->
+                                <div class="card-body" style="align-items:flex-start">
+                                    <!-- <h5 class="card-title">Joyería</h5> -->
+                                        <p id="descripcion_joyeria" class="card-text">Una completa selección de las mejores joyas y
+                                            adornos
+                                            medievales</p>
                                 </div>
-                            </div>
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <img src="..." class="d-block w-100" alt="...">
-                                    <div class="col">
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://www.trajes-medievales.com/1080-large_default/sombrero-espanol-con-pluma.jpg"
-                                            class="card-img-top img-fluid" alt="Responsive image">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Sombreros</h5>
-                                                <p class="card-text">Descripción de sombreros</p>
-                                                <a href="#" class="btn btn-primary">Sombreros</a>
-                                                <img src="iconos/Basket_no_icon_48.png" alt=""
-                                                    aria-placeholder="Agregar al carrito"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card" style="width: 18rem;">
-                                            <img src="https://lacasadelrecreador-431a.kxcdn.com/3627-large_default/parlota.jpg"
-                                                class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <h5 class="card-title">Bonetes</h5>
-                                                <p class="card-text">Descripción de bonetes</p>
-                                                <a href="#" class="btn btn-primary">Bonetes</a>
-                                                <img src="iconos/Basket_no_icon_48.png" alt=""
-                                                    aria-placeholder="Agregar al carrito"></a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="card-footer" style="background-color:white;">
+                                    <button class="btn  "><small>Joyería</small></button>
+                                    <!-- <button class="btn btn_lista_deseos">
+                                        <a href="#">
+                                            <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                        </a>
+                                    </button> -->
                                 </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <article>
+                        <div class="col" style="text-align: center; ">
+                            <div class="card h-100" >
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_709590-MLM49033759177_022022-W.jpg"
+                                    class="card-img-top; img-fluid" alt="Responsive image">
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Talegas</h5> -->
+                                    <!-- <p class="card-text">Descripción de Talega</p> -->
+                                    <a href="#" class="btn btn-primary">Talegas</a>
+                                    <img src="iconos/Basket_no_icon_48.png" alt=""
+                                        aria-placeholder="Agregar al carrito"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="text-align: center;">
+                            <div class="card h-100" >
+                                <img src="data:image/jpeg;base64,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"
+                                    class="card-img-top; img-fluid" alt="Responsive image">
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Talegas</h5> -->
+                                    <!-- <p class="card-text">Descripción de Talega</p> -->
+                                    <a href="#" class="btn btn-primary">Zurrones</a>
+                                    <img src="iconos/Basket_no_icon_48.png" alt=""
+                                        aria-placeholder="Agregar al carrito"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="text-align: center;">
+                            <div class="card h-100" >
+                                <img src="https://www.darkknightarmoury.com/wp-content/uploads/2019/10/200312-300x300.jpg"
+                                    class="card-img-top; img-fluid" alt="Responsive image">
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Sporrans</h5> -->
+                                    <!-- <p class="card-text">Descripción de Sporrans</p> -->
+                                    <a href="#" class="btn btn-primary">Ssporrans</a>
+                                    <img src="iconos/Basket_no_icon_48.png" alt=""
+                                        aria-placeholder="Agregar al carrito"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="text-align: center;">
+                            <div class="card h-100" >
+                                <img src="https://ae01.alicdn.com/kf/HTB1gij7SFXXXXcnXXXXq6xXFXXX7/Cintur-n-medieval-Cintur-n-Masculino-Cintur-n-Hombre-Vintage-Cosplay-LARP-Viking-Battle-Knight-Cintur.jpg"
+                                    class="card-img-top; img-fluid" alt="Responsive image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cinturones</h5>
+                                    <p class="card-text">Descripción de cinturones</p>
+                                    <a href="#" class="btn btn-primary">Cinturones</a>
+                                    <a href="#" class="btn btn primary" style="align-content: flex-end;">
+                                        <img src="iconos/Basket_no_icon_48.png" alt=""
+                                            aria-placeholder="Agregar al carrito"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" style="text-align: center;">
+                            <div class="card h-100" >
+                                <img src="https://forgedground.com/image/cache/catalog/bolso-medieval-marron-cuero/bolso-medieval-marron-cuero-3-560x789.jpg"
+                                    class="card-img-top; img-fluid" alt="Responsive image">
+                                <div class="card-body">
+                                    <!-- <h5 class="card-title">Bolsos</h5> -->
+                                    <!-- <p class="card-text">Descripción de bolsos</p> -->
+                                    <a href="#" class="btn btn-primary">Bolsos</a>
+                                    <img src="iconos/Basket_no_icon_48.png" alt=""
+                                        aria-placeholder="Agregar al carrito"></a>
+                                </div>
+                            </div>
+                        </div>
 
-                </article>
-            </section>
-        </div>
+                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                        <div class="col">
+                            <div class="card h-100" >
+                                <img src="https://www.trajes-medievales.com/1080-large_default/sombrero-espanol-con-pluma.jpg"
+                                    class="card-img-top; img-fluid" alt="Responsive image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sombreros</h5>
+                                    <p class="card-text">Descripción de sombreros</p>
+                                    <a href="#" class="btn btn-primary">Sombreros</a>
+                                    <img src="iconos/Basket_no_icon_48.png" alt=""
+                                        aria-placeholder="Agregar al carrito"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100" >
+                                <img src="https://lacasadelrecreador-431a.kxcdn.com/3627-large_default/parlota.jpg"
+                                class="card-img-top; img-fluid" alt="Responsive image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bonetes</h5>
+                                    <p class="card-text">Descripción de bonetes</p>
+                                    <a href="#" class="btn btn-primary">Bonetes</a>
+                                    <img src="iconos/Basket_no_icon_48.png" alt=""
+                                        aria-placeholder="Agregar al carrito"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--
+
+                    
+
+                -->
+                <div class="card w-100" >
+                    <div class="card-body">
+                        <h5 class="card-title">Godiva Sastrería Histórica</h5>
+                        <p class="card-text">El texto</p>
+                       
+                    </div>
+                </div>
+
+
+            </article>
+        </section>
+        <!-- </div> -->
     </div>
+    <section>
+        <article>
+
+        </article>
+    </section>
     <!-- TERMINA LA SECCIÓN MEDIA-->
 
 
@@ -268,12 +277,12 @@
             <div class="row align-items-center">
                 <div class="col">
                     <p>¡Contactanos!</p>
-                    <br>
+                    <!-- <br> -->
                     <a href="https://www.facebook.com/GodivaSH" target="_blank">
-                        <button><img src="iconos/facebook_logo_48.png" alt=""> </button>
+                        <button focus="Puto" ><img src="assets/iconos/facebook_logo_48.png" alt=""> </button>
                     </a>
                     <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
-                        <button><img src="iconos/Instagram_logo_48.png" alt=""> </button>
+                        <button><img src="assets/iconos/Instagram_logo_48.png" alt=""> </button>
                     </a>
                 </div>
                 <div class="col">
@@ -291,9 +300,9 @@
                 </div>
                 <div class="col">
                     <p>Aceptamos:</p>
-                    <img src="iconos/Visa_logo_48.png" alt="">
-                    <img src="iconos/Mastercar_loco_48.png" alt="">
-                    <img src="iconos/Paypal_logo_48.png" alt="">
+                    <img src="assets/iconos/Visa_logo_48.png" alt="">
+                    <img src="assets/iconos/Mastercar_loco_48.png" alt="">
+                    <img src="assets/iconos/Paypal_logo_48.png" alt="">
                 </div>
             </div>
 
