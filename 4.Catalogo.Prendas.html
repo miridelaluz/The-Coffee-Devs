@@ -1,158 +1,1738 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio - Godiva </title>
+    <title>Catalogo</title>
+      
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->
-        <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->
+              
+    <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
 </head>
-<header>
 
-    <div id="main:wrapper">
+<body>
+    <header>
+        <div id="main:wrapper">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <a href="/2.Acerca de Godiva.html">
+                            <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
+                            <label>
+                                <strong>Acerca de nosotros</strong>
+                            </label>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <img src="iconos/godiva_img.png" width="60%">
+                    </div>
+                    <div class="col">
+                        <a href="/7.Login.SignUp.html">
+                            <!-- Aquí  arriba se agrega la página de login-->
+                            <label>
+                                <strong>Iniciar Sesión</strong>
+                            </label>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="/8.Carrito.Compra.html" target="_blank"> 
+                            <button><img src="iconos/Basket_no_icon_48.png" alt=""> </button>
+                        </a>
+                        <!--ícono de carrito de pagos-->
+                    </div>
+                </div>
+                <!--inicia el menú-->
+                <!--
+                <nav class="navbar navbar-expand-md bg-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Catálogo de productos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Acerca de Godiva
+                                    </a>
+                                </li> 
+                                <li>
+                                    <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Noticias
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropdown-item" href="1.Inicio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Eventos
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                -->
+            </div> <!--AQUÍ TERMINA EL MENÚ -->
+        </div>
+    </header> <!--Fin Encabezado-->
+
+    <!--Inicio Catalogo-->
+    <!--
+        <label> ESTO ES EL CUERPO :D </label>
+    <div id="main_container">
+        <div id="contents">
+            <section>
+                <article>
+    
+                </article>
+            </section>
+            <section>
+                <article>
+    
+                </article>
+            </section>
+        </div>
+    </div>  
+    -->
+    
+    <!--PRENDAS INTERIORES-->
+    <div class="container prendas_interiores_articulos_camisas text-center"> <!--Inicia apartado de Camisas-->
+        <h2 class="prendas_interiores_titulo">PRENDAS INTERIORES</h2>
+        <h2 class="prendas_interiores_titulo_camisas">CAMISAS</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                            <p class="card-text articulo_camisas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                            <p class="card-text articulo_camisas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                            <p class="card-text articulo_camisas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                            <p class="card-text articulo_camisas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row"> <!--Cada section es una fila-->
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_camisa_titulo">Card title</h5>
+                            <p class="card-text articulo_camisa_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_camisa_titulo">Card title</h5>
+                            <p class="card-text articulo_camisa_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_camisa_titulo">Card title</h5>
+                            <p class="card-text articulo_camisa_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_camisa_titulo">Card title</h5>
+                            <p class="card-text articulo_camisa_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion Camisas-->
+    
+    <div class="container pt-5 prendas_interiores_articulos_tunicas text-center"> <!--Inicia apartado de Tunicas-->
+        <h2 class="prendas_interiores_titulo_tunicas">TÚNICAS</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion Tunicas-->
+    
+    <div class="container pt-5 prendas_interiores_articulos_calzones text-center"> <!--Inicia apartado de Calzones-->
+        <h2 class="prendas_interiores_titulo_calzones">CALZONES</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                            <p class="card-text articulo_calzones_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                            <p class="card-text articulo_calzones_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                            <p class="card-text articulo_calzones_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                            <p class="card-text articulo_calzones_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                            <p class="card-text articulo_calzones_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                            <p class="card-text articulo_calzones_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                            <p class="card-text articulo_calzones_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                            <p class="card-text articulo_calzones_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion Calzones-->
+
+    <div class="container pt-5 prendas_interiores_articulos_calzas text-center"> <!--Inicia apartado de Calzas-->
+        <h2 class="prendas_interiores_titulo_calzas">CALZAS</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                            <p class="card-text articulo_calzas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                            <p class="card-text articulo_calzas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                            <p class="card-text articulo_calzas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                            <p class="card-text articulo_calzas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                            <p class="card-text articulo_calzas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                            <p class="card-text articulo_calzas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                            <p class="card-text articulo_calzas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                            <p class="card-text articulo_calzas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion Calzas-->
+
+    <div class="container pt-5 prendas_interiores_articulos_winingas text-center"> <!--Inicia apartado de winingas-->
+        <h2 class="prendas_interiores_titulo_winingas">WININGAS</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_winingas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                            <p class="card-text articulo_winingas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_winingas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                            <p class="card-text articulo_winingas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_winingas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                            <p class="card-text articulo_winingas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_winingas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                            <p class="card-text articulo_winingas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_winingas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                            <p class="card-text articulo_winingas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_winingas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                            <p class="card-text articulo_winingas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_winingas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                            <p class="card-text articulo_winingas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_winingas_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                            <p class="card-text articulo_winingas_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion winingas-->
+    <!--PRENDAS INTERIORES-->
+    
+    <!--PRENDAS EXTERIORES-->
+    <div class="container prendas_interiores_articulos_tunicas_e text-center"> <!--Inicia apartado de Tunicas_e-->
+        <h2 class="prendas_interiores_titulo">PRENDAS EXTERIORES</h2>
+        <h2 class="prendas_interiores_titulo_tunicas_e">TÚNICAS</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_tunicas_e_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_e_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_e_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_tunicas_e_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_e_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_e_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_tunicas_e_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_e_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_e_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_tunicas_e_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_e_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_e_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row"> <!--Cada section es una fila-->
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_tunicas_e_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_e_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_e_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_e_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_e_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_e_titulo">Card title</h5>
+                            <p class="card-text articulo_tunicas_e_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_tunicas_e_titulo">Card title</h5>
+                            <p class="card-text articulo_tunica_e_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion tunicas_e-->
+    
+    <div class="container pt-5 prendas_interiores_articulos_vestidos text-center"> <!--Inicia apartado de vestidos-->
+        <h2 class="prendas_interiores_titulo_vestidos">VESTIDOS</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_vestidos_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_vestidos_titulo">Card title</h5>
+                            <p class="card-text articulo_vestidos_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_vestidos_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_vestidos_titulo">Card title</h5>
+                            <p class="card-text articulo_vestidos_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_vestidos_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_vestidos_titulo">Card title</h5>
+                            <p class="card-text articulo_vestidos_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_vestidos_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_vestidos_titulo">Card title</h5>
+                            <p class="card-text articulo_vestidos_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_vestidos_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_vestidos_titulo">Card title</h5>
+                            <p class="card-text articulo_vestidos_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_vestidos_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_vestidos_titulo">Card title</h5>
+                            <p class="card-text articulo_vestidos_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_vestidos_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_vestidos_titulo">Card title</h5>
+                            <p class="card-text articulo_vestidos_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_vestidos_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_vestidos_titulo">Card title</h5>
+                            <p class="card-text articulo_vestidos_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion vestidos-->
+    
+    <div class="container pt-5 prendas_interiores_articulos_sayon text-center"> <!--Inicia apartado de sayon-->
+        <h2 class="prendas_interiores_titulo_sayon">SAYÓN</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_sayon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_sayon_titulo">Card title</h5>
+                            <p class="card-text articulo_sayon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_sayon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_sayon_titulo">Card title</h5>
+                            <p class="card-text articulo_sayon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_sayon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_sayon_titulo">Card title</h5>
+                            <p class="card-text articulo_sayon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_sayon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_sayon_titulo">Card title</h5>
+                            <p class="card-text articulo_sayon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_sayon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_sayon_titulo">Card title</h5>
+                            <p class="card-text articulo_sayon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_sayon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_sayon_titulo">Card title</h5>
+                            <p class="card-text articulo_sayon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_sayon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_sayon_titulo">Card title</h5>
+                            <p class="card-text articulo_sayon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_sayon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_sayon_titulo">Card title</h5>
+                            <p class="card-text articulo_sayon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion sayon-->
+
+    <div class="container pt-5 prendas_interiores_articulos_jubon text-center"> <!--Inicia apartado de jubon-->
+        <h2 class="prendas_interiores_titulo_jubon">JUBÓN</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_jubon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_jubon_titulo">Card title</h5>
+                            <p class="card-text articulo_jubon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_jubon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_jubon_titulo">Card title</h5>
+                            <p class="card-text articulo_jubon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_jubon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_jubon_titulo">Card title</h5>
+                            <p class="card-text articulo_jubon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_jubon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_jubon_titulo">Card title</h5>
+                            <p class="card-text articulo_jubon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_jubon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_jubon_titulo">Card title</h5>
+                            <p class="card-text articulo_jubon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_jubon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_jubon_titulo">Card title</h5>
+                            <p class="card-text articulo_jubon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_jubon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_jubon_titulo">Card title</h5>
+                            <p class="card-text articulo_jubon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_jubon_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_jubon_titulo">Card title</h5>
+                            <p class="card-text articulo_jubon_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion jubon-->
+
+    <div class="container pt-5 prendas_interiores_articulos_kaftan text-center"> <!--Inicia apartado de kaftan-->
+        <h2 class="prendas_interiores_titulo_kaftan">KAFTAN</h2>
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_kaftan_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_kaftan_titulo">Card title</h5>
+                            <p class="card-text articulo_kaftan_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_kaftan_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_kaftan_titulo">Card title</h5>
+                            <p class="card-text articulo_kaftan_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_kaftan_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_kaftan_titulo">Card title</h5>
+                            <p class="card-text articulo_kaftan_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_kaftan_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_kaftan_titulo">Card title</h5>
+                            <p class="card-text articulo_kaftan_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 1-->
+        </section>
+
+        <section class="row">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+
+                <div class="col-lg-3"> <!--Card Uno-->
+                    <div class="card h-100">
+                        <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_kaftan_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_kaftan_titulo">Card title</h5>
+                            <p class="card-text articulo_kaftan_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Dos-->
+                    <div class="card h-100">
+                        <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_kaftan_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_kaftan_titulo">Card title</h5>
+                            <p class="card-text articulo_kaftan_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card tres-->
+                    <div class="card h-100">
+                        <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_kaftan_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_kaftan_titulo">Card title</h5>
+                            <p class="card-text articulo_kaftan_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3"> <!--Card Cuatro-->
+                    <div class="card h-100">
+                        <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_kaftan_img" alt="..." height="300px">
+                        <div class="card-body">
+                            <h5 class="card-title articulo_kaftan_titulo">Card title</h5>
+                            <p class="card-text articulo_kaftan_texto">This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-warning btn_carrito"><small>Agregar al carrito</small></button>
+                            <button class="btn btn_lista_deseos">
+                                <a href="#">
+                                    <img src="iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--Finaliza apatado de Cards Fila 2-->
+        </section>
+    </div> <!--Finaliza seccion kaftan-->
+    <!--PRENDAS EXTERIORES-->
+
+    <footer> <!--Inicio Pie-->
         <div class="container text-center">
             <div class="row align-items-center">
                 <div class="col">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                      </form>
+                    <p>¡Contactanos!</p>
+
+                    <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
+                        <button><img src="iconos/facebook_logo_48.png" alt=""></button>
+                    </a>
+                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
+                        <button><img src="iconos/Instagram_logo_48.png" alt=""></button>
+                    </a>
                 </div>
+
                 <div class="col">
+                </div>
+
+                <div class="col">
+
+                    <!--
+                        <p><a href="/2.Acerca de Godiva.html">Preguntas frecuentes</a></p>
+                    -->
                     <a href="/2.Acerca de Godiva.html">
                         <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
                         <label>
-                            <strong>Acerca de nosotros</strong>
+                            <strong>Preguntas frecuentes</strong>
                         </label>
                     </a>
                 </div>
+
                 <div class="col">
-                    <img src="iconos/godiva_img.png" width="60%">
                 </div>
+
                 <div class="col">
-                    <a href="/7.Login.SignUp.html">
-                        <!-- Aquí  arriba se agrega la página de login-->
-                        <label>
-                            <strong>Iniciar Sesión</strong>
-                        </label>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="/8.Carrito.Compra.html" target="_blank"> 
-                        <button><img src="iconos/Basket_no_icon_48.png" alt=""> </button>
-                    </a>
-                    <!--ícono de carrito de pagos-->
+                    <p>Aceptamos:</p>
+                    <img src="iconos/Visa_logo_48.png" alt="">
+                    <img src="iconos/Mastercar_loco_48.png" alt="">
+                    <img src="iconos/Paypal_logo_48.png" alt="">
                 </div>
             </div>
-            <!--inicia el menú-->
-            <nav class="navbar navbar-expand-md bg-light">
-                <div class="container-fluid">
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Catálogo de productos
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Acerca de Godiva
-                        </a>
-                       
-                        <li>
-                            <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Noticias
-                              </a>
-                        </li>
-                        <li>
-                            <a class="nav-link dropdown-item" href="1.Inicio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Eventos
-                              </a>
-                        </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            <!--AQUÍ TERMINA EL MENÚ -->
         </div>
-    </div>
-</header>
-<!-- TERMINA EL ENCABEZADO-->
+    </footer> <!--Fin Pie-->
 
-
-
-
-<body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
-
-        <label> ESTO ES EL CUERPO :D </label>
-        <div id="main_container">
-            <div id="contents">
-                <section>
-                    <article>
-        
-                    </article>
-                </section>
-                <section>
-                    <article>
-        
-                    </article>
-                </section>
-            </div>
-        </div>
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
-
-
-
-
-
-<footer>
-    <!--PIE-->
-    <div class="container text-center">
-        <div class="row align-items-center">
-            <div class="col">
-                <p>¡Contactanos!</p>
-                <br>
-                <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
-                    <button><img src="iconos/facebook_logo_48.png" alt=""> </button>
-                </a>
-                <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
-                    <button><img src="iconos/Instagram_logo_48.png" alt=""> </button>
-                </a>
-            </div>
-            <div class="col">
-            </div>
-            <div class="col">
-                <a href="/2.Acerca de Godiva.html">
-                    <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
-                    <label>
-                        <strong>Preguntas frecuentes</strong>
-                    </label>
-                </a>
-            </div>
-            <div class="col">
-
-            </div>
-            <div class="col">
-                <p>Aceptamos:</p>
-                <img src="iconos/Visa_logo_48.png" alt="">
-                <img src="iconos/Mastercar_loco_48.png" alt="">
-                <img src="iconos/Paypal_logo_48.png" alt="">
-            </div>
-        </div>
-
-    </div>
-</footer>
 </html>
