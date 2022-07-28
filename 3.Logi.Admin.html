@@ -156,114 +156,115 @@
 
 
 
+            <br><br>
 
-
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-md-2 col-sm-4">
-                        <form action="#">
-
-
-
-                            <div class="art">
-
-                                <br><br><br><br>
-                                <input type="texto" placeholder="Nombre del articulo" />
-    
-                                <div class="mb-3">
-                                    <label for="descrip" class="form-label"></label>
-                                    <p><textarea placeholder="Descripcion"></textarea></p> 
-                                </div>
-    
-    
-                                <div class="container">
-                                    <div class="row">
-    
-                                        <div class="col-sm-2 col-sm-5 col-sm-4">
-                                            <div class="item">
-                                                <input type="text" placeholder="Precio" />
-                                              </div>
-                                        </div>
-                    
-                                        <div class="col-sd-2 col-sm-5 col-sm-4">
-                                            <div class="item">
-                                                <input type="text" placeholder="Categoria" />
+            
+                <div class="container">
+                    <div class="row">
+                            <div class="col-xl-6 col-md-2 col-sm-4">
+                                <div class="overlay">
+                                    <form action="#">
+        
+        
+        
+                                        <div class="art">
+            
+                                            <br><br>
+                                            <div class="nom">
+                                                <input class="form-control form-control-lg" type="texto" placeholder="Nombre del articulo" />
                                             </div>
-                                        </div>
-                    
-                                        <div class="col-sm-2 col-sm-2 col-sm-4">
-                                            <div class="item">
-                                                <input type="text" placeholder="Unidades" />
+
+                                            <br><br>
+                                            <div class="des">
+                                                <textarea name="comentarios" rows="5" cols="40" placeholder="Descripcion"></textarea>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>                            
-                            
-                            </div>
-    
-                        
-                        </form>
-                    </div>
 
-
-
-
-
-                        <div class="col-xl-6 col-md-2 col-sm-4">
-                            <br><br>
-                            <form action=""> 
-                                <div class="item" align="center">
-                                    <img id="uploadPreview1" width="350" height="350" src=" " />                       
-                                <br><br>
-                                <input id="uploadImage1" type="file" name="images[1]" onchange="previewImage(1);" />
-                                <button class="btn btn-warning btn_carrito"><small>Cargar imagenes</small></button>
-                               <!--  <input type="button" value ="Subir archivo" class="btn"
-                                onclick="document.getElementById('file').click()"> -->
-                                </div>
+                                           <!--  <div class="mb-3">
+                                                <label for="descrip" class="form-label"></label>
+                                                <p><textarea placeholder="Descripcion"></textarea></p> 
+                                            </div> -->
+                
+                
+                                            <div class="container">
+                                                <div class="row">
+                
+                                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                                        <div class="pre">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Precio" />
+                                                          </div>
+                                                    </div>
                                 
-                            </form>
-                                <br><br>
-                        </div>
- 
+                                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                                        <div class="cat">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Categoria" />
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                                        <div class="uni">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Unidades" />
+                                                        </div>
+                                                    </div>
+
+                                                    <div class ="bot">
+                                                        <input  type="button" value ="Subir archivo" class="btn"
+                                                        onclick="document.getElementById('file').click()">
+                                                    </div>
 
 
-<!--                     <div class="col-xl-6 col-md-2 col-sm-4">
-                        <div class="container">
-                        <form action="">
-                            
-                            <input id="uploadImage1" type="file" name="images[1]" onchange="previewImage(1);>
-                            
-                            <input type="button" value ="Subir archivo" class="btn"
-                            onclick="document.getElementById('file').click()">
-                            <img id="uploadPreview1" width="300" height="300" src=" " />
 
-                        </form>
-                        </div>
-                    </div> -->
-                    
-                    
-
-
-                    <!-- 
-                    <div class="col-xl-6 col-md-2 col-sm-4">
-                        <div class="item" align="center">
-                            
-                    <br><br>
-                            <img src="assets/img/3.Admin-Muestra.jpg" class="img">
-                            <br><br>
-                            <div class="input-group mb-3">
-                                <input type="file" class="form-control" id="inputGroupFile02">
-                                <label class="input-group-text" for="inputGroupFile02">Subir</label>
+                                                </div>
+                                            </div>                            
+                                        
+                                        </div>
+                
+                                    
+                                    </form>
+                                </div>
                             </div>
-                            
-                        </div>
-                    </div> -->
 
 
 
-                </div>
-            </div>    
+
+                        
+    
+    
+    
+    
+                                <div class="col-xl-6 col-md-2 col-sm-4">
+                                    
+                                    <div class="overlay2">
+                                        <form action=""> 
+                                            <br><br>
+                                            <div class="imagen" align="center">
+                                                <img id="uploadPreview1" width="400" height="400" src="assets/img/3.logi.admin/default.jpg" />                       
+                                                <br><br>
+                                                <input id="uploadImage1" type="file" name="images[1]" onchange="previewImage(1);" />
+                                        
+
+                                            </div>
+                                            
+                                        </form>
+                                            <br><br>
+                                    </div>
+
+                                </div>
+                                                    
+
+     
+    
+    
+   
+    
+    
+
+    
+    
+    
+                    </div>
+                </div>    
+            
+
         
 
 
@@ -310,7 +311,7 @@
 
 
 
-
+        <br><br>
 
         <footer> <!--Inicio Pie-->
             <div class="text-center">
