@@ -58,8 +58,8 @@
                     <!-- Inicia icono-botón de carrito de pagos-->
                     <div class="col">
                         <a href="/8.Carrito.Compra.html" target="_blank">
-                            <button><img src="assets/iconos/anadir-al-carrito.png" width="20%" height="20%"
-                                    alt=""></button>
+                            <button class="remove"><img src="assets/iconos/anadir-al-carrito.png" width="20%"
+                                    height="20%" alt=""></button>
                         </a>
                     </div><!-- Termina icono-botón de carrito de pagos-->
 
@@ -121,21 +121,22 @@
     </header><!-- TERMINA EL ENCABEZADO-->
 
     <!--CALZADO-->
-    <div id="main_container" class="container text-center">
-        <h2 class="titulo">CALZADO</h2>
+    <div id="main_container seccion_calzado" class="container text-center">
+        <h2 class="calzado_titulo">CALZADO</h2>
         <section class="row" style="text-align: center;">
             <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3">
 
 
                 <!--Zapato 1-->
-                <div class="col-lg-3 3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato8.jpg"
-                            class="card-img-top; img-fluid articulo_lasquenete_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_lasquenete_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_lasquenete_titulo">Zapato de lansquenete, siglo
                                 XVI</h5>
                             <p class="card-text card.descripcion articulo_lasquenete_texto">
+                            <form>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>2</option>
@@ -147,13 +148,14 @@
                                     <option>8</option>
                                     <option>9</option>
                                 </select><br>
-                                <label><strong>Color: </strong></label>
-                                <select name="tallas">
-                                    <option>Negro</option>
-                                    <option>Café</option>
-                                </select><br>
-                                <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$700
+                            </form>
+                            <label><strong>Color: </strong></label>
+                            <select name="tallas">
+                                <option>Negro</option>
+                                <option>Café</option>
+                            </select><br>
+                            <strong>Material: </strong>Piel<br>
+                            <strong>Precio: </strong>$700
                             </p>
                         </div>
                         <div class="card-footer">
@@ -170,9 +172,9 @@
                 </div> <!-- Termina Zapato 1-->
 
                 <!--Zapato 2-->
-                <div class="col-lg-3 3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato7.jpg" class="card-img-top; img-fluid articulo_noble_img"
+                        <img src="assets/img/6.Calzado/zapato7.jpg" class="card-img-top img-fluid articulo_noble_img"
                             alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_noble_titulo">Zapato de noble, siglo
@@ -208,10 +210,10 @@
                 </div> <!-- Termina Zapato 2-->
 
                 <!--Zapato 3-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato9.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-bajo-berturas_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-bajo-berturas_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-bajo-berturas_titulo">Zapato bajo
                                 con aberturas, siglos XIII-XIV</h5>
@@ -246,10 +248,10 @@
                 </div> <!-- Termina Zapato 3-->
 
                 <!--Zapato 4-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato11.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-medio-alto_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_zapato-medio-alto_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-medio-alto_titulo">Zapato medio-alto,
                                 siglo XIII-XIV</h5>
@@ -284,10 +286,10 @@
                 </div> <!-- Termina Zapato 4-->
 
                 <!--Zapato 5-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato12.jpg"
-                            class="card-img-top; img-fluid articulo_mocasines-cordon_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_mocasines-cordon_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_mocasines-cordon_titulo">Mocasines con cordones,
                                 siglo XIII-XIV</h5>
@@ -322,10 +324,10 @@
                 </div> <!-- Termina Zapato 5-->
 
                 <!--Zapato 6-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato16.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-puntiagudo_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_zapato-puntiagudo_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-puntiagudo_titulo">Zapato puntiagudo con
                                 patrón calado del siglo XIV</h5>
@@ -360,10 +362,10 @@
                 </div> <!-- Termina Zapato 6-->
 
                 <!--Zapato 7-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato17.jpg"
-                            class="card-img-top; img-fluid articulo_correas-corcho_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_correas-corcho_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_correas-corcho_titulo">Correas de cuero con
                                 núcleo de corcho, segunda mitad del siglo XV</h5>
@@ -398,10 +400,10 @@
                 </div> <!-- Termina Zapato 7-->
 
                 <!--Zapato 8-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato15.jpg"
-                            class="card-img-top; img-fluid img-fluid articulo_zapato-abertura_img" alt="..." height="">
+                            class="card-img-top img-fluid img-fluid articulo_zapato-abertura_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-abertura_titulo">Zapato con abertura en el
                                 borde, año 1495</h5>
@@ -436,10 +438,10 @@
                 </div> <!-- Termina Zapato 8-->
 
                 <!--Zapato 9-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato6.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-nordico_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_zapato-nordico_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-nordico_titulo">Zapato nórdicos, siglo IX
                             </h5>
@@ -474,10 +476,10 @@
                 </div> <!-- Termina Zapato 9-->
 
                 <!--Zapato 10-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato14.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-bund_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_zapato-bund_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-bund_titulo">Zapato Bund con lazo y
                                 correa, siglo XV-XVI</h5>
@@ -512,10 +514,10 @@
                 </div> <!-- Termina Zapato 10-->
 
                 <!--Zapato 11-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato1.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-HMB_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-HMB_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-HMB_titulo">Zapato para HMB</h5>
                             <p class="card-text card.descripcion articulo_zapato-HMB_texto">
@@ -549,10 +551,10 @@
                 </div> <!-- Termina Zapato 11-->
 
                 <!--Zapato 12-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato2.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-siglos_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-siglos_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-siglos_titulo">Zapatos de siglos XIV-XV
                             </h5>
@@ -587,10 +589,10 @@
                 </div> <!-- Termina Zapato 12-->
 
                 <!--Zapato 13-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato3.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-renacimiento_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-renacimiento_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-renacimiento_titulo">Zapato renacimiento
                                 temprano, siglo XIV</h5>
@@ -625,10 +627,10 @@
                 </div> <!-- Termina Zapato 13-->
 
                 <!--Zapato 14-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato4.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-bajo-cordones_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-bajo-cordones_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-bajo-cordones_titulo">Zapato bajo con
                                 cordones laterales, siglo XIV</h5>
@@ -663,10 +665,10 @@
                 </div> <!-- Termina Zapato 14-->
 
                 <!--Zapato 15-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato13.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-reimer_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-reimer_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-reimer_titulo">Reimerswaal, siglo XV</h5>
                             <p class="card-text card.descripcion articulo_zapato-reimer_texto">
@@ -700,10 +702,10 @@
                 </div> <!-- Termina Zapato 15-->
 
                 <!--Zapato 16-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato10.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-botas-ganchos_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-botas-ganchos_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-botas-ganchos_titulo">Botas con ganchos y
                                 ojos, siglo XV</h5>
@@ -737,11 +739,9 @@
                     </div>
                 </div> <!-- Termina Zapato 16-->
 
-            </div>
-
-            <br><br><br>
+            </div><br>
             <!-- Empieza enlace a colaborador -->
-            <div class="col" style="margin-top: 20px" ;>
+            <div class="col" style="margin-top: 25px" ;>
                 <a href="https://www.facebook.com/bova.russ">
                     <label>
                         <strong>Vladimir Russ <br> Colaborador </strong>
@@ -752,7 +752,7 @@
 
         </section>
         <!-- TERMINA SECCIÓN CALZADO -->
-        <br><br><br>
+        
 
         <footer>
             <!-- Inicio pie -->
@@ -762,10 +762,10 @@
                     <div class="col contactanos">
                         <p>¡Contactanos!</p>
                         <a href="https://www.facebook.com/GodivaSH" target="_blank">
-                            <button><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
+                            <button class="remove"><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
                         </a>
                         <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
-                            <button><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
+                            <button class="remove   "><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
                         </a>
                     </div>
 
