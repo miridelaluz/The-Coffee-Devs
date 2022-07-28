@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio - Godiva </title>
+    <!-- Link CSS -->
+    <link href="CSS/borrador6.calzado.css" rel="stylesheet">
+    <!--Link Booststrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!--Link Booststrap 5-->
-    <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script>
     <!--Link de Font Awesome 5-->
+    <script src="assets/fonts/cloister_black/CloisterBlack.ttf" crossorigin="anonymous"></script>
+
 </head>
 
 
@@ -20,15 +23,15 @@
         <div id="main:wrapper">
             <div class="container text-center">
                 <div class="row align-items-center">
-                    <div class="col">
+                    <div class="col-lg-2 col-md-6 col-sm-12">
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
-                    </div>
+                    </div><br>
 
                     <!-- Inicia de Acerda de nosotros-->
-                    <div class="col">
+                    <div class="col-lg-2 col-md-6 col-sm-12">
                         <a href="/2.Acerca de Godiva.html">
                             <label>
                                 <strong>Acerca de nosotros</strong>
@@ -43,8 +46,8 @@
                     </div>
                     <!--Termina logo de Godiva-->
 
+                    <!-- Empieza enlace-botón.. para login/SignIn -->
                     <div class="col">
-                        <!-- Empieza enlace-botón.. para login/SignIn -->
                         <a href="/7.Login.SignUp.html">
                             <label>
                                 <strong>Iniciar Sesión</strong>
@@ -52,14 +55,15 @@
                         </a>
                     </div><!-- Termina enlace para login/SignIn -->
 
+                     <!-- Inicia icono-botón de carrito de pagos-->
                     <div class="col">
-                        <!-- Inicia icono-botón de carrito de pagos-->
-                        <a href="/8.Carrito.Compra.html" target="_blank">
+                         <a href="/8.Carrito.Compra.html" target="_blank">
                             <button><img src="assets/iconos/Basket_no_icon_48.png" alt=""></button>
                         </a>
                     </div><!-- Termina icono-botón de carrito de pagos-->
 
                 </div>
+
                 <!--inicia el menú-->
                 <nav class="navbar navbar-expand-md bg-light">
                     <div class="container-fluid">
@@ -111,25 +115,48 @@
     </header><!-- TERMINA EL ENCABEZADO-->
 
     <!--CALZADO-->
-    <div id="main_container">
+    <div id="main_container" class="container text-center">
         <h2 class="titulo">CALZADO</h2>
         <section class="row" style="text-align: center;">
             <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3">
 
+
                 <!--Zapato 1-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 3 col-md-6 col-sm-12">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato8.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato8.jpg"
+                            class="card-img-top; img-fluid articulo_lasquenete_img" alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_lasquenete_titulo">Zapato de lansquenete, siglo
+                                XVI</h5>
+                            <p class="card-text card.descripcion articulo_lasquenete_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <label><strong>Color: </strong></label>
+                                <select name="tallas">
+                                    <option>Negro</option>
+                                    <option>Café</option>
+                                </select><br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$700
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -137,19 +164,37 @@
                 </div> <!-- Termina Zapato 1-->
 
                 <!--Zapato 2-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 3 col-md-6 col-sm-12">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato7.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato7.jpg" class="card-img-top; img-fluid articulo_noble_img"
+                            alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_noble_titulo">Zapato de noble, siglo
+                                XIII</h5>
+                            <p class="card-text card.descripcion articulo_noble_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Rojo<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$800
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -159,17 +204,35 @@
                 <!--Zapato 3-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato9.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato9.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-bajo-berturas_img" alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-bajo-berturas_titulo">Zapato bajo
+                                con aberturas, siglos XIII-XIV</h5>
+                            <p class="card-text card.descripcion articulo_zapato-bajo-berturas_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color:</strong>Café<br>
+                                <strong>Material:</strong>Piel<br>
+                                <strong>Precio:</strong>$950
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -179,17 +242,35 @@
                 <!--Zapato 4-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato11.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato11.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-medio-alto_img" alt="..." height="">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-medio-alto_titulo">Zapato medio-alto,
+                                siglo XIII-XIV</h5>
+                            <p class="card-text card.descripcion articulo_zapato-medio-alto_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Café<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$1,900
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -199,17 +280,35 @@
                 <!--Zapato 5-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato12.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato12.jpg"
+                            class="card-img-top; img-fluid articulo_mocasines-cordon_img" alt="..." height="">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_mocasines-cordon_titulo">Mocasines con cordones,
+                                siglo XIII-XIV</h5>
+                            <p class="card-text card.descripcion articulo_mocasines-cordon_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Carmesí<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$1,900
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -219,17 +318,35 @@
                 <!--Zapato 6-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato16.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato16.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-puntiagudo_img" alt="..." height="">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-puntiagudo_titulo">Zapato puntiagudo con
+                                patrón calado del siglo XIV</h5>
+                            <p class="card-text card.descripcion articulo_zapato-puntiagudo_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Rojo-azul<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$2,000
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -239,17 +356,35 @@
                 <!--Zapato 7-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato17.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato17.jpg"
+                            class="card-img-top; img-fluid articulo_correas-corcho_img" alt="..." height="">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_correas-corcho_titulo">Correas de cuero con
+                                núcleo de corcho, segunda mitad del siglo XV</h5>
+                            <p class="card-text card.descripcion articulo_correas-corcho_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Café<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$1,700
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -259,17 +394,35 @@
                 <!--Zapato 8-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato15.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato15.jpg"
+                            class="card-img-top; img-fluid img-fluid articulo_zapato-abertura_img" alt="..." height="">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-abertura_titulo">Zapato con abertura en el
+                                borde, año 1495</h5>
+                            <p class="card-text card.descripcion articulo_zapato-abertura_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Café<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$700
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -279,17 +432,35 @@
                 <!--Zapato 9-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato6.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato6.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-nordico_img" alt="..." height="">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-nordico_titulo">Zapato nórdicos, siglo IX
+                            </h5>
+                            <p class="card-text card.descripcion articulo_zapato-nordico_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Café<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$700
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -299,17 +470,35 @@
                 <!--Zapato 10-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato14.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato14.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-bund_img" alt="..." height="">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-bund_titulo">Zapato Bund con lazo y
+                                correa, siglo XV-XVI</h5>
+                            <p class="card-text card.descripcion articulo_zapato-bund_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Café<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$2,200
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -319,17 +508,34 @@
                 <!--Zapato 11-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato1.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato1.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-HMB_img" alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-HMB_titulo">Zapato para HMB</h5>
+                            <p class="card-text card.descripcion articulo_zapato-HMB_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Negro<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$700
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -339,17 +545,35 @@
                 <!--Zapato 12-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato2.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato2.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-siglos_img" alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-siglos_titulo">Zapatos de siglos XIV-XV
+                            </h5>
+                            <p class="card-text card.descripcion articulo_zapato-siglos_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Café<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$800
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -359,17 +583,35 @@
                 <!--Zapato 13-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato3.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato3.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-renacimiento_img" alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-renacimiento_titulo">Zapato renacimiento
+                                temprano, siglo XIV</h5>
+                            <p class="card-text card.descripcion articulo_zapato-renacimiento_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Negro<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$2,900
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -379,17 +621,35 @@
                 <!--Zapato 14-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato4.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato4.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-bajo-cordones_img" alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-bajo-cordones_titulo">Zapato bajo con
+                                cordones laterales, siglo XIV</h5>
+                            <p class="card-text card.descripcion articulo_zapato-bajo-cordones_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Café<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$2,400
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -399,17 +659,34 @@
                 <!--Zapato 15-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato13.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato13.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-reimer_img" alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-reimer_titulo">Reimerswaal, siglo XV</h5>
+                            <p class="card-text card.descripcion articulo_zapato-reimer_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Café<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$2,000
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -419,17 +696,35 @@
                 <!--Zapato 16-->
                 <div class="col-lg-3">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato5.jpg" class="" alt="..." height="300px">
+                        <img src="assets/img/6.Calzado/zapato10.jpg"
+                            class="card-img-top; img-fluid articulo_zapato-botas-ganchos_img" alt="..." height="300px">
                         <div class="card-body">
-                            <h5 class="card-zapato">Zapato</h5>
-                            <p class="card-zapato-descripcion">Descripción</p>
+                            <h5 class="card-title card-zapato articulo_zapato-botas-ganchos_titulo">Botas con ganchos y
+                                ojos, siglo XV</h5>
+                            <p class="card-text card.descripcion articulo_zapato-botas-ganchos_texto">
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select><br>
+                                <strong>Color: </strong>Negro<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong>$1,500
+                            </p>
                         </div>
                         <div class="card-footer">
-                            <button id="agregarCarrito" class="btn btn-warning btn_carrito"><small>Agregar al
+                            <button class="btn btn_carrito"
+                                style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
-                            <button id="wishList" class="btn btn_lista_deseos">
+                            <button class="btn btn_lista_deseos">
                                 <a href="#">
-                                    <img src="assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                                 </a>
                             </button>
                         </div>
@@ -440,8 +735,8 @@
 
             <br><br><br>
             <!-- Empieza enlace a colaborador -->
-            <div class="col">
-                <a href="">
+            <div class="col" style="margin-top: 20px" ;>
+                <a href="https://www.facebook.com/bova.russ">
                     <label>
                         <strong>Vladimir Russ <br> Colaborador </strong>
                     </label>
@@ -451,58 +746,57 @@
 
         </section>
         <!-- TERMINA SECCIÓN CALZADO -->
-<br><br>
+        <br><br><br>
 
         <footer>
-            <!--PIE-->
+            <!-- Inicio pie -->
             <div class="container text-center">
                 <div class="row align-items-center">
-
-                    <!-- Empieza contactanos, links de redes sociales -->
                     <div class="col">
                         <p>¡Contactanos!</p>
+
                         <a href="https://www.facebook.com/GodivaSH" target="_blank">
-                            <button><img src="assets/iconos/facebook_logo_48.png" alt=""> </button>
+                            <button><img src="iconos/facebook_logo_48.png" alt=""></button>
                         </a>
                         <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
-                            <button><img src="assets/iconos/Instagram_logo_48.png" alt=""> </button>
+                            <button><img src="iconos/Instagram_logo_48.png" alt=""></button>
                         </a>
                     </div>
-                    <!-- Termina contactanos, links de redes sociales -->
 
-                    <!--Empieza Acerca de nosotros  -->
                     <div class="col">
                     </div>
 
                     <div class="col">
+
+                        <!--
+                            <p><a href="/2.Acerca de Godiva.html">Preguntas frecuentes</a></p>
+                        -->
                         <a href="/2.Acerca de Godiva.html">
-                            <!--Termina Acerca de nosotros-->
-                            <!-- Empieza preguntas frecuentes -->
+                            <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
                             <label>
                                 <strong>Preguntas frecuentes</strong>
                             </label>
-                            <!-- Termina preguntas frecuentes -->
                         </a>
                     </div>
+
                     <div class="col">
                     </div>
-                    
-                    <!-- Empieza formas de pago que se aceptan -->
+
                     <div class="col">
                         <p>Aceptamos:</p>
-                        <img src="assets/iconos/Visa_logo_48.png" alt="">
-                        <img src="assets/iconos/Mastercar_loco_48.png" alt="">
-                        <img src="assets/iconos/Paypal_logo_48.png" alt="">
+                        <img src="iconos/Visa_logo_48.png" alt="">
+                        <img src="iconos/Mastercar_loco_48.png" alt="">
+                        <img src="iconos/Paypal_logo_48.png" alt="">
                     </div>
-                    <!-- Termina formas de pago que se aceptan -->
                 </div>
-
             </div>
-        </footer>
+        </footer><!-- Fin pie -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
             crossorigin="anonymous"></script>
+        <script src="JS/6.Catalogo.Calzado.js"></script>
+
 </body>
 
 
