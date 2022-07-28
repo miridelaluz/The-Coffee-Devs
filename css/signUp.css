@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
-
-#f2f3f4
-#c797a8
+/* Colores:
 #7a3a42
 #a42c33
-#ccgbgb
-#7e49cf
-#ga8588
-#555c5c
-
+#fff
+#333
+##FFFFFF
+ */
 
 
 p {
@@ -43,13 +39,6 @@ button {
 	transition: transform 80ms ease-in;
 }
 
-button:active {
-	transform: scale(0.95);
-}
-
-button:focus {
-	outline: none;
-}
 
 button.ghost {
 	background-color: transparent;
@@ -78,10 +67,8 @@ input {
 .container {
 	background-color: #fff;
 	border-radius: 10px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
+  	
 	position: relative;
-	overflow: hidden;
 	width: 768px;
 	max-width: 100%;
 	min-height: 480px;
@@ -146,25 +133,22 @@ input {
 }
 
 .overlay {
-	background: #a42c33;
+	background: #a42c33; /* color de panel bienvenido */
 	background: -webkit-linear-gradient(to right, #a42c33, #7a3a42);
 	background: linear-gradient(to right, #a42c33, #7a3a42);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0 0;
 	color: #FFFFFF;
-	position: relative;
+	position: relative; /* Mantiene centrados los elementos en el panel */
 	left: -100%;
 	height: 100%;
 	width: 200%;
-  	transform: translateX(0);
+  	transform: translateX(0); 
 	transition: transform 0.6s ease-in-out;
 }
-
+/* Se manda a llamar este estilo desde javascript */
 .container.right-panel-active .overlay {
   	transform: translateX(50%);
 }
-
+/* Mantiente fijo el panel de texto Hola y el boton de registro */
 .overlay-panel {
 	position: absolute;
 	display: flex;
@@ -183,8 +167,8 @@ input {
 .overlay-left {
 	transform: translateX(-20%);
 }
-
-.container.right-panel-active .overlay-left {
+/* Mueve el texto durante la trancision al presionar el boton registrar */
+.container.right-panel-active .overlay-left {  
 	transform: translateX(0);
 }
 
@@ -197,17 +181,10 @@ input {
 	transform: translateX(20%);
 }
 
-.social-container {
-	margin: 20px 0;
+/* Esta clase fue agregada para sobreescribir los estilos en los tag 
+button de footer y header */
+.remove {
+	background-color: transparent !important;
+	border: transparent !important
 }
 
-.social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
-}

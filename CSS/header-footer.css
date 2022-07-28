@@ -1,0 +1,28 @@
+body{
+    background-color: #f2f3f4; 
+ }
+ 
+/* .conteiner modifica el encabezado */
+.conteiner {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+/*Se quitan bordes a iconos*/
+.remove {
+	background-color: transparent !important;
+	border: transparent !important
+}
+
+/* label modifica Acerca de nosotros, iniciar sesión, preguntas frecuentes */
+label{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* para unificar estilo de titulos */
+.titulo{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
