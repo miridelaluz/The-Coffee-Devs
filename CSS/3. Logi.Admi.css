@@ -1,0 +1,39 @@
+.menu button{
+   
+    margin-top: 20px;
+    text-align-last: center;
+    background-color: #a42c33;
+    margin-left: 100px;
+    border: 5px solid #a42c33;
+    border-radius: 10px;
+}
+
+
+.art input{
+    margin-top: 20px;
+    text-align-last: center;
+    background-color: #a42c33;
+    margin-left: 100px;
+    border: 5px solid #a42c33;
+    border-radius: 10px;
+
+  
+}
+
+.art mb-3{
+
+    margin-top: 20px;
+    text-align-last: center;
+    background-color: #a42c33;
+    margin-left: 100px;
+    border: 5px solid #a42c33;
+    border-radius: 10px;
+}
+
+
+
+
+/* #file{
+    display: none;
+ 
+} */
