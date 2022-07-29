@@ -1,16 +1,26 @@
-body{
-    background-color: #f2f3f4; 
- }
- 
-/* .conteiner modifica el encabezado */
-.conteiner {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
+
+/* * modifica toda página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    background-color: #f2f3f4e6; 
+ }
+
+.row {
+    width: 100%;
+}
+
 /*Se quitan bordes a iconos*/
-.remove {
-	background-color: transparent !important;
-	border: transparent !important
+.icono {
+    border: none;
+}
+
+.icono_carrito {
+    text-align: center;
 }
 
 .icono {
@@ -29,15 +39,34 @@ a {
 }
 
 /* label modifica Acerca de nosotros, iniciar sesión, preguntas frecuentes */
-label{
+a{
     font-size: 18px;
     font-family: sans-serif;
-    color: black;
+    color: #333;
+    text-decoration: none;   
+}
+
+.encabezado{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #333;
+    text-decoration: none; 
 }
 
 /* para unificar estilo de titulos */
 .titulo{
+    font-family: sans-serif;
     font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 100;
+    text-align: left;
+}
+
+p{
+    font-family: 'Lucida Sans';
+}
+
+/*Se quitan bordes a iconos*/
+.remove {
+	background-color: transparent !important;
+	border: transparent !important
 }
