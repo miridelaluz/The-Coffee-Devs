@@ -1,254 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio - Godiva </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->
-        <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
-        <link rel="stylesheet" href="CSS/signUp.css">
+    <title>Document</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->
+              
+    <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
+
+    <link rel="stylesheet" href="CSS/carrito.css">
+
+</head>
+<body>
     <header>
-        <!-- Inicia encabezado-->
         <div id="main:wrapper">
-            <div class=" text-center">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
+                <div id="barra_buscar" class="row align-items-center pt-4">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-4"> 
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
-                    </div><br>
-
-                    <!-- Inicia de Acerda de nosotros-->
-                    <div class="col-lg-2 col-md-6 col-sm-12">
-                        <a href="/2.Acerca de Godiva.html">
-                            <label>
-                                <strong>Acerca de nosotros</strong>
-                            </label>
-                        </a>
                     </div>
-                    <!--Termina de Acerca de nosotros-->
-                    <!-- Empieza logo de Godiva -->
-                    <div class="col">
-                        <img src="assets/img/logo.jpg" width="80%">
+                </div>
+                <div class="row align-items-center text-center">
+                    <div class="col-lg-2">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Catálogo
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                    <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-                    <!--Termina logo de Godiva-->
+                        
+                    <div class="col-lg-2">
+                        <span><a href="">Acerca de Nosotros</a></span>
+                    </div>
 
-                    <!-- Empieza enlace-botón.. para login/SignIn -->
-                    <div class="col">
-                        <a href="/7.Login.SignUp.html">
-                            <label>
-                                <strong>Iniciar Sesión</strong>
-                            </label>
+                    <div class="col-lg-4 icono_carrito">
+                        <img src="assets/iconos/godiva_img.png" width="40%">
+                    </div>
+        
+                    <div class="col-lg-2">
+                        <span><a href="">Inicar Sesion</a></span>
+                        <span><a href="">Registrarse</a></span>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
+                            <button class="icono"><img src="assets/iconos/5172567_heart_like_love_icon.png" alt=""> </button>
                         </a>
-                    </div><!-- Termina enlace para login/SignIn -->
+                        
 
-                    <!-- Inicia icono-botón de carrito de pagos-->
-                    <div class="col">
-                        <a href="/8.Carrito.Compra.html" target="_blank">
-                            <button class="remove"><img src="assets/iconos/anadir-al-carrito.png" width="20%" height="20%"
-                                    alt=""></button>
+                        <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
+                            <button class="icono"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
                         </a>
-                    </div><!-- Termina icono-botón de carrito de pagos-->
 
+                        
+                    </div>
+                </div> <!--AQUÍ TERMINA EL MENÚ -->
+        </div>
+    </header> <!--Fin Encabezado-->
+
+    <h2 id="titulo_carrito">CARRITO DE COMPRAS</h2>
+    <div class="contenedor_carrito">
+        <div class="row text-center pt-3">
+            <table class="tabla_productos_carrito">
+
+                <thead id="contenedor_thead">
+                  <th>Nombre</th>       
+                  <th>Unidades</th>     
+                  <th>Color</th>
+                  <th>Talla</th>
+                  <th>Precio</th>
+                  <th></th>
+                </thead>
+
+                <tbody>
+                    <!-- Aqui se iran agregando los porductos -->
+                    <tr style="height: 50px;">
+                        <th><label>Camisa Medieval</label></th>
+                        <th><label>
+                            <form action="">
+                                <input type="number" min="1" max="10">
+                            </form>
+                        </label></th>
+                        <th><label>Vino</label></th>
+                        <th><label>
+                            <select name="tallas">
+                                <option>CH</option>
+                                <option>M</option>
+                                <option>G</option>
+                                <option>XG</option>
+                            </select>
+                        </label></th>
+                        <th><label>$ 700 MXN</label></th>
+                        <th><button style="border-radius: 50%; height: 40px; width: 40px;"><img src="1370026_bin_delete_remove_trash_trash bin_icon.png" alt="" height="30px" width="30px"></button></th>
+                    </tr>
+
+                    <tr style="height: 50px;">
+                        <th><label>Túnica Medieval</label></th>
+                        <th><label>
+                            <form action="">
+                                <input type="number" min="1" max="10">
+                            </form>
+                        </label></th>
+                        <th><label>Cafe</label></th>
+                        <th><label>
+                            <select name="tallas">
+                                <option>CH</option>
+                                <option>M</option>
+                                <option>G</option>
+                                <option>XG</option>
+                            </select>
+                        </label></th>
+                        <th><label>$ 700 MXN</label></th>
+                        <th><button style="border-radius: 50%; height: 40px; width: 40px;"><img src="1370026_bin_delete_remove_trash_trash bin_icon.png" alt="" height="30px" width="30px"></button></th>
+                    </tr>
+
+                    <tr style="height: 50px;">
+                        <th><label>Calzon Medieval</label></th>
+                        <th><label>
+                            <form action="">
+                                <input type="number" min="1" max="10">
+                            </form>
+                        </label></th>
+                        <th><label>Naranja</label></th>
+                        <th><label>
+                            <select name="tallas">
+                                <option>CH</option>
+                                <option>M</option>
+                                <option>G</option>
+                                <option>XG</option>
+                            </select>
+                        </label></th>
+                        <th><label>$ 700 MXN</label></th>
+                        <th><button style="border-radius: 50%; height: 40px; width: 40px;"><img src="1370026_bin_delete_remove_trash_trash bin_icon.png" alt="" height="30px" width="30px"></button></th>
+                    </tr>
+
+                    <tr style="height: 50px;">
+                        <th><label>Vestido Victoriano</label></th>
+                        <th><label>
+                            <form action="">
+                                <input type="number" min="1" max="10">
+                            </form>
+                        </label></th>
+                        <th><label>Violeta</label></th>
+                        <th><label>
+                            <select name="tallas">
+                                <option>CH</option>
+                                <option>M</option>
+                                <option>G</option>
+                                <option>XG</option>
+                            </select>
+                        </label></th>
+                        <th><label>$ 700 MXN</label></th>
+                        <th><button style="border-radius: 50%; height: 40px; width: 40px;"><img src="1370026_bin_delete_remove_trash_trash bin_icon.png" alt="" height="30px" width="30px"></button></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 id="titulo_compras">DATOS DE ENVIO</h2>
+        <div class="contedor_envio text-center mt-5">
+            <div class="row row-cols-4 ">
+                <div class="col-lg-6">
+                    <p>Nombre: <input type="text" name="nombre"></p>
+                    <p>Direccion: <input type="text" name="nombre"></p>
+                    <p>Ciudad y/o Localidad: <input type="text" name="nombre"></p>
+                </div>
+                <div class="col-lg-6">
+                    <p>Telefono: <input type="text" name="nombre"></p>
+                    <p>
+                        <span>Codigo Postal: <input type="text" name="nombre"></span> 
+                        <span>Estado: <input type="text" name="nombre"></span> 
+                    </p>
+                    <p>Referencias: <input type="text" name="nombre"></p>
+                </div>
+            </div>
+        </div>   
+        
+        <div class="contenedor_pago">
+            <div class="row">
+                <div class="marco col-lg-3">
+                    <p class="pt-2">Subtotal: $<span id="subtotal"></span> MXN </p>
+                </div>
+                <div class="marco col-lg-3">
+                    <p class="pt-2">Gastos de Envio: $<span id="gastos_envio"></span> MXN </p>
+                </div>
+                <div class="marco col-lg-2">
+                    <p class="pt-2">Total a Pagar: $<span id="total"></span> MXN </p>
                 </div>
 
-                <!--inicia el menú-->
-                <nav class="navbar navbar-default" role="navigation">
-                    <nav class="navbar navbar-expand-md bg-light">
-                        <div class="container-fluid">
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Catálogo de productos
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item"
-                                                    href="/5.Catalogo.Accesorios.html">Accesorios</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Acerca de Godiva
-                                        </a>
-
-                                    <li>
-                                        <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Noticias
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link dropdown-item" href="1.Inicio.html" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Eventos
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </nav>
-                <!-- AQUÍ TERMINA EL MENÚ -->
-            </div>
-        </div>
-    </header><!-- TERMINA EL ENCABEZADO-->
-
-<!-- TERMINA EL ENCABEZADO-->
-
-
-
-
-<body>
-        <div class="payment">
-            <div class="row">
-                 <form class="form-horizontal">
-                    <fieldset>
-                    
-                 
-                        <h2>Direccion</h2>
-                 
-                
-                        <div class="control-group">
-                            <label class="control-label">Nombre completo</label>
-                            <div class="controls">
-                                <input id="full-name" name="full-name" type="text" placeholder="full name"
-                                class="input-xlarge">
-                                <p class="help-block"></p>
-                            </div>
-                        </div>
-                
-                        <div class="control-group">
-                            <label class="control-label">Dirección 1</label>
-                            <div class="controls">
-                                <input id="address-line1" name="address-line1" type="text" placeholder="Dirección 1"
-                                class="input-xlarge">
-                                <p class="help-block">Street address, P.O. box, company name, c/o</p>
-                            </div>
-                        </div>
-                        
-                        <div class="control-group">
-                            <label class="control-label">Address Line 2</label>
-                            <div class="controls">
-                                <input id="address-line2" name="address-line2" type="text" placeholder="address line 2"
-                                class="input-xlarge">
-                                <p class="help-block">Apartment, suite , unit, building, floor, etc.</p>
-                            </div>
-                        </div>
-                        <!-- city input-->
-                        <div class="control-group">
-                            <label class="control-label">City / Town</label>
-                            <div class="controls">
-                                <input id="city" name="city" type="text" placeholder="city" class="input-xlarge">
-                                <p class="help-block"></p>
-                            </div>
-                        </div>
-                      
-                        <div class="control-group">
-                            <label class="control-label">State / Province / Region</label>
-                            <div class="controls">
-                                <input id="region" name="region" type="text" placeholder="state / province / region"
-                                class="input-xlarge">
-                                <p class="help-block"></p>
-                            </div>
-                        </div>
-                      
-                        <div class="control-group">
-                            <label class="control-label">Zip / Postal Code</label>
-                            <div class="controls">
-                                <input id="postal-code" name="postal-code" type="text" placeholder="zip or postal code"
-                                class="input-xlarge">
-                                <p class="help-block"></p>
-                            </div>
-                        </div>
-                    
-                        <div class="control-group">
-                            <label class="control-label">Country</label>
-                            <div class="controls">
-                                <select id="country" name="country" class="input-xlarge">
-                                    <option value="" selected="selected">(please select a country)</option>
-                                    <option value="MX">Mexico</option>
-                                </select>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form> 
-                <br>
-            </div class="payment"> 
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                    <input type="hidden" name="cmd" value="_xclick">
-                    <input type="hidden" name="business" value="paypal@your-web-domain.com">
-                    <input type="hidden" name="quantity" value="1">
-                    <input type="hidden" name="item_name" value="Enter Item Name">
-                    <input type="hidden" name="amount" value="39.00">
-                    <input type="hidden" name="shipping" value="4.99">
-                    <input type="hidden" name="custom" value="">
-                    <input type="hidden" name="return" value="http://your-web-domain.com/thanks-payment.htm">
-                    <input type="submit" value="Order Item"><br>
-                    </form>
-            <div id="main_container">
-                <div id="contents">
-        </div>
-
-        
-                <section>
-                    <article>
-        
-                    </article>
-                </section>
-                <section>
-                    <article>
-        
-                    </article>
-                </section>
-            </div>
-        </div>
-</body>
-
-<footer> <!--Inicio Pie-->
-    <div class="text-center">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <p>¡Contactanos!</p>
-                <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
-                    <button class="remove"><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
-                </a>
-                <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
-                    <button class="remove"><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="/2.Acerca de Godiva.html">
-                    <label>
-                        <strong>Preguntas frecuentes</strong>
-                    </label>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <p>Aceptamos:</p>
-                <img src="assets/iconos/Visa_logo_48.png" alt="">
-                <img src="assets/iconos/Mastercar_loco_48.png" alt="">
-                <img src="assets/iconos/Paypal_logo_48.png" alt="">
+                <div class="marco_pagar col-lg-2">
+                    <p id="pagar" class="pt-2"><a href="#">PAGAR</a></p>
+                </div>
             </div>
         </div>
     </div>
-</footer> <!--Fin Pie-->
+
+    
+
+    <footer> <!--Inicio Pie-->
+        <div class="text-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p>¡Contactanos!</p>
+                    <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
+                        <button class="icono icono_facebook"><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
+                    </a>
+
+
+                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
+                        <button  class="icono icono_instagram"><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/2.Acerca de Godiva.html">
+                        <label>
+                            <strong>Preguntas frecuentes</strong>
+                        </label>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p>Aceptamos:</p>
+                    <img src="assets/iconos/Visa_logo_48.png" alt="">
+                    <img src="assets/iconos/Mastercar_loco_48.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </footer> <!--Fin Pie-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+</body>
 </html>
