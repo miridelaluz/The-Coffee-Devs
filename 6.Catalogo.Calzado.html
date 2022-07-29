@@ -9,6 +9,7 @@
     <!-- Link CSS -->
     <link href="CSS/header-footer.css" rel="stylesheet">
     <link href="CSS/6.Catalogo.Calzado.css" rel="stylesheet">
+    <link href="CSS/Catalogo.css" rel="stylesheet">
     <!--Link Booststrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -20,122 +21,77 @@
 
 <body>
     <header>
-        <!-- Inicia encabezado-->
         <div id="main:wrapper">
-            <div class="container text-center">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
+                <div id="barra_buscar" class="row align-items-center pt-4">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-4"> 
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
-                    </div><br>
-
-                    <!-- Inicia de Acerda de nosotros-->
-                    <div class="col-lg-2 col-md-6 col-sm-12">
-                        <a href="/2.Acerca de Godiva.html">
-                            <label>
-                                <strong>Acerca de nosotros</strong>
-                            </label>
-                        </a>
                     </div>
-                    <!--Termina de Acerca de nosotros-->
-                    <!-- Empieza logo de Godiva -->
-                    <div class="col">
-                        <img src="assets/img/logo.jpg" width="80%">
-                    </div>
-                    <!--Termina logo de Godiva-->
-
-                    <!-- Empieza enlace-botón.. para login/SignIn -->
-                    <div class="col">
-                        <a href="/7.Login.SignUp.html">
-                            <label>
-                                <strong>Iniciar Sesión</strong>
-                            </label>
-                        </a>
-                    </div><!-- Termina enlace para login/SignIn -->
-
-                    <!-- Inicia icono-botón de carrito de pagos-->
-                    <div class="col">
-                        <a href="/8.Carrito.Compra.html" target="_blank">
-                            <button><img src="assets/iconos/anadir-al-carrito.png" width="20%" height="20%"
-                                    alt=""></button>
-                        </a>
-                    </div><!-- Termina icono-botón de carrito de pagos-->
-
                 </div>
-
-                <!--inicia el menú-->
-                <nav class="navbar navbar-default" role="navigation">
-                    <nav class="navbar navbar-expand-md bg-light">
-                        <div class="container-fluid">
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Catálogo de productos
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item"
-                                                    href="/5.Catalogo.Accesorios.html">Accesorios</a>
-                                            </li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Acerca de Godiva
-                                        </a>
-
-                                    <li>
-                                        <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Noticias
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link dropdown-item" href="1.Inicio.html" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Eventos
-                                        </a>
-                                    </li>
+                <div class="row align-items-center text-center">
+                    <div class="col-lg-2">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown encabezado">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Catálogo
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                    <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
                                 </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </nav>
-                <!-- AQUÍ TERMINA EL MENÚ -->
-            </div>
+                            </li>
+                        </ul>
+                    </div>
+                        
+                    <div class="col-lg-2 encabezado">
+                        <span><a href="2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
+                    </div>
+
+                    <div class="col-lg-4 icono_carrito">
+                        <img src="assets/iconos/godiva_img.png" width="40%">
+                    </div>
+        
+                    <div class="col-lg-2 encabezado">
+                        <span><a href="">Inicar Sesion</a></span>
+                        <span><a href="">Registrarse</a></span>
+                    </div>
+
+                    <div class="col-lg-2 ">
+                        <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
+                            <button class="icono"><img src="assets/iconos/5172567_heart_like_love_icon.png" alt=""> </button>
+                        </a>
+                        
+
+                        <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
+                            <button class="icono"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
+                        </a>
+
+                        
+                    </div>
+                </div> <!--AQUÍ TERMINA EL MENÚ -->
         </div>
-    </header><!-- TERMINA EL ENCABEZADO-->
+    </header> <!--Fin Encabezado-->
 
     <!--CALZADO-->
-    <div id="main_container" class="container text-center">
-        <h2 class="titulo">CALZADO</h2>
+    <div id="main_container seccion_calzado" class="container text-center">
+        <h2 class="calzado_titulo">CALZADO</h2>
         <section class="row" style="text-align: center;">
             <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3">
 
 
                 <!--Zapato 1-->
-                <div class="col-lg-3 3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato8.jpg"
-                            class="card-img-top; img-fluid articulo_lasquenete_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_lasquenete_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_lasquenete_titulo">Zapato de lansquenete, siglo
                                 XVI</h5>
                             <p class="card-text card.descripcion articulo_lasquenete_texto">
+                            <form>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>2</option>
@@ -147,13 +103,14 @@
                                     <option>8</option>
                                     <option>9</option>
                                 </select><br>
-                                <label><strong>Color: </strong></label>
-                                <select name="tallas">
-                                    <option>Negro</option>
-                                    <option>Café</option>
-                                </select><br>
-                                <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$700
+                            </form>
+                            <label><strong>Color: </strong></label>
+                            <select name="tallas">
+                                <option>Negro</option>
+                                <option>Café</option>
+                            </select><br>
+                            <strong>Material: </strong>Piel<br>
+                            <strong>Precio: </strong>$700 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -170,9 +127,9 @@
                 </div> <!-- Termina Zapato 1-->
 
                 <!--Zapato 2-->
-                <div class="col-lg-3 3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
-                        <img src="assets/img/6.Calzado/zapato7.jpg" class="card-img-top; img-fluid articulo_noble_img"
+                        <img src="assets/img/6.Calzado/zapato7.jpg" class="card-img-top img-fluid articulo_noble_img"
                             alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_noble_titulo">Zapato de noble, siglo
@@ -191,7 +148,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Rojo<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$800
+                                <strong>Precio: </strong>$800 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -208,10 +165,10 @@
                 </div> <!-- Termina Zapato 2-->
 
                 <!--Zapato 3-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato9.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-bajo-berturas_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-bajo-berturas_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-bajo-berturas_titulo">Zapato bajo
                                 con aberturas, siglos XIII-XIV</h5>
@@ -229,7 +186,7 @@
                                 </select><br>
                                 <strong>Color:</strong>Café<br>
                                 <strong>Material:</strong>Piel<br>
-                                <strong>Precio:</strong>$950
+                                <strong>Precio:</strong>$950 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -246,10 +203,10 @@
                 </div> <!-- Termina Zapato 3-->
 
                 <!--Zapato 4-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato11.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-medio-alto_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_zapato-medio-alto_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-medio-alto_titulo">Zapato medio-alto,
                                 siglo XIII-XIV</h5>
@@ -267,7 +224,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Café<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$1,900
+                                <strong>Precio: </strong>$1,900 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -284,10 +241,10 @@
                 </div> <!-- Termina Zapato 4-->
 
                 <!--Zapato 5-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato12.jpg"
-                            class="card-img-top; img-fluid articulo_mocasines-cordon_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_mocasines-cordon_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_mocasines-cordon_titulo">Mocasines con cordones,
                                 siglo XIII-XIV</h5>
@@ -305,7 +262,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Carmesí<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$1,900
+                                <strong>Precio: </strong>$1,900 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -322,10 +279,10 @@
                 </div> <!-- Termina Zapato 5-->
 
                 <!--Zapato 6-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato16.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-puntiagudo_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_zapato-puntiagudo_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-puntiagudo_titulo">Zapato puntiagudo con
                                 patrón calado del siglo XIV</h5>
@@ -343,7 +300,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Rojo-azul<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$2,000
+                                <strong>Precio: </strong>$2,000 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -360,10 +317,10 @@
                 </div> <!-- Termina Zapato 6-->
 
                 <!--Zapato 7-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato17.jpg"
-                            class="card-img-top; img-fluid articulo_correas-corcho_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_correas-corcho_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_correas-corcho_titulo">Correas de cuero con
                                 núcleo de corcho, segunda mitad del siglo XV</h5>
@@ -381,7 +338,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Café<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$1,700
+                                <strong>Precio: </strong>$1,700 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -398,10 +355,10 @@
                 </div> <!-- Termina Zapato 7-->
 
                 <!--Zapato 8-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato15.jpg"
-                            class="card-img-top; img-fluid img-fluid articulo_zapato-abertura_img" alt="..." height="">
+                            class="card-img-top img-fluid img-fluid articulo_zapato-abertura_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-abertura_titulo">Zapato con abertura en el
                                 borde, año 1495</h5>
@@ -419,7 +376,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Café<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$700
+                                <strong>Precio: </strong>$700 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -436,10 +393,10 @@
                 </div> <!-- Termina Zapato 8-->
 
                 <!--Zapato 9-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato6.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-nordico_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_zapato-nordico_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-nordico_titulo">Zapato nórdicos, siglo IX
                             </h5>
@@ -457,7 +414,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Café<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$700
+                                <strong>Precio: </strong>$700 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -474,10 +431,10 @@
                 </div> <!-- Termina Zapato 9-->
 
                 <!--Zapato 10-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato14.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-bund_img" alt="..." height="">
+                            class="card-img-top img-fluid articulo_zapato-bund_img" alt="..." height="">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-bund_titulo">Zapato Bund con lazo y
                                 correa, siglo XV-XVI</h5>
@@ -495,7 +452,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Café<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$2,200
+                                <strong>Precio: </strong>$2,200 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -512,10 +469,10 @@
                 </div> <!-- Termina Zapato 10-->
 
                 <!--Zapato 11-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato1.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-HMB_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-HMB_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-HMB_titulo">Zapato para HMB</h5>
                             <p class="card-text card.descripcion articulo_zapato-HMB_texto">
@@ -532,7 +489,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Negro<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$700
+                                <strong>Precio: </strong>$700 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -549,10 +506,10 @@
                 </div> <!-- Termina Zapato 11-->
 
                 <!--Zapato 12-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato2.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-siglos_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-siglos_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-siglos_titulo">Zapatos de siglos XIV-XV
                             </h5>
@@ -570,7 +527,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Café<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$800
+                                <strong>Precio: </strong>$800 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -587,10 +544,10 @@
                 </div> <!-- Termina Zapato 12-->
 
                 <!--Zapato 13-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato3.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-renacimiento_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-renacimiento_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-renacimiento_titulo">Zapato renacimiento
                                 temprano, siglo XIV</h5>
@@ -608,7 +565,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Negro<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$2,900
+                                <strong>Precio: </strong>$2,900 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -625,10 +582,10 @@
                 </div> <!-- Termina Zapato 13-->
 
                 <!--Zapato 14-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato4.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-bajo-cordones_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-bajo-cordones_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-bajo-cordones_titulo">Zapato bajo con
                                 cordones laterales, siglo XIV</h5>
@@ -646,7 +603,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Café<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$2,400
+                                <strong>Precio: </strong>$2,400 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -663,10 +620,10 @@
                 </div> <!-- Termina Zapato 14-->
 
                 <!--Zapato 15-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato13.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-reimer_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-reimer_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-reimer_titulo">Reimerswaal, siglo XV</h5>
                             <p class="card-text card.descripcion articulo_zapato-reimer_texto">
@@ -683,7 +640,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Café<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$2,000
+                                <strong>Precio: </strong>$2,000 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -700,10 +657,10 @@
                 </div> <!-- Termina Zapato 15-->
 
                 <!--Zapato 16-->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="card h-100">
                         <img src="assets/img/6.Calzado/zapato10.jpg"
-                            class="card-img-top; img-fluid articulo_zapato-botas-ganchos_img" alt="..." height="300px">
+                            class="card-img-top img-fluid articulo_zapato-botas-ganchos_img" alt="..." height="300px">
                         <div class="card-body">
                             <h5 class="card-title card-zapato articulo_zapato-botas-ganchos_titulo">Botas con ganchos y
                                 ojos, siglo XV</h5>
@@ -721,7 +678,7 @@
                                 </select><br>
                                 <strong>Color: </strong>Negro<br>
                                 <strong>Material: </strong>Piel<br>
-                                <strong>Precio: </strong>$1,500
+                                <strong>Precio: </strong>$1,500 MXN
                             </p>
                         </div>
                         <div class="card-footer">
@@ -737,11 +694,9 @@
                     </div>
                 </div> <!-- Termina Zapato 16-->
 
-            </div>
-
-            <br><br><br>
+            </div><br>
             <!-- Empieza enlace a colaborador -->
-            <div class="col" style="margin-top: 20px" ;>
+            <div class="col" style="margin-top: 25px" ;>
                 <a href="https://www.facebook.com/bova.russ">
                     <label>
                         <strong>Vladimir Russ <br> Colaborador </strong>
@@ -752,20 +707,19 @@
 
         </section>
         <!-- TERMINA SECCIÓN CALZADO -->
-        <br><br><br>
-
+        
+<!-- Inicio pie -->
         <footer>
-            <!-- Inicio pie -->
             <div class="container text-center">
                 <div class="row align-items-center">
                     <!-- Contáctanos -->
                     <div class="col contactanos">
                         <p>¡Contactanos!</p>
                         <a href="https://www.facebook.com/GodivaSH" target="_blank">
-                            <button><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
+                            <button class="remove"><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
                         </a>
                         <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
-                            <button><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
+                            <button class="remove   "><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
                         </a>
                     </div>
 
@@ -776,9 +730,9 @@
 
                         <!--
                             <p><a href="/2.Acerca de Godiva.html">Preguntas frecuentes</a></p>
-                        -->
+                        --><!--Aquí  arriba se agrega la página de Acerda de nosotros-->
                         <a href="/2.Acerca de Godiva.html">
-                            <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
+                            
                             <label>
                                 <strong>Preguntas frecuentes</strong>
                             </label>

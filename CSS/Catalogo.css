@@ -1,0 +1,13 @@
+body {
+    background-color: #f2f3f4;
+}
+
+.btn_carrito {
+    margin-top: 5px;
+    text-align-last: center;
+    background-color: #a42c33;
+    margin-left: 63px;
+    border: 1px solid #a42c33;
+    border-radius: 40px;
+    color: #f2f3f4;
+}
