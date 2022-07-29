@@ -13,101 +13,64 @@
     <!--Link de Font Awesome 5-->
 </head>
 
-<script src=""></script> <!--Script de JS-->
-
-<style>
-    .container {
-        overflow:
-            scroll;
-        position:
-            relative;
-    }
-</style>
+<script src=""></script>
+<!--Script de JS-->
+<link rel="stylesheet" href="CSS/5.catalogo.css">
+<link rel="stylesheet" href="CSS/1.Inicio.css">
 
 <body class="container container-fluid">
-    <header>
+    <!-- Inicia encabezado-->
+    <header style="margin-bottom:  50px;">
         <div id="main:wrapper">
-            <div class="container text-center">
-                <!-- Aquí inicia el menú-->
-                <div class="row align-items-center">
-                    <div class="col">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
-                    </div>
-                    <div class="col">
-                        <a href="/2.Acerca de Godiva.html">
-                            <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
-                            <label>
-                                <strong>Acerca de nosotros</strong>
-                            </label>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <img src="assets/iconos/godiva_img.png" width="60%">
-                    </div>
-                    <div class="col">
-                        <a href="/7.Login.SignUp.html">
-                            <!-- Aquí  arriba se agrega la página de login-->
-                            <label>
-                                <strong>Iniciar Sesión</strong>
-                            </label>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="/8.Carrito.Compra.html" target="_blank">
-                            <button><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
-                        </a>
-                        <!--ícono de carrito de pagos-->
-                    </div>
+            <div id="barra_buscar" class="row align-items-center pt-4">
+                <div class="col-lg-8"></div>
+                <div class="col-lg-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success remove" type="submit">Buscar</button>
+                    </form>
                 </div>
-                <!--inicia el menú-->
-                <nav class="navbar navbar-expand-md bg-light">
-                    <div class="container-fluid">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Catálogo de productos
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a>
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Acerca de Godiva
-                                    </a>
-
-                                <li>
-                                    <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Noticias
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="nav-link dropdown-item" href="1.Inicio.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Eventos
-                                    </a>
-                                </li>
+            </div>
+            <div class="row align-items-center text-center">
+                <div class="col-lg-2">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Catálogo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
                             </ul>
-                        </div>
-                    </div>
-                </nav>
-                <!--AQUÍ TERMINA EL MENÚ -->
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2">
+                    <span><a href="">Acerca de Nosotros</a></span>
+                </div>
+
+                <div class="col-lg-3 icono_carrito">
+
+                </div>
+
+                <div class="col-lg-3">
+                    <span><a href="7.Login.SignUp.html">Inicar Sesion</a></span>
+                    <span><a href="7.Login.SignUp.html">Registrarse</a></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <button class="btn btn_lista_deseos">
+                        <a href="#">
+                            <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                        </a>
+                    </button>
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="icono remove"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
+                    </a>
+                </div>
+                <!-- TERMINA EL ENCABEZADO-->
             </div>
         </div>
     </header>
@@ -123,13 +86,12 @@
     <nav class="navbar navbar-light bg-light px-3" style="align-items:flex-start;">
         <h3>Menú</h3>
         <h2>Qué tipo de accesorios necesitas?</h2>
-
+        <!-- Inicia Menú de Scroll-->
         <ul class="nav nav-pills">
             <li class="nav-item ">
                 <a href="#scrolljoyeria" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 90px; max-height: 90px">
-                        <img src="assets/img/5.accesorios/joyeria.png"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll" onclick="esconderElementos()">
+                        <img src="assets/img/5.accesorios/joyeria.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Joyería</h3>
                 </a>
@@ -137,9 +99,8 @@
 
             <li class="nav-item">
                 <a href="#scrolltalegas" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/talegas.png"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/talegas.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Talegas</h3>
                 </a>
@@ -147,9 +108,8 @@
 
             <li class="nav-item">
                 <a href="#scrollsurrones" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/Surrones.png"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/Surrones.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Surrones</h3>
                 </a>
@@ -157,9 +117,8 @@
 
             <li class="nav-item">
                 <a href="#scrollsporrans" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/Sporrans.png"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/Sporrans.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Sporrans</h3>
                 </a>
@@ -167,9 +126,8 @@
 
             <li class="nav-item">
                 <a href="#scrollcinturones" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/cinturones.png"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/cinturones.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Cinturones</h3>
                 </a>
@@ -178,53 +136,49 @@
         <ul class="nav nav-pills" style="align-items:center;">
             <li class="nav-item ">
                 <a href="#scrollbolsos" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/bolsos.jpg"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/bolsos.jpg" class="imgscroll" alt="" />
                     </button>
                     <h3>Bolsos</h3>
                 </a>
             </li>
             <li class="nav-item ">
                 <a href="#scrollsombreros" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/sombreros.png"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/sombreros.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Sombreros</h3>
                 </a>
             </li>
             <li class="nav-item ">
                 <a href="#scrollbonetes" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/bonetes.png"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/bonetes.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Bonetes</h3>
                 </a>
             </li>
             <li class="nav-item ">
                 <a href="#scrollcapirotes" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/capirotes.jpg"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/capirotes.jpg" class="imgscroll" alt="" />
                     </button>
                     <h3>Capirotes</h3>
                 </a>
             </li>
             <li class="nav-item ">
                 <a href="#scrollcofias" class="nav-link">
-                    <button style="border-radius: 50px; max-width: 80px; max-height: 80px">
-                        <img src="assets/img/5.accesorios/cofias.jpg"
-                            style="height: 70px; width: 70px;  border-radius: 50%;" alt="" />
+                    <button class="btnscroll">
+                        <img src="assets/img/5.accesorios/cofias.jpg" class="imgscroll" alt="" />
                     </button>
                     <h3>Cofias</h3>
                 </a>
             </li>
         </ul>
+        <!-- Termina Menú de Scroll-->
     </nav>
 
-    <div class="scrollpsy-joyeria p-2 m-1" tabindex="0">
+    <div id="scrollJoyeria" class="scrollpsy-joyeria p-2 m-1" tabindex="0">
         <h3 id="scrolljoyeria">Joyería</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
@@ -442,7 +396,7 @@
         </div>
     </div>
 
-    <div class="scrollpsy-talegas p-2 m-1" tabindex="0">
+    <div id="scrollTalegas" class="scrollpsy-talegas p-2 m-1" tabindex="0">
         <h3 id="scrolltalegas">Talegas</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
@@ -660,7 +614,7 @@
         </div>
     </div>
 
-    <div class="scrollpsy-surrones p-2 m-1" tabindex="0">
+    <div id="scrollSurrones" class="scrollpsy-surrones p-2 m-1" tabindex="0">
         <h3 id="scrollsurrones">Surrones</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
@@ -878,7 +832,7 @@
         </div>
     </div>
 
-    <div class="scrollpsy-sporrans p-2 m-1" tabindex="0">
+    <div id="scrollSporrans" class="scrollpsy-sporrans p-2 m-1" tabindex="0">
         <h3 id="scrollsporrans">Sporrans</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
@@ -888,7 +842,8 @@
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sporran con botón de hueso</h5>
-                            <p class="card-text articulo_camisas_texto">Contemporáneo y funcional
+                            <p class="card-text articulo_camisas_texto">Contemporáneo y funcional.
+                                <strong>Medidas: </strong>18cm anchura x 20 altura<br>
                             </p>
                             <form>
                                 <label><strong>Talla: </strong></label>
@@ -900,7 +855,7 @@
                                     <option>Café</option>
                                 </select> <br>
                                 <strong>Material: </strong> Piel<br>
-                                <strong>Precio: </strong> $800 MXN<br>
+                                <strong>Precio: </strong> $800.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -920,24 +875,25 @@
                     <div class="card h-100">
                         <img src="assets/img/5.accesorios/Sporrans/sporran2.jpg" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> Piel<br>
-                                    <strong>Precio: </strong> $800 MXN<br>
-                                </form>
+                            <h5 class="card-title articulo_camisas_titulo">Sporran sencillo (dos piezas)</h5>
+                            <p class="card-text articulo_camisas_texto">Con sujetador de cinturón, dos tamaños
+                                práctico y clásico.
+                                <strong>Medidas chico: </strong>20cm anchura x 25 altura <br>
+                                <strong>Medidas grande: </strong>30cm anchura x 35 altura<br>
+                            </p>
+                            <form>
+                                <label><strong>Talla: </strong></label>
+                                <select name="tallas">
+                                    <option>CH</option>
+                                    <option>G</option>
+                                </select> <br>
+                                <label><strong>Color: </strong></label>
+                                <select name="color">
+                                    <option>Café</option>
+                                </select> <br>
+                                <strong>Material: </strong> Piel<br>
+                                <strong>Precio: </strong> $1,600.00 MXN<br>
+                            </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
                             <button class="btn btn-warning btn_carrito"
@@ -958,28 +914,23 @@
                         <img src="assets/img/5.accesorios/Sporrans/sporran3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Sporran con hebilla y remaches</h5>
+                            <p class="card-text articulo_camisas_texto">
+                                Estilo único con los detalles dignos de recordarlo.
+                                <strong>Medidas: </strong>20cm anchura x 25 altura<br>
+                            </p>
+
                             <form>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Café</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong> $900.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1000,28 +951,22 @@
                         <img src="assets/img/5.accesorios/Sporrans/sporran4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Sporran con grabados</h5>
+                            <p class="card-text articulo_camisas_texto">Detalles bien establecidos, estilo sencillo
+                                y un estilo destacable. <br>
+                                <strong>Medidas: </strong>20cm anchura x 25 altura<br>
+                            </p>
                             <form>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Café</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong> $700.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1042,28 +987,22 @@
                         <img src="assets/img/5.accesorios/Sporrans/sporran5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Sporran sencillo con botón</h5>
+                            <p class="card-text articulo_camisas_texto">Sencillo, duradero y útil, para
+                                la persona práctica y simple.
+                                <strong>Medidas: </strong>20cm anchura x 23 altura<br>
+                            </p>
                             <form>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Café</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong>Piel<br>
+                                <strong>Precio: </strong> $700.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1082,7 +1021,7 @@
         </div>
     </div>
 
-    <div class="scrollpsy-cinturones p-2 m-1" tabindex="0">
+    <div id="scrollCinturones" class="scrollpsy-cinturones p-2 m-1" tabindex="0">
         <h3 id="scrollcinturones">Cinturones</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
@@ -1300,7 +1239,7 @@
         </div>
     </div>
 
-    <div class="scrollpsy-bolsos p-2 m-1" tabindex="0">
+    <div id="scrollBolsos" class="scrollpsy-bolsos p-2 m-1" tabindex="0">
         <h3 id="scrollbolsos">Bolsos</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
@@ -1518,37 +1457,33 @@
         </div>
     </div>
 
-    <div class="scrollpsy-sombreros p-2 m-1" tabindex="0">
+    <div id="scrollSombreros" class="scrollpsy-sombreros p-2 m-1" tabindex="0">
         <h3 id="scrollsombreros">Sombreros</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Sombreros/sombrero1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Sombrero de palma</h5>
+                            <p class="card-text articulo_camisas_texto">Sombrero artesanal, hecho a mano.
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Crema</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong>Palma<br>
+                                <strong>Precio: </strong> $400.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1566,31 +1501,29 @@
                 <!--Card Dos-->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Sombreros/sombrero2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Sombrero plano de paja</h5>
+                            <p class="card-text articulo_camisas_texto">Sombrero con plano redondo
+                                por arriba, útil y simple.
+
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro):</strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Café</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong>Paja<br>
+                                <strong>Precio: </strong> $350.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1609,31 +1542,28 @@
                 <div class="col">
 
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Sombreros/sombrero3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Sombrero de tule</h5>
+                            <p class="card-text articulo_camisas_texto">Sombrero tejido con delicadeza
+                                en la que destaca por su forma.
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro):</strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>verde</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong> Tule<br>
+                                <strong>Precio: </strong> $350.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1651,30 +1581,26 @@
                 <!--Card Cuatro-->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Sombreros/sombrero4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Sombrero redondo de paja</h5>
+                            <p class="card-text articulo_camisas_texto">De forma peculiar, destaca por su forma redonda.
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro):</strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
-                                <label><strong>Color: </strong></label>
+                                <label><strong>Color: </strong>Paja</label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Café</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
+                                <strong>Material: </strong>Paja<br>
                                 <strong>Precio: </strong> $ MXN<br>
                             </form>
                         </div>
@@ -1693,31 +1619,28 @@
                 <!--Card Cinco-->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Sombreros/sombrero5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Sombrero amplio de Palma</h5>
+                            <p class="card-text articulo_camisas_texto">Destaca por su gran base,
+                                la cual lo hace muy útil y duradero.
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro):</strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Café</option>
                                 </select> <br>
                                 <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Precio: </strong> $500.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1736,37 +1659,34 @@
         </div>
     </div>
 
-    <div class="scrollpsy-bonetes p-2 m-1" tabindex="0">
+    <div id="scrollBonetes" class="scrollpsy-bonetes p-2 m-1" tabindex="0">
         <h3 id="scrollbonetes">Bonetes</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Bonetes/bonete1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Bonete de paño 1</h5>
+                            <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
+                                de finales del siglo XV.
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
                                     <option>Rojo</option>
-                                    <option>Azul</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong>Paño de lana<br>
+                                <strong>Precio: </strong> $800.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1784,31 +1704,28 @@
                 <!--Card Dos-->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Bonetes/bonete2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Bonete de paño 2</h5>
+                            <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
+                                de siglos XV-XVI
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Café</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong>Paño de lana<br>
+                                <strong>Precio: </strong> $800.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1827,31 +1744,27 @@
                 <div class="col">
 
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Bonetes/bonete3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Bonete de paño 3</h5>
+                            <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
+                                del siglo XV/p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
                                     <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong>Paño de lana<br>
+                                <strong>Precio: </strong> $800.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1869,31 +1782,28 @@
                 <!--Card Cuatro-->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Bonetes/bonete4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Bonete de paño 4</h5>
+                            <p class="card-text articulo_camisas_texto">De paño de lana, le da un bicolor
+                                reconocido y vanguardista de su época del siglo XV.
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Rojo/Azul</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
-                                <strong>Precio: </strong> $ MXN<br>
+                                <strong>Material: </strong> Paño de lana<br>
+                                <strong>Precio: </strong> $800.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1911,30 +1821,27 @@
                 <!--Card Cinco-->
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                        <img src="assets/img/5.accesorios/Bonetes/bonete5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                            <h5 class="card-title articulo_camisas_titulo">Bonete de lana 5</h5>
+                            <p class="card-text articulo_camisas_texto">De paño de lana, con su bicolor cálido
+                                representativo del siglo CV
+                            </p>
                             <form>
-                                <label><strong>Talla: </strong></label>
+                                <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
-                                    <option>CH</option>
-                                    <option>M</option>
-                                    <option>G</option>
-                                    <option>XG</option>
+                                    <option>CH (54-55cm)</option>
+                                    <option>M (56-57cm)</option>
+                                    <option>G (58-59cm)</option>
+                                    <option>XG (60-61cm)</option>
+                                    <option>XXG (62-63cm)</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
-                                    <option>Negro</option>
-                                    <option>Rojo</option>
-                                    <option>Azul</option>
+                                    <option>Azyl/Café</option>
                                 </select> <br>
-                                <strong>Material: </strong> <br>
+                                <strong>Material: </strong>Paño de lana<br>
                                 <strong>Precio: </strong> $ MXN<br>
                             </form>
                         </div>
@@ -1954,7 +1861,7 @@
         </div>
     </div>
 
-    <div class="scrollpsy-capirotes p-2 m-1" tabindex="0">
+    <div id="scrollCapirotes" class="scrollpsy-capirotes p-2 m-1" tabindex="0">
         <h3 id="scrollcapirotes">Capirotes</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
@@ -2172,7 +2079,7 @@
         </div>
     </div>
 
-    <div class="scrollpsycofias p-2 m-1" tabindex="0">
+    <div id="scrollCofias" class="scrollpsycofias p-2 m-1" tabindex="0">
         <h3 id="scrollcofias">Cofias</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
@@ -2389,7 +2296,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- TERMINA LA SECCIÓN MEDIA-->
 
 
@@ -2434,9 +2341,5 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
 </body>
-
-
-
-
 
 </html>
