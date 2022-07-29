@@ -13,6 +13,21 @@ body{
 	border: transparent !important
 }
 
+.icono {
+    border: none;
+}
+
+.icono_carrito {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+}
+
 /* label modifica Acerca de nosotros, iniciar sesión, preguntas frecuentes */
 label{
     font-size: 18px;
