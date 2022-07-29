@@ -6,6 +6,8 @@
 ##FFFFFF
  */
 
+ 
+
 
 p {
 	font-size: 14px;
@@ -185,6 +187,9 @@ input {
 button de footer y header */
 .remove {
 	background-color: transparent !important;
-	border: transparent !important
+	border: transparent !important;
+	
+	padding: 0;
+
 }
 

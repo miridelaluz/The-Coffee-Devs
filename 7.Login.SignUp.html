@@ -13,111 +13,63 @@
 </head>
 <header>
     <!-- Inicia encabezado-->
-    <div id="main:wrapper">
-        <div class=" text-center">
-            <div class="row align-items-center">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success " type="submit">Buscar</button>
-                    </form>
-                </div><br>
-
-                <!-- Inicia de Acerda de nosotros-->
-                <div class="col-lg-2 col-md-6 col-sm-12">
-                    <a href="/2.Acerca de Godiva.html">
-                        <label>
-                            <strong>Acerca de nosotros</strong>
-                        </label>
-                    </a>
-                </div>
-                <!--Termina de Acerca de nosotros-->
-                <!-- Empieza logo de Godiva -->
-                <div class="col">
-                    <img src="assets/img/logo.jpg" width="80%">
-                </div>
-                <!--Termina logo de Godiva-->
-
-                <!-- Empieza enlace-botón.. para login/SignIn -->
-                <div class="col">
-                    <a href="/7.Login.SignUp.html">
-                        <label>
-                            <strong>Iniciar Sesión</strong>
-                        </label>
-                    </a>
-                </div><!-- Termina enlace para login/SignIn -->
-
-                <!-- Inicia icono-botón de carrito de pagos-->
-                <div class="col">
-                    <a href="/8.Carrito.Compra.html" target="_blank">
-                        <button class="remove"><img src="assets/iconos/anadir-al-carrito.png" width="20%" height="20%"
-                                alt=""></button>
-                    </a>
-                </div><!-- Termina icono-botón de carrito de pagos-->
-
-            </div>
-
-            <!--inicia el menú-->
-            <nav class="navbar navbar-default" role="navigation">
-                <nav class="navbar navbar-expand-md bg-light">
-                    <div class="container-fluid">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Catálogo de productos
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a>
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item"
-                                                href="/5.Catalogo.Accesorios.html">Accesorios</a>
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Acerca de Godiva
-                                    </a>
-
-                                <li>
-                                    <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Noticias
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="nav-link dropdown-item" href="1.Inicio.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Eventos
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+    <header>
+        <div id="main:wrapper">
+                <div id="barra_buscar" class="row align-items-center pt-4">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-4"> 
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
                     </div>
-                </nav>
-            </nav>
-            <!-- AQUÍ TERMINA EL MENÚ -->
-        </div>
-    </div>
-</header><!-- TERMINA EL ENCABEZADO-->
+                </div>
+                <div class="row align-items-center text-center">
+                    <div class="col-lg-2">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Catálogo
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                    <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                        
+                    <div class="col-lg-2">
+                        <span><a href="">Acerca de Nosotros</a></span>
+                    </div>
 
+                    <div class="col-lg-3 icono_carrito">
+                        <img src="assets/iconos/godiva_img.png" width="50%">
+                    </div>
+        
+                    <div class="col-lg-3">
+                        <span><a href="7.Login.SignUp.html">Inicar Sesion</a></span>
+                        <span><a href="7.Login.SignUp.html">Registrarse</a></span>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <button class="btn btn_lista_deseos">
+                            <a href="#">
+                                <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                            </a>
+                        </button>
+                        <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
+                            <button class="icono remove"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
+                        </a>
+
+                        
+                    </div>
 <!-- TERMINA EL ENCABEZADO-->
 
 <!-- Comienza el cuerpo -->
 <body>
 
-        <div class="container " id="container">
+        <div class="container " id="container" style="margin-top: 10px;">
             <div class="form-container sign-up-container ">
                 <form action="#">
                     <h1>Crear cuenta</h1>
