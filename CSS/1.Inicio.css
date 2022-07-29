@@ -6,94 +6,92 @@ header button{
 border: 0px solid;
 }
 
+
 .grid{
- 
-  width: 100%;
-    justify-content: center;
-    margin-top: 50px;
-    
-}
+     width: 100%;
+     justify-content: center;
+     margin-top: 40px;    
+  }
 
-.grid .item {
-margin-left: 250px;
+  .grid .item {
+  margin-left: 290px;
+    margin-top: 20px;
+  }
 
-}
+      .grid .carousel-inner{     
+      height: 150px;
+      width: 380px;
+      border-radius: 40px;
+      
+      }   
 
-.carousel-inner{     
-    height: 150px;
-    width: 380px;
-    border-radius: 40px;
-    
-    }
-
+      
 .menu{
+    min-width: 300px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    min-width: 300px;
-    justify-content:end;
+    justify-content:center;
     margin: 5%;
     margin-left: 15%;    
 }
 
-
-.menu img{
-   
+    .menu img{
+    
     height: 200px;
     width: 200px;
     border: 7px solid #a42c33;
     border-radius: 100px;
     }
 
-.menu button{
-    margin-top: 5px;
-    text-align-last: center;
-    background-color: #a42c33;
-    margin-left: 63px;
-    border: 1px solid #a42c33;
-    border-radius: 40px;
-}
+        .menu button{
+        margin-top: 5px;
+        text-align-last: center;
+        background-color: #a42c33;
+        margin-left: 63px;
+        border: 1px solid #a42c33;
+        border-radius: 40px;
+        }
+
 
 .noticias{
 background-color: #a42c33;
-border-radius: 50px;
-display: flex;
-width: 90%;
-height: 280px;
+display: block;
+border-radius: 40px;
+width: 80%;
+height: 380px;
 margin: auto;
 object-fit: cover;
-padding: 20px;
-
+text-align: center;
 }
 
-.noticias .noticia{
-    background-color: #f2f3f4;
-    text-align: center;
-    font-size: medium;
-    object-fit: cover;
-    width: 100%;
-    height: 240px;
-    overflow-y: auto;
-    border-radius: 50px;
-    
-}
+    .car-noticias{
+        border-radius: 40px;
+        width: auto;
+        height: 340px;
+        margin-left: 33%;   
+        background-color: #f2f3f4        ;
+        margin-top: 20px;
+    }
 
-.noticias button{
-    border: 0px solid;
-    width: 400px;
-    
-}
+        .car-noticias img{
+            border-radius: 40px;
+            height: 200px;
+            width: 200px;
+            margin-top: 10px;
+        }
 
-.noticias img{
-    border-radius: 40px;
-    margin-left: 50px;
-    width: 150px;
-    height: 150px;
-}
-
-
+        #carouselc{
+            width: 400px;
+        }
 
 .clearfix{
     clear:both;
+}
+
+@media screen and (max-width:1200px){
+   .car-noticias   {
+        width: 20%;
+    }
 }
 
 footer{
@@ -102,6 +100,6 @@ footer{
   margin-bottom: 3%;
 }
 
-footer button{
-border: 0px solid;
-}
+    footer button{
+    border: 0px solid;
+    }
