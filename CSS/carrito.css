@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_carrito {
+    border-radius: 20px;
+    height: 70vh;
+    width: 90vw;
+    margin-left: 5%;
+}
+
+
+#titulo_carrito {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.tabla_producto_carrito{
+    padding-top: 50%;
+}
+
+#contenedor_thead{
+    color: #f2f3f4;
+    background-color: #a42c33;
+    height: 4vh;
+}
+
+tbody {
+    background-color: #f2f3f4;
+}
+
+#titulo_compras{
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.contedor_envio{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #f2f3f4;
+    width: 90vw;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.marco{
+    background-color: #f2f3f4;
+    border-radius: 50px;
+    height: 50px;
+    margin: 20px;
+
+}
+
+.marco_pagar {
+    color: #f2f3f4;
+    background-color: #a42c33;
+    border-radius: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+#pagar > a{
+    padding-left: 37%;
+    color: #f2f3f4;
+    font-size: 20px;
+    text-decoration: none;
+}
+

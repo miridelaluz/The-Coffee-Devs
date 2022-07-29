@@ -6,120 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Administrador </title>
-    <!-- Link CSS -->
-    <link href="CSS/3. Logi.Admi.css" rel="stylesheet">
+    
     <!--Link Booststrap 5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->
-    <!--Link de Font Awesome 5-->
-    <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> 
-    <script src="assets/fonts/cloister_black/CloisterBlack.ttf" crossorigin="anonymous"></script>
+    
 
     
-    <style>
+        <style>
 
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #f2f3f4;
-        }
-
-        .row {
-            width: 100%;
-        }
-
-        .btn_agregar_carrito {
-            background-color: #a42c33;
-            color: #f2f3f4;
-        }
-
-        .icono {
-            border: none;
-        }
-
-        .icono_carrito {
-            text-align: center;
-        }
-
-
-    </style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            body {
+                background-color: #f2f3f4;
+            }
+    
+            .row {
+                width: 100%;
+            }
+    
+            .btn_agregar_carrito {
+                background-color: #a42c33;
+                color: #f2f3f4;
+            }
+    
+            .icono {
+                border: none;
+            }
+    
+            .icono_carrito {
+                text-align: center;
+            }
+    
+    
+        </style>
 </head>
 
-
-    
-
-
-   
-
-
-
-
-
-
-
-
-
 <body>
-        <header>
-            <div id="main:wrapper">
-                    <div id="barra_buscar" class="row align-items-center pt-4">
-                        <div class="col-lg-8"></div>
-                        <div class="col-lg-4"> 
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                                <button class="btn btn-outline-success" type="submit">Buscar</button>
-                            </form>
-                        </div>
+    <header>
+        <div id="main:wrapper">
+                <div id="barra_buscar" class="row align-items-center pt-4">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-4"> 
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
                     </div>
-                    <div class="row align-items-center text-center">
-                        <div class="col-lg-2">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Catálogo
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
-                                        <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                            
-                        <div class="col-lg-2">
-                            <span><a href="">Acerca de Nosotros</a></span>
-                        </div>
-    
-                        <div class="col-lg-4 icono_carrito">
-                            <img src="assets/iconos/godiva_img.png" width="40%">
-                        </div>
-            
-                        <div class="col-lg-2">
-                            <span><a href="">Inicar Sesion</a></span>
-                            <span><a href="">Registrarse</a></span>
-                        </div>
-    
-                        <div class="col-lg-2">
-                            <button class="lista_deseos">
-                                <a href="#">
-                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                </div>
+                <div class="row align-items-center text-center">
+                    <div class="col-lg-2">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Catálogo
                                 </a>
-                            </button>
-                            <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
-                                <button class="icono"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
-                            </a>
-    
-                            
-                        </div>
-                    </div> <!--AQUÍ TERMINA EL MENÚ -->
-            </div>
-        </header> <!--Fin Encabezado-->
-     
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                    <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                        
+                    <div class="col-lg-2">
+                        <span><a href="">Acerca de Nosotros</a></span>
+                    </div>
 
+                    <div class="col-lg-4 icono_carrito">
+                        <img src="assets/iconos/godiva_img.png" width="40%">
+                    </div>
+        
+                    <div class="col-lg-2">
+                        <span><a href="">Inicar Sesion</a></span>
+                        <span><a href="">Registrarse</a></span>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <button class="lista_deseos">
+                            <a href="#">
+                                <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                            </a>
+                        </button>
+                        <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
+                            <button class="icono"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
+                        </a>
+
+<<<<<<< HEAD
+=======
     </div>
     <div class="container">
         <div class="row">
@@ -291,67 +269,77 @@
                                                     <input class="form-control form-control-lg" type="text" placeholder="Precio">
                                                   </div>
                                             </div>
+>>>>>>> e13801a1aa1531cd95cb7159a1f6d32526a4327c
                         
-                                            <div class="col-sm-3 col-md-6 col-lg-4">
-                                                <div class="cat">
-                                                    <input class="form-control form-control-lg" type="text" placeholder="Categoria">
-                                                </div>
-                                            </div>
-                        
-                                            <div class="col-sm-3 col-md-6 col-lg-4">
-                                                <div class="uni">
-                                                    <input class="form-control form-control-lg" type="text" placeholder="Unidades">
-                                                </div>
-                                            </div>
-
-                                            <div class="bot">
-                                                <input type="button" value="Subir archivo" class="btn" onclick="document.getElementById('file').click()">
-                                            </div>
-
-
-
-                                        </div>
-                                    </div>                            
-
-                            </form>
-                        </div>
-                    
-
-
-            </div>
-
-            <div class="col-lg-6"> 
-                            
-                            <div class="overlay2">
-                                <form action=""> 
-                                    <br><br>
-                                    <div class="imagen" align="center">
-                                        <img id="uploadPreview1" width="400" height="400" src="assets/img/3.logi.admin/default.jpg">                       
-                                        <br><br>
-                                        <input id="uploadImage1" type="file" name="images[1]" onchange="previewImage(1);">
-                                
-
-                                    </div>
-                                    
-                                </form>
-                                    <br><br>
-                            </div>
-
-                       
-                                            
-            </div>
-
+                    </div>
+                </div> <!--AQUÍ TERMINA EL MENÚ -->
         </div>
-    </div>  
+    </header> <!--Fin Encabezado-->
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12"></div>
+                    <div class="col-lg-6"> 
+                                <div class="overlay">
+                                    <form action="#"></form>
+                                            <div class="nom">
+                                                <br>
+                                                <input class="form-control form-control-lg" type="texto" placeholder="Nombre del articulo">
+                                            </div>
+                                            <div class="des">
+                                                <textarea name="comentarios" rows="5" cols="40" placeholder="Descripcion"></textarea>
+                                            </div>
 
+                                            <!--  <div class="mb-3">
+                                                    <label for="descrip" class="form-label"></label>
+                                                    <p><textarea placeholder="Descripcion"></textarea></p> 
+                                                </div> -->
+                                            <div class="container">
+                                                <div class="row">
+                
+                                                    <div class="col-sm-3 col-md-6 col-lg-3">
+                                                        <div class="pre">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Precio">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                                        <div class="cat">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Categoria">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                                        <div class="uni">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Unidades">
+                                                        </div>
+                                                    </div>
 
+                                                    <div class="bot">
+                                                        <input type="button" value="Subir archivo" class="btn" onclick="document.getElementById('file').click()">
+                                                    </div>
+                                                </div>
+                                            </div>                            
+                                </div>
+                    </div>
 
-
-
-        <br><br>
+                    <div class="col-lg-6"> 
+                                    <div class="overlay2">
+                                        <form action=""> 
+                                            <div class="imagen">
+                                                <img id="uploadPreview1" src="assets/img/3.logi.admin/default.jpg">                       
+                                                <input id="uploadImage1" type="file" name="images[1]" onchange="previewImage(1);">
+                                            </div>
+                                        </form>
+                                    </div>                     
+                    </div>
+                </div>
+            </div>  
 
         <footer> <!--Inicio Pie-->
+            <br>
+            <br>
+            <br>
             <div class="text-center">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -359,8 +347,8 @@
                         <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
                             <button class="icono icono_facebook"><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
                         </a>
-    
-    
+
+
                         <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
                             <button  class="icono icono_instagram"><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
                         </a>
@@ -376,20 +364,18 @@
                         <p>Aceptamos:</p>
                         <img src="assets/iconos/Visa_logo_48.png" alt="">
                         <img src="assets/iconos/Mastercar_loco_48.png" alt="">
-    
+
                     </div>
                 </div>
             </div>
         </footer> <!--Fin Pie-->
 
-
-
-
-
-
-
-
-   <script src="logi.js"></script>
+        <!-- Link CSS -->
+        <link href="CSS/3. Logi.Admi.css" rel="stylesheet">
+        <!--Link de Font Awesome 5-->
+        <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> 
+        <script src="assets/fonts/cloister_black/CloisterBlack.ttf" crossorigin="anonymous"></script>
+        <script src="logi.js"></script>
     </body>
 
 </html>
