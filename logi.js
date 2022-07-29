@@ -1,7 +1,9 @@
-function previewImage(nb) {        
-    var reader = new FileReader();         
-    reader.readAsDataURL(document.getElementById('uploadImage'+nb).files[0]);         
-    reader.onload = function (e) {             
-        document.getElementById('uploadPreview'+nb).src = e.target.result;         
+function visualizar(nb) {        
+    var leer = new FileReader();         
+    leer.readAsDataURL(document.getElementById('imagenCargada'+nb).files[0]);         
+    leer.onload = function (e) {             
+        document.getElementById('visualizar'+nb).src = e.target.result;         
     };     
 }
+
+
