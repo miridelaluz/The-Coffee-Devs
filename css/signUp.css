@@ -22,17 +22,19 @@ span {
 }
 
 a {
-	color: #333;
-	font-size: 14px;
+	
+	font-size: 18px ;
+	font-family: sans-serif ;
+	color: black;
 	text-decoration: none;
-	margin: 15px 0;
+
 }
 
 button {
 	border-radius: 20px;
 	border: 1px solid #7a3a42;
 	background-color: #a42c33;
-	color: #FFFFFF;
+	color: #f2f3f4;
 	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
@@ -56,6 +58,7 @@ form {
 	padding: 0 50px;
 	height: 100%;
 	text-align: center;
+	
 }
 
 input {
@@ -188,8 +191,35 @@ button de footer y header */
 .remove {
 	background-color: transparent !important;
 	border: transparent !important;
+	border-radius: 0 !important;
+	padding: 0 0 !important;
 	
-	padding: 0;
 
 }
+
+.remove2 {
+	background-color: #FFFFFF;
+	align-items: baseline !important;
+	justify-content: flex-start !important;
+	flex-direction: default ;
+	padding: 0 0 !important;
+	height: 100%;
+	text-align: center;
+	
+}
+
+.remove3{
+	
+	border-radius: 0 !important;
+	border: 0px solid #7a3a42 !important;
+	background-color: #a42c33;
+	color: #f2f3f4;
+	font-size: 0 !important;
+	
+	padding: 0 0 !important;
+	letter-spacing: 0 !important;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
 
