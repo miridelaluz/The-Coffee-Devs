@@ -102,6 +102,16 @@
   	transform: translateX(0); 
 }
 
+@media screen and (max-width:530px){
+     
+    .overlay2{
+        margin-top: 30px;
+    }
+    .overlay2  img{
+        max-width: 50%;
+    }
+   }
+
 
 
 
