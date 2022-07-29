@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio - Godiva </title>
+    <title>Login Administrador </title>
     <!-- Link CSS -->
     <link href="CSS/3. Logi.Admi.css" rel="stylesheet">
     <!--Link Booststrap 5-->
@@ -14,104 +14,111 @@
     <!--Link de Font Awesome 5-->
     <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> 
     <script src="assets/fonts/cloister_black/CloisterBlack.ttf" crossorigin="anonymous"></script>
-    </head>
 
     
     <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             background-color: #f2f3f4;
         }
 
-        .btn_carrito {
+        .row {
+            width: 100%;
+        }
+
+        .btn_agregar_carrito {
             background-color: #a42c33;
             color: #f2f3f4;
         }
 
+        .icono {
+            border: none;
+        }
+
+        .icono_carrito {
+            text-align: center;
+        }
+
+
     </style>
+</head>
+
 
     
 
 
+   
+
+
+
+
+
+
+
+
 
 <body>
-    <header>
-        
-        <div id="main:wrapper">
-            <div class="container text-center">
-                <div class="row align-items-center">
-                    <div class="col">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
+        <header>
+            <div id="main:wrapper">
+                    <div id="barra_buscar" class="row align-items-center pt-4">
+                        <div class="col-lg-8"></div>
+                        <div class="col-lg-4"> 
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="col">
-                        <a href="/2.Acerca de Godiva.html">
-                            <!--Aquí  arriba se agrega la página de Acerda de nosotros-->
-                            <label>
-                                <strong>Acerca de nosotros</strong>
-                            </label>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <img src="assets/iconos/godiva_img.png" width="60%">
-                    </div>
-                    <div class="col">
-                        <a href="/7.Login.SignUp.html">
-                            <!-- Aquí  arriba se agrega la página de login-->
-                            <label>
-                                <strong>Iniciar Sesión</strong>
-                            </label>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="/8.Carrito.Compra.html" target="_blank"> 
-                            <button><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
-                        </a>
-                        <!--ícono de carrito de pagos-->
-                    </div>
-                </div>
-                <!--inicia el menú-->
-                <!--
-                <nav class="navbar navbar-expand-md bg-light">
-                    <div class="container-fluid">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="row align-items-center text-center">
+                        <div class="col-lg-2">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Catálogo de productos
+                                        Catálogo
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/4.Catalogo.Prendas.html">Prendas</a></li>
-                                        <li><hr class="dropdown-divider"></li>
                                         <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
-                                        <li><hr class="dropdown-divider"></li>
                                         <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-item" href="/2.Acerca de Godiva.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Acerca de Godiva
-                                    </a>
-                                </li> 
-                                <li>
-                                    <a class="nav-link dropdown-item" href="/1.Inicio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Noticias
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="nav-link dropdown-item" href="1.Inicio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Eventos
-                                    </a>
-                                </li>
                             </ul>
                         </div>
-                    </div>
-                </nav>
-                -->
-            </div> <!--AQUÍ TERMINA EL MENÚ -->
-        </div>
-    </header> <!--Fin Encabezado-->
+                            
+                        <div class="col-lg-2">
+                            <span><a href="">Acerca de Nosotros</a></span>
+                        </div>
+    
+                        <div class="col-lg-4 icono_carrito">
+                            <img src="assets/iconos/godiva_img.png" width="40%">
+                        </div>
+            
+                        <div class="col-lg-2">
+                            <span><a href="">Inicar Sesion</a></span>
+                            <span><a href="">Registrarse</a></span>
+                        </div>
+    
+                        <div class="col-lg-2">
+                            <button class="lista_deseos">
+                                <a href="#">
+                                    <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                </a>
+                            </button>
+                            <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
+                                <button class="icono"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
+                            </a>
+    
+                            
+                        </div>
+                    </div> <!--AQUÍ TERMINA EL MENÚ -->
+            </div>
+        </header> <!--Fin Encabezado-->
+     
 
 
 
@@ -156,161 +163,126 @@
 
 
 
-
-
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-md-2 col-sm-4">
-                        <form action="#">
-
-
-
-                            <div class="art">
-
-                                <br><br><br><br>
-                                <input type="texto" placeholder="Nombre del articulo" />
-    
-                                <div class="mb-3">
-                                    <label for="descrip" class="form-label"></label>
-                                    <p><textarea placeholder="Descripcion"></textarea></p> 
-                                </div>
-    
-    
-                                <div class="container">
-                                    <div class="row">
-    
-                                        <div class="col-sm-2 col-sm-5 col-sm-4">
-                                            <div class="item">
-                                                <input type="text" placeholder="Precio" />
-                                              </div>
-                                        </div>
-                    
-                                        <div class="col-sd-2 col-sm-5 col-sm-4">
-                                            <div class="item">
-                                                <input type="text" placeholder="Categoria" />
-                                            </div>
-                                        </div>
-                    
-                                        <div class="col-sm-2 col-sm-2 col-sm-4">
-                                            <div class="item">
-                                                <input type="text" placeholder="Unidades" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                            
-                            
-                            </div>
-    
-                        
-                        </form>
-                    </div>
-
-
-
-
-
-                        <div class="col-xl-6 col-md-2 col-sm-4">
-                            <br><br>
-                            <form action=""> 
-                                <div class="item" align="center">
-                                    <img id="uploadPreview1" width="350" height="350" src=" " />                       
-                                <br><br>
-                                <input id="uploadImage1" type="file" name="images[1]" onchange="previewImage(1);" />
-                                <button class="btn btn-warning btn_carrito"><small>Cargar imagenes</small></button>
-                               <!--  <input type="button" value ="Subir archivo" class="btn"
-                                onclick="document.getElementById('file').click()"> -->
-                                </div>
-                                
-                            </form>
-                                <br><br>
-                        </div>
- 
-
-
-<!--                     <div class="col-xl-6 col-md-2 col-sm-4">
-                        <div class="container">
-                        <form action="">
-                            
-                            <input id="uploadImage1" type="file" name="images[1]" onchange="previewImage(1);>
-                            
-                            <input type="button" value ="Subir archivo" class="btn"
-                            onclick="document.getElementById('file').click()">
-                            <img id="uploadPreview1" width="300" height="300" src=" " />
-
-                        </form>
-                        </div>
-                    </div> -->
-                    
-                    
-
-
-                    <!-- 
-                    <div class="col-xl-6 col-md-2 col-sm-4">
-                        <div class="item" align="center">
-                            
-                    <br><br>
-                            <img src="assets/img/3.Admin-Muestra.jpg" class="img">
-                            <br><br>
-                            <div class="input-group mb-3">
-                                <input type="file" class="form-control" id="inputGroupFile02">
-                                <label class="input-group-text" for="inputGroupFile02">Subir</label>
-                            </div>
-                            
-                        </div>
-                    </div> -->
-
-
-
-                </div>
-            </div>    
-        
-
-
-
-
-
-
+            <br><br>
 
             
-       
+                <div class="container">
+                    <div class="row">
+                            <div class="col-xl-6 col-md-2 col-sm-4">
+                                <div class="overlay">
+                                    <form action="#">
+        
+        
+        
+                                        <div class="art">
+            
+                                            <br><br>
+                                            <div class="nom">
+                                                <input class="form-control form-control-lg" type="texto" placeholder="Nombre del articulo" />
+                                            </div>
 
+                                            <br><br>
+                                            <div class="des">
+                                                <textarea name="comentarios" rows="5" cols="40" placeholder="Descripcion"></textarea>
+                                            </div>
+
+                                           <!--  <div class="mb-3">
+                                                <label for="descrip" class="form-label"></label>
+                                                <p><textarea placeholder="Descripcion"></textarea></p> 
+                                            </div> -->
+                
+                
+                                            <div class="container">
+                                                <div class="row">
+                
+                                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                                        <div class="pre">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Precio" />
+                                                          </div>
+                                                    </div>
+                                
+                                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                                        <div class="cat">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Categoria" />
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="col-sm-3 col-md-6 col-lg-4">
+                                                        <div class="uni">
+                                                            <input class="form-control form-control-lg" type="text" placeholder="Unidades" />
+                                                        </div>
+                                                    </div>
+
+                                                    <div class ="bot">
+                                                        <input  type="button" value ="Subir archivo" class="btn"
+                                                        onclick="document.getElementById('file').click()">
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>                            
+                                        
+                                        </div>
+                
+                                    
+                                    </form>
+                                </div>
+                            </div>
+
+
+
+
+                        
+    
+    
+    
+    
+                                <div class="col-xl-6 col-md-2 col-sm-4">
+                                    
+                                    <div class="overlay2">
+                                        <form action=""> 
+                                            <br><br>
+                                            <div class="imagen" align="center">
+                                                <img id="uploadPreview1" width="400" height="400" src="assets/img/3.logi.admin/default.jpg" />                       
+                                                <br><br>
+                                                <input id="uploadImage1" type="file" name="images[1]" onchange="previewImage(1);" />
+                                        
+
+                                            </div>
+                                            
+                                        </form>
+                                            <br><br>
+                                    </div>
+
+                                </div>
+                                                    
+
+     
+    
+    
+   
+    
     
 
-
-
-
-
+    
+    
+    
+                    </div>
+                </div>    
+            
 
         
 
 
-          
-
-
-
-
-
-        <div id="main_container">
-            <div id="contents">
-                <section>
-                    <article>
-        
-                    </article>
-                </section>
-                <section>
-                    <article>
-        
-                    </article>
-                </section>
-            </div>
-        </div>
 
 
 
 
 
 
+
+        <br><br>
 
         <footer> <!--Inicio Pie-->
             <div class="text-center">
@@ -318,10 +290,12 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <p>¡Contactanos!</p>
                         <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
-                            <button><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
+                            <button class="icono icono_facebook"><img src="assets/iconos/facebook_logo_48.png" alt=""></button>
                         </a>
+    
+    
                         <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
-                            <button><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
+                            <button  class="icono icono_instagram"><img src="assets/iconos/Instagram_logo_48.png" alt=""></button>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -335,7 +309,7 @@
                         <p>Aceptamos:</p>
                         <img src="assets/iconos/Visa_logo_48.png" alt="">
                         <img src="assets/iconos/Mastercar_loco_48.png" alt="">
-                        <img src="assets/iconos/Paypal_logo_48.png" alt="">
+    
                     </div>
                 </div>
             </div>
