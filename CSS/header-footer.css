@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #f2f3f4; 
+    background-color: #f2f3f4e6; 
  }
 
 .row {
@@ -31,8 +31,11 @@ a{
     text-decoration: none;   
 }
 
-a{
-    text-decoration: none;
+.encabezado{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #333;
+    text-decoration: none; 
 }
 
 /* para unificar estilo de titulos */
@@ -44,7 +47,7 @@ a{
 }
 
 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans';
 }
 
 /*Se quitan bordes a iconos*/
