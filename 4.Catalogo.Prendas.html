@@ -11,44 +11,7 @@
               
     <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
 
-    <style>
-
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #f2f3f4;
-        }
-
-        .row {
-            width: 100%;
-        }
-
-        .btn_agregar_carrito {
-            background-color: #a42c33;
-            color: #f2f3f4;
-        }
-
-        .icono {
-            border: none;
-        }
-
-        .icono_carrito {
-            text-align: center;
-        }
-
-        a {
-            text-decoration: none;
-            font-size: 18px;
-            font-family: sans-serif;
-            color: black;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="CSS/header-footer.css">
 
 </head>
 
@@ -80,7 +43,7 @@
                     </div>
                         
                     <div class="col-lg-2">
-                        <span><a href="">Acerca de Nosotros</a></span>
+                        <span><a href="/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
                     </div>
 
                     <div class="col-lg-4 icono_carrito">
@@ -88,8 +51,8 @@
                     </div>
         
                     <div class="col-lg-2">
-                        <span><a href="">Inicar Sesion</a></span>
-                        <span><a href="">Registrarse</a></span>
+                        <span><a href="/7.Login.SignUp.html">Iniciar Sesion</a></span>
+                        <span><a href="/7.Login.SignUp.html">Registrarse</a></span>
                     </div>
 
                     <div class="col-lg-2">
@@ -139,7 +102,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/camisa_1.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_camisas_titulo">Camisa </h5>
+                                <h5 class="card-title articulo_camisas_titulo">Camisa Siglo XVII</h5>
                                 <p class="card-text articulo_camisas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -151,12 +114,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Blanco</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: Lino</strong> <br>
+                                        <strong>Precio: </strong> $ 800 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -175,7 +138,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/camisa_2.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_camisas_titulo">Camisa Renacentista</h5>
+                                <h5 class="card-title articulo_camisas_titulo">Camisa Año 1840</h5>
                                 <p class="card-text articulo_camisas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -187,12 +150,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Blanco</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino<br>
+                                        <strong>Precio: </strong> $ 900 MXN<br>
                                     </form>    
                                 </p>
                             </div>
@@ -209,9 +172,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
                         <div class="card h-100">
-                            <img src="assets/img/4.prendas/camisa_3.png" class="card-img-top articulo_camisas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/camisa_3.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_camisas_titulo">Camisa Tradicional Estilo Medieval</h5>
+                                <h5 class="card-title articulo_camisas_titulo">Blusa Siglo XVI</h5>
                                 <p class="card-text articulo_camisas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -223,12 +186,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Blanco</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino <br>
+                                        <strong>Precio: </strong> $ 1,500 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -251,20 +214,18 @@
                                 <p class="card-text articulo_camisas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+		                                    <select name="tallas">
+			                                    <option>CH</option>
+ 			                                    <option>M</option>
+			                                    <option>G</option>
+			                                    <option>XG</option>
+ 		                                    </select> <br>
+ 	                                    <label><strong>Color: </strong></label>
+ 		                                    <select name="color">
+ 		                                        <option>Blanco</option>
+ 		                                    </select> <br>
+	                                    <strong>Material: </strong> Lino <br>
+	                                    <strong>Precio: </strong> $ 900 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -300,12 +261,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Verde</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino<br>
+                                        <strong>Precio: </strong> $ 900 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -324,7 +285,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/camisa_6.jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_camisa_titulo">Card title</h5>
+                                <h5 class="card-title articulo_camisa_titulo">Camisa Vikinga XI</h5>
                                 <p class="card-text articulo_camisa_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -340,8 +301,8 @@
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino<br>
+                                        <strong>Precio: </strong> $ 1,200 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -376,8 +337,8 @@
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Algodon<br>
+                                        <strong>Precio: </strong> $ 800 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -396,7 +357,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/camisa_8.jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_camisa_titulo">Camisa Vikingo Siglo XI</h5>
+                                <h5 class="card-title articulo_camisa_titulo">Camisa Siglo XII</h5>
                                 <p class="card-text articulo_camisa_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -408,12 +369,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Blanco</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong>Lino <br>
+                                        <strong>Precio: </strong> $ 900 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -438,9 +399,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
                         <div class="card h-100">
-                            <img src="assets/img/4.prendas/tunica_1.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/tunica_1.JPG" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Túnica Vikinga Siglo XIII</h5>
+                                <h5 class="card-title articulo_tunicas_titulo">Túnica interior 1770s - 1780s</h5>
                                 <p class="card-text articulo_tunicas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -452,12 +413,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Blanco</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino<br>
+                                        <strong>Precio: </strong> $ 600 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -476,7 +437,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/tunica_2.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_tunicas_titulo">Túnica interior, siglo XVIII</h5>
                                 <p class="card-text articulo_tunicas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -488,12 +449,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Blanco</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino <br>
+                                        <strong>Precio: </strong> $ 800 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -510,9 +471,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
                         <div class="card h-100">
-                            <img src="assets/img/4.prendas/tunica_3.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/tunica_3.JPG" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_tunicas_titulo">Túnica romana, siglo II</h5>
                                 <p class="card-text articulo_tunicas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -524,12 +485,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Naranja</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino<br>
+                                        <strong>Precio: </strong> $ 800 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -546,9 +507,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
                         <div class="card h-100">
-                            <img src="assets/img/4.prendas/tunica_4.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/tunica_4.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_tunicas_titulo">Túnica, 1440s-1480s</h5>
                                 <p class="card-text articulo_tunicas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -587,9 +548,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
                         <div class="card h-100">
-                            <img src="assets/img/4.prendas/tunica_5.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/tunica_5.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_tunicas_titulo">Tunica Siglo XV</h5>
                                 <p class="card-text articulo_tunicas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -601,12 +562,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Naranja</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Linos<br>
+                                        <strong>Precio: </strong> $ 1,500 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -625,7 +586,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/tunica_6.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_tunicas_titulo">Tunica Siglo XIV</h5>
                                 <p class="card-text articulo_tunicas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -637,12 +598,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Blanco</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino <br>
+                                        <strong>Precio: </strong> $ 800 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -661,7 +622,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/tunica_7.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_tunicas_titulo">Tunica Siglo XIII</h5>
                                 <p class="card-text articulo_tunicas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -673,11 +634,11 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Camello</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
+                                        <strong>Material: </strong> Lino<br>
                                         <strong>Precio: </strong> $ MXN<br>
                                     </form>
                                 </p>
@@ -697,7 +658,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/tunica_8.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_tunicas_titulo">Tunica Siglo XV</h5>
                                 <p class="card-text articulo_tunicas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -709,12 +670,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Verde</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Algodon<br>
+                                        <strong>Precio: </strong> $ 800 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -739,9 +700,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
                         <div class="card h-100">
-                            <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzon_1.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzones_titulo">Calzon Venenciano</h5>
                                 <p class="card-text articulo_calzones_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -753,12 +714,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Marron</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lana<br>
+                                        <strong>Precio: </strong> $ 900 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -775,9 +736,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
                         <div class="card h-100">
-                            <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzon_2.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzones_titulo">Calzon Siglo XIII</h5>
                                 <p class="card-text articulo_calzones_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -789,12 +750,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Cafe</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lana <br>
+                                        <strong>Precio: </strong> $ 2,800 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -811,7 +772,7 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
                         <div class="card h-100">
-                            <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzon_3.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
                             <div class="card-body">
                                 <h5 class="card-title articulo_calzones_titulo">Card title</h5>
                                 <p class="card-text articulo_calzones_texto">
@@ -847,9 +808,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
                         <div class="card h-100">
-                            <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzon_4.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzones_titulo">Calzon Finales Siglo XVI</h5>
                                 <p class="card-text articulo_calzones_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -861,12 +822,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
+                                            <option>Azul</option>
                                             <option>Negro</option>
                                             <option>Rojo</option>
-                                            <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lana, Lino<br>
+                                        <strong>Precio: </strong> $2,000 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -888,9 +849,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
                         <div class="card h-100">
-                            <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzon_5.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzones_titulo">Carlzon Finales Siglo XVI</h5>
                                 <p class="card-text articulo_calzones_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -902,12 +863,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Verde</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong>Lana, Lino <br>
+                                        <strong>Precio: </strong> $ 2,500 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -924,9 +885,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
                         <div class="card h-100">
-                            <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzon_6.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzones_titulo">Calzon 1740  1790</h5>
                                 <p class="card-text articulo_calzones_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -938,12 +899,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Gris</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino, Algodon <br>
+                                        <strong>Precio: </strong> $ 2,000 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -960,9 +921,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
                         <div class="card h-100">
-                            <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzon_7.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzones_titulo">Calzon Venenciano Finales Siglo XVI</h5>
                                 <p class="card-text articulo_calzones_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -974,12 +935,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
                                             <option>Rojo</option>
+                                            <option>Negro</option>
                                             <option>Azul</option>
                                         </select> <br>
                                         <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Precio: </strong> $ 3,000 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -996,9 +957,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
                         <div class="card h-100">
-                            <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_calzones_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzon_8.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzones_titulo">Carlzon Romano</h5>
                                 <p class="card-text articulo_calzones_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1010,12 +971,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Cafe</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lana <br>
+                                        <strong>Precio: </strong> $ 1,000 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -1041,9 +1002,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
                         <div class="card h-100">
-                            <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzas_1.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzas_titulo">Calzas Edad Media</h5>
                                 <p class="card-text articulo_calzas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1055,12 +1016,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Rojo/Verde</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lana<br>
+                                        <strong>Precio: </strong> $ 1,300 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -1077,9 +1038,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
                         <div class="card h-100">
-                            <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzas_2.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzas_titulo">Calzas Siglo X</h5>
                                 <p class="card-text articulo_calzas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1091,12 +1052,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
                                             <option>Azul</option>
+                                            <option>Rojo</option>
+                                            <option>Negro</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lana <br>
+                                        <strong>Precio: </strong> $ 900 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -1113,9 +1074,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
                         <div class="card h-100">
-                            <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzas_3.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzas_titulo">Calzas Siglo XIII</h5>
                                 <p class="card-text articulo_calzas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1127,12 +1088,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Cafe</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino <br>
+                                        <strong>Precio: </strong> $ 1,300 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -1149,9 +1110,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
                         <div class="card h-100">
-                            <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzas_4.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzas_titulo">Calzas Europeas</h5>
                                 <p class="card-text articulo_calzas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1167,8 +1128,8 @@
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lana <br>
+                                        <strong>Precio: </strong> $ 1,500 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -1190,9 +1151,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
                         <div class="card h-100">
-                            <img src="assets/img/ebc2ef68da73af6b745a012c66195720.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzas_5.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzas_titulo">Calzas Siglo XII</h5>
                                 <p class="card-text articulo_calzas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1204,12 +1165,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Gris Oscuro</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong>Lana, Lino <br>
+                                        <strong>Precio: </strong> $ 1.500 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -1226,9 +1187,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
                         <div class="card h-100">
-                            <img src="assets/img/54369231_655340971552699_6519733151005147136_n.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzas_6.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzas_titulo">Calzas Inicios XIII</h5>
                                 <p class="card-text articulo_calzas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1240,12 +1201,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Vino</option>
                                             <option>Rojo</option>
-                                            <option>Azul</option>
+                                            <option>Negro</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino<br>
+                                        <strong>Precio: </strong> $ 1,300 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -1262,9 +1223,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
                         <div class="card h-100">
-                            <img src="assets/img/d5d58766e43400d67f66ca19fcc04a55--historical-costume-medieval-clothing (1).jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzas_7.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzas_titulo">Calzas Europeas</h5>
                                 <p class="card-text articulo_calzas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1276,12 +1237,12 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Verde</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
+                                        <strong>Material: </strong> Lino <br>
+                                        <strong>Precio: </strong> $ 1,300 MXN<br>
                                     </form>
                                 </p>
                             </div>
@@ -1298,9 +1259,9 @@
     
                     <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
                         <div class="card h-100">
-                            <img src="assets/img/118236231_1021012828318843_1670092444508345087_n.jpg" class="card-img-top articulo_calzas_img" alt="..." height="300px">
+                            <img src="assets/img/4.prendas/calzas_8.pn.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_calzas_titulo">Calza Siglo XIV</h5>
                                 <p class="card-text articulo_calzas_texto">
                                     <form>
                                         <label><strong>Talla: </strong></label> 
@@ -1312,8 +1273,8 @@
                                         </select> <br>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
                                             <option>Rojo</option>
+                                            <option>Negro</option>
                                             <option>Azul</option>
                                         </select> <br>
                                         <strong>Material: </strong> <br>
@@ -1344,14 +1305,14 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/winingas_1.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
                                 <p class="card-text articulo_winingas_texto">
                                     <form>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
+                                            <option>Azul</option>
                                             <option>Negro</option>
                                             <option>Rojo</option>
-                                            <option>Azul</option>
                                         </select> <br>
                                         <strong>Material: </strong> <br>
                                         <strong>Precio: </strong> $ MXN<br>
@@ -1373,7 +1334,7 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/winingas_2.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
                                 <p class="card-text articulo_winingas_texto">
                                     <form>
                                         <label><strong>Color: </strong></label>
@@ -1402,12 +1363,12 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/winingas_3.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
                                 <p class="card-text articulo_winingas_texto">
                                     <form>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Vino</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
@@ -1431,12 +1392,12 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/winingas_4.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
                                 <p class="card-text articulo_winingas_texto">
                                     <form>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Verde</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
@@ -1465,14 +1426,14 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/winingas_5.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
                                 <p class="card-text articulo_winingas_texto">
                                     <form>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
                                             <option>Azul</option>
+                                            <option>Rojo</option>
+                                            <option>Negro</option>
                                         </select> <br>
                                         <strong>Material: </strong> <br>
                                         <strong>Precio: </strong> $ MXN<br>
@@ -1494,12 +1455,12 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/winingas_6.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
                                 <p class="card-text articulo_winingas_texto">
                                     <form>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Gris</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
@@ -1523,12 +1484,12 @@
                         <div class="card h-100">g
                             <img src="assets/img/4.prendas/winingas_7.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
                                 <p class="card-text articulo_winingas_texto">
                                     <form>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Verde</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
@@ -1552,12 +1513,12 @@
                         <div class="card h-100">
                             <img src="assets/img/4.prendas/winingas_8.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
                             <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Card title</h5>
+                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
                                 <p class="card-text articulo_winingas_texto">
                                     <form>
                                         <label><strong>Color: </strong></label>
                                         <select name="color">
-                                            <option>Negro</option>
+                                            <option>Cafe</option>
                                             <option>Rojo</option>
                                             <option>Azul</option>
                                         </select> <br>
