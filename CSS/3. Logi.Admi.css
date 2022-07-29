@@ -3,6 +3,12 @@
     margin: 0px;
 }
 
+.menu{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+
 .overlay {
 	 /* color de panel bienvenido */
 	background: #a42c33;  
@@ -69,7 +75,6 @@
 }
 
 .overlay2 {
-    margin-top: 30px;
 	background: #a42c33; /* color de panel bienvenido */
 	height: 115%;
 	width: 100%;
@@ -117,7 +122,27 @@
    
    }
 
+   }
+
+   @media screen and (max-width:767px){
+     
+    .menu{
+       width: 50%
    
+   }
+
+   }
+
+
+@media screen and (max-width:579px){
+     
+    .overlay .container{
+        max-width: 50%;
+    }
+
+    .overlay2 img{
+        max-width: 80%;
+    }
 
    }
 
@@ -136,15 +161,5 @@
    }
 
 
-@media screen and (max-width:579px){
-     
-    .overlay .container{
-        max-width: 50%;
-    }
 
-    .overlay2 img{
-        max-width: 80%;
-    }
-
-   }
 
