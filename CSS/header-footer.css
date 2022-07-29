@@ -7,20 +7,22 @@
 }
 
 body{
-    background-color: #f2f3f4e6; 
+    background-color: #f2f3f4; 
  }
 
 .row {
     width: 100%;
 }
 
-/*Se quitan bordes a iconos*/
-.icono {
-    border: none;
+.btn_agregar_carrito {
+    background-color: #a42c33;
+    color: #f2f3f4;
 }
 
-.icono_carrito {
-    text-align: center;
+/*Se quitan bordes a iconos*/
+.remove {
+	background-color: transparent !important;
+	border: transparent !important
 }
 
 .icono {
@@ -38,13 +40,6 @@ a {
     color: black;
 }
 
-/* label modifica Acerca de nosotros, iniciar sesión, preguntas frecuentes */
-a{
-    font-size: 18px;
-    font-family: sans-serif;
-    color: #333;
-    text-decoration: none;   
-}
 
 .encabezado{
     font-size: 18px;
@@ -65,8 +60,3 @@ p{
     font-family: 'Lucida Sans';
 }
 
-/*Se quitan bordes a iconos*/
-.remove {
-	background-color: transparent !important;
-	border: transparent !important
-}
