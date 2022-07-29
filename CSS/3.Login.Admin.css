@@ -27,7 +27,7 @@
 .nom input{
     text-align-last: center;
     background-color:#f2f3f4;
-    margin-left: 110px;
+    margin-left: 65px;
     border: 5px ;
     width: 400px;
     border-radius: 10px;
@@ -35,7 +35,7 @@
 
 .des textarea{
     background-color:#f2f3f4;
-    margin-left: 110px;
+    margin-left: 65px;
 	height: 500%;
     width: 400px;
     text-align: center;

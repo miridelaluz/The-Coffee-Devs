@@ -14,3 +14,26 @@ function previ(nb) {
         document.getElementById('previ'+nb).src = e.target.result;         
     };     
 }
+
+
+/* function captura(){
+    var nombreest = document.getElementById("nomest").value;
+    console.log(nombreest);
+    var celuest = document.getElementById("celuest").value;
+    if(nombreest=""){
+        alert("Falta el nombre");
+        document.getElementById("nomest").focus();
+    }else{
+        if(celuest==""){
+            alert("Falta el cel");
+            document.getElementById("celuest").focus();
+        }
+    }else{
+        console.log(nombreest +" "+celuest);
+        document.getElementById("nomest").value="";
+        document.getElementById("celuest").value="";
+        document.getElementById(nomest).focus();
+
+    }
+    
+} */
