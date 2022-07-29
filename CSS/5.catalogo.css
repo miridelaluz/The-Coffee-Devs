@@ -1,0 +1,30 @@
+
+    .container {
+        overflow:
+            scroll;
+        position:
+            relative;
+    }
+    .scrollpsy-joyeria{
+        align-items:stretch;
+        text-align: center;
+    }
+    .btnscroll{
+        margin-top: 5px;
+        align-items:center;
+        background-color: #a42c33;
+        margin-left: 63px;
+        border: 1px solid #a42c33;
+        border-radius: 50px;
+        border-radius: 50px; 
+        max-width: 80px; 
+        max-height: 80px
+        }
+
+        .imgscroll{
+            border-radius: 50px;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+        }
+   

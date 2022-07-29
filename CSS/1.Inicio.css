@@ -1,0 +1,164 @@
+h1{
+    font-size:xx-large;
+}
+
+header button{
+border: 0px solid;
+}
+
+
+.grid{
+     justify-content: center;
+     margin-top: 40px;    
+  }
+
+  .grid .item {
+  margin-left: 290px;
+    margin-top: 20px;
+  }
+
+      .grid .carousel-inner{     
+      height: 150px;
+      width: 380px;
+      border-radius: 40px;
+      
+      }   
+
+      
+.menu{
+    min-width: 300px;
+    justify-content:center;
+    margin: 5%;
+    margin-left: 16%;    
+}
+
+    .menu img{
+    
+    height: 200px;
+    width: 200px;
+    border: 7px solid #a42c33;
+    border-radius: 100px;
+    }
+
+        .menu button{
+        margin-top: 5px;
+        text-align-last: center;
+        background-color: #a42c33;
+        margin-left: 63px;
+        border: 1px solid #a42c33;
+        border-radius: 40px;
+        }
+
+
+.noticias{
+background-color: #a42c33;
+display: block;
+border-radius: 40px;
+width: 80%;
+height: 380px;
+margin: auto;
+object-fit: cover;
+text-align: center;
+}
+
+    .car-noticias{
+        border-radius: 40px;
+        width: auto;
+        height: 340px;
+        margin-left: 33%;   
+        background-color: #f2f3f4        ;
+        margin-top: 20px;
+    }
+
+        .car-noticias img{
+            border-radius: 40px;
+            height: 200px;
+            width: 200px;
+            margin-top: 10px;
+        }
+
+        #carouselc{
+            width: 400px;
+        }
+
+.clearfix{
+    clear:both;
+}
+
+@media screen and (max-width:1300px){
+     
+     .grid {
+         margin-right: 22%;
+     }
+
+    }
+
+@media screen and (max-width:990px){
+   .menu   {
+        width: 50%;
+        margin-left: 40%;
+    }
+
+    .grid {
+        width: 50%;
+    }
+
+    .noticias {
+        max-width: auto;
+    }
+
+    .car-noticias {
+        margin-left: 25%;
+        max-width: auto;
+    }
+}
+
+    @media screen and (max-width:705px){
+           
+        .grid .carousel-inner {
+        margin-left: -45%;
+        width: 400px;
+         }       
+
+    .car-noticias{
+        max-width: 50%;
+    }
+
+    #carouselc{
+        max-width: 100%;
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width:501px){
+           
+    .grid{
+        
+    }     
+
+.noticias{
+    margin-left: 20%;
+    max-width: 80%;
+}
+
+.car-noticias{
+    margin-left: 20%;
+    max-width: 70%;
+}
+
+#carouselc{
+    max-width: 100%;
+    font-size: x-small;
+}
+}
+
+
+footer{
+    border: 0px;
+  margin-top: 3%;  
+  margin-bottom: 3%;
+}
+
+    footer button{
+    border: 0px solid;
+    }
