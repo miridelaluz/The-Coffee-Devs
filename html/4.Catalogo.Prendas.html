@@ -7,10 +7,13 @@
     <title>Catalogo Prendas</title>
       
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->
-              
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->        
     <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
-
+    <link href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/icons/icono_catalogo_prendas2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/CSS/catalogo_prendas.css">
     <link rel="stylesheet" href="/CSS/header-footer.css">
 
 </head>
@@ -71,1456 +74,178 @@
         </div>
     </header> <!--Fin Encabezado-->
 
-    <div class="container"> <!--Contenedor principal de las secciones-->
-        <!--PRENDAS ITERIORES-->
-        <div class="prendas_interiores_articulos_camisas text-center"> <!--Inicia apartado de Camisas-->
-            <h2 class="prendas_interiores_titulo">PRENDAS INTERIORES</h2> <!--Titulo de la seccion-->
-            <h2 class="prendas_interiores_titulo_camisas">CAMISAS</h2> <!--Titulo de la categoria-->
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/camisa_1.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px"> <!--Imagen del articulo-->
-                            <div class="card-body"> <!--Inicia el cuerpo de la card-->
-                                <h5 class="card-title articulo_camisas_titulo">Camisa Siglo XVII</h5> <!--Titulo de la card (Producto)-->
-                                <p class="card-text articulo_camisas_texto">
-                                    <form> <!--Inicia formulario-->
-                                        <label><strong>Talla: </strong></label> <!-- Indica la caja de seleccion de tallas --> 
-                                        <select name="tallas"> <!--Nombre para reconocer la seleccion-->
-                                            <option>CH</option> <!--Opciones de talla-->
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label> <!-- Indica la caja de seleccion de colores -->
-                                        <select name="color"> <!--Nombre para reconocer la seleccion-->
-                                            <option>Blanco</option> <!--Opciones de color-->
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong>Lino <br> <!--strong para poner en negritas el texto de la descripccion-->
-                                        <strong>Precio: </strong> $ 800 MXN<br>
-                                    </form><!--Termina formulario-->
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button> <!-- Boton para agregar al carrito-->
-                                <button class="btn btn_lista_deseos"> <!--Boton para la lista de deseos-->
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px"> <!--icono de lista de deseos-->
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
     
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/camisa_2.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_camisas_titulo">Camisa Año 1840</h5>
-                                <p class="card-text articulo_camisas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Blanco</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino<br>
-                                        <strong>Precio: </strong> $ 900 MXN<br>
-                                    </form>    
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/camisa_3.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_camisas_titulo">Blusa Siglo XVI</h5>
-                                <p class="card-text articulo_camisas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Blanco</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino <br>
-                                        <strong>Precio: </strong> $ 1,500 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/camisa_4.jpg" class="card-img-top articulo_camisas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_camisas_titulo">Camisa Estilo Victoriano</h5>
-                                <p class="card-text articulo_camisas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-		                                    <select name="tallas">
-			                                    <option>CH</option>
- 			                                    <option>M</option>
-			                                    <option>G</option>
-			                                    <option>XG</option>
- 		                                    </select> <br>
- 	                                    <label><strong>Color: </strong></label>
- 		                                    <select name="color">
- 		                                        <option>Blanco</option>
- 		                                    </select> <br>
-	                                    <strong>Material: </strong> Lino <br>
-	                                    <strong>Precio: </strong> $ 900 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 1-->
-            </section>
-    
-            <section class="row"> <!--Cada section es una fila-->
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/camisa_5.png" class="card-img-top articulo_camisas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_camisa_titulo">Camisa Medieval con Cinturon</h5>
-                                <p class="card-text articulo_camisa_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Verde</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino<br>
-                                        <strong>Precio: </strong> $ 900 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/camisa_6.jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_camisa_titulo">Camisa Vikinga XI</h5>
-                                <p class="card-text articulo_camisa_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino<br>
-                                        <strong>Precio: </strong> $ 1,200 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/camisa_7.webp" class="card-img-top articulo_camisa_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_camisa_titulo">Camisa con Vendaje</h5>
-                                <p class="card-text articulo_camisa_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Algodon<br>
-                                        <strong>Precio: </strong> $ 900 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/camisa_8.jpg" class="card-img-top articulo_camisa_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_camisa_titulo">Camisa Siglo XII</h5>
-                                <p class="card-text articulo_camisa_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Blanco</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong>Lino <br>
-                                        <strong>Precio: </strong> $ 900 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 2-->
-            </section>
-        </div> <!--Finaliza seccion Camisas-->
+    <div id="contenedor_categorias"> <!--Barra de navegacion de las categorias-->
         
-        <div class="pt-5 prendas_interiores_articulos_tunicas text-center"> <!--Inicia apartado de Tunicas-->
-            <h2 class="prendas_interiores_titulo_tunicas">TÚNICAS</h2>
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
+        <div class="prendas interiores"> <!--Seccion de prendas interiores-->
+            <!-- <p>Prendas Interiores</p> Titulo de la seccion -->
+            <div class="categorias titulo">
+                <h3>Prendas interiores</h3>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/winingas.jpeg" alt="" class="imagen_icono">
+                    <p>Camisas</p>
+                </a>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces" onclick=tunicas()>
+                    <img src="/assets/img/4.prendas/iconos/winingas.jpeg" alt="" class="imagen_icono">
+                    <p>Túnicas</p>
+                </a>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/calzones.jpg" alt="" class="imagen_icono">
+                    <p>Calzones</p>
+                </a>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/calzas.jpg" alt="" class="imagen_icono">
+                    <p>Calzas</p>
+                </a>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/winingas.jpeg" alt="" class="imagen_icono">
+                    <p>Winingas</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="prendas exteriores"> <!--Seccion de prendas interiores-->
+            <!-- <p>Prendas Interiores</p> Titulo de la seccion -->
+            <div class="categorias titulo">
+                <h3>Prendas Exteriores</h3>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/tunica_exte.jpg" alt="" class="imagen_icono">
+                    <p>Túnicas</p>
+                </a>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/vestidos.jpg" alt="" class="imagen_icono">
+                    <p>Vestidos</p>
+                </a>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/sayon.png" alt="" class="imagen_icono">
+                    <p>Sayón</p>
+                </a>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/jubon.jpg" alt="" class="imagen_icono">
+                    <p>Jubón</p>
+                </a>
+            </div>
+            <div class="categorias"> <!--Div que contiene una categoria-->
+                <a href="#" class="enlaces">
+                    <img src="/assets/img/4.prendas/iconos/kaftan.jpg" alt="" class="imagen_icono">
+                    <p>Kaftan</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contenedor_cards">
+        <div class="contenedor_fila"> <!--Inicia apartado de cards-->
+
+            <div class="card"> <!--Card 1-->
+                <div>
+                    <img src="/assets/img/4.prendas/iconos/winingas.jpeg" alt="">
+                </div>
+                <div class="contenido">
+                    <h3>Camisa Medieval</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ea eius perspiciatis dignissimos deleniti exercitationem, iure aut laudantium tempora pariatur vel vitae recusandae ratione, a dolorum soluta quas minus.</p>
+                    <a href="" class="enlaces">Ver mas</a>
+                </div>
+            </div>
     
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/tunica_1.JPG" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Túnica interior 1770s - 1780s</h5>
-                                <p class="card-text articulo_tunicas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Blanco</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino<br>
-                                        <strong>Precio: </strong> $ 600 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card"> <!--Card 2-->
+                <div>
+                    <img src="/assets/img/4.prendas/camisa_2.jpg" alt="">
+                </div>
+                <div class="contenido">
+                    <h3>Camisa Medieval</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ea eius perspiciatis dignissimos deleniti exercitationem, iure aut laudantium tempora pariatur vel vitae recusandae ratione, a dolorum soluta quas minus.</p>
+                    <a href="" class="enlaces">Ver mas</a>
+                </div>
+            </div>
     
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/tunica_2.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Túnica interior, siglo XVIII</h5>
-                                <p class="card-text articulo_tunicas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Blanco</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino <br>
-                                        <strong>Precio: </strong> $ 800 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card"> <!--Card 3-->
+                <div>
+                    <img src="/assets/img/4.prendas/camisa_3.jpg" alt="">
+                </div>
+                <div class="contenido">
+                    <h3>Camisa Medieval</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ea eius perspiciatis dignissimos deleniti exercitationem, iure aut laudantium tempora pariatur vel vitae recusandae ratione, a dolorum soluta quas minus.</p>
+                    <a href="" class="enlaces">Ver mas</a>
+                </div>
+            </div>
     
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/tunica_3.JPG" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Túnica romana, siglo II</h5>
-                                <p class="card-text articulo_tunicas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Naranja</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino<br>
-                                        <strong>Precio: </strong> $ 800 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card"> <!--Card 3-->
+                <div>
+                    <img src="/assets/img/4.prendas/camisa_4.jpg" alt="">
+                </div>
+                <div class="contenido">
+                    <h3>Camisa Medieval</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ea eius perspiciatis dignissimos deleniti exercitationem, iure aut laudantium tempora pariatur vel vitae recusandae ratione, a dolorum soluta quas minus.</p>
+                    <a href="" class="enlaces">Ver mas</a>
+                </div>
+            </div>
     
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/tunica_4.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Túnica, 1440s-1480s</h5>
-                                <p class="card-text articulo_tunicas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 1-->
-            </section>
+        </div>
     
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
+        <div class="contenedor_fila"> <!--Inicia apartado de cards-->
+            <div class="card"> <!--Card 1-->
+                <div>
+                    <img src="/assets/img/4.prendas/camisa_1.jpg" alt="">
+                </div>
+                <div class="contenido">
+                    <h3>Camisa Medieval</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ea eius perspiciatis dignissimos deleniti exercitationem, iure aut laudantium tempora pariatur vel vitae recusandae ratione, a dolorum soluta quas minus.</p>
+                    <a href="" class="enlaces">Ver mas</a>
+                </div>
+            </div>
     
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/tunica_5.jpg" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Tunica Siglo XV</h5>
-                                <p class="card-text articulo_tunicas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Naranja</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Linos<br>
-                                        <strong>Precio: </strong> $ 1,500 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card"> <!--Card 2-->
+                <div>
+                    <img src="/assets/img/4.prendas/camisa_2.jpg" alt="">
+                </div>
+                <div class="contenido">
+                    <h3>Camisa Medieval</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ea eius perspiciatis dignissimos deleniti exercitationem, iure aut laudantium tempora pariatur vel vitae recusandae ratione, a dolorum soluta quas minus.</p>
+                    <a href="" class="enlaces">Ver mas</a>
+                </div>
+            </div>
     
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/tunica_6.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Tunica Siglo XIV</h5>
-                                <p class="card-text articulo_tunicas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Blanco</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino <br>
-                                        <strong>Precio: </strong> $ 800 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card"> <!--Card 3-->
+                <div>
+                    <img src="/assets/img/4.prendas/camisa_3.jpg" alt="">
+                </div>
+                <div class="contenido">
+                    <h3>Camisa Medieval</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ea eius perspiciatis dignissimos deleniti exercitationem, iure aut laudantium tempora pariatur vel vitae recusandae ratione, a dolorum soluta quas minus.</p>
+                    <a href="" class="enlaces">Ver mas</a>
+                </div>
+            </div>
     
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/tunica_7.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Tunica Siglo XIII</h5>
-                                <p class="card-text articulo_tunicas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Camello</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino<br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/tunica_8.png" class="card-img-top articulo_tunicas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_tunicas_titulo">Tunica Siglo XV</h5>
-                                <p class="card-text articulo_tunicas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Verde</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Algodon<br>
-                                        <strong>Precio: </strong> $ 800 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 2-->
-            </section>
-        </div> <!--Finaliza seccion Tunicas-->
-        
-        <div class="pt-5 prendas_interiores_articulos_calzones text-center"> <!--Inicia apartado de Calzones-->
-            <h2 class="prendas_interiores_titulo_calzones">CALZONES</h2>
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzon_1.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Calzon Venenciano</h5>
-                                <p class="card-text articulo_calzones_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Marron</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lana<br>
-                                        <strong>Precio: </strong> $ 900 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzon_2.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Calzon Siglo XIII</h5>
-                                <p class="card-text articulo_calzones_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Cafe</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lana <br>
-                                        <strong>Precio: </strong> $ 2,800 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzon_3.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Card title</h5>
-                                <p class="card-text articulo_calzones_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzon_4.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Calzon Finales Siglo XVI</h5>
-                                <p class="card-text articulo_calzones_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Azul</option>
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lana, Lino<br>
-                                        <strong>Precio: </strong> $2,000 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 1-->
-            </section>
-    
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzon_5.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Carlzon Finales Siglo XVI</h5>
-                                <p class="card-text articulo_calzones_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Verde</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong>Lana, Lino <br>
-                                        <strong>Precio: </strong> $ 2,500 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzon_6.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Calzon 1740  1790</h5>
-                                <p class="card-text articulo_calzones_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Gris</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino, Algodon <br>
-                                        <strong>Precio: </strong> $ 2,000 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzon_7.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Calzon Venenciano Finales Siglo XVI</h5>
-                                <p class="card-text articulo_calzones_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Rojo</option>
-                                            <option>Negro</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ 3,000 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzon_8.png" class="card-img-top articulo_calzones_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzones_titulo">Carlzon Romano</h5>
-                                <p class="card-text articulo_calzones_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Cafe</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lana <br>
-                                        <strong>Precio: </strong> $ 1,000 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                </div> <!--Finaliza apatado de Cards Fila 2-->
-            </section>
-        </div> <!--Finaliza seccion Calzones-->
-    
-        <div class="pt-5 prendas_interiores_articulos_calzas text-center"> <!--Inicia apartado de Calzas-->
-            <h2 class="prendas_interiores_titulo_calzas">CALZAS</h2>
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzas_1.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Calzas Edad Media</h5>
-                                <p class="card-text articulo_calzas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Rojo/Verde</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lana<br>
-                                        <strong>Precio: </strong> $ 1,300 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzas_2.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Calzas Siglo X</h5>
-                                <p class="card-text articulo_calzas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Azul</option>
-                                            <option>Rojo</option>
-                                            <option>Negro</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lana <br>
-                                        <strong>Precio: </strong> $ 900 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzas_3.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Calzas Siglo XIII</h5>
-                                <p class="card-text articulo_calzas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Cafe</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino <br>
-                                        <strong>Precio: </strong> $ 1,300 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzas_4.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Calzas Europeas</h5>
-                                <p class="card-text articulo_calzas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lana <br>
-                                        <strong>Precio: </strong> $ 1,500 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 1-->
-            </section>
-    
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzas_5.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Calzas Siglo XII</h5>
-                                <p class="card-text articulo_calzas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Gris Oscuro</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong>Lana, Lino <br>
-                                        <strong>Precio: </strong> $ 1.500 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzas_6.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Calzas Inicios XIII</h5>
-                                <p class="card-text articulo_calzas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Vino</option>
-                                            <option>Rojo</option>
-                                            <option>Negro</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino<br>
-                                        <strong>Precio: </strong> $ 1,300 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzas_7.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Calzas Europeas</h5>
-                                <p class="card-text articulo_calzas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Verde</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> Lino <br>
-                                        <strong>Precio: </strong> $ 1,300 MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/calzas_8.pn.png" class="card-img-top articulo_calzas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_calzas_titulo">Calza Siglo XIV</h5>
-                                <p class="card-text articulo_calzas_texto">
-                                    <form>
-                                        <label><strong>Talla: </strong></label> 
-                                        <select name="tallas">
-                                            <option>CH</option>
-                                            <option>M</option>
-                                            <option>G</option>
-                                            <option>XG</option>
-                                        </select> <br>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Rojo</option>
-                                            <option>Negro</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 2-->
-            </section>
-        </div> <!--Finaliza seccion Calzas-->
-    
-        <div class="pt-5 prendas_interiores_articulos_winingas text-center"> <!--Inicia apartado de winingas-->
-            <h2 class="prendas_interiores_titulo_winingas">WININGAS</h2>
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 1-->
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/winingas_1.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
-                                <p class="card-text articulo_winingas_texto">
-                                    <form>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Azul</option>
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/winingas_2.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
-                                <p class="card-text articulo_winingas_texto">
-                                    <form>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Negro</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/winingas_3.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
-                                <p class="card-text articulo_winingas_texto">
-                                    <form>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Vino</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/winingas_4.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
-                                <p class="card-text articulo_winingas_texto">
-                                    <form>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Verde</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 1-->
-            </section>
-    
-            <section class="row">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-3"> <!--Inician apartado de Cards Fila 2-->
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Uno-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/winingas_5.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
-                                <p class="card-text articulo_winingas_texto">
-                                    <form>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Azul</option>
-                                            <option>Rojo</option>
-                                            <option>Negro</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Dos-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/winingas_6.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
-                                <p class="card-text articulo_winingas_texto">
-                                    <form>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Gris</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card tres-->
-                        <div class="card h-100">g
-                            <img src="/assets/img/4.prendas/winingas_7.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
-                                <p class="card-text articulo_winingas_texto">
-                                    <form>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Verde</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 col-md-6 col-sm-12"> <!--Card Cuatro-->
-                        <div class="card h-100">
-                            <img src="/assets/img/4.prendas/winingas_8.png" class="card-img-top articulo_winingas_img" alt="..." height="300px">
-                            <div class="card-body">
-                                <h5 class="card-title articulo_winingas_titulo">Winingas</h5>
-                                <p class="card-text articulo_winingas_texto">
-                                    <form>
-                                        <label><strong>Color: </strong></label>
-                                        <select name="color">
-                                            <option>Cafe</option>
-                                            <option>Rojo</option>
-                                            <option>Azul</option>
-                                        </select> <br>
-                                        <strong>Material: </strong> <br>
-                                        <strong>Precio: </strong> $ MXN<br>
-                                    </form>
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn_agregar_carrito"><small>Agregar al carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--Finaliza apatado de Cards Fila 2-->
-            </section>
-        </div> <!--Finaliza seccion winingas-->
-        <!--PRENDAS INTERIORES-->
+            <div class="card"> <!--Card 3-->
+                <div>
+                    <img src="/assets/img/4.prendas/camisa_4.jpg" alt="">
+                </div>
+                <div class="contenido">
+                    <h3>Camisa Medieval</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit ea eius perspiciatis dignissimos deleniti exercitationem, iure aut laudantium tempora pariatur vel vitae recusandae ratione, a dolorum soluta quas minus.</p>
+                    <a href="" class="enlaces">Ver mas</a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer> <!--Inicio Pie-->

@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Unna', serif;
+}
+
+
+/*MODIFICAMOS EL CONTENEDOR DE LOS ICONOS*/
+
+/*#contenedor_categorias alberga los iconos de las categorias*/
+#contenedor_categorias {
+    background-color: #a42c33;
+    /*La posicion fixed ayuda a que el contenedor de las categorias no se mueva*/
+    /*position: fixed;*/
+    width: 99vw;
+    /*El diaplay flex hace que las cajas se pocicionen una delante de la otra*/
+    display: flex;
+    /*Le indica a los contenedores que se colocaran en fila*/
+    flex-direction: row;
+    /*Hace que los elementos se pocisionen en el centro del eje Y**/
+    align-items: center;
+}
+
+
+/*.prendas se divide entre las secciones prendas interiores - prendas exteriores*/
+.prendas  {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*El justifi-content hace que cada categoria esta a la misma distancia, tanto a la derecha como a la izquierda*/
+    justify-content: space-around;  
+    align-items: center;
+}
+
+/*. titulo h3 hace referencia a el titulo de las secciones prendas interiores - prendas exteriores*/
+.titulo h3 {
+    color: #f2f3f4;
+}
+
+/*Modificamos lo hay dentro de cada seccion (categorias)*/
+.categorias {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES DE LOS ICONOS*/
+
+.imagen_icono {
+    height: 60px;
+    border-radius: 55px;
+    border: solid 3px #c47627;
+    
+}
+
+.enlaces {
+    text-decoration: none;
+    color: #c47627;
+}
+
+.enlaces :hover {
+    color: #f2f3f4;
+}
+
+/*MODIFICAMOS EL CONTENEDOR DE LAS CARDS CON LOS PRODUCTOS*/
+
+.contenedor_fila {
+    width: 99vw;
+    display: flex;
+}
+
+/*MODIFICAMOS LAS CARDS*/
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    background-color: #f2f3f4;
+    box-shadow: 0px 1px 10px  #a42c325f;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px #a42c325f;
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 90%;
+    height: 300px;
+    margin: 5%;
+}
+
+.card .contenido {
+    margin: 15px;
+    text-align: center;
+}
+
+.card .contenido p {
+    /*Da un espacio entre las lineas del parrofo*/
+    line-height: 1.5;
+    color: green;
+}
+
+.card .contenido h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card .contenido a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    color: #a42c33;
+    border: 1px solid #a42c33;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card .contenido a:hover {
+    background-color: #a42c33;
+    color: #f2f3f4;
+}
+
+
+/* *** CREAMOS EL PRIMER PUNTO DE QUIEBRE *** */
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+
+    #contenedor_categorias {
+        /* position: fixed; */
+        width: 98vw;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prendas  {
+        /*Aquí ya es necesario definir que su ancho sea del 100%*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  
+    }
+    
+    .categorias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .enlaces {
+        text-decoration: none;
+        color: #c47627;
+    }
+    
+    .enlaces :hover {
+        color: #f2f3f4;
+    }
+
+
+    /*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES*/
+    .contenedor_fila {
+        padding-left: 50px;
+        width: 98vw;
+        display: flex;
+        /*flex-wrap hace que las card se muevan a la parte de abajo*/
+        flex-wrap: wrap;
+    }
+
+    .card {
+        height: 500px;
+        width: 350px;
+        margin: 20px;
+    }
+
+    .card img {
+        width: 90%;
+        height: 200px;
+        margin: 5%;
+    }
+    
+    .card .contenido {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .card .contenido a {
+        padding: 5px;
+        margin-top: 5px;
+    }
+}
+
+/*CREAMOS EL SEGUNDO PUNTO DE QUIEBRE*/
+@media (max-width: 500px) {
+    /*Tratar de hacer las categorias menu*/
+    #contenedor_categorias {
+        /* position: fixed; */
+        width: 100vw;
+        height: 100px;
+    }
+
+    .imagen_icono {
+        /*Quita el elemento del flujo de la pagina*/
+        display: none;
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    
+}
