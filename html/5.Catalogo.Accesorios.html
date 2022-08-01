@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio - Godiva </title>
+    <title>Catálogo de artículos - Godiva </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!--Link Booststrap 5-->
@@ -15,10 +15,10 @@
 
 <script src=""></script>
 <!--Script de JS-->
-<link rel="stylesheet" href="CSS/5.catalogo.css">
-<link rel="stylesheet" href="CSS/1.Inicio.css">
+<link rel="stylesheet" href="/CSS/5.catalogo.css">
+<link rel="stylesheet" href="/CSS/1.Inicio.css">
 
-<body class="container container-fluid">
+<body class="container ">
     <!-- Inicia encabezado-->
     <header style="margin-bottom:  50px;">
         <div id="main:wrapper">
@@ -33,6 +33,7 @@
             </div>
             <div class="row align-items-center text-center">
                 <div class="col-lg-2">
+                    <!--Menú para catálogo sin Accesorios-->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -40,15 +41,15 @@
                                 Catálogo
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
-                                <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
+                                <li><a class="dropdown-item" href="4.Catalogo.Prendas.html">Prendas</a></li>
+                                <li><a class="dropdown-item" href="6.Catalogo.Calzado.html">Calzado</a></li>
                             </ul>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2">
-                    <span><a href="">Acerca de Nosotros</a></span>
+                    <span><a href="2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
                 </div>
 
                 <div class="col-lg-3 icono_carrito">
@@ -66,18 +67,16 @@
                             <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
                         </a>
                     </button>
-                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
-                        <button class="icono remove"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
+                    <a class="" href="8.Carrito.Compra.html" target="_blank">
+                        <button class="icono remove"><img src="/assets/iconos/Basket_no_icon_48.png" alt=""> </button>
                     </a>
                 </div>
-                <!-- TERMINA EL ENCABEZADO-->
             </div>
         </div>
     </header>
     <!-- TERMINA EL ENCABEZADO-->
 
     <!--EMPIEZA LA SECCIÓN MEDIA-->
-
     <div class="container" style="text-align:center;">
 
         <h2 id="titulo_Accesorios">Accesorios</h2>
@@ -86,90 +85,97 @@
     <nav class="navbar navbar-light bg-light px-3" style="align-items:flex-start;">
         <h3>Menú</h3>
         <h2>Qué tipo de accesorios necesitas?</h2>
-        <!-- Inicia Menú de Scroll-->
+        <!-- Inicia  Primer Menú de Scroll-->
         <ul class="nav nav-pills">
+            <!-- item 1-->
             <li class="nav-item ">
                 <a href="#scrolljoyeria" class="nav-link">
                     <button class="btnscroll" onclick="esconderElementos()">
-                        <img src="assets/img/5.accesorios/joyeria.png" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/joyeria.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Joyería</h3>
                 </a>
             </li>
-
+            <!-- item 2-->
             <li class="nav-item">
                 <a href="#scrolltalegas" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/talegas.png" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/talegas.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Talegas</h3>
                 </a>
             </li>
-
+            <!-- item 3-->
             <li class="nav-item">
-                <a href="#scrollsurrones" class="nav-link">
+                <a href="#scrollZurrones" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/Surrones.png" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/Surrones.png" class="imgscroll" alt="" />
                     </button>
-                    <h3>Surrones</h3>
+                    <h3>Zurrones</h3>
                 </a>
             </li>
-
+            <!-- item 4-->
             <li class="nav-item">
                 <a href="#scrollsporrans" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/Sporrans.png" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/Sporrans.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Sporrans</h3>
                 </a>
             </li>
-
+            <!-- item 5-->
             <li class="nav-item">
                 <a href="#scrollcinturones" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/cinturones.png" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/cinturones.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Cinturones</h3>
                 </a>
             </li>
         </ul>
+        <!-- Inicia  Segundo Menú de Scroll-->
         <ul class="nav nav-pills" style="align-items:center;">
+            <!-- item 1-->
             <li class="nav-item ">
                 <a href="#scrollbolsos" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/bolsos.jpg" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/bolsos.jpg" class="imgscroll" alt="" />
                     </button>
                     <h3>Bolsos</h3>
                 </a>
             </li>
+            <!-- item 2-->
             <li class="nav-item ">
                 <a href="#scrollsombreros" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/sombreros.png" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/sombreros.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Sombreros</h3>
                 </a>
             </li>
+            <!-- item 3-->
             <li class="nav-item ">
                 <a href="#scrollbonetes" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/bonetes.png" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/bonetes.png" class="imgscroll" alt="" />
                     </button>
                     <h3>Bonetes</h3>
                 </a>
             </li>
+            <!-- item 4-->
             <li class="nav-item ">
                 <a href="#scrollcapirotes" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/capirotes.jpg" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/capirotes.jpg" class="imgscroll" alt="" />
                     </button>
                     <h3>Capirotes</h3>
                 </a>
             </li>
+            <!-- item 5-->
             <li class="nav-item ">
                 <a href="#scrollcofias" class="nav-link">
                     <button class="btnscroll">
-                        <img src="assets/img/5.accesorios/cofias.jpg" class="imgscroll" alt="" />
+                        <img src="/assets/img/5.accesorios/cofias.jpg" class="imgscroll" alt="" />
                     </button>
                     <h3>Cofias</h3>
                 </a>
@@ -177,14 +183,17 @@
         </ul>
         <!-- Termina Menú de Scroll-->
     </nav>
-
-    <div id="scrollJoyeria" class="scrollpsy-joyeria p-2 m-1" tabindex="0">
+                                    <!-- Inicia mi contenido para referenciar de ScrollBar-->
+    <!-- Accesorios Joyería-->
+    <div id="scrollJoyeria" class="scrollpsy" tabindex="0">
         <h3 id="scrolljoyeria">Joyería</h3>
+        <!-- contenedor de artículos-->
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!-- Card uno-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Joyas/joya1.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Joyas/joya1.jpg"
                             class="card-img-top accesorio_card img-fluid" style="">
                         <div class="card-body" style="text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Anillo Gosvinta</h5>
@@ -218,8 +227,8 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Joyas/joya2.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Joyas/joya2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style="text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Anillo Trastámara</h5>
@@ -256,8 +265,8 @@
                 <!--Card Tres-->
                 <div class="col">
 
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Joyas/joya3.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Joyas/joya3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Anillo Jigmai</h5>
@@ -292,8 +301,8 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Joyas/joya4.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Joyas/joya4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Anillo Trastámara estilo 2</h5>
@@ -327,8 +336,8 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Joyas/joya5.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Joyas/joya5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Joya 5</h5>
@@ -370,13 +379,14 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollTalegas" class="scrollpsy-talegas p-2 m-1" tabindex="0">
+    <!-- Accesorios Talegas-->
+    <div id="scrollTalegas" class="scrollpsy" tabindex="0">
         <h3 id="scrolltalegas">Talegas</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -418,7 +428,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -461,7 +471,7 @@
                 <!--Card Tres-->
                 <div class="col">
 
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -503,7 +513,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -545,7 +555,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -588,13 +598,14 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollSurrones" class="scrollpsy-surrones p-2 m-1" tabindex="0">
-        <h3 id="scrollsurrones">Surrones</h3>
+    <!-- Accesorios Zurrones-->
+    <div id="scrollZurrones" class="scrollpsy" tabindex="0">
+        <h3 id="scrollZurrones">Zurrones</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -636,7 +647,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -678,8 +689,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -721,7 +731,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -763,7 +773,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -806,14 +816,15 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollSporrans" class="scrollpsy-sporrans p-2 m-1" tabindex="0">
+<!-- Accesorios Sporrans-->
+    <div id="scrollSporrans" class="scrollpsy" tabindex="0">
         <h3 id="scrollsporrans">Sporrans</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sporrans/sporran1.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sporrans/sporran1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sporran con botón de hueso</h5>
@@ -847,8 +858,8 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sporrans/sporran2.jpg" style="">
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sporrans/sporran2.jpg" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sporran sencillo (dos piezas)</h5>
                             <p class="card-text articulo_camisas_texto">Con sujetador de cinturón, dos tamaños
@@ -884,9 +895,8 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sporrans/sporran3.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sporrans/sporran3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sporran con hebilla y remaches</h5>
@@ -922,8 +932,8 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sporrans/sporran4.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sporrans/sporran4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sporran con grabados</h5>
@@ -958,8 +968,8 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sporrans/sporran5.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sporrans/sporran5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sporran sencillo con botón</h5>
@@ -995,13 +1005,14 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollCinturones" class="scrollpsy-cinturones p-2 m-1" tabindex="0">
+    <!-- Accesorios Cinturones-->
+    <div id="scrollCinturones" class="scrollpsy" tabindex="0">
         <h3 id="scrollcinturones">Cinturones</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1043,7 +1054,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1085,8 +1096,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1128,7 +1138,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1170,7 +1180,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1213,13 +1223,14 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollBolsos" class="scrollpsy-bolsos p-2 m-1" tabindex="0">
+<!-- Accesorios Bolsos-->
+    <div id="scrollBolsos" class="scrollpsy" tabindex="0">
         <h3 id="scrollbolsos">Bolsos</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1261,7 +1272,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1303,8 +1314,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1346,7 +1356,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1388,7 +1398,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1431,14 +1441,15 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollSombreros" class="scrollpsy-sombreros p-2 m-1" tabindex="0">
+    <!-- Accesorios Somnbreros-->
+    <div id="scrollSombreros" class="scrollpsy" tabindex="0">
         <h3 id="scrollsombreros">Sombreros</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sombreros/sombrero1.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sombreros/sombrero1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sombrero de palma</h5>
@@ -1475,8 +1486,8 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sombreros/sombrero2.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sombreros/sombrero2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sombrero plano de paja</h5>
@@ -1515,9 +1526,8 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sombreros/sombrero3.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sombreros/sombrero3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sombrero de tule</h5>
@@ -1555,8 +1565,8 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sombreros/sombrero4.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sombreros/sombrero4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sombrero redondo de paja</h5>
@@ -1593,8 +1603,8 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Sombreros/sombrero5.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Sombreros/sombrero5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sombrero amplio de Palma</h5>
@@ -1633,14 +1643,15 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollBonetes" class="scrollpsy-bonetes p-2 m-1" tabindex="0">
+    <!-- Accesorios Bonetes-->
+    <div id="scrollBonetes" class="scrollpsy" tabindex="0">
         <h3 id="scrollbonetes">Bonetes</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Bonetes/bonete1.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Bonetes/bonete1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Bonete de paño 1</h5>
@@ -1678,8 +1689,8 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Bonetes/bonete2.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Bonetes/bonete2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Bonete de paño 2</h5>
@@ -1717,9 +1728,8 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Bonetes/bonete3.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Bonetes/bonete3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Bonete de paño 3</h5>
@@ -1756,8 +1766,8 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Bonetes/bonete4.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Bonetes/bonete4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Bonete de paño 4</h5>
@@ -1795,8 +1805,8 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="assets/img/5.accesorios/Bonetes/bonete5.jpg"
+                    <div class="card h-100" id="articulocard">
+                        <img src="/assets/img/5.accesorios/Bonetes/bonete5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Bonete de lana 5</h5>
@@ -1835,13 +1845,14 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollCapirotes" class="scrollpsy-capirotes p-2 m-1" tabindex="0">
+    <!-- Accesorios Capirotes-->
+    <div id="scrollCapirotes" class="scrollpsy" tabindex="0">
         <h3 id="scrollcapirotes">Capirotes</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1883,7 +1894,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1925,8 +1936,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1968,7 +1978,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2010,7 +2020,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2053,13 +2063,14 @@
             </div>
         </div>
     </div>
-
-    <div id="scrollCofias" class="scrollpsycofias p-2 m-1" tabindex="0">
+    <!-- Accesorios Cofias-->
+    <div id="scrollCofias" class="scrollpsy" tabindex="0">
         <h3 id="scrollcofias">Cofias</h3>
         <div id="container">
             <div class="row row-cols-md-4 row-cols-lg-6">
+                <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2101,7 +2112,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2143,8 +2154,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2186,7 +2196,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2228,7 +2238,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
