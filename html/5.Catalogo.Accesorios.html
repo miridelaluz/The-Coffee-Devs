@@ -13,14 +13,15 @@
     <!--Link de Font Awesome 5-->
 </head>
 
-<script src=""></script>
+<script src="/JS/Accesorios.js"></script>
 <!--Script de JS-->
 <link rel="stylesheet" href="/CSS/5.catalogo.css">
 <link rel="stylesheet" href="/CSS/1.Inicio.css">
+<link rel="stylesheet" href="/CSS/header-footer.css">
 
 <body class="container ">
     <!-- Inicia encabezado-->
-    <header style="margin-bottom: 20px;">
+    <header class="*" style="margin-bottom: 20px;">
         <div id="main:wrapper">
             <div id="barra_buscar" class="row align-items-center pt-4">
                 <div class="col-lg-8"></div>
@@ -77,144 +78,142 @@
     <!-- TERMINA EL ENCABEZADO-->
 
     <!--EMPIEZA LA SECCIÓN MEDIA-->
-    <div class="container" style="text-align:center;">
-
+    <div class="container">
         <h2 id="titulo_Accesorios">Accesorios</h2>
+        <nav class="nav-justified">
+            <h2>¿Qué tipo de accesorios necesitas?</h2>
+            <!-- Inicia  Primer Menú de Scroll-->
+            <ul class="nav nav-pills">
+                <!-- item 1-->
+                <li class="nav-item ">
+                    <a href="#scrolljoyeria" class="nav-link" onclick="esconderElementos()">
+                        <button class="btnscroll" onclick="">
+                            <img src="/assets/img/5.accesorios/joyeria.png" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Joyería</h3>
+                    </a>
+                </li>
+                <!-- item 2-->
+                <li class="nav-item">
+                    <a href="#scrolltalegas" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/talegas.png" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Talegas</h3>
+                    </a>
+                </li>
+                <!-- item 3-->
+                <li class="nav-item">
+                    <a href="#scrollZurrones" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/Surrones.png" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Zurrones</h3>
+                    </a>
+                </li>
+                <!-- item 4-->
+                <li class="nav-item">
+                    <a href="#scrollsporrans" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/Sporrans.png" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Sporrans</h3>
+                    </a>
+                </li>
+                <!-- item 5-->
+                <li class="nav-item">
+                    <a href="#scrollcinturones" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/cinturones.png" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Cinturones</h3>
+                    </a>
+                </li>
+            </ul>
+            <!-- Inicia  Segundo Menú de Scroll-->
+            <ul class="nav nav-pills" style="align-items:center;">
+                <!-- item 1-->
+                <li class="nav-item ">
+                    <a href="#scrollbolsos" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/bolsos.jpg" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Bolsos</h3>
+                    </a>
+                </li>
+                <!-- item 2-->
+                <li class="nav-item ">
+                    <a href="#scrollsombreros" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/sombreros.png" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Sombreros</h3>
+                    </a>
+                </li>
+                <!-- item 3-->
+                <li class="nav-item ">
+                    <a href="#scrollbonetes" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/bonetes.png" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Bonetes</h3>
+                    </a>
+                </li>
+                <!-- item 4-->
+                <li class="nav-item ">
+                    <a href="#scrollcapirotes" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/capirotes.jpg" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Capirotes</h3>
+                    </a>
+                </li>
+                <!-- item 5-->
+                <li class="nav-item ">
+                    <a href="#scrollcofias" class="nav-link">
+                        <button class="btnscroll">
+                            <img src="/assets/img/5.accesorios/cofias.jpg" class="imgscroll" alt="" />
+                        </button>
+                        <h3>Cofias</h3>
+                    </a>
+                </li>
+            </ul>
+            <!-- Termina Menú de Scroll-->
+        </nav>
     </div>
-
-    <nav class="navbar navbar-light bg-light px-3" style="align-items:flex-start;">
-        <h3>Menú</h3>
-        <h2>Qué tipo de accesorios necesitas?</h2>
-        <!-- Inicia  Primer Menú de Scroll-->
-        <ul class="nav nav-pills">
-            <!-- item 1-->
-            <li class="nav-item ">
-                <a href="#scrolljoyeria" class="nav-link">
-                    <button class="btnscroll" onclick="esconderElementos()">
-                        <img src="/assets/img/5.accesorios/joyeria.png" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Joyería</h3>
-                </a>
-            </li>
-            <!-- item 2-->
-            <li class="nav-item">
-                <a href="#scrolltalegas" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/talegas.png" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Talegas</h3>
-                </a>
-            </li>
-            <!-- item 3-->
-            <li class="nav-item">
-                <a href="#scrollZurrones" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/Surrones.png" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Zurrones</h3>
-                </a>
-            </li>
-            <!-- item 4-->
-            <li class="nav-item">
-                <a href="#scrollsporrans" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/Sporrans.png" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Sporrans</h3>
-                </a>
-            </li>
-            <!-- item 5-->
-            <li class="nav-item">
-                <a href="#scrollcinturones" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/cinturones.png" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Cinturones</h3>
-                </a>
-            </li>
-        </ul>
-        <!-- Inicia  Segundo Menú de Scroll-->
-        <ul class="nav nav-pills" style="align-items:center;">
-            <!-- item 1-->
-            <li class="nav-item ">
-                <a href="#scrollbolsos" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/bolsos.jpg" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Bolsos</h3>
-                </a>
-            </li>
-            <!-- item 2-->
-            <li class="nav-item ">
-                <a href="#scrollsombreros" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/sombreros.png" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Sombreros</h3>
-                </a>
-            </li>
-            <!-- item 3-->
-            <li class="nav-item ">
-                <a href="#scrollbonetes" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/bonetes.png" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Bonetes</h3>
-                </a>
-            </li>
-            <!-- item 4-->
-            <li class="nav-item ">
-                <a href="#scrollcapirotes" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/capirotes.jpg" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Capirotes</h3>
-                </a>
-            </li>
-            <!-- item 5-->
-            <li class="nav-item ">
-                <a href="#scrollcofias" class="nav-link">
-                    <button class="btnscroll">
-                        <img src="/assets/img/5.accesorios/cofias.jpg" class="imgscroll" alt="" />
-                    </button>
-                    <h3>Cofias</h3>
-                </a>
-            </li>
-        </ul>
-        <!-- Termina Menú de Scroll-->
-    </nav>
-                                    <!-- Inicia mi contenido para referenciar de ScrollBar-->
+    <!-- Inicia mi contenido para referenciar de ScrollBar-->
     <!-- Accesorios Joyería-->
-    <div id="scrollJoyeria" class="scrollpsy" tabindex="0">
-        <h3 id="scrolljoyeria">Joyería</h3>
+    <div id="joyeria" class="scrollpsy" style="display:block;" tabindex="0">
+        <h3 id="titulo-joyeria">Joyería</h3>
         <!-- contenedor de artículos-->
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row row-cols-md-5 row-cols-sm-5 ">
                 <!-- Card uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Joyas/joya1.jpg"
                             class="card-img-top accesorio_card img-fluid" style="">
                         <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Anillo Gosvinta</h5>
-                            <p class="card-text articulo_camisas_texto">Precioso anillo de estilo
-                                visigodo, realizado en latón, ambientado en el siglo VI.
-                            </p>
-                            <form>
+                            <form id="fa1">
+                                <h5 id="articulo" class="card-title articulo_camisas_titulo">Anillo Gosvinta</h5>
+                                <p class="card-text articulo_camisas_texto">Precioso anillo de estilo
+                                    visigodo, realizado en latón, ambientado en el siglo VI.
+                                </p>
                                 <label><strong>Talla: </strong></label>
-                                <select name="tallas">
+                                <select id="seltalla">
                                     <option>Ajustable</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
-                                <select name="color">
-                                    <option>Dorado</option>
+                                <select id="selcolor" name="colors">
+                                    <option id="color">Dorado</option>
                                 </select> <br>
                                 <strong>Material: Latón </strong> <br>
-                                <strong>Precio: </strong> $350.00 MXN<br>
+                                <strong>Precio: </strong>
+                                <h6 id="precio"> $400.00</h6> MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
-                            <button class="btn btn-warning btn_carrito"
+                            <button class="btn btn-warning btn_carrito" onclick="agregarCarrito()"
                                 style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
                                     carrito</small></button>
                             <button class="btn btn_lista_deseos">
@@ -227,27 +226,28 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo2">
                         <img src="/assets/img/5.accesorios/Joyas/joya2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style="text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Anillo Trastámara</h5>
-                            <p class="card-text articulo_camisas_texto">Estilo medieval realizado en latóny piedra
-                                natural.
-                            </p>
                             <form>
+                                <h5 id="articulo" class="card-title articulo_camisas_titulo">Anillo Trastámara</h5>
+                                <p class="card-text articulo_camisas_texto">Estilo medieval realizado en latón y piedra
+                                    natural.
+                                </p>
                                 <label><strong>Talla: </strong></label>
-                                <select name="tallas">
+                                <select id="talla" name="tallas">
                                     <option>CH</option>
                                     <option>M</option>
                                 </select> <br>
                                 <label><strong>Color:</strong></label>
-                                <select name="color">
+                                <select id="color" name="color">
                                     <option>Dorado</option>
 
                                 </select> <br>
                                 <strong>Material: </strong>Latón y piedra natural<br>
-                                <strong>Precio: </strong> 400.00 MXN<br>
+                                <strong>Precio: </strong>
+                                <h6 id="precio"> $400.00</h6> MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -265,15 +265,15 @@
                 <!--Card Tres-->
                 <div class="col">
 
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo3">
                         <img src="/assets/img/5.accesorios/Joyas/joya3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Anillo Jigmai</h5>
-                            <p class="card-text articulo_camisas_texto">Anillo ajustable de metatrón,
-                                unisex.
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Anillo Jigmai</h5>
+                                <p class="card-text articulo_camisas_texto">Anillo ajustable de metatrón,
+                                    unisex.
+                                </p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -301,18 +301,18 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo4">
                         <img src="/assets/img/5.accesorios/Joyas/joya4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Anillo Trastámara estilo 2</h5>
-                            <p class="card-text articulo_camisas_texto"> Anilo de estilo medieval
-                                de latón y piedra natural.
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Anillo Trastámara estilo 2</h5>
+                                <p class="card-text articulo_camisas_texto"> Anilo de estilo medieval
+                                    de latón y piedra natural.
+                                </p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
-                                    <option>Autoajustable</option>
+                                    <option>Ajustable</option>
                                 </select> <br>
                                 <label><strong>Color: </strong></label>
                                 <select name="color">
@@ -336,17 +336,17 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo5">
                         <img src="/assets/img/5.accesorios/Joyas/joya5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 5</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 5</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -380,23 +380,23 @@
         </div>
     </div>
     <!-- Accesorios Talegas-->
-    <div id="scrollTalegas" class="scrollpsy" tabindex="0">
+    <div id="talegas" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrolltalegas">Talegas</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -428,17 +428,17 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -471,17 +471,17 @@
                 <!--Card Tres-->
                 <div class="col">
 
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -513,17 +513,17 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -555,17 +555,17 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -599,23 +599,23 @@
         </div>
     </div>
     <!-- Accesorios Zurrones-->
-    <div id="scrollZurrones" class="scrollpsy" tabindex="0">
+    <div id="zurrones" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrollZurrones">Zurrones</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -647,17 +647,17 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -689,17 +689,17 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -731,17 +731,17 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -773,17 +773,17 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -816,22 +816,22 @@
             </div>
         </div>
     </div>
-<!-- Accesorios Sporrans-->
-    <div id="scrollSporrans" class="scrollpsy" tabindex="0">
+    <!-- Accesorios Sporrans-->
+    <div id="sporrans" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrollsporrans">Sporrans</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="/assets/img/5.accesorios/Sporrans/sporran1.jpg"
+                    <div class="card h-100 " id="artículo1">
+                        <img class="card-img" src="/assets/img/5.accesorios/Sporrans/sporran1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sporran con botón de hueso</h5>
-                            <p class="card-text articulo_camisas_texto">Contemporáneo y funcional.
-                                <strong>Medidas: </strong>18cm anchura x 20 altura<br>
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sporran con botón de hueso</h5>
+                                <p class="card-text articulo_camisas_texto">Contemporáneo y funcional.
+                                    <strong>Medidas: </strong>18cm anchura x 20 altura<br>
+                                </p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -858,16 +858,16 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="/assets/img/5.accesorios/Sporrans/sporran2.jpg" style="">
+                    <div class="card h-100 " id="artículo1">
+                        <img class="card-img" src="/assets/img/5.accesorios/Sporrans/sporran2.jpg" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sporran sencillo (dos piezas)</h5>
-                            <p class="card-text articulo_camisas_texto">Con sujetador de cinturón, dos tamaños
-                                práctico y clásico.
-                                <strong>Medidas chico: </strong>20cm anchura x 25 altura <br>
-                                <strong>Medidas grande: </strong>30cm anchura x 35 altura<br>
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sporran sencillo (dos piezas)</h5>
+                                <p class="card-text articulo_camisas_texto">Con sujetador de cinturón, dos tamaños
+                                    práctico y clásico.
+                                    <strong>Medidas chico: </strong>20cm anchura x 25 altura <br>
+                                    <strong>Medidas grande: </strong>30cm anchura x 35 altura<br>
+                                </p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -895,17 +895,16 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="/assets/img/5.accesorios/Sporrans/sporran3.jpg"
+                    <div class="card h-100 " id="artículo1">
+                        <img class="card-img" src="/assets/img/5.accesorios/Sporrans/sporran3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sporran con hebilla y remaches</h5>
-                            <p class="card-text articulo_camisas_texto">
-                                Estilo único con los detalles dignos de recordarlo.
-                                <strong>Medidas: </strong>20cm anchura x 25 altura<br>
-                            </p>
-
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sporran con hebilla y remaches</h5>
+                                <p class="card-text articulo_camisas_texto">
+                                    Estilo único con los detalles dignos de recordarlo.
+                                    <strong>Medidas: </strong>20cm anchura x 25 altura<br>
+                                </p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -932,16 +931,16 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="/assets/img/5.accesorios/Sporrans/sporran4.jpg"
+                    <div class="card h-100 " id="artículo1">
+                        <img class="card-img" src="/assets/img/5.accesorios/Sporrans/sporran4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sporran con grabados</h5>
-                            <p class="card-text articulo_camisas_texto">Detalles bien establecidos, estilo sencillo
-                                y un estilo destacable. <br>
-                                <strong>Medidas: </strong>20cm anchura x 25 altura<br>
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sporran con grabados</h5>
+                                <p class="card-text articulo_camisas_texto">Detalles bien establecidos, estilo sencillo
+                                    y un estilo destacable. <br>
+                                    <strong>Medidas: </strong>20cm anchura x 25 altura<br>
+                                </p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -968,16 +967,16 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="/assets/img/5.accesorios/Sporrans/sporran5.jpg"
+                    <div class="card h-100 " id="artículo1">
+                        <img class="card-img" src="/assets/img/5.accesorios/Sporrans/sporran5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sporran sencillo con botón</h5>
-                            <p class="card-text articulo_camisas_texto">Sencillo, duradero y útil, para
-                                la persona práctica y simple.
-                                <strong>Medidas: </strong>20cm anchura x 23 altura<br>
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sporran sencillo con botón</h5>
+                                <p class="card-text articulo_camisas_texto">Sencillo, duradero y útil, para
+                                    la persona práctica y simple.
+                                    <strong>Medidas: </strong>20cm anchura x 23 altura<br>
+                                </p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1006,23 +1005,23 @@
         </div>
     </div>
     <!-- Accesorios Cinturones-->
-    <div id="scrollCinturones" class="scrollpsy" tabindex="0">
+    <div id="cinturones" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrollcinturones">Cinturones</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1054,17 +1053,17 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1096,17 +1095,17 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1138,17 +1137,17 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1180,17 +1179,17 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1223,24 +1222,24 @@
             </div>
         </div>
     </div>
-<!-- Accesorios Bolsos-->
-    <div id="scrollBolsos" class="scrollpsy" tabindex="0">
+    <!-- Accesorios Bolsos-->
+    <div id="bolsos" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrollbolsos">Bolsos</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1272,17 +1271,17 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1314,17 +1313,17 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1356,17 +1355,17 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1398,17 +1397,17 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1442,20 +1441,20 @@
         </div>
     </div>
     <!-- Accesorios Somnbreros-->
-    <div id="scrollSombreros" class="scrollpsy" tabindex="0">
+    <div id="sombreros" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrollsombreros">Sombreros</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sombrero de palma</h5>
-                            <p class="card-text articulo_camisas_texto">Sombrero artesanal, hecho a mano.
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sombrero de palma</h5>
+                                <p class="card-text articulo_camisas_texto">Sombrero artesanal, hecho a mano.
+                                </p>
                                 <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1486,16 +1485,15 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sombrero plano de paja</h5>
-                            <p class="card-text articulo_camisas_texto">Sombrero con plano redondo
-                                por arriba, útil y simple.
-
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sombrero plano de paja</h5>
+                                <p class="card-text articulo_camisas_texto">Sombrero con plano redondo
+                                    por arriba, útil y simple.
+                                </p>
                                 <label><strong>Talla (Diámetro):</strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1526,15 +1524,15 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sombrero de tule</h5>
-                            <p class="card-text articulo_camisas_texto">Sombrero tejido con delicadeza
-                                en la que destaca por su forma.
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sombrero de tule</h5>
+                                <p class="card-text articulo_camisas_texto">Sombrero tejido con delicadeza
+                                    en la que destaca por su forma.
+                                </p>
                                 <label><strong>Talla (Diámetro):</strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1565,14 +1563,15 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sombrero redondo de paja</h5>
-                            <p class="card-text articulo_camisas_texto">De forma peculiar, destaca por su forma redonda.
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sombrero redondo de paja</h5>
+                                <p class="card-text articulo_camisas_texto">De forma peculiar, destaca por su forma
+                                    redonda.
+                                </p>
                                 <label><strong>Talla (Diámetro):</strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1603,15 +1602,15 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Sombrero amplio de Palma</h5>
-                            <p class="card-text articulo_camisas_texto">Destaca por su gran base,
-                                la cual lo hace muy útil y duradero.
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Sombrero amplio de Palma</h5>
+                                <p class="card-text articulo_camisas_texto">Destaca por su gran base,
+                                    la cual lo hace muy útil y duradero.
+                                </p>
                                 <label><strong>Talla (Diámetro):</strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1644,21 +1643,21 @@
         </div>
     </div>
     <!-- Accesorios Bonetes-->
-    <div id="scrollBonetes" class="scrollpsy" tabindex="0">
+    <div id="bonetes" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrollbonetes">Bonetes</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Bonete de paño 1</h5>
-                            <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
-                                de finales del siglo XV.
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Bonete de paño 1</h5>
+                                <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
+                                    de finales del siglo XV.
+                                </p>
                                 <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1689,15 +1688,15 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Bonete de paño 2</h5>
-                            <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
-                                de siglos XV-XVI
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Bonete de paño 2</h5>
+                                <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
+                                    de siglos XV-XVI
+                                </p>
                                 <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1728,28 +1727,28 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Bonete de paño 3</h5>
-                            <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
-                                del siglo XV/p>
                             <form>
-                                <label><strong>Talla (Diámetro): </strong></label>
-                                <select name="tallas">
-                                    <option>CH (54-55cm)</option>
-                                    <option>M (56-57cm)</option>
-                                    <option>G (58-59cm)</option>
-                                    <option>XG (60-61cm)</option>
-                                    <option>XXG (62-63cm)</option>
-                                </select> <br>
-                                <label><strong>Color: </strong></label>
-                                <select name="color">
-                                    <option>Negro</option>
-                                </select> <br>
-                                <strong>Material: </strong>Paño de lana<br>
-                                <strong>Precio: </strong> $800.00 MXN<br>
+                                <h5 class="card-title articulo_camisas_titulo">Bonete de paño 3</h5>
+                                <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
+                                    del siglo XV/p>
+                                    <label><strong>Talla (Diámetro): </strong></label>
+                                    <select name="tallas">
+                                        <option>CH (54-55cm)</option>
+                                        <option>M (56-57cm)</option>
+                                        <option>G (58-59cm)</option>
+                                        <option>XG (60-61cm)</option>
+                                        <option>XXG (62-63cm)</option>
+                                    </select> <br>
+                                    <label><strong>Color: </strong></label>
+                                    <select name="color">
+                                        <option>Negro</option>
+                                    </select> <br>
+                                    <strong>Material: </strong>Paño de lana<br>
+                                    <strong>Precio: </strong> $800.00 MXN<br>
                             </form>
                         </div>
                         <div class="card-footer" style="text-align: center;">
@@ -1766,15 +1765,15 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Bonete de paño 4</h5>
-                            <p class="card-text articulo_camisas_texto">De paño de lana, le da un bicolor
-                                reconocido y vanguardista de su época del siglo XV.
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Bonete de paño 4</h5>
+                                <p class="card-text articulo_camisas_texto">De paño de lana, le da un bicolor
+                                    reconocido y vanguardista de su época del siglo XV.
+                                </p>
                                 <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1805,15 +1804,15 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Bonete de lana 5</h5>
-                            <p class="card-text articulo_camisas_texto">De paño de lana, con su bicolor cálido
-                                representativo del siglo CV
-                            </p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Bonete de lana 5</h5>
+                                <p class="card-text articulo_camisas_texto">De paño de lana, con su bicolor cálido
+                                    representativo del siglo CV
+                                </p>
                                 <label><strong>Talla (Diámetro): </strong></label>
                                 <select name="tallas">
                                     <option>CH (54-55cm)</option>
@@ -1846,23 +1845,23 @@
         </div>
     </div>
     <!-- Accesorios Capirotes-->
-    <div id="scrollCapirotes" class="scrollpsy" tabindex="0">
+    <div id="capirotes" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrollcapirotes">Capirotes</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1894,17 +1893,17 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1936,17 +1935,17 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -1978,17 +1977,17 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -2020,17 +2019,17 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -2064,23 +2063,23 @@
         </div>
     </div>
     <!-- Accesorios Cofias-->
-    <div id="scrollCofias" class="scrollpsy" tabindex="0">
+    <div id="cofias" class="scrollpsy" style="display:none;" tabindex="0">
         <h3 id="scrollcofias">Cofias</h3>
         <div id="container">
-            <div class="row row-cols-md-4 row-cols-lg-6">
+            <div class="row">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -2112,17 +2111,17 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -2154,17 +2153,17 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -2196,17 +2195,17 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -2238,17 +2237,17 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 " id="artículo1">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
-                            <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                            <p class="card-text articulo_camisas_texto">This content is a little bit
-                                longer.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                voluptatibus
-                                ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                             <form>
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
                                 <label><strong>Talla: </strong></label>
                                 <select name="tallas">
                                     <option>CH</option>
@@ -2285,16 +2284,19 @@
     <!-- TERMINA LA SECCIÓN MEDIA-->
 
 
-    <footer> <!--Inicio Pie-->
+    <footer>
+        <!--Inicio Pie-->
         <div class="text-center">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <p>¡Contactanos!</p>
-                    <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
-                        <button class="icono icono_facebook"><img src="/assets/iconos/facebook_logo_48.png" alt=""></button>
+                    <a href="https://www.facebook.com/GodivaSH" target="_blank">
+                        <button class="icono icono_facebook"><img src="/assets/iconos/facebook_logo_48.png"
+                                alt=""></button>
                     </a>
-                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
-                        <button  class="icono icono_instagram"><img src="/assets/iconos/Instagram_logo_48.png" alt=""></button>
+                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
+                        <button class="icono icono_instagram"><img src="/assets/iconos/Instagram_logo_48.png"
+                                alt=""></button>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -2312,7 +2314,8 @@
                 </div>
             </div>
         </div>
-    </footer> <!--Fin Pie-->
+    </footer>
+    <!--Fin Pie-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

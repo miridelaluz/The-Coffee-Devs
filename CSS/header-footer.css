@@ -22,7 +22,7 @@ body{
 /*Se quitan bordes a iconos*/
 .remove {
 	background-color: transparent !important;
-	border: transparent !important
+	border: transparent !important;
 }
 
 .icono {
