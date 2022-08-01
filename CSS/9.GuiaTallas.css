@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.categoria{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.nav-item{
+    text-align: center;
+    border: none;
+}
+
+.btnscroll{ 
+    align-items: center;
+    border: none;
+    text-align: center;
+}
+
+
+.container {
+    overflow:
+        scroll;
+    position:
+        relative;
+}
+.scrollpsy-joyeria{
+    align-items:stretch;
+    text-align: center;
+}
+
+.btnscroll{
+    margin-top: 5px;
+    align-items:center;
+    background-color: #a42c33;
+    margin-left: 63px;
+    border: 1px solid #a42c33;
+    border-radius: 50px;
+    border-radius: 50px; 
+    max-width: 200px; 
+    max-height: 200px
+    }
+
+    .imgscroll{
+        border-radius: 50px;
+        height: 200px;
+        width: auto;
+        border-radius: 50%;
+        margin: 1em;
+    }

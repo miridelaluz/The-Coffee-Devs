@@ -1,39 +1,55 @@
-
 /* * modifica toda página*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: #f2f3f4; 
- }
+body {
+    background-color: #f2f3f4;
+}
+
 
 .row {
     width: 100%;
 }
 
-.btn_agregar_carrito {
-    background-color: #a42c33;
-    color: #f2f3f4;
+/* estilo de menú */
+.nav-item {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.barra_buscar {
+    margin-left: 1px;
+}
+
+.logo-godiva{
+    margin: auto auto auto auto;
 }
 
 /*Se quitan bordes a iconos*/
 .remove {
+<<<<<<< HEAD
 	background-color: transparent !important;
 	border: transparent !important;
+=======
+    background-color: transparent !important;
+    border: transparent !important
+>>>>>>> c9644f57ea482db0dc984c8db31f1fb5343053ba
 }
 
 .icono {
     border: none;
+    margin: 1em;
 }
 
 .icono_carrito {
     text-align: center;
 }
 
-a {
+a,
+p {
     text-decoration: none;
     font-size: 18px;
     font-family: sans-serif;
@@ -41,22 +57,36 @@ a {
 }
 
 
-.encabezado{
+.encabezado {
     font-size: 18px;
     font-family: sans-serif;
     color: #333;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 /* para unificar estilo de titulos */
-.titulo{
+.titulo {
     font-family: sans-serif;
     font-size: 50px;
     font-weight: 100;
-    text-align: left;
+    text-align: center;
+    padding: 1em;
 }
 
-p{
-    font-family: 'Lucida Sans';
+.btn_agregar_carrito {
+    background-color: #a42c33;
+    color: #f2f3f4;
 }
 
+footer {
+    border-color: #a42c33;
+    padding: 2em;
+    color: #f2f3f4;
+}
+
+.preguntas {
+    text-align: center;
+    padding-bottom: 0;
+    color: #f2f3f4;
+
+}
