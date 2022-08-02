@@ -54,8 +54,7 @@ body {
 .imagen_icono {
     height: 60px;
     border-radius: 55px;
-    border: solid 3px #c47627;
-    
+    border: solid 3px #c47627; 
 }
 
 .enlaces {
