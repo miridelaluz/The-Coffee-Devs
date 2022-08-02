@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Para el body y que aplique el Scroll */
 .container {
     overflow:
@@ -22,11 +23,41 @@
 /* Para imagenes de scroll */
 .imgscroll {
    
+=======
+.container {
+    overflow:
+        scroll;
+    position:
+        relative;
+    align-items: center;
+}
+
+.scrollpsy-joyeria {
+    align-items: stretch;
+    text-align: center;
+}
+
+.btnscroll {
+    margin-top: 5px;
+    align-items: center;
+    background-color: #a42c33;
+    margin-left: 63px;
+    border: 1px solid #a42c33;
+    border-radius: 50px;
+    border-radius: 50px;
+    max-width: 80px;
+    max-height: 80px
+}
+
+.imgscroll {
+    border-radius: 50px;
+>>>>>>> c6f9656ae2b6e24ca4dfb8d286e61fc0a582f700
     height: 70px;
     width: 70px;
     border-radius: 50%;
 }
 
+<<<<<<< HEAD
 /* Para los cards de cada artículo */
 .scrollpsy {
 
@@ -48,3 +79,19 @@
 #nav-pills {
     display: none;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    background-color: #f2f3f4;
+    box-shadow: 0px 1px 10px  #a42c325f;
+    cursor: default;
+    transition: all 400ms ease;
+}
+>>>>>>> c6f9656ae2b6e24ca4dfb8d286e61fc0a582f700
