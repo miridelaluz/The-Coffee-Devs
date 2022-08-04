@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.scrollspy{
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
 .scrollpsy-joyeria {
     align-items: stretch;
     text-align: center;

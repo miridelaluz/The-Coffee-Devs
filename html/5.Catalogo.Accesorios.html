@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script>
     <!--Link de Font Awesome 5-->
     <link href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap" rel="stylesheet">
-    <link rel="icon" href="/assets/icons/icono_catalogo_prendas2.png">
+    <!-- <link rel="icon" href="/assets/icons/icono_catalogo_prendas2.png"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/CSS/catalogo_prendas.css">
@@ -21,19 +21,19 @@
     <link rel="stylesheet" href="/CSS/1.Inicio.css">
 </head>
 
-<script src=""></script>
+<script src="/JS/buscador.js"></script>
 <!--Script de JS-->
 
 
-<body class="*">
+<body class="*" style="align-items:center;">
     <header>
         <div id="main:wrapper">
             <div id="barra_buscar" class="row align-items-center pt-4">
                 <div class="col-lg-8"></div>
                 <div class="col-lg-4">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar" id="barraBuscar">
+                        <button class="btn btn-outline-success" type="submit" id="botonBuscar" onclick="filtrar()">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -80,7 +80,6 @@
 
                 </div>
             </div>
-            <!--AQUÍ TERMINA EL MENÚ -->
         </div>
     </header>
     <!--Fin Encabezado-->
@@ -98,38 +97,36 @@
     <div class="prendas interiores"> <!--Seccion de prendas interiores-->
         <!-- <p>Prendas Interiores</p> Titulo de la seccion -->
         <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces">
- 
+            <a href="#scrollJoyeria" class="enlaces">
                     <img src="/assets/img/5.accesorios/joyeria.png" alt="" class="imagen_icono">
-
                     <p>Joyería</p>
                 </a>
             </div>
             <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces" onclick=tunicas()>
+            <a href="#scrollTalegas" class="enlaces" onclick=tunicas()>
                
-                    <img src="/assets/img/4.prendas/iconos/winingas.jpeg" alt="" class="imagen_icono">
+                    <img src="/assets/img/5.accesorios/talegas.png" alt="" class="imagen_icono">
                
                     <p>Talegas</p>
             </a>
         </div>
         <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces">
+            <a href="#scrollZurrones" class="enlaces">
                 
-                    <img src="/assets/img/4.prendas/iconos/calzones.jpg" alt="" class="imagen_icono">
+                    <img src="/assets/img/5.accesorios/Surrones.png" alt="" class="imagen_icono">
               
-                    <p>Zorrones</p>
+                    <p>Zurrones</p>
             </a>
         </div>
-        <div class="categorias"> <!--Div que contiene una categoria-->
+        <div class="scrollSporrans"> <!--Div que contiene una categoria-->
             <a href="#" class="enlaces">
-                <img src="/assets/img/4.prendas/iconos/calzas.jpg" alt="" class="imagen_icono">
+                <img src="/assets/img/5.accesorios/Sporrans.png" alt="" class="imagen_icono">
                 <p>Sporrans</p>
             </a>
         </div>
         <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces">
-                <img src="/assets/img/4.prendas/iconos/winingas.jpeg" alt="" class="imagen_icono">
+            <a href="#scrollCinturones" class="enlaces">
+                <img src="/assets/img/5.accesorios/cinturones.png" alt="" class="imagen_icono">
                 <p>Cinturones</p>
             </a>
         </div>
@@ -141,32 +138,32 @@
             <h3></h3>
         </div>
         <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces">
-                <img src="/assets/img/4.prendas/iconos/tunica_exte.jpg" alt="" class="imagen_icono">
+            <a href="#scrollBolsos" class="enlaces">
+                <img src="/assets/img/5.accesorios/bolsos.jpg" alt="" class="imagen_icono">
                 <p>Bolsos</p>
             </a>
         </div>
         <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces">
-                <img src="/assets/img/4.prendas/iconos/vestidos.jpg" alt="" class="imagen_icono">
+            <a href="#scrollSombreros" class="enlaces">
+                <img src="/assets/img/5.accesorios/sombreros.png" alt="" class="imagen_icono">
                 <p>Sombreros</p>
             </a>
         </div>
         <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces">
-                <img src="/assets/img/4.prendas/iconos/sayon.png" alt="" class="imagen_icono">
+            <a href="#scrollBonetes" class="enlaces">
+                <img src="/assets/img/5.accesorios/bonetes.png" alt="" class="imagen_icono">
                 <p>Bonetes</p>
             </a>
         </div>
         <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces">
-                <img src="/assets/img/4.prendas/iconos/jubon.jpg" alt="" class="imagen_icono">
+            <a href="#scrollCapirotes" class="enlaces">
+                <img src="/assets/img/5.accesorios/capirotes.jpg" alt="" class="imagen_icono">
                 <p>Capirotes</p>
             </a>
         </div>
         <div class="categorias"> <!--Div que contiene una categoria-->
-            <a href="#" class="enlaces">
-                <img src="/assets/img/4.prendas/iconos/kaftan.jpg" alt="" class="imagen_icono">
+            <a href="#scrollCofias" class="enlaces">
+                <img src="/assets/img/5.accesorios/cofias.jpg" alt="" class="imagen_icono">
                 <p>Cofias</p>
             </a>
         </div>
@@ -288,7 +285,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!-- Card uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card " id="articulocard">
                         <img src="/assets/img/5.accesorios/Joyas/joya1.jpg"
                             class="card-img-top accesorio_card img-fluid" style="">
                         <div class="card-body" style="text-align: center;">
@@ -323,7 +320,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Joyas/joya2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style="text-align: center;">
@@ -361,7 +358,7 @@
                 <!--Card Tres-->
                 <div class="col">
 
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Joyas/joya3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -397,7 +394,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Joyas/joya4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -432,7 +429,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Joyas/joya5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -482,7 +479,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -524,7 +521,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -567,7 +564,7 @@
                 <!--Card Tres-->
                 <div class="col">
 
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -609,7 +606,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -651,7 +648,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -701,7 +698,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -743,7 +740,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -785,7 +782,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -827,7 +824,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -869,7 +866,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -919,7 +916,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sporrans/sporran1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -954,7 +951,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sporrans/sporran2.jpg" style="">
                         <div class="card-body" style=" text-align: center;">
                             <h5 class="card-title articulo_camisas_titulo">Sporran sencillo (dos piezas)</h5>
@@ -991,7 +988,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sporrans/sporran3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1028,7 +1025,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sporrans/sporran4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1064,7 +1061,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sporrans/sporran5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1108,7 +1105,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1150,7 +1147,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1192,7 +1189,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1234,7 +1231,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1276,7 +1273,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1326,7 +1323,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1368,7 +1365,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1410,7 +1407,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1452,7 +1449,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1494,7 +1491,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1544,7 +1541,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1582,7 +1579,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1622,7 +1619,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1661,7 +1658,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1699,7 +1696,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Sombreros/sombrero5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1746,7 +1743,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete1.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1785,7 +1782,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete2.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1824,7 +1821,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete3.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1862,7 +1859,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete4.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1901,7 +1898,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="/assets/img/5.accesorios/Bonetes/bonete5.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1948,7 +1945,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -1990,7 +1987,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2032,7 +2029,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2074,7 +2071,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2116,7 +2113,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2166,7 +2163,7 @@
             <div class="row row-cols-md-4 row-cols-lg-6">
                 <!--Card Uno-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2208,7 +2205,7 @@
                 </div>
                 <!--Card Dos-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2250,7 +2247,7 @@
                 </div>
                 <!--Card Tres-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2292,7 +2289,7 @@
                 </div>
                 <!--Card Cuatro-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
@@ -2334,7 +2331,7 @@
                 </div>
                 <!--Card Cinco-->
                 <div class="col">
-                    <div class="card h-100" id="articulocard">
+                    <div class="card" id="articulocard">
                         <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
                             class="card-img-top articulo_camisas_img; img-fluid" style="">
                         <div class="card-body" style=" text-align: center;">
