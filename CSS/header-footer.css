@@ -77,11 +77,69 @@ footer {
     border-color: #a42c33;
     padding: 2em;
     color: #f2f3f4;
+    justify-content: center;
+   
 }
 
 .preguntas {
     text-align: center;
     padding-bottom: 0;
     color: #f2f3f4;
-
 }
+
+
+.btn-flotante1 {
+    font-size: 16px; /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase; /* Texto en mayusculas */
+    font-weight: bold; /* Fuente en negrita o bold */
+   border: none;
+    border-radius: 100px; /* Borde del boton */
+    letter-spacing: 2px; /* Espacio entre letras */            
+    position: fixed;
+    bottom: auto;
+    right: 210px;
+    transition: all 300ms ease 0ms;
+    
+    z-index: 99;
+    }
+    .btn-flotante1:hover {
+    /* background-color: #ffe0e9; Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+    }
+    /* @media only screen and (max-width: 600px) {
+    .btn-flotante1{
+    font-size: 14px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+    }
+    } */
+
+    .btn-flotante2{
+        font-size: 16px; /* Cambiar el tamaño de la tipografia */
+        text-transform: uppercase; /* Texto en mayusculas */
+        font-weight: bold; /* Fuente en negrita o bold */
+        border: none;
+        border-radius: 50px; /* Borde del boton */
+        letter-spacing: 2px; /* Espacio entre letras */            
+        position: fixed;
+        bottom: auto;
+        right: 150px;
+        transition: all 300ms ease 0ms;
+        
+        z-index: 99;
+        }
+        .btn-flotante2:hover {
+        /* background-color: #f2f3f4; Color de fondo al pasar el cursor */
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-7px);
+        }
+        /* @media only screen and (max-width: px) {
+        .btn-flotante2 {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+        }
+        } */
