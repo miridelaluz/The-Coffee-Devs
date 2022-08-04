@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.scrollspy{
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
 .scrollpsy-joyeria {
     align-items: stretch;
     text-align: center;
@@ -43,4 +48,47 @@
     box-shadow: 0px 1px 10px  #a42c325f;
     cursor: default;
     transition: all 400ms ease;
+}
+/*Modificamos lo hay dentro de cada seccion (categorias)*/
+.categorias {
+    display:table;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+}
+.enlaces{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.container{
+    align-items: center;
+}
+.contenedor_categorias{
+    -ms-flex-align: center;
+    background-color: #a42c33;
+}
+.clases{
+    margin-top: 5px;
+    align-items: center;
+    background-color: #a42c33;
+    margin-left: 63px;
+    border: 1px solid #a42c33;
+    border-radius: 50px;
+    border-radius: 50px;
+    max-width: 80px;
+    max-height: 80px
+}
+.contenedor_categorias {
+    background-color: #a42c33;
+    /*La posicion fixed ayuda a que el contenedor de las categorias no se mueva*/
+    /*position: fixed;*/
+    width: 99vw;
+    /*El diaplay flex hace que las cajas se pocicionen una delante de la otra*/
+    display: flex;
+    /*Le indica a los contenedores que se colocaran en fila*/
+    flex-direction: row;
+    /*Hace que los elementos se pocisionen en el centro del eje Y**/
+    align-items: center;
 }
