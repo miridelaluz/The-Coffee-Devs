@@ -6,8 +6,34 @@
 
 body {
     font-family: 'Unna', serif;
+    background-color: #f2f3f4;
+    font-size: 1.3em;
 }
 
+
+/*ENCABEZADO*/
+.row {
+    width: 98vw;
+    margin: 0;
+}
+
+.btn_buscar {
+    padding: 10px 30px 10px 30px;
+    color: #a42c33;
+    border: 1px solid #a42c33;
+    border-radius: 4px;
+}
+
+.btn_buscar:hover {
+    background-color: #a42c33;
+    color: #f2f3f4;
+}
+
+.icono {
+    border: none;
+    background-color: #f2f3f4;
+    margin: 10px;
+}
 
 /*MODIFICAMOS EL CONTENEDOR DE LOS ICONOS*/
 
@@ -61,13 +87,14 @@ body {
     
 }
 
-.enlaces {
+
+.enlaces  {
     text-decoration: none;
     color: #a42c33;
 }
 
 .enlaces :hover {
-    color: #a42c33;
+    color: #c47627;
 }
 
 /*MODIFICAMOS EL CONTENEDOR DE LAS CARDS CON LOS PRODUCTOS*/
@@ -77,13 +104,13 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 100px;
+    justify-content: space-evenly;
 }
 
 /*MODIFICAMOS LAS CARDS*/
-.card {
+.card_producto {
     width: 20%;
-    margin: 20px;
+    margin: 2%;
     border-radius: 6px;
     background-color: #f2f3f4;
     box-shadow: 0px 1px 10px  #a42c325f;
@@ -91,34 +118,29 @@ body {
     transition: all 400ms ease;
 }
 
-.card:hover {
+.card_producto:hover {
     box-shadow: 5px 5px 20px #a42c325f;
     transform: translateY(-3%);
 }
 
-.card img {
+.card_producto .imagen_producto {
     width: 90%;
     height: 300px;
     margin: 5%;
 }
 
-.card .contenido {
+.card_producto .contenido {
     margin: 15px;
     text-align: center;
 }
 
-.card .contenido p {
-    /*Da un espacio entre las lineas del parrofo*/
-    line-height: 1.5;
-    color: green;
-}
 
-.card .contenido h3 {
+.card_producto .contenido .titulo_producto {
     font-weight: 400;
     margin-bottom: 15px;
 }
 
-.card .contenido a {
+.card_producto .contenido .enlaces {
     text-decoration: none;
     display: inline-block;
     padding: 10px 30px 10px 30px;
@@ -129,15 +151,20 @@ body {
     transition: all 400ms ease;
 }
 
-.card .contenido a:hover {
+.card_producto .contenido .enlaces:hover {
     background-color: #a42c33;
     color: #f2f3f4;
 }
 
+select {
+    border-radius: 8px;
+}
+
+
 
 /* *** CREAMOS EL PRIMER PUNTO DE QUIEBRE *** */
 
-@media screen and (min-width: 800px) and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     #contenedor_categorias {
         /* position: fixed; */
@@ -162,11 +189,11 @@ body {
     
     .enlaces {
         text-decoration: none;
-        color: #c47627;
+        color: #a42c33;
     }
     
     .enlaces :hover {
-        color: #f2f3f4;
+        color: #c47627;
     }
 
 
@@ -179,24 +206,24 @@ body {
         flex-wrap: wrap;
     }
 
-    .card {
+    .card_producto {
         height: 500px;
         width: 350px;
         margin: 20px;
     }
 
-    .card img {
+    .card_producto .imagen_producto {
         width: 90%;
         height: 200px;
         margin: 5%;
     }
     
-    .card .contenido {
+    .card_producto .contenido {
         margin: 10px;
         text-align: center;
     }
 
-    .card .contenido a {
+    .card_producto .contenido .enlaces {
         padding: 5px;
         margin-top: 5px;
     }

@@ -7,13 +7,13 @@ function tunicas() {
         for (let prenda of prendas.data) {
             // console.log(`El id de la prenda: ${prenda.id}, url: ${prenda.imagen}`);
            let div = `
-           <div class="card ">
+           <div class="card_producto">
                 <div>
-                    <img src="${prenda.imagen}" alt="">
+                    <img class="imagen_producto" src="${prenda.imagen}" alt="">
                 </div>
                 <div class="contenido">
-                    <h3>${prenda.nombre_producto}</h3>
-                    <p>
+                    <h3 class="titulo_producto">${prenda.nombre_producto}</h3>
+                    <p class="contenido_producto">
                     <form>
                     <label><strong>Talla: </strong></label> 
                     <select name="tallas">
@@ -32,7 +32,10 @@ function tunicas() {
                     <strong>Precio: </strong> $ ${prenda.precio} MXN<br>
                 </form>
                     </p>
-                    <a href="" class="enlaces">Ver mas</a>
+                    <a href="" class="enlaces">Agregar al carrito</a>
+                    <a>
+                        <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="45px"> </button>
+                    </a>
                 </div>
             </div>`;
             contenedor.insertAdjacentHTML("afterbegin",div);
