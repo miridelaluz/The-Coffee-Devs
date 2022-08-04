@@ -5,75 +5,7 @@
 }
 
 body {
-    background-color: #f2f3f4;
-}
-
-
-.row {
-    width: 100%;
-}
-
-/* estilo de menú */
-.logo-godiva{
-    margin: auto auto auto auto;
-}
-
-/*Se quitan bordes a iconos*/
-.remove {
-    background-color: transparent !important;
-    border: transparent !important
-}
-
-.icono {
-    border: none;
-    margin: 1em;
-}
-
-.icono_carrito {
-    text-align: center;
-}
-
-a,
-p {
-    text-decoration: none;
-    font-size: 18px;
-    font-family: sans-serif;
-    color: black;
-}
-
-
-.encabezado {
-    font-size: 18px;
-    font-family: sans-serif;
-    color: #333;
-    text-decoration: none;
-}
-
-/* para unificar estilo de titulos */
-.titulo {
-    font-family: sans-serif;
-    font-size: 50px;
-    font-weight: 100;
-    text-align: center;
-    padding: 1em;
-}
-
-.btn_agregar_carrito {
-    background-color: #a42c33;
-    color: #f2f3f4;
-}
-
-footer {
-    border-color: #a42c33;
-    padding: 2em;
-    color: #f2f3f4;
-}
-
-.preguntas {
-    text-align: center;
-    padding-bottom: 0;
-    color: #f2f3f4;
-
+    font-family: 'Unna', serif;
 }
 
 
@@ -81,7 +13,7 @@ footer {
 
 /*#contenedor_categorias alberga los iconos de las categorias*/
 #contenedor_categorias {
-    background-color: #a42c33;
+    /* background-color: #a42c33; */
     /*La posicion fixed ayuda a que el contenedor de las categorias no se mueva*/
     /*position: fixed;*/
     width: 99vw;
@@ -91,6 +23,9 @@ footer {
     flex-direction: row;
     /*Hace que los elementos se pocisionen en el centro del eje Y**/
     align-items: center;
+    border-top: 10px solid #a42c33;
+    border-bottom: 10px solid #a42c33;
+
 }
 
 
@@ -103,12 +38,11 @@ footer {
     /*El justifi-content hace que cada categoria esta a la misma distancia, tanto a la derecha como a la izquierda*/
     justify-content: space-around;  
     align-items: center;
-    font-family: 'Unna', serif;
 }
 
 /*. titulo h3 hace referencia a el titulo de las secciones prendas interiores - prendas exteriores*/
 .titulo h3 {
-    color: #f2f3f4;
+    color: #a42c33;
 }
 
 /*Modificamos lo hay dentro de cada seccion (categorias)*/
@@ -123,28 +57,32 @@ footer {
 .imagen_icono {
     height: 60px;
     border-radius: 55px;
-    border: solid 3px #c47627; 
+    border: solid 5px #a42c33;
+    
 }
 
 .enlaces {
     text-decoration: none;
-    color: #c47627;
+    color: #a42c33;
 }
 
 .enlaces :hover {
-    color: #f2f3f4;
+    color: #a42c33;
 }
 
 /*MODIFICAMOS EL CONTENEDOR DE LAS CARDS CON LOS PRODUCTOS*/
 
-.contenedor_fila {
+#contenedor_cards {
     width: 99vw;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
 }
 
 /*MODIFICAMOS LAS CARDS*/
 .card {
-    width: 100%;
+    width: 20%;
     margin: 20px;
     border-radius: 6px;
     background-color: #f2f3f4;
@@ -265,7 +203,7 @@ footer {
 }
 
 /*CREAMOS EL SEGUNDO PUNTO DE QUIEBRE*/
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     /*Tratar de hacer las categorias menu*/
     #contenedor_categorias {
         /* position: fixed; */
