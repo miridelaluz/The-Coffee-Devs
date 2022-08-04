@@ -5,7 +5,75 @@
 }
 
 body {
-    font-family: 'Unna', serif;
+    background-color: #f2f3f4;
+}
+
+
+.row {
+    width: 100%;
+}
+
+/* estilo de menú */
+.logo-godiva{
+    margin: auto auto auto auto;
+}
+
+/*Se quitan bordes a iconos*/
+.remove {
+    background-color: transparent !important;
+    border: transparent !important
+}
+
+.icono {
+    border: none;
+    margin: 1em;
+}
+
+.icono_carrito {
+    text-align: center;
+}
+
+a,
+p {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+.encabezado {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+/* para unificar estilo de titulos */
+.titulo {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    padding: 1em;
+}
+
+.btn_agregar_carrito {
+    background-color: #a42c33;
+    color: #f2f3f4;
+}
+
+footer {
+    border-color: #a42c33;
+    padding: 2em;
+    color: #f2f3f4;
+}
+
+.preguntas {
+    text-align: center;
+    padding-bottom: 0;
+    color: #f2f3f4;
+
 }
 
 
@@ -35,6 +103,7 @@ body {
     /*El justifi-content hace que cada categoria esta a la misma distancia, tanto a la derecha como a la izquierda*/
     justify-content: space-around;  
     align-items: center;
+    font-family: 'Unna', serif;
 }
 
 /*. titulo h3 hace referencia a el titulo de las secciones prendas interiores - prendas exteriores*/
