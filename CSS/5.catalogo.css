@@ -55,6 +55,7 @@
     flex-direction: column;
     width: 80px;
     height: 80px;
+    margin:10px;
 }
 .enlaces{
     border-radius: 50px;
