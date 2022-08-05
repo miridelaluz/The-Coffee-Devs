@@ -55,11 +55,11 @@
         {
             "id" : 6,
             "imagen": "/assets/img/5.accesorios/Joyas/joya6.jpg",
-            "nombre_producto" : "Calzón 1740 - 1790",
-            "tallas": ["CH", "M", "G", "XG"],
-            "material": "Lino, Algodon", 
-            "color" : ["Blanco", "Rojo", "Azul"],
-            "precio" : 2000
+            "nombre_producto" : "Collar Boltraffio",
+            "tallas": ["Ajustable"],
+            "material": "Piedra natural y latón ", 
+            "color" : ["Negro"],
+            "precio" : 300.0000
         },
         {
             "id" : 7,

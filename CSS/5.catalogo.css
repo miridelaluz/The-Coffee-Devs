@@ -4,9 +4,11 @@
     position:
         relative;
     align-items: center;
+    
 }
 
 .scrollspy{
+    justify-content: space-evenly;
     align-items: center;
     margin: 10px;
     padding: 10px;
@@ -65,6 +67,7 @@
 }
 .container{
     align-items: center;
+    justify-content: space-evenly;
 }
 .contenedor_categorias{
     -ms-flex-align: center;
@@ -73,6 +76,7 @@
 .clases{
     margin-top: 5px;
     align-items: center;
+    justify-content: space-evenly;
     background-color: #a42c33;
     margin-left: 63px;
     border: 1px solid #a42c33;
