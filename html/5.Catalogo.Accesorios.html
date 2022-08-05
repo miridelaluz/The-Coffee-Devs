@@ -25,7 +25,7 @@
 <!--Script de JS-->
 
 
-<body class="*" style="align-items:center;">
+<body class="" >
     <header>
         <div id="main:wrapper">
             <div id="barra_buscar" class="row align-items-center pt-4">
@@ -93,8 +93,7 @@
         <h2 id="titulo_Accesorios">Accesorios</h2>
     </div>
 
-    <!--LO DE MOJICA-->
-
+    <!--INICIA Menú de Scroll-->
     <div id="contenedor_categorias">
         <!--Barra de navegacion de las categorias-->
         <div class="prendas interiores">
@@ -185,120 +184,17 @@
             </div>
         </div>
     </div>
+    <!--TEMINA Menú de Scrill-->
 
-    <!--TEMINA LO DE MOJICA-->
 
-    <div class="container">
-        <nav class="navbar ">
-            <h3>Menú</h3>
-            <h2>Qué tipo de accesorios necesitas?</h2>
-            <!-- Inicia  Primer Menú de Scroll-->
-            <ul class="nav nav-pills">
-                <!-- item 1-->
-                <li class="nav-item ">
-                    <a href="#scrolljoyeria" class="nav-link">
-                        <button class="btnscroll" onclick="esconderElementos()">
-                            <img src="/assets/img/5.accesorios/joyeria.png" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Joyería</h3>
-                    </a>
-                </li>
-                <!-- item 2-->
-                <li class="nav-item">
-                    <a href="#scrolltalegas" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/talegas.png" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Talegas</h3>
-                    </a>
-                </li>
-                <!-- item 3-->
-                <li class="nav-item">
-                    <a href="#scrollZurrones" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/Surrones.png" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Zurrones</h3>
-                    </a>
-                </li>
-                <!-- item 4-->
-                <li class="nav-item">
-                    <a href="#scrollsporrans" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/Sporrans.png" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Sporrans</h3>
-                    </a>
-                </li>
-                <!-- item 5-->
-                <li class="nav-item">
-                    <a href="#scrollcinturones" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/cinturones.png" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Cinturones</h3>
-                    </a>
-                </li>
-            </ul>
-            <!-- Inicia  Segundo Menú de Scroll-->
-            <ul class="nav nav-pills" style="align-items:center;">
-                <!-- item 1-->
-                <li class="nav-item ">
-                    <a href="#scrollbolsos" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/bolsos.jpg" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Bolsos</h3>
-                    </a>
-                </li>
-                <!-- item 2-->
-                <li class="nav-item ">
-                    <a href="#scrollsombreros" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/sombreros.png" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Sombreros</h3>
-                    </a>
-                </li>
-                <!-- item 3-->
-                <li class="nav-item ">
-                    <a href="#scrollbonetes" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/bonetes.png" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Bonetes</h3>
-                    </a>
-                </li>
-                <!-- item 4-->
-                <li class="nav-item ">
-                    <a href="#scrollcapirotes" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/capirotes.jpg" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Capirotes</h3>
-                    </a>
-                </li>
-                <!-- item 5-->
-                <li class="nav-item ">
-                    <a href="#scrollcofias" class="nav-link">
-                        <button class="btnscroll">
-                            <img src="/assets/img/5.accesorios/cofias.jpg" class="imgscroll" alt="" />
-                        </button>
-                        <h3>Cofias</h3>
-                    </a>
-                </li>
-            </ul>
-
-        </nav>
-    </div>
     <!-- Termina Menú de Scroll-->
     <!-- Inicia mi contenido para referenciar de ScrollBar-->
     <!-- Accesorios Joyería-->
-    <div class="">
+    <div class="container">
         <div id="scrollJoyeria" class="scrollpsy" tabindex="0">
             <h3 id="scrolljoyeria">Joyería</h3>
             <!-- contenedor de artículos-->
-            <div id="container">
+            <div id="container" >
                 <div class="row row-cols-md-4 row-cols-lg-6">
                     <!-- Card uno-->
                     <div class="col">
@@ -2330,6 +2226,110 @@
                                         <option>Negro</option>
                                         <option>Rojo</option>
                                         <option>Azul</option>
+                                    </select> <br>
+                                    <strong>Material: </strong> <br>
+                                    <strong>Precio: </strong> $ MXN<br>
+                                </form>
+                            </div>
+                            <div class="card-footer" style="text-align: center;">
+                                <button class="btn btn-warning btn_carrito"
+                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
+                                        carrito</small></button>
+                                <button class="btn btn_lista_deseos">
+                                    <a href="#">
+                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Card Cinco-->
+                    <div class="col">
+                        <div class="card" id="articulocard">
+                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
+                                class="card-img-top articulo_camisas_img; img-fluid" style="">
+                            <div class="card-body" style=" text-align: center;">
+                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
+                                <p class="card-text articulo_camisas_texto">This content is a little bit
+                                    longer.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
+                                    voluptatibus
+                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
+                                <form>
+                                    <label><strong>Talla: </strong></label>
+                                    <select name="tallas">
+                                        <option>CH</option>
+                                        <option>M</option>
+                                        <option>G</option>
+                                        <option>XG</option>
+                                    </select> <br>
+                                    <label><strong>Color: </strong></label>
+                                    <select name="color">
+                                        <option>Negro</option>
+                                        <option>Rojo</option>
+                                        <option>Azul</option>
+                                    </select> <br>
+                                    <strong>Material: </strong> <br>
+                                    <strong>Precio: </strong> $ MXN<br>
+                                </form>
+                            </div>
+                            <div class="card-footer" style="text-align: center;">
+                                <button class="btn btn-warning btn_carrito"
+                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
+                                        carrito</small></button>
+                                <button class="btn btn_lista_deseos">
+                                    <a href="#">
+                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TERMINA LA SECCIÓN MEDIA-->
+
+
+    <footer>
+        <!--Inicio Pie-->
+        <div class="text-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p>¡Contactanos!</p>
+                    <a href="https://www.facebook.com/GodivaSH" target="_blank">
+                        <button class="icono icono_facebook"><img src="/assets/iconos/facebook_logo_48.png"
+                                alt=""></button>
+                    </a>
+                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
+                        <button class="icono icono_instagram"><img src="/assets/iconos/Instagram_logo_48.png"
+                                alt=""></button>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/2.Acerca de Godiva.html">
+                        <label>
+                            <strong>Preguntas frecuentes</strong>
+                        </label>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <p>Aceptamos:</p>
+                    <img src="/assets/iconos/Visa_logo_48.png" alt="">
+                    <img src="/assets/iconos/Mastercar_loco_48.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fin Pie-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>                                 <option>Azul</option>
                                     </select> <br>
                                     <strong>Material: </strong> <br>
                                     <strong>Precio: </strong> $ MXN<br>
