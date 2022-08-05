@@ -4,51 +4,63 @@
     box-sizing: border-box;
 }
 
-.categoria{
+.titulo-seccion{
     font-size: 25px;
     font-family: sans-serif;
     text-align: center;
+    align-items: flex-start;
+    margin: 20px;
 }
 
-.nav-item{
-    text-align: center;
-    border: none;
-}
-
-.btnscroll{ 
-    align-items: center;
-    border: none;
-    text-align: center;
-}
-
-
-.container {
-    overflow:
-        scroll;
-    position:
-        relative;
-}
-.scrollpsy-joyeria{
-    align-items:stretch;
-    text-align: center;
-}
-
-.btnscroll{
-    margin-top: 5px;
-    align-items:center;
-    background-color: #a42c33;
-    margin-left: 63px;
-    border: 1px solid #a42c33;
-    border-radius: 50px;
-    border-radius: 50px; 
-    max-width: 200px; 
-    max-height: 200px
-    }
-
-    .imgscroll{
-        border-radius: 50px;
+    .img-seccion{
         height: 200px;
         width: auto;
         border-radius: 50%;
+        border: 8px solid;
+        border-color: #a42c33;
         margin: 1em;
+        align-self: center;
+        text-align: center;
+    }
+
+    .img-prenda{
+        height: 150px;
+        width: auto;
+        border-radius: 50%;
+        border: 8px solid;
+        border-color: #a42c33;
+        margin: 1em;
+        align-self: center;
+        text-align: center;
+    }
+
+
+    h2{
+        text-align: center;
+        margin: auto;
+    
+    }
+
+    .wrapper{
+        display: -ms-inline-flexbox;
+        grid-gap: 15px;
+        grid-template-columns: repeat,(auto-fill), minmax(100px, 1fr);
+        justify-items: flex-start;
+
+    }
+
+    .container{
+        display: flex;
+        grid-gap: 30px;
+        grid-template-columns: auto;
+        grid-auto-rows: repeat(auto, auto);
+        justify-items: flex-start;
+        align-items: auto;
+    }
+    
+    .table{
+        align-items: flex-start;
+        text-align: center;
+        margin: 20px;
+        width: 300px;
     }
