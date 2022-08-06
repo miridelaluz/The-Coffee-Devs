@@ -49,8 +49,7 @@
     cursor: default;
     transition: all 400ms ease;
 }
-<<<<<<< HEAD
-=======
+
 /*Modificamos lo hay dentro de cada seccion (categorias)*/
 .categorias {
     display:table;
@@ -68,7 +67,7 @@
     align-items: center;
 }
 .contenedor_categorias{
-    -ms-flex-align: center;
+   
     background-color: #a42c33;
 }
 .clases{
@@ -92,6 +91,5 @@
     /*Le indica a los contenedores que se colocaran en fila*/
     flex-direction: row;
     /*Hace que los elementos se pocisionen en el centro del eje Y**/
-    align-items: center;
+    justify-content: space-evenly;
 }
->>>>>>> fa535ac9c1c442a2d0bdb6114296fb58db43891f
