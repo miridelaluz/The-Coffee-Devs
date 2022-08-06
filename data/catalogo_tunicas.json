@@ -1,0 +1,92 @@
+{
+    "page" : 2,
+    "total" : 8,
+    "total_pages":10,
+    "seccion" : "Prendas Interiores",
+    "subseccion" : "Tunicas", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/4.prendas/tunica_1.JPG",
+            "nombre_producto" : "Túnica interior 1770s - 1780s",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Blanco", "Rojo", "Azul"],
+            "precio" : 600
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/4.prendas/tunica_2.jpg",
+            "nombre_producto" : "Túnica interior, siglo XVIII",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Blanco", "Rojo", "Azul"],
+            "precio" : 800
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/4.prendas/tunica_3.JPG",
+            "nombre_producto" : "Túnica romana, siglo XII",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Naranja", "Rojo", "Azul"],
+            "precio" : 800
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/4.prendas/tunica_4.jpg",
+            "nombre_producto" : "Túnica, 1440s-1480s",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Negro", "Rojo", "Azul"],
+            "precio" : 900
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/4.prendas/tunica_5.jpg",
+            "nombre_producto" : "Tunica Siglo XV",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Negro", "Rojo", "Azul"],
+            "precio" : 1500
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/4.prendas/tunica_6.png",
+            "nombre_producto" : "Tunica Siglo XIV",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Blanco", "Rojo", "Azul"],
+            "precio" : 800
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/4.prendas/tunica_7.png",
+            "nombre_producto" : "Tunica Siglo XIII",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Camello", "Rojo", "Azul"],
+            "precio" : 1200
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/4.prendas/tunica_8.png",
+            "nombre_producto" : "Tunica Siglo XV",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Verde", "Rojo", "Azul"],
+            "precio" : 800
+        }
+                   
+    ]
+}
+
