@@ -1,11 +1,22 @@
-function tunicas() {
-        fetch('/data/catalogo_tunicas.json')
-        .then(responseJSON => {return responseJSON.json()})
+//Links de las categorias
+const camisas = "/data/catalogo_camisas.json";
+const tunicas = "/data/catalogo_tunicas.json";
+const calzones = "/data/catalogo_calzones.json";
+const calzas = "/data/catalogo_calzas.json";
+const winingas = "/data/catalogo_winingas.json"
+const llave = "datosProductos";
+
+/* function mostrarDatos(e) {
+    e.preventDefault
+    console.log(e.target.parentElement.classList.contains('categorias'));}
+ */
+ function mostrarDatos(categoria) {
+    fetch(categoria)
+        .then ( (responseJSON) => { return responseJSON.json()})
         .then(prendas => {
-            let contenedor = document.getElementById("contenedor_cards");
-            contenedor.innerHTML = ``;
+        let contenedor = document.getElementById("contenedor_cards");
+        contenedor.innerHTML = ``;   
         for (let prenda of prendas.data) {
-            // console.log(`El id de la prenda: ${prenda.id}, url: ${prenda.imagen}`);
            let div = `
            <div class="card_producto">
                 <div>
@@ -13,6 +24,7 @@ function tunicas() {
                 </div>
                 <div class="contenido">
                     <h3 class="titulo_producto">${prenda.nombre_producto}</h3>
+                    <h5 class="descripcion">${prenda.descripcion}</h5>
                     <p class="contenido_producto">
                     <form>
                     <label><strong>Talla: </strong></label> 
@@ -41,5 +53,23 @@ function tunicas() {
             contenedor.insertAdjacentHTML("afterbegin",div);
         }
         });
-    
-    }
+
+        console.log('hey');
+}
+
+//Las variables para los enlaces 
+const aCamisas = document.getElementById("camisas");
+const aTunicas = document.getElementById("tunicaIn");
+const aCalzones = document.getElementById("calzones");
+const aCalzas = document.getElementById("calzas");
+const aWiningas = document.getElementById("winingas");
+
+aCamisas.addEventListener('click', () => {mostrarDatos(camisas)});//mostrarDatos(camisas));
+aTunicas.addEventListener('click', () => {mostrarDatos(tunicas)});
+aCalzones.addEventListener('click', () => {mostrarDatos(calzones)});
+aCalzas.addEventListener('click', () => {mostrarDatos(calzas)});
+aWiningas.addEventListener('click', () => {mostrarDatos(winingas)});
+
+
+//document.getElementById('camisas').addEventListener('click',console.log('hey'));
+
