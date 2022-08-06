@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.1em;
 }
 
 body {
     font-family: 'Unna', serif;
     background-color: #f2f3f4;
-    font-size: 1.3em;
 }
 
 
@@ -49,8 +49,8 @@ body {
     flex-direction: row;
     /*Hace que los elementos se pocisionen en el centro del eje Y**/
     align-items: center;
-    border-top: 10px solid #a42c33;
-    border-bottom: 10px solid #a42c33;
+    border-top: 5px solid #a42c33;
+    border-bottom: 5px solid #a42c33;
 
 }
 
@@ -62,8 +62,9 @@ body {
     display: flex;
     flex-direction: row;
     /*El justifi-content hace que cada categoria esta a la misma distancia, tanto a la derecha como a la izquierda*/
-    justify-content: space-around;  
+    justify-content: space-evenly;  
     align-items: center;
+    text-align: center;
 }
 
 /*. titulo h3 hace referencia a el titulo de las secciones prendas interiores - prendas exteriores*/
@@ -104,7 +105,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
+    
 }
 
 /*MODIFICAMOS LAS CARDS*/
@@ -125,8 +127,9 @@ body {
 
 .card_producto .imagen_producto {
     width: 90%;
-    height: 300px;
+    height: 350px;
     margin: 5%;
+    
 }
 
 .card_producto .contenido {
