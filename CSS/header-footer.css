@@ -36,8 +36,18 @@ body {
 
 /*Se quitan bordes a iconos*/
 .remove {
+<<<<<<< HEAD
+<<<<<<< HEAD
+	background-color: transparent !important;
+	border: transparent !important;
+=======
     background-color: transparent !important;
     border: transparent !important
+>>>>>>> c9644f57ea482db0dc984c8db31f1fb5343053ba
+=======
+    background-color: transparent !important;
+    border: transparent !important
+>>>>>>> main
 }
 
 .icono {

@@ -1,0 +1,83 @@
+{
+    "page" : 8,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Bonetes", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete1.jpg",
+            "nombre_producto" : "Sombrero de palma",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Palma", 
+            "color" : ["Crema"],
+            "precio" : 350.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete2.jpg",
+            "nombre_producto" : "Sombrero plano de paja",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paja", 
+            "color" : ["Café"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete3.jpg",
+            "nombre_producto" : "Sombrero de tule",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Tule", 
+            "color" : ["Verde"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete4.jpg",
+            "nombre_producto" : "Sombrero redondo de paja",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paja", 
+            "color" : ["Café"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete5.jpg",
+            "nombre_producto" : "Sombrero amplio",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paja", 
+            "color" : ["Café"],
+            "precio" : 350.00
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete6.jpg",
+            "nombre_producto" : "Collar Boltraffio",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Piedra natural y latón ", 
+            "color" : ["Negro"],
+            "precio" : 300.0000
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete7.jpg",
+            "nombre_producto" : "Calzón Venenciano Finales Siglo XVI",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Lino", 
+            "color" : ["Rojo","Negro", "Azul"],
+            "precio" : 3000
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete8.jpg",
+            "nombre_producto" : "Calzón Romano",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Lana", 
+            "color" : ["Cafe", "Rojo", "Azul"],
+            "precio" : 1000
+        }
+                   
+    ]
+}
