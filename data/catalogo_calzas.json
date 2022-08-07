@@ -1,14 +1,14 @@
 {
-    "page" : 3,
+    "page" : 4,
     "total" : 8,
     "total_pages":10,
     "seccion" : "Prendas Interiores",
-    "subseccion" : "Calzones", 
+    "subseccion" : "Calzas", 
     "data":[
 
         {
             "id" : 1,
-            "imagen": "/assets/img/4.prendas/calzon_1.png",
+            "imagen": "/assets/img/4.prendas/calzas_1.png",
             "nombre_producto" : "Calzón Venenciano",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
@@ -18,7 +18,7 @@
         },
         {
             "id" : 2,
-            "imagen": "/assets/img/4.prendas/calzon_2.png",
+            "imagen": "/assets/img/4.prendas/calzas_2.png",
             "nombre_producto" : "Calzón Siglo XIII",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
@@ -28,7 +28,7 @@
         },
         {
             "id" : 3,
-            "imagen": "/assets/img/4.prendas/calzon_3.png",
+            "imagen": "/assets/img/4.prendas/calzas_3.png",
             "nombre_producto" : "Calzón Siglo XV",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
@@ -38,7 +38,7 @@
         },
         {
             "id" : 4,
-            "imagen": "/assets/img/4.prendas/calzon_4.png",
+            "imagen": "/assets/img/4.prendas/calzas_4.png",
             "nombre_producto" : "Calzón Finales Siglo XVI",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
@@ -48,7 +48,7 @@
         },
         {
             "id" : 5,
-            "imagen": "/assets/img/4.prendas/calzon_5.png",
+            "imagen": "/assets/img/4.prendas/calzas_5.png",
             "nombre_producto" : "Calzón Finales Siglo XVI",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
@@ -58,7 +58,7 @@
         },
         {
             "id" : 6,
-            "imagen": "/assets/img/4.prendas/calzon_6.png",
+            "imagen": "/assets/img/4.prendas/calzas_6.png",
             "nombre_producto" : "Calzón 1740 - 1790",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
@@ -68,7 +68,7 @@
         },
         {
             "id" : 7,
-            "imagen": "/assets/img/4.prendas/calzon_7.png",
+            "imagen": "/assets/img/4.prendas/calzas_7.png",
             "nombre_producto" : "Calzón Venenciano Finales Siglo XVI",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
@@ -78,7 +78,7 @@
         },
         {
             "id" : 8,
-            "imagen": "/assets/img/4.prendas/calzon_8.png",
+            "imagen": "/assets/img/4.prendas/calzas_8.pn.png",
             "nombre_producto" : "Calzón Romano",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
