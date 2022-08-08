@@ -1,0 +1,26 @@
+{
+  "name": "the-coffee-devs",
+  "version": "1.0.1",
+  "description": "Uso de NPM y bootstrap",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bscript_npm.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miridelaluz/The-Coffee-Devs.git"
+  },
+  "keywords": [
+    "npm",
+    "bootstrap"
+  ],
+  "author": "The-Coffee-Devs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miridelaluz/The-Coffee-Devs/issues"
+  },
+  "homepage": "https://github.com/miridelaluz/The-Coffee-Devs#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
