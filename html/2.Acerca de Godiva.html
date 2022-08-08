@@ -5,14 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página de Inicio - Godiva</title>
-    <style>
-      body{
-        background-image: url(/assets/img/logo.jpg);
-        background-repeat: no-repeat;
-        background-size: 200px;
-        background-position:center;
-      }
-    </style>
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,58 +25,62 @@
     <!--Link de Font Awesome 5-->
   </head>
 <!-- Inicia encabezado-->
-<header style="margin-bottom:  50px;">
+<header>
   <div id="main:wrapper">
-          <div id="barra_buscar" class="row align-items-center pt-4">
-              <div class="col-lg-8"></div>
-              <div class="col-lg-4"> 
-                  <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                      <button class="btn btn-outline-success remove" type="submit">Buscar</button>
-                  </form>
-              </div>
+      <div id="barra_buscar" class="row align-items-center pt-4">
+          <div class="col-lg-8"></div>
+          <div class="col-lg-4">
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar" id="barraBuscar">
+                  <button class="btn btn-outline-success" type="submit" id="botonBuscar" onclick="filtrar()">Buscar</button>
+              </form>
           </div>
-          <div class="row align-items-center text-center">
-              <div class="col-lg-2">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Catálogo
-                          </a>
-                          <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="/5.Catalogo.Accesorios.html">Accesorios</a></li>
-                              <li><a class="dropdown-item" href="/6.Catalogo.Calzado.html">Calzado</a></li>
-                          </ul>
-                      </li>
-                  </ul>
-              </div>
-                  
-              <div class="col-lg-2">
-                  <span><a href="">Acerca de Nosotros</a></span>
-              </div>
-
-              <div class="col-lg-3 icono_carrito">
-                  
-              </div>
-  
-              <div class="col-lg-3">
-                  <span><a href="7.Login.SignUp.html">Inicar Sesion</a></span>
-                  <span><a href="7.Login.SignUp.html">Registrarse</a></span>
-              </div>
-
-              <div class="col-lg-2">
-                  <button class="btn btn_lista_deseos">
-                      <a href="#">
-                          <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
+      </div>
+      <div class="row align-items-center text-center">
+          <div class="col-lg-2">
+              <ul class="navbar">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Catálogo
                       </a>
-                  </button>
-                  <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
-                      <button class="icono remove"><img src="assets/iconos/Basket_no_icon_48.png" alt=""> </button>
-                  </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                          <li><a class="dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
 
-                  
-              </div>
-  </header>
+          <div class="col-lg-2">
+              <span><a href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
+          </div>
+
+          <div class="col-lg-4 icono_carrito">
+              <img src="/assets/iconos/godiva_img.png" width="40%">
+          </div>
+
+          <div class="col-lg-2">
+              <span><a href="/html/7.Login.SignUp.html">Iniciar Sesion</a></span>
+              <span><a href="/html/7.Login.SignUp.html">Registrarse</a></span>
+          </div>
+
+          <div class="col-lg-2">
+              <a class="" href="/html/8.Carrito.Compra.html" target="_blank">
+                  <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="">
+                  </button>
+              </a>
+
+
+              <a class="" href="/html/8.Carrito.Compra.html" target="_blank">
+                  <button class="icono"><img src="/assets/iconos/Basket_no_icon_48.png" alt=""> </button>
+              </a>
+
+
+          </div>
+      </div>
+  </div>
+</header>
 <!-- TERMINA EL ENCABEZADO-->
 
   <body>
@@ -95,7 +92,7 @@
     ></script>
 
     <div class="container-fluid align-self-md-center"  style="margin: 50px">
-      <div class="row row-cols-md-6 row-cols-lg-6">
+      <div class="row row-cols-6 row-cols-md-6 row-cols-lg-6">
         <div class="col-2">
           <div class="card " style="width:400px; height: auto; ">
             <div class="card-body">
@@ -107,10 +104,13 @@
         </div>
     
 
-        <div class="col-2" style="text-align: right ;">
-           
+        <div class="col-2" >
+          <h5>
+            
+          </h5>
+          </style>       
         </div>
-        <div class="col-2">
+        <div class="col-2" style="text-align: right ;">
           <div class="col-1">
             <a href="/1.Inicio.html" target="_blank">
               <button 
