@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Calzado</title>
+    <!--Link Booststrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Link de Font Awesome 5-->
+    <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script>
+    <!--Links CSS-->
+    <link rel="stylesheet" href="/CSS/header-footer.css">
+    <link rel="stylesheet" href="/CSS/9.GuiaTallas.css">
+
+</head>
+
+<body>
+
+    <!-- Inicia encabezado -->
+    <header>
+        <div id="main:wrapper">
+            <div id="barra_buscar" class="row align-items-center pt-4 barra_buscar">
+                <div class="col-lg-8"></div>
+                <div class="col-lg-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="row align-items-center text-center">
+                <div class="col-lg-2">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown"><br>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Catálogo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/html/4.Catalogo.Prendas.html">Prendas</a></li>
+                                <li><a class="dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/html/9.GuiaTallas.html">Estándares de tallas</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2"><br>
+                    <span><a href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
+                </div>
+
+                <div class="col-lg-4 icono_carrito logo-godiva"><br>
+                    <span><a href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"></a></span>
+                </div>
+
+                <div class="col-lg-2"><br>
+                    <span><a href="/html/7.Login.SignUp.html">Iniciar Sesión</a></span><br>
+                    <span><a href="/html/7.Login.SignUp.html">Registrarse</a></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="btn-flotante1"><img src="/assets/iconos/5172567_heart_like_love_icon.png"
+                                alt=""> </button>
+                    </a>
+
+
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="btn-flotante2"><img src="/assets/iconos/anadir-al-carrito.png" width="40"
+                                height="40" alt=""> </button>
+                    </a>
+
+
+                </div>
+            </div>
+            <!--AQUÍ TERMINA EL MENÚ -->
+        </div>
+    </header>
+    <!--Fin Encabezado-->
+
+    <!--Guía de tallas-->
+    <h1 class="titulo">Estándares de tallas</h1>
+
+    <!-- Comienza sección de tablas con tallas de artículos -->
+
+    <!-- inicia sección de prendas -->
+
+    <div class="titulo-seccion">
+        <img src="/assets/img/9.GuiaTallas/prendas.jpg" class="img-seccion" alt="" />
+        <h2>Prendas</h2>
+    </div>
+
+    <!-- inicia tabla de Vestidos, túnicas -->
+    <div class="wrapper">
+        <div class="container flex ">
+            <table class="table table-striped">
+                <img src="/assets/img/9.GuiaTallas/vestidosTunicas.jpg" class="img-prenda" alt="" />
+                <caption><h2>Vestidos <br> Túnicas <br> Sayas</h2></caption>
+                <tr>
+                    <td><strong>Talla</strong></td>
+                    <td><strong>Contorno pecho</strong></td>
+                    <td><strong>Contorno cadera</strong></td>
+                    <td><strong>Largo</strong></td>
+                </tr>
+
+                <tr>
+                    <td>XS - S</td>
+                    <td>80 cm - 90 cm</td>
+                    <td>105 cm</td>
+                    <td>110 cm</td>
+                </tr>
+                <tr>
+                    <td>M - L</td>
+                    <td>90 cm - 102 cm</td>
+                    <td>95 cm - 113 cm</td>
+                    <td>110 cm</td>
+                </tr>
+                <tr>
+                    <td>L - XL</td>
+                    <td>102 cm - 115 cm</td>
+                    <td>Hasta 125 cm</td>
+                    <td>120 cm</td>
+                </tr>
+            </table>
+        </div><br>
+        <!-- termina tabla de Vestidos, túnicas -->
+
+        <!-- inicia tabla de Camisas, blusas, sayas, jubones, kaftanes -->
+        <div class="container flex">
+            <table class="table table-striped">
+                <img src="/assets/img/9.GuiaTallas/jubon.JPG" class="img-prenda" alt="" />
+                <h2>Camisas <br> Blusas <br> Jubones <br> Kaftanes</h2>
+                <tr>
+                    <td><strong>Talla</strong></td>
+                    <td><strong>Contorno pecho</strong></td>
+                    <td><strong>Contorno cuello</strong></td>
+                </tr>
+
+                <tr>
+                    <td>XS</td>
+                    <td>81 cm</td>
+                    <td>34 cm</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>91 cm</td>
+                    <td>37 cm</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>101 cm</td>
+                    <td>40 cm</td>
+                </tr>
+                <tr>
+                    <td>L</td>
+                    <td>111 cm</td>
+                    <td>42 cm</td>
+                </tr>
+                <tr>
+                    <td>XL</td>
+                    <td>122 cm</td>
+                    <td>44 cm</td>
+                </tr>
+                <tr>
+                    <td>XXL</td>
+                    <td>132 cm</td>
+                    <td>47 cm</td>
+                </tr>
+            </table>
+        </div><br>
+        <!-- termina tabla de Camisas, blusas, sayas, jubones, kaftanes -->
+
+        <!-- inicia tabla de calzas y calzones -->
+        <div class="container flex">
+            <table class="table table-striped">
+                <img src="/assets/img/9.GuiaTallas/calzas.jpg" class="img-prenda" alt="" />
+                <h2>Calzas <br> Calzones</h2>
+                <tr>
+                    <td><strong>Talla</strong></td>
+                    <td><strong>Contorno de cintura</strong></td>
+                </tr>
+
+                <tr>
+                    <td>XS</td>
+                    <td>75 cm</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>79 cm</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>85 cm</td>
+                </tr>
+                <tr>
+                    <td>L</td>
+                    <td>91 cm</td>
+                </tr>
+                <tr>
+                    <td>XL</td>
+                    <td>110 cm</td>
+                </tr>
+                <tr>
+                    <td>XXL</td>
+                    <td>120 cm</td>
+                </tr>
+            </table>
+        </div>
+        <!-- termina tabla de calzas y calzones-->
+
+        <!-- termina sección de prendas -->
+
+        <!-- inicia sección de accesorios -->
+        <div class="wrapper"></div>
+        <div class="titulo-seccion">
+            <img src="/assets/img/9.GuiaTallas/accesorios.jpg" class="img-prenda" alt="" />
+            <h2>Accesorios</h2>
+        </div>
+
+        <!-- inicia tabla de sombreros, bonetes y hoots -->
+
+        <div class="container flex">
+            <table class="table table-striped">
+                <img src="/assets/img/9.GuiaTallas/hoots.jpg" class="img-prenda" alt="" />
+                <h2>Sombreros, bonetes y hoots</h2>
+                <tr>
+                    <td><strong>Talla</strong></td>
+                    <td><strong>Diametro de cabeza</strong></td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>54 cm - 55 cm</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>56 cm - 57 cm</td>
+                </tr>
+                <tr>
+                    <td>L</td>
+                    <td>58 cm - 59 cm</td>
+                </tr>
+                <tr>
+                    <td>XL</td>
+                    <td>60 cm - 61 cm</td>
+                </tr>
+                <tr>
+                    <td>XXL</td>
+                    <td>62 cm - 63 cm</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- termina tabla de sombreros, bonetes y hoots -->
+
+    <!-- termina sección de accesorios -->
+
+    <!-- inicia sección de calzado -->
+    <div class="wrapper">
+        <div class="titulo-seccion">
+            <img src="/assets/img/9.GuiaTallas/calzado.jpg" class="img-seccion" alt="" />
+            <h2>Calzado</h2><br>
+
+            <!-- inicia tabla de calzado -->
+            <div class="container flex">
+                <table class="table table-striped">
+                  
+                    <tr>
+                        <td><strong>Talla</strong></td>
+                        <td><strong>Medida del pie</strong></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>22.1 cm</td>
+                    </tr>
+                    <tr>
+                        <td>2.5</td>
+                        <td>22.5 cm</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>22.9 cm</td>
+                    </tr>
+                    <tr>
+                        <td>3.5</td>
+                        <td>23.3 cm</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>23.8 cm</td>
+                    </tr>
+                    <tr>
+                        <td>4.5</td>
+                        <td>24.2 cm</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>24.6 cm</td>
+                    </tr>
+                    <tr>
+                        <td>5.5</td>
+                        <td>25 cm</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>25.5 cm</td>
+                    </tr>
+                    <tr>
+                        <td>6.5</td>
+                        <td>25.9 cm</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>26.3 cm</td>
+                    </tr>
+                    <tr>
+                        <td>7.5</td>
+                        <td>26.3 cm</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>26.7 cm</td>
+                    </tr>
+                    <tr>
+                        <td>8.5</td>
+                        <td>27.6 cm</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>28 cm</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- termina tabla calzado-->
+        </div>
+
+        <!-- termina sección de calzado-->
+    </div>
+
+
+    <h3>Las medidas son apróximadas. Si tus medidas no aparecen en las tablas no dudes en contactarnos para hacer el
+        artículo a tu medida</h3>
+    <!-- Fin Guía de tallas -->
+
+
+    <!-- Inicio pie -->
+    <hr>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    
+                        <a href="https://www.facebook.com/GodivaSH" target="_blank">
+                            <button class="icono icono_facebook"><img src="/assets/iconos/facebook_logo_48.png"
+                                    alt=""></button>
+                        </a>                    
+
+                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
+                        <button class="icono icono_instagram"><img src="/assets/iconos/Instagram_logo_48.png"
+                                alt=""></button>
+                    </a>
+                </div>
+                <div class="preguntas col-lg-4 col-md-6 col-sm-12" style="align-items: center;">
+                    <a href="/html/2.Acerca de Godiva.html">
+                        <label>
+                            Preguntas frecuentes
+                        </label>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+
+                    <img src="/assets/iconos/Visa_logo_48.png" alt="">
+                    <img src="/assets/iconos/Mastercar_loco_48.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fin Pie-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

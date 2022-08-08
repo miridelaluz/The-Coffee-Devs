@@ -1,0 +1,91 @@
+{
+    "page" : 4,
+    "total" : 8,
+    "total_pages":10,
+    "seccion" : "Prendas Interiores",
+    "subseccion" : "Calzas", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/4.prendas/winingas_1.png",
+            "nombre_producto" : "Calzón Venenciano",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lana", 
+            "color" : ["Marron", "Rojo", "Azul"],
+            "precio" : 900
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/4.prendas/winingas_2.png",
+            "nombre_producto" : "Calzón Siglo XIII",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lana", 
+            "color" : ["Cafe", "Rojo", "Azul"],
+            "precio" : 2800
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/4.prendas/winingas_3.png",
+            "nombre_producto" : "Calzón Siglo XV",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Naranja", "Rojo", "Azul"],
+            "precio" : 1500
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/4.prendas/winingas_4.png",
+            "nombre_producto" : "Calzón Finales Siglo XVI",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lana, Lino", 
+            "color" : ["Azul", "Rojo", "Negro"],
+            "precio" : 2000
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/4.prendas/winingas_5.png",
+            "nombre_producto" : "Calzón Finales Siglo XVI",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino, Lana", 
+            "color" : ["Verde", "Rojo", "Azul"],
+            "precio" : 2500
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/4.prendas/winingas_6.png",
+            "nombre_producto" : "Calzón 1740 - 1790",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino, Algodon", 
+            "color" : ["Blanco", "Rojo", "Azul"],
+            "precio" : 2000
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/4.prendas/winingas_7.png",
+            "nombre_producto" : "Calzón Venenciano Finales Siglo XVI",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Rojo","Negro", "Azul"],
+            "precio" : 3000
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/4.prendas/winingas_8.png",
+            "nombre_producto" : "Calzón Romano",
+            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lana", 
+            "color" : ["Cafe", "Rojo", "Azul"],
+            "precio" : 1000
+        }
+                   
+    ]
+}
