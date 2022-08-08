@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+body {
+    font-family: 'Unna', serif;
+    background-color: #f2f3f4;
+}
+
+
+/*ENCABEZADO*/
+.row {
+    width: 98vw;
+    margin: 0;
+}
+
+.btn_buscar {
+    padding: 10px 30px 10px 30px;
+    color: #a42c33;
+    border: 1px solid #a42c33;
+    border-radius: 4px;
+}
+
+.btn_buscar:hover {
+    background-color: #a42c33;
+    color: #f2f3f4;
+}
+
+.icono {
+    border: none;
+    background-color: #f2f3f4;
+    margin: 10px;
+}
+
+/*MODIFICAMOS EL CONTENEDOR DE LOS ICONOS*/
+
+/*#contenedor_categorias alberga los iconos de las categorias*/
+#contenedor_categorias {
+    /* background-color: #a42c33; */
+    /*La posicion fixed ayuda a que el contenedor de las categorias no se mueva*/
+    /*position: fixed;*/
+    width: 99vw;
+    /*El diaplay flex hace que las cajas se pocicionen una delante de la otra*/
+    display: flex;
+    /*Le indica a los contenedores que se colocaran en fila*/
+    flex-direction: row;
+    /*Hace que los elementos se pocisionen en el centro del eje Y**/
+    align-items: center;
+    border-top: 5px solid #a42c33;
+    border-bottom: 5px solid #a42c33;
+
+}
+
+
+/*.prendas se divide entre las secciones prendas interiores - prendas exteriores*/
+.prendas  {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*El justifi-content hace que cada categoria esta a la misma distancia, tanto a la derecha como a la izquierda*/
+    justify-content: space-evenly;  
+    align-items: center;
+    text-align: center;
+}
+
+/*. titulo h3 hace referencia a el titulo de las secciones prendas interiores - prendas exteriores*/
+.titulo h3 {
+    color: #a42c33;
+}
+
+/*Modificamos lo hay dentro de cada seccion (categorias)*/
+.categorias {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES DE LOS ICONOS*/
+
+.imagen_icono {
+    height: 60px;
+    border-radius: 55px;
+    border: solid 5px #a42c33;
+    
+}
+
+
+.enlaces  {
+    text-decoration: none;
+    color: #a42c33;
+}
+
+.enlaces :hover {
+    color: #c47627;
+}
+
+/*MODIFICAMOS EL CONTENEDOR DE LAS CARDS CON LOS PRODUCTOS*/
+
+#contenedor_cards {
+    width: 99vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    
+}
+
+/*MODIFICAMOS LAS CARDS*/
+.card_producto {
+    width: 20%;
+    margin: 2%;
+    border-radius: 6px;
+    background-color: #f2f3f4;
+    box-shadow: 0px 1px 10px  #a42c325f;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card_producto:hover {
+    box-shadow: 5px 5px 20px #a42c325f;
+    transform: translateY(-3%);
+}
+
+.card_producto .imagen_producto {
+    width: 90%;
+    height: 350px;
+    margin: 5%;
+    
+}
+
+.card_producto .contenido {
+    margin: 15px;
+    text-align: center;
+}
+
+
+.card_producto .contenido .titulo_producto {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card_producto .contenido .enlaces {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    color: #a42c33;
+    border: 1px solid #a42c33;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card_producto .contenido .enlaces:hover {
+    background-color: #a42c33;
+    color: #f2f3f4;
+}
+
+select {
+    border-radius: 8px;
+}
+
+
+
+/* *** CREAMOS EL PRIMER PUNTO DE QUIEBRE *** */
+
+@media screen and (max-width: 1000px) {
+
+    #contenedor_categorias {
+        /* position: fixed; */
+        width: 98vw;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prendas  {
+        /*Aquí ya es necesario definir que su ancho sea del 100%*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  
+    }
+    
+    .categorias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .enlaces {
+        text-decoration: none;
+        color: #a42c33;
+    }
+    
+    .enlaces :hover {
+        color: #c47627;
+    }
+
+
+    /*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES*/
+    .contenedor_fila {
+        padding-left: 50px;
+        width: 98vw;
+        display: flex;
+        /*flex-wrap hace que las card se muevan a la parte de abajo*/
+        flex-wrap: wrap;
+    }
+
+    .card_producto {
+        height: 500px;
+        width: 350px;
+        margin: 20px;
+    }
+
+    .card_producto .imagen_producto {
+        width: 90%;
+        height: 200px;
+        margin: 5%;
+    }
+    
+    .card_producto .contenido {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .card_producto .contenido .enlaces {
+        padding: 5px;
+        margin-top: 5px;
+    }
+}
+
+/*CREAMOS EL SEGUNDO PUNTO DE QUIEBRE*/
+@media (max-width: 800px) {
+    /*Tratar de hacer las categorias menu*/
+    #contenedor_categorias {
+        /* position: fixed; */
+        width: 100vw;
+        height: 100px;
+    }
+
+    .imagen_icono {
+        /*Quita el elemento del flujo de la pagina*/
+        display: none;
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    
+}

@@ -1,0 +1,73 @@
+{
+    "page" : 4,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Sporrans", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete1.jpg",
+            "nombre_producto" : "Sporran maldiva",
+            "tallas": ["CH"],
+            "material": "Paño de lana", 
+            "color" : ["Rojo"],
+            "precio" : 800.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete2.jpg",
+            "nombre_producto" : "Sporran sencillo (dos piezas)",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Café"],
+            "precio" : 800.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete3.jpg",
+            "nombre_producto" : "Sporran malamute",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Negro"],
+            "precio" : 800.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete4.jpg",
+            "nombre_producto" : "Sporran grabado",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Rojo/Azul"],
+            "precio" : 800.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete5.jpg",
+            "nombre_producto" : "Sporran básico",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Azul/Café"],
+            "precio" : 800.00
+        }
+                   
+    ]
+}
+
+// INSERT INTO categoria (nombre_categoria,nombre_subcategoria)VALUES("Prendas interiores","Camisas")
+// ("Prendas interiores","Túnicas")
+// ("Prendas interiores","Calzones"),
+// ("Prendas interiores","Winigas");
+// INSERT INTO categoria (nombre_categoria,nombre_subcategoria)VALUES("Prendas interiores","Túnicas"),
+// ("Prendas interiores","Vestidos"),
+// ("Prendas interiores","Sayón"),
+// ("Prendas interiores","Jubón"),
+// INSERT INTO producto (nombre_producto,talla,material,color,precio,categoría_idcategoria,descripción,imagen)
+// VALUES("Anillo Gosvinta","Ajustable","Latón","Dorado","350.00","Accesorios", "Precioso anillo de estulo visigodo, realizado en latón, ambientado en el siglo VI.","/assets/img/5.accesorios/Joyas/joya1.jpg");
+
+
+
+// INSERT INTO tallas (nombre_talla)VALUES("Ajsutable");
+// INSERT INTO tallas (nombre_talla)VALUES("Ajsutable");
+

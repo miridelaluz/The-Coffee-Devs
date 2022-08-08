@@ -1,0 +1,57 @@
+{
+    "page" : 8,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Bonetes", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete1.jpg",
+            "nombre_producto" : "Bonete de paño 1",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Rojo"],
+            "precio" : 800.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete2.jpg",
+            "nombre_producto" : "Bonete de paño 2",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Café"],
+            "precio" : 800.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete3.jpg",
+            "nombre_producto" : "Bonete de paño 3",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Negro"],
+            "precio" : 800.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete4.jpg",
+            "nombre_producto" : "Bonete de paño 4",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Rojo/Azul"],
+            "precio" : 800.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete5.jpg",
+            "nombre_producto" : "Bonete de lana",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Azul/Café"],
+            "precio" : 800.00
+        }
+                   
+    ]
+}
+
