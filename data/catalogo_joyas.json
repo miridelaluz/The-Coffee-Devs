@@ -1,0 +1,83 @@
+{
+    "page" : 1,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Joyas", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya1.jpg",
+            "nombre_producto" : "Anillo Gosvinta",
+            "tallas": ["Ajustable"],
+            "material": "Latón", 
+            "color" : ["Dorado"],
+            "precio" : 350.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya2.jpg",
+            "nombre_producto" : "Anillo Trastámara",
+            "tallas": ["Ajustable"],
+            "material": "Latón y piedra natural", 
+            "color" : ["Dorado"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya3.jpg",
+            "nombre_producto" : "Anillo Jigmai",
+            "tallas": ["Ajustable"],
+            "material": "Acero inoxidable", 
+            "color" : ["Dorado"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya4.jpg",
+            "nombre_producto" : "Anillo Trastámara 2",
+            "tallas": ["Ajustable"],
+            "material": "Latón", 
+            "color" : ["Dorado"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya5.jpg",
+            "nombre_producto" : "Collar cruz",
+            "tallas": ["Ajustable"],
+            "material": "Latón y perla", 
+            "color" : ["Dorado"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya6.jpg",
+            "nombre_producto" : "Talega dura",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 500.00
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya7.jpg",
+            "nombre_producto" : "Talega sencilla 2",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 350.0
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya8.jpg",
+            "nombre_producto" : "Talega tejida",
+            "tallas": ["CH"],
+            "material": "Piel", 
+            "color" : ["Cafe"],
+            "precio" : 350.00
+        }
+                   
+    ]
+}
