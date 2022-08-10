@@ -55,19 +55,43 @@
     ]
 }
 
-// INSERT INTO categoria (nombre_categoria,nombre_subcategoria)VALUES("Prendas interiores","Camisas")
-// ("Prendas interiores","Túnicas")
-// ("Prendas interiores","Calzones"),
-// ("Prendas interiores","Winigas");
-// INSERT INTO categoria (nombre_categoria,nombre_subcategoria)VALUES("Prendas interiores","Túnicas"),
-// ("Prendas interiores","Vestidos"),
-// ("Prendas interiores","Sayón"),
-// ("Prendas interiores","Jubón"),
+// INSERT INTO subcategoria (nombre_subcategoria, idcategoria) VALUES 
+// ("Camisas",1),
+// ("Túnicas Interiores",1),
+// ("Calzones",1),
+// ("Winigas",1),
+// ("Calzas",1),
+// ("Túnicas Exteriores",2),
+// ("Vestidos",2),
+// ("Sayón",2),
+// ("Jubón",2),
+// ("Kaftan",2),
+// ("Zapatos",3),
+// ("Bonetes",4),
+// ("Bolsos",4),
+// ("Capirotes",4),
+// ("Cinturones",4),
+// ("Cofias",4),
+// ("Joyas",4),
+// ("Sombreros",4),
+// ("Sporrans",4),
+// ("Talegas",4),
+// ("Zurrones",4);
+
+// INSERT INTO categoria (nombre_categoria,nombre_subcategoria)VALUES("Prendas interiores","Camisas",)
+// ("Prendas interiores","Túnicas",)
+// ("Prendas interiores","Calzones",),
+// ("Prendas interiores","Winigas",);
+// INSERT INTO categoria (nombre_categoria,nombre_subcategoria)VALUES("Prendas interiores","Túnicas",),
+// ("Prendas interiores","Vestidos",),
+// ("Prendas interiores","Sayón",),
+// ("Prendas interiores","Jubón",),
 // INSERT INTO producto (nombre_producto,talla,material,color,precio,categoría_idcategoria,descripción,imagen)
-// VALUES("Anillo Gosvinta","Ajustable","Latón","Dorado","350.00","Accesorios", "Precioso anillo de estulo visigodo, realizado en latón, ambientado en el siglo VI.","/assets/img/5.accesorios/Joyas/joya1.jpg");
+// VALUES("Anillo Gosvinta","Ajustable","Latón","Dorado","350.00","Accesorios", "Precioso anillo de estulo visigodo, realizado en latón, ambientado en el siglo VI.","/assets/img/5.accesorios/Joyas/joya1.jpg",);
 
 
 
-// INSERT INTO tallas (nombre_talla)VALUES("Ajsutable");
-// INSERT INTO tallas (nombre_talla)VALUES("Ajsutable");
+// INSERT INTO tallas (nombre_talla)VALUES("Ajsutable",);
+// INSERT INTO tallas (nombre_talla)VALUES("Ajsutable",);
 
+//INSERT INTO talla (nombretalla, categoria)
