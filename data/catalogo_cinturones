@@ -1,0 +1,83 @@
+{
+    "page" : 5,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Joyas", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Cinturones/cinturon1.jpg",
+            "nombre_producto" : "Cinturón Ajuar",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 250.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Cinturones/cinturon2.jpg",
+            "nombre_producto" : "Cinturón Aledán",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Cinturones/cinturon3.jpg",
+            "nombre_producto" : "Cinturón Max",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 500.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Cinturones/cinturon4.jpg",
+            "nombre_producto" : "Cinturón sencillo",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Cinturones/cinturon5.jpg",
+            "nombre_producto" : "Cinturón botón",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 250.00
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/5.accesorios/Cinturones/cinturon6.jpg",
+            "nombre_producto" : "Cinturón Luan",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 300.00
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/5.accesorios/Cinturones/cinturon7.jpg",
+            "nombre_producto" : "Cinturón Berro",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 250.0
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/5.accesorios/Cinturones/cinturon8.jpg",
+            "nombre_producto" : "Cinturón de lucha",
+            "tallas": ["Ajustable"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 600.00
+        }
+                   
+    ]
+}

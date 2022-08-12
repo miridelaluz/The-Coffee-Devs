@@ -36,18 +36,12 @@ body {
 
 /*Se quitan bordes a iconos*/
 .remove {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-color: transparent !important;
-	border: transparent !important;
-=======
-    background-color: transparent !important;
-    border: transparent !important
->>>>>>> c9644f57ea482db0dc984c8db31f1fb5343053ba
-=======
-    background-color: transparent !important;
-    border: transparent !important
->>>>>>> main
+    background-color: transparent;
+    border: transparent;
+    background-color: transparent;
+    border: transparent;
+    background-color: transparent;
+    border: transparent;
 }
 
 .icono {
@@ -73,6 +67,7 @@ p {
     font-family: sans-serif;
     color: #333;
     text-decoration: none;
+    justify-content: space-evenly;
 }
 
 .dropdown-menu {
@@ -101,7 +96,7 @@ footer {
     align-items: center;
     /* padding: 2em; */
     color: rgba(0, 0, 0, 0.684);
-   
+
 }
 
 .icono_footer {
@@ -118,6 +113,7 @@ footer {
 
 
 .btn-flotante1 {
+    background-color: transparent;
     font-size: 16px;
     /* Cambiar el tamaño de la tipografia */
     text-transform: uppercase;
@@ -130,8 +126,8 @@ footer {
     letter-spacing: 2px;
     /* Espacio entre letras */
     position: fixed;
-    bottom: auto;
-    right: 210px;
+    bottom: 0;
+    right: 0;
     transition: all 300ms ease 0ms;
 
     z-index: 99;
@@ -143,16 +139,8 @@ footer {
     transform: translateY(-7px);
 }
 
-/* @media only screen and (max-width: 600px) {
-    .btn-flotante1{
-    font-size: 14px;
-    padding: 12px 20px;
-    bottom: 20px;
-    right: 20px;
-    }
-    } */
-
 .btn-flotante2 {
+    background-color: transparent;
     font-size: 16px;
     /* Cambiar el tamaño de la tipografia */
     text-transform: uppercase;
@@ -165,8 +153,8 @@ footer {
     letter-spacing: 2px;
     /* Espacio entre letras */
     position: fixed;
-    bottom: auto;
-    right: 150px;
+    bottom: 0;
+    right: 0;
     transition: all 300ms ease 0ms;
 
     z-index: 99;
@@ -178,11 +166,87 @@ footer {
     transform: translateY(-7px);
 }
 
-/* @media only screen and (max-width: px) {
-        .btn-flotante2 {
+
+.btn-flotante3 {
+    background-color: transparent;
+    font-size: 16px;
+    /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase;
+    /* Texto en mayusculas */
+    font-weight: bold;
+    /* Fuente en negrita o bold */
+    border: none;
+    border-radius: 50px;
+    /* Borde del boton */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    transition: all 300ms ease 0ms;
+
+    z-index: 99;
+}
+
+.btn-flotante3:hover {
+    /* background-color: #f2f3f4; Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
+
+/* Breakpoint botones  */
+
+@media only screen and (min-width: 375px) {
+    .btn-flotante1 {
         font-size: 14px;
         padding: 12px 20px;
-        bottom: 20px;
-        right: 20px;
-        }
-        } */
+        bottom: 490px;
+        right: 10px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .btn-flotante1 {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 720px;
+        right: 15px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .btn-flotante2 {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 440px;
+        right: 15px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .btn-flotante2 {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 650px;
+        right: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 667px) {
+    .btn-flotante3 {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 50px;
+        right: 10px;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    .btn-flotante3 {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 30px;
+        right: 15px;
+    }
+}

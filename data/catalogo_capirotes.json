@@ -1,0 +1,56 @@
+{
+    "page" : 9,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Joyas", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Capirotes/capirote1.jpg",
+            "nombre_producto" : "Explorador",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Lana", 
+            "color" : ["Gris"],
+            "precio" : 50.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Capirotes/capirote2.jpg",
+            "nombre_producto" : "Uno",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Tela", 
+            "color" : ["Blanco"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Capirotes/capirote3.jpg",
+            "nombre_producto" : "Dos",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Tela", 
+            "color" : ["Blanco/Rojo"],
+            "precio" : 350.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Capirotes/capirote4.jpg",
+            "nombre_producto" : "Tres",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Verde", 
+            "color" : ["Café"],
+            "precio" : 300.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya5.jpg",
+            "nombre_producto" : "Cuatro",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Tela", 
+            "color" : ["Rojo"],
+            "precio" : 300.0
+        }
+                   
+    ]
+}

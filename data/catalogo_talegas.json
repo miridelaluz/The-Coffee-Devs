@@ -1,0 +1,83 @@
+{
+    "page" : 2,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Joyas", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Talegas/talega1.jpg",
+            "nombre_producto" : "Talega sencilla",
+            "tallas": ["CH"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 300.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Talegas/talega2.jpg",
+            "nombre_producto" : "Talega alargada",
+            "tallas": ["CH"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 350.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Talegas/talega3.jpg",
+            "nombre_producto" : "Talega red velvet",
+            "tallas": ["CH"],
+            "material": "Seda", 
+            "color" : ["Rojo"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Talegas/talega4.jpg",
+            "nombre_producto" : "Talega lina",
+            "tallas": ["CH"],
+            "material": "Lino", 
+            "color" : ["Blanco"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Talegas/talega5.jpg",
+            "nombre_producto" : "Talega Moncino",
+            "tallas": ["CH"],
+            "material": "Piel", 
+            "color" : ["Verde"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/5.accesorios/Talegas/talega6.jpg",
+            "nombre_producto" : "Talega dura",
+            "tallas": ["CH"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 500.00
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/5.accesorios/Talegas/talega7.jpg",
+            "nombre_producto" : "Talega sencilla 2",
+            "tallas": ["CH"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 350.0
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/5.accesorios/Talegas/talega8.jpeg",
+            "nombre_producto" : "Talega tejida",
+            "tallas": ["CH"],
+            "material": "Piel", 
+            "color" : ["Cafe"],
+            "precio" : 350.00
+        }
+                   
+    ]
+}
