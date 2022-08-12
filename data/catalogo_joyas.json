@@ -9,7 +9,8 @@
         {
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Joyas/joya1.jpg",
-            "nombre_producto" : "Anillo Gosvinta",
+            "descripcion": "",
+            "nombre" : "Anillo Gosvinta",
             "tallas": ["Ajustable"],
             "material": "Latón", 
             "color" : ["Dorado"],
@@ -18,7 +19,8 @@
         {
             "id" : 2,
             "imagen": "/assets/img/5.accesorios/Joyas/joya2.jpg",
-            "nombre_producto" : "Anillo Trastámara",
+            "descripcion": "",
+            "nombre" : "Anillo Trastámara",
             "tallas": ["Ajustable"],
             "material": "Latón y piedra natural", 
             "color" : ["Dorado"],
@@ -27,7 +29,8 @@
         {
             "id" : 3,
             "imagen": "/assets/img/5.accesorios/Joyas/joya3.jpg",
-            "nombre_producto" : "Anillo Jigmai",
+            "descripcion": "",
+            "nombre" : "Anillo Jigmai",
             "tallas": ["Ajustable"],
             "material": "Acero inoxidable", 
             "color" : ["Dorado"],
@@ -36,7 +39,8 @@
         {
             "id" : 4,
             "imagen": "/assets/img/5.accesorios/Joyas/joya4.jpg",
-            "nombre_producto" : "Anillo Trastámara 2",
+            "descripcion": "",
+            "nombre" : "Anillo Trastámara 2",
             "tallas": ["Ajustable"],
             "material": "Latón", 
             "color" : ["Dorado"],
@@ -45,7 +49,8 @@
         {
             "id" : 5,
             "imagen": "/assets/img/5.accesorios/Joyas/joya5.jpg",
-            "nombre_producto" : "Anillo Ysabel",
+            "descripcion": "",
+            "nombre" : "Anillo Ysabel",
             "tallas": ["Ajustable"],
             "material": "Latón y perla", 
             "color" : ["Dorado"],
@@ -54,7 +59,8 @@
         {
             "id" : 6,
             "imagen": "/assets/img/5.accesorios/Joyas/joya6.jpg",
-            "nombre_producto" : "Collar cruz",
+            "descripcion": "",
+            "nombre" : "Collar cruz",
             "tallas": ["Ajustable"],
             "material": "piedra natural", 
             "color" : ["Café"],
@@ -63,7 +69,8 @@
         {
             "id" : 7,
             "imagen": "/assets/img/5.accesorios/Joyas/joya7.jpg",
-            "nombre_producto" : "Anillo Floreado",
+            "descripcion": "",
+            "nombre" : "Anillo Floreado",
             "tallas": ["CH","M"],
             "material": "Acero inoxidable", 
             "color" : ["Plata"],
@@ -72,7 +79,8 @@
         {
             "id" : 8,
             "imagen": "/assets/img/5.accesorios/Joyas/joya8.jpg",
-            "nombre_producto" : "Pendientes Cruz",
+            "descripcion": "",
+            "nombre" : "Pendientes Cruz",
             "tallas": ["CH"],
             "material": "Plata y circonita", 
             "color" : ["Pata"],
