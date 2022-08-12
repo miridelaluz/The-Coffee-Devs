@@ -61,15 +61,15 @@ const llave = "datosProductos";
 //Las variables para los enlaces 
 
 const aJoyeria = document.getElementById("joyeriaIn");
-const aTalegas = document.getElementById("talegas");
-const aZurrones = document.getElementById("zurrones");
-const aSporrans = document.getElementById("sporrans");
-const aCinturones = document.getElementById("cinturones");
-const aBolsos = document.getElementById("bolsos");
-const aSombreros = document.getElementById("sombreros");
-const aBonetes = document.getElementById("bonetes");
-const aCapirotes = document.getElementById("capirotes");
-const aCofias = document.getElementById("cofias");
+const aTalegas = document.getElementById("talegasIn");
+const aZurrones = document.getElementById("zurronesIn");
+const aSporrans = document.getElementById("sporransIn");
+const aCinturones = document.getElementById("cinturonesIn");
+const aBolsos = document.getElementById("bolsosIn");
+const aSombreros = document.getElementById("sombrerosIn");
+const aBonetes = document.getElementById("bonetesIn");
+const aCapirotes = document.getElementById("capirotesIn");
+const aCofias = document.getElementById("cofiasIn");
 
 
 

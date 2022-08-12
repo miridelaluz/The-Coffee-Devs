@@ -9,7 +9,7 @@
         {
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete1.jpg",
-            "nombre_producto" : "Sporran maldiva",
+            "nombre" : "Sporran maldiva",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
             "color" : ["Rojo"],
@@ -18,7 +18,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete2.jpg",
-            "nombre_producto" : "Sporran sencillo (dos piezas)",
+            "nombre" : "Sporran sencillo (dos piezas)",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
             "color" : ["Café"],
@@ -27,7 +27,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete3.jpg",
-            "nombre_producto" : "Sporran malamute",
+            "nombre" : "Sporran malamute",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
             "color" : ["Negro"],
@@ -36,7 +36,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete4.jpg",
-            "nombre_producto" : "Sporran grabado",
+            "nombre" : "Sporran grabado",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
             "color" : ["Rojo/Azul"],
@@ -45,7 +45,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete5.jpg",
-            "nombre_producto" : "Sporran básico",
+            "nombre" : "Sporran básico",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
             "color" : ["Azul/Café"],
@@ -54,7 +54,7 @@
         {
             "id" : 6,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete6.jpg",
-            "nombre_producto" : "Sporran renacentista",
+            "nombre" : "Sporran renacentista",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Terciopelo", 
             "color" : ["Café"],
@@ -63,7 +63,7 @@
         {
             "id" : 7,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete7.jpg",
-            "nombre_producto" : "Sporran cortesano",
+            "nombre" : "Sporran cortesano",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Terciopelo", 
             "color" : ["Guindo"],
@@ -72,7 +72,7 @@
         {
             "id" : 8,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete8.jpg",
-            "nombre_producto" : "Sporran duo",
+            "nombre" : "Sporran duo",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
             "color" : ["Azul/Rojo"],
