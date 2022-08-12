@@ -4,17 +4,17 @@
     reader.onload = function (e) {             
         document.getElementById('uploadPreview'+nb).src = e.target.result;         
     };     
-} */
+}  */
 
 
-/* function previ(nb) {        
+ /* function previ(nb) {        
     var leer = new FileReader();         
     leer.readAsDataURL(document.getElementById('cargar'+nb).files[0]);         
     leer.onload = function (e) {             
         document.getElementById('previ'+nb).src = e.target.result;         
     };     
-}``
- */
+} */
+
 
 /* function captura(){
     var nombreest = document.getElementById("nomest").value;

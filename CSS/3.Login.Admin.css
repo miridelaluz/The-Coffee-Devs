@@ -74,14 +74,18 @@ body {
    /*  background-image: url("/assets/img/eventos.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: 50px;
   }
   
   .right-col {
-    margin-bottom: -5%;
+  /*   margin-bottom: -5%; */
  /*    background: var(--bg-color); */
     width: 50vw;
     height: 100vh;
-    padding: 5rem 3.5rem;
+/*     padding: -10rem 3rem; */
+margin-left: 10%;
+    margin-top: 50px;
   }
   
   h1, label, button, .description {
@@ -98,6 +102,7 @@ body {
     font-size: 2.5rem;
     letter-spacing: 0.5rem;
     font-weight: 300;
+    text-align: center;
   }
   
   p {
@@ -126,13 +131,13 @@ body {
     display: block;
   }
   
-  p, placeholder, input, textarea {
+ /*  p, placeholder, input, textarea {
     font-family: 'Helvetica Neue', sans-serif;
-  }
+  } */
   
-  input::placeholder, textarea::placeholder {
+  /* input::placeholder, textarea::placeholder {
     color: var(--primary-color);
-  }
+  } */
   
   input, textarea {
     color: var(--primary-color);
@@ -169,16 +174,16 @@ body {
    
   }
   
-  input:hover, textarea:hover, button:hover {
+ /*  input:hover, textarea:hover, button:hover {
     opacity: 0.5;
   }
-  
+   */
   button:active {
     opacity: 0.8;
   }
   
   /* Toggle Switch */
-  
+/*   
   .theme-switch-wrapper {
     display: flex;
     align-items: center;
@@ -187,7 +192,7 @@ body {
     position: absolute;
     top: 0.5rem;
     right: 0;
-  }
+  } */
   
   .description {
       margin-left: 1.25rem;

@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+    }
+
+.content{
+    display: grid;
+    grid-template-columns: 32% 30% 10% 10% 10%;
+    grid-template-rows: 25% 10%;
+    grid-gap: 10px;
+    margin: auto;
+    width: 90%;
+}
+
+.content .tarjeta{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width:100%;
+}
+
+.content .logo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    }
+
+.content .evento1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    }
+
+.content .evento2{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    }
+
+.content .evento3{
+    grid-column-start: 4;
+    grid-column-end: 5;     
+    grid-row-start: 2;
+    grid-row-end: 2;
+    }
+
+.tarjeta .card{
+    background-color: #a42c33;
+    width: 100%;
+    border-radius: 20px; 
+    height: auto;
+    }
+
+.tarjeta .card-text{
+text-align: center;
+background-color: #f2f3f4;
+width: 100%;
+border-radius: 20px;
+    }
+
+.logo img{
+    height: 450px; 
+    width: 450px;  
+    border-radius: 50%;
+}
+
+.evento-header img{
+    height: 150px; 
+    width: 150px;  
+    border-radius: 100px;
+    border: #a42c33 solid 5px;
+}
+
+.evento-foot{
+    width: 120%;
+    text-align: center;
+}
+
+.section-list2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+    margin-top: -200px;
+    margin-bottom: -100px;
+    }
+
+.content2{
+    display: grid;
+    grid-template-columns: 8% 8% 8% 10% 60%;
+    grid-template-rows: 15% 20%;
+    grid-gap: 50px;
+    width: 80%;
+}
+
+.content2 .mision{
+grid-column-start: 2;
+grid-column-end: 3;     
+grid-row-start: 1;
+grid-row-end: 1;
+}
+
+.content2 .vision{
+grid-column-start: 1;
+grid-column-end: 2;     
+grid-row-start: 2;
+grid-row-end: 2;
+}
+            
+.content2 .valores{
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 2;
+    }        
+                    
+.content2 .tarjeta2{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    }
+
+.content2 img{
+    height: 150px; 
+    width: 150px;  
+    border-radius: 100px;
+    border: #a42c33 solid 5px;    
+}
+
+.content2 .foot{
+    display: block;
+    text-decoration: none;
+    background: #a42c33;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 20px; 
+}
+
+.tarjeta2{
+margin: auto;
+width: 80%;
+    }
+
+.tarjeta2 .card{
+background-color: #a42c33;
+width: 100%;
+border-radius: 20px; 
+height: auto;
+    }
+
+.tarjeta2 .card-text{
+text-align: center;
+background-color: #f2f3f4;
+width: 100%;
+margin-top: 10px;
+border-radius: 20px;
+    }
+
+@media screen and (max-width:1367px){
+    
+    .content2{
+        display: grid;
+        grid-template-columns: 8% 8% 8% 60%;
+        grid-template-rows: 15% 20%;
+        grid-gap: 50px;
+    }
+    
+    .content2 .mision{
+    grid-column-start: 2;
+    grid-column-end: 3;     
+    grid-row-start: 1;
+    grid-row-end: 1;
+    }
+    
+    .content2 .vision{
+    grid-column-start: 1;
+    grid-column-end: 2;     
+    grid-row-start: 2;
+    grid-row-end: 2;
+    }
+                
+    .content2 .valores{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+        }        
+                        
+    .content2 .tarjeta2{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        }
+}
+
+@media screen and (max-width:1340px){
+
+    .content{
+        display: grid;
+        grid-template-columns: 25% 13% 13% 13% 25%;
+        grid-template-rows: 22% 20% 20%;    
+        grid-gap: 20px;  
+        margin: auto;
+        width: 100%;
+        margin-bottom: 130px;
+    }
+
+    .logo{
+        display: none;
+    }
+    
+    .content .tarjeta{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        width:100%;
+    }
+    
+    .content .evento1{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        }
+    
+    .content .evento2{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        }
+    
+    .content .evento3{
+        grid-column-start: 3;
+        grid-column-end: 4;     
+        grid-row-start: 3;
+        grid-row-end: 3;
+        }                   
+  
+}
+
+@media screen and (max-width:1160px){
+
+    .content2{
+        margin-bottom: 70px;
+        grid-template-columns: 25% 13% 13% 13% 25%;
+        grid-template-rows: 35% 20% 20%;    
+        grid-gap: 20px;
+        width: 100%;
+    }
+
+.content2 .tarjeta2{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        }
+    .content2 .mision{
+    grid-column-start: 3;
+    grid-column-end: 4;     
+    grid-row-start: 2;
+    grid-row-end: 2;
+    }
+    
+    .content2 .vision{
+    grid-column-start: 2;
+    grid-column-end: 3;     
+    grid-row-start: 3;
+    grid-row-end: 3;
+    }
+                
+    .content2 .valores{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+        } 
+}
+
+@media screen and (max-width:900px){
+    .content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+        grid-template-rows: 25% 25% 25% 25%;  
+        grid-gap: 20px;
+        width: 80%;
+        margin-bottom: 250px;
+    }
+    
+    .content .tarjeta{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .content .evento1{
+        grid-column-start: 1;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        margin-left: 70px;
+        }
+    
+    .content .evento2{
+        grid-column-start: 1;
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        }
+    
+    .content .evento3{
+        grid-column-start: 1;
+        grid-column-start: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        }            
+        
+.evento-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: 75%; 
+    grid-template-rows: 28% 18% 18% 18%;  
+    width: 75%;
+    margin-bottom: 20px;
+
+}
+
+.content2 .tarjeta2{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-bottom: 200px;
+}
+
+.content2 .mision{
+    grid-column-start: 1;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    }
+
+.content2 .vision{
+    grid-column-start: 1;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    }
+
+.content2 .valores{
+    grid-column-start: 1;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    }   
+    
+.content2 .foot{
+    width: 30%;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.content2 .header{
+    margin-left: 45%;
+}
+  
+}
+
+@media screen and (max-width:504px){
+  
+    .tarjeta{
+       margin-bottom: 100px;
+    }
+
+    .mision{
+        margin-top: 30px;
+     }
+
+     .content2 .foot{
+        width: 60%;
+        padding: 0px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:432px){
+.content{
+    display: grid;
+    grid-template-columns: 75%; 
+    grid-template-rows: 35% 20% 20% 20%;  
+    grid-gap: 20px;
+    width: 75%;
+    margin-bottom: 250px;
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: 75%; 
+    grid-template-rows: 35% 20% 20% 20%;  
+    grid-gap: 20px;
+    width: 75%;
+    margin-bottom: 250px;
+}
+}
