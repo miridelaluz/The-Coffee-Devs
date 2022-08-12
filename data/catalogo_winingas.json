@@ -9,7 +9,7 @@
         {
             "id" : 1,
             "imagen": "/assets/img/4.prendas/winingas_1.png",
-            "nombre_producto" : "Calzón Venenciano",
+            "nombre" : "Calzón Venenciano",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lana", 
@@ -19,7 +19,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/4.prendas/winingas_2.png",
-            "nombre_producto" : "Calzón Siglo XIII",
+            "nombre" : "Calzón Siglo XIII",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lana", 
@@ -29,7 +29,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/4.prendas/winingas_3.png",
-            "nombre_producto" : "Calzón Siglo XV",
+            "nombre" : "Calzón Siglo XV",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
@@ -39,7 +39,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/4.prendas/winingas_4.png",
-            "nombre_producto" : "Calzón Finales Siglo XVI",
+            "nombre" : "Calzón Finales Siglo XVI",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lana, Lino", 
@@ -49,7 +49,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/4.prendas/winingas_5.png",
-            "nombre_producto" : "Calzón Finales Siglo XVI",
+            "nombre" : "Calzón Finales Siglo XVI",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino, Lana", 
@@ -59,7 +59,7 @@
         {
             "id" : 6,
             "imagen": "/assets/img/4.prendas/winingas_6.png",
-            "nombre_producto" : "Calzón 1740 - 1790",
+            "nombre" : "Calzón 1740 - 1790",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino, Algodon", 
@@ -69,7 +69,7 @@
         {
             "id" : 7,
             "imagen": "/assets/img/4.prendas/winingas_7.png",
-            "nombre_producto" : "Calzón Venenciano Finales Siglo XVI",
+            "nombre" : "Calzón Venenciano Finales Siglo XVI",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
@@ -79,7 +79,7 @@
         {
             "id" : 8,
             "imagen": "/assets/img/4.prendas/winingas_8.png",
-            "nombre_producto" : "Calzón Romano",
+            "nombre" : "Calzón Romano",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lana", 
