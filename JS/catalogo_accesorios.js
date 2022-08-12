@@ -9,13 +9,8 @@ const sombreros = "/data/catalogo_sombreros.json";
 const bonetes = "/data/catalogo_bonetes.json";
 const capirotes = "/data/catalogo_capirotes.json";
 const cofias = "/data/catalogo_cofias.json";
-
 const llave = "datosProductos";
 
-/* function mostrarDatos(e) {
-    e.preventDefault
-    console.log(e.target.parentElement.classList.contains('categorias'));}
- */
  function mostrarDatos(categoria) {
     fetch(categoria)
         .then ( (responseJSON) => { return responseJSON.json()})
@@ -34,10 +29,15 @@ const llave = "datosProductos";
                                     <label><strong>Talla: </strong></label> 
                                     <select name="tallas">
                                         <option>${accesorio.tallas[0]}</option>
+                                        <option>${accesorio.tallas[1]}</option>
+                                        <option>${accesorio.tallas[2]}</option>
+                                        <option>${accesorio.tallas[3]}</option>
                                     </select> <br>
                                     <label><strong>Color: </strong></label>
                                     <select name="color">
                                         <option>${accesorio.color[0]}</option>
+                                        <option>${accesorio.color[1]}</option>
+                                        <option>${accesorio.color[2]}</option>
                                     </select> <br>
                                     <strong>Material: </strong> ${accesorio.material}<br>
                                     <strong>Precio: </strong> $ ${accesorio.precio} MXN<br>
@@ -60,7 +60,7 @@ const llave = "datosProductos";
 
 //Las variables para los enlaces 
 
-const aJoyeria = document.getElementById("joyeria");
+const aJoyeria = document.getElementById("joyeriaIn");
 const aTalegas = document.getElementById("talegas");
 const aZurrones = document.getElementById("zurrones");
 const aSporrans = document.getElementById("sporrans");
