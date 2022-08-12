@@ -64,17 +64,32 @@ const llave = "datosProductos";
 }
 
 //Las variables para los enlaces 
-const aCamisas = document.getElementById("camisas");
-const aTunicas = document.getElementById("tunicaIn");
-const aCalzones = document.getElementById("calzones");
-const aCalzas = document.getElementById("calzas");
-const aWiningas = document.getElementById("winingas");
 
-aCamisas.addEventListener('click', () => {mostrarDatos(camisas)});//mostrarDatos(camisas));
-aTunicas.addEventListener('click', () => {mostrarDatos(tunicas)});
-aCalzones.addEventListener('click', () => {mostrarDatos(calzones)});
-aCalzas.addEventListener('click', () => {mostrarDatos(calzas)});
-aWiningas.addEventListener('click', () => {mostrarDatos(winingas)});
+const aJoyeria = document.getElementById("joyeria");
+const aTalegas = document.getElementById("talegas");
+const aZurrones = document.getElementById("zurrones");
+const aSporrans = document.getElementById("sporrans");
+const aCinturones = document.getElementById("cinturones");
+const aBolsos = document.getElementById("bolsos");
+const aSombreros = document.getElementById("sombreros");
+const aBonetes = document.getElementById("bonetes");
+const aCapirotes = document.getElementById("capirotes");
+const aCofias = document.getElementById("cofias");
+
+
+
+
+aJoyeria.addEventListener('click', () => {mostrarDatos(joyeria)});//mostrarDatos(camisas));
+aTalegas.addEventListener('click', () => {mostrarDatos(talegas)});
+aZurrones.addEventListener('click', () => {mostrarDatos(zurrones)});
+aSporrans.addEventListener('click', () => {mostrarDatos(sporrans)});
+aCinturones.addEventListener('click', () => {mostrarDatos(cinturones)});
+
+aBolsos.addEventListener('click', () => {mostrarDatos(bolsos)});//mostrarDatos(camisas));
+aSombreros.addEventListener('click', () => {mostrarDatos(sombreros)});
+aBonetes.addEventListener('click', () => {mostrarDatos(bonetes)});
+aCapirotes.addEventListener('click', () => {mostrarDatos(capirotes)});
+aCofias.addEventListener('click', () => {mostrarDatos(cofias)});
 
 
 //document.getElementById('camisas').addEventListener('click',console.log('hey'));
