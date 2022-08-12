@@ -132,14 +132,14 @@
             <div class="left-col">
                 
                 
-              <!--   <img id="previ1" src="/assets/img/3.logi.admin/default.jpg">                       
+                <img id="previ1" src="/assets/img/3.logi.admin/default.jpg">                       
                 <input id="cargar1" type="file" name="imagen" onchange="previ(1);">
- -->
+
                     
-                    <input type="file" id="files" name="files[]" />
+                    <!-- <input type="file" id="files" name="files[]" />
                     <br />
                     <output id="list"></output>
-
+ -->
 
 
             </div>
@@ -175,6 +175,11 @@
 
                 <label for="descripcion">Descripcion</label>
             <textarea rows="3" placeholder="Describe el producto" id="descripcion" name="descripcion" required></textarea>
+                <button type="submit" id="submit" name="submit">Subir archivo</button>
+            
+          </form>
+          <div id="error"></div>
+          <div id="success-msg"></div>
             </div>
           </div>
 
