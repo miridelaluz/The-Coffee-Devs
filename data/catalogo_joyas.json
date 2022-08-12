@@ -1,0 +1,91 @@
+{
+    "page" : 1,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Joyas", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya1.jpg",
+            "descripcion": "",
+            "nombre" : "Anillo Gosvinta",
+            "tallas": ["Ajustable"],
+            "material": "Latón", 
+            "color" : ["Dorado"],
+            "precio" : 350.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya2.jpg",
+            "descripcion": "",
+            "nombre" : "Anillo Trastámara",
+            "tallas": ["Ajustable"],
+            "material": "Latón y piedra natural", 
+            "color" : ["Dorado"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya3.jpg",
+            "descripcion": "",
+            "nombre" : "Anillo Jigmai",
+            "tallas": ["Ajustable"],
+            "material": "Acero inoxidable", 
+            "color" : ["Dorado"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya4.jpg",
+            "descripcion": "",
+            "nombre" : "Anillo Trastámara 2",
+            "tallas": ["Ajustable"],
+            "material": "Latón", 
+            "color" : ["Dorado"],
+            "precio" : 200.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya5.jpg",
+            "descripcion": "",
+            "nombre" : "Anillo Ysabel",
+            "tallas": ["Ajustable"],
+            "material": "Latón y perla", 
+            "color" : ["Dorado"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya6.jpg",
+            "descripcion": "",
+            "nombre" : "Collar cruz",
+            "tallas": ["Ajustable"],
+            "material": "piedra natural", 
+            "color" : ["Café"],
+            "precio" : 400.00
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya7.jpg",
+            "descripcion": "",
+            "nombre" : "Anillo Floreado",
+            "tallas": ["CH","M"],
+            "material": "Acero inoxidable", 
+            "color" : ["Plata"],
+            "precio" : 200.0
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya8.jpg",
+            "descripcion": "",
+            "nombre" : "Pendientes Cruz",
+            "tallas": ["CH"],
+            "material": "Plata y circonita", 
+            "color" : ["Pata"],
+            "precio" : 650.00
+        }
+                   
+    ]
+}

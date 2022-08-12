@@ -1,0 +1,57 @@
+{
+    "page" : 3,
+    "total" : 10,
+    "total_pages":10,
+    "seccion" : "Accesorios",
+    "subseccion" : "Zurrones", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron1.jpg",
+            "nombre_producto" : "  Modelo 1",
+            "tallas": ["CH"],
+            "material": "Gamuza", 
+            "color" : ["Café"],
+            "precio" : 300.00
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron2.jpg",
+            "nombre_producto" : " Modelo 2",
+            "tallas": ["M"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 550.00
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron3.jpg",
+            "nombre_producto" : " Modelo 3",
+            "tallas": ["M"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 481.00
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron4.jpg",
+            "nombre_producto" : " Modelo 4",
+            "tallas": ["CH"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 515.00
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron5.jpg",
+            "nombre_producto" : " Modelo 5",
+            "tallas": ["M"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 485.00
+        }
+        
+                   
+    ]
+}
