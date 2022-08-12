@@ -4,12 +4,31 @@
     box-sizing: border-box;
 }
 
+.superior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.tallas{
+    grid-gap: 20px;
+    max-width: 1000px;
+}
+
+.tallas img{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border: #a42c33 solid 8px;
+}
+
+
 .section-list{
-display: flex;
-min-height: 100vh;
-align-items: center;
-justify-content: center;
-padding: 30px 15px;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
 }
 
 .content{
@@ -21,7 +40,7 @@ padding: 30px 15px;
 }
 
 .table-img-1{
-    background: url(289473564_689491068786591_399680090071177299_n.jpg);
+    background: url(/assets/img/9.GuiaTallas/vestidos.jpg);
     width: 210px;
     height: 200px;
     background-size: cover;
@@ -32,7 +51,7 @@ padding: 30px 15px;
 }
 
 .table-img-2{
-    background: url(289473564_689491068786591_399680090071177299_n.jpg);
+    background: url(/assets/img/9.GuiaTallas/jubon.JPG);
     width: 210px;
     height: 200px;
     background-size: cover;
@@ -43,7 +62,7 @@ padding: 30px 15px;
 }
 
 .table-img-3{
-    background: url(289473564_689491068786591_399680090071177299_n.jpg);
+    background: url(/assets/img/9.GuiaTallas/calzas.jpg);
     width: 210px;
     height: 200px;
     background-size: cover;
@@ -53,17 +72,22 @@ padding: 30px 15px;
     border: 5px solid #a42c33;
 }
 
+.section-list2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px;
+}
+
 .content2{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
     grid-gap: 20px;
-    width: 20%;
+    width: 386px;
     max-width: 1000px;
-    margin-top: -40px;
+    margin: auto;
 }
 
 .table-img-4{
-    background: url(289473564_689491068786591_399680090071177299_n.jpg);
+    background: url(/assets/img/9.GuiaTallas/hoots.jpg);
     width: 210px;
     height: 200px;
     background-size: cover;
@@ -74,23 +98,20 @@ padding: 30px 15px;
 }
 
 .content3{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
     grid-gap: 20px;
-    width: 20%;
+    width: 386px;
     max-width: 1000px;
     margin: auto;
 }
 
 .table-img-5{
-    background: url(289473564_689491068786591_399680090071177299_n.jpg);
+    background: url(/assets/img/6.Calzado/zapato_campesino.png);
     width: 210px;
     height: 200px;
     background-size: cover;
     background-position: center;
     border-radius: 100%;
-    margin-top: -50px;
-    margin-left: 18%;
+    margin:auto;
     border: 5px solid #a42c33;
 }
 
@@ -117,11 +138,7 @@ article .table-striped{
     }
     .table3{
         width: 100%;
-        margin-left: 50%;
-    }
-
-    .table4{
-        width: 100%;
+        margin-left: 55%;
     }
 }
 
@@ -138,5 +155,17 @@ article .table-striped{
 @media (max-width:400px){
     .content{
        max-width: 300px;
+    }
+
+    .content2{
+        max-width: 300px;
+     }
+
+     .content3{
+        max-width: 300px;
+     }
+
+     .tallas{
+      max-width: 300px;
     }
 }

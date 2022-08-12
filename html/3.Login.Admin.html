@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Administrador </title>
-    
-    <!--Link Booststrap 5-->
+    <title>Administrador </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> <!--Link Booststrap 5-->
-                  
-        <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> <!--Link de Font Awesome 5-->
-    
-        <link rel="stylesheet" href="/CSS/header-footer.css">
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="/assets/iconos/admin.png">
+    <link rel="stylesheet" href="/CSS/3.Login.Admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
 
     
 </head>
@@ -20,58 +21,70 @@
 <body>
     <header>
         <div id="main:wrapper">
-                <div id="barra_buscar" class="row align-items-center pt-4">
-                    <div class="col-lg-8"></div>
-                    <div class="col-lg-4"> 
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
-                        </form>
-                    </div>
+            <div id="barra_buscar" class="row align-items-center pt-4 barra_buscar">
+                <div class="col-lg-8"></div>
+                <div class="col-lg-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn_buscar" type="submit">Buscar</button>
+                    </form>
                 </div>
-                <div class="row align-items-center text-center">
-                    <div class="col-lg-2">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Catálogo
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
-                                    <li><a class="dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                        
-                    <div class="col-lg-2">
-                        <span><a href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
-                    </div>
+            </div>
 
-                    <div class="col-lg-4 icono_carrito">
-                        <img src="/assets/iconos/godiva_img.png" width="40%">
-                    </div>
-        
-                    <div class="col-lg-2">
-                        <span><a href="/html/7.Login.SignUp.html">Iniciar Sesion</a></span>
-                        <span><a href="/html/7.Login.SignUp.html">Registrarse</a></span>
-                    </div>
+            <div class="row align-items-center text-center">
+                <div class="col-lg-2">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <div class="col-lg-2">
-                        <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
-                            <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""> </button>
-                        </a>
-                        
+                        <li class="nav-item dropdown">
+                            <a class="enlaces nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Catálogo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="enlaces dropdown-item" href="/html/4.Catalogo.Prendas.html">Prendas</a></li>
+                                <li><a class="enlaces dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                <li><a class="enlaces dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="enlaces dropdown-item" href="/html/9.GuiaTallas.html">Estándares de tallas</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
 
-                        <a class="" href="/8.Carrito.Compra.html" target="_blank"> 
-                            <button class="icono"><img src="/assets/iconos/Basket_no_icon_48.png" alt=""> </button>
-                        </a>
+                <div class="col-lg-2">
+                    <span><a class="enlaces" href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
+                </div>
 
-                        
-                    </div>
-                </div> <!--AQUÍ TERMINA EL MENÚ -->
+                <div class="col-lg-4 icono_carrito logo-godiva">
+                    <span><a class="enlaces" href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"></a></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <span><a class="enlaces" href="/html/7.Login.SignUp.html">Iniciar Sesión</a></span><br>
+                    <span><a class="enlaces" href="/html/7.Login.SignUp.html">Registrarse</a></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <a class="" href="/html/8.Carrito.Compra.html" target="_blank">
+                        <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="">
+                        </button>
+                    </a>
+
+                    <a class="" href="/html/8.Carrito.Compra.html" target="_blank">
+                        <button class="icono"><img src="/assets/iconos/anadir-al-carrito.png" alt="" height="47px"> </button>
+                    </a>
+                </div>
+            </div>
+            <!--AQUÍ TERMINA EL MENÚ -->
         </div>
-    </header> <!--Fin Encabezado-->
+    </header>
+
+
+
+    
 
 
 
@@ -113,73 +126,65 @@
         <!-- Terminan botones subencabezado crear, actualizar, eliminar, buscar -->
 
 
-        
-        <!-- Se crea un contenedor para alinear nuestra pantalla -->
-            <div class="container">
-                <div class="row">
-                    <!-- Se crea la primera division que contendra nuestra parte izquierda de la interfaz -->
-                    <div class="col-lg-12"></div>
-                    <div class="col-lg-6"> 
-                                <div class="overlay">
-                                    <!-- Se crea el formulario para guardar los valores de nuestro articulo -->
-                                    <form action="#"></form>
-                                            <div class="nom">
-                                                <br>
-                                                <input class="form-control form-control-lg" type="texto" placeholder="Nombre del articulo">
-                                            </div>
-                                            <div class="des">
-                                                <textarea name="comentarios" rows="5" cols="40" placeholder="Descripcion"></textarea>
-                                            </div>
-
-                                            <!--  <div class="mb-3">
-                                                    <label for="descrip" class="form-label"></label>
-                                                    <p><textarea placeholder="Descripcion"></textarea></p> 
-                                                </div> -->
+        <div class="contact-container">
+            <div class="left-col">
 
 
-                                            <!-- Con este contenedor se alinearan los input percio, categoria y unidades de nuestro formulario -->    
-                                            <div class="container">
-                                                <div class="row">
+
+                    
+                    <input type="file" id="files" name="files[]" />
+                    <br />
+                    <output id="list"></output>
+
+
+
+            </div>
+
+
+            <div class="right-col">
+             
+              
+              <h1>Crear</h1>
+              <form id="crear" method="post">
+
                 
-                                                    <div class="col-sm-3 col-md-6 col-lg-3">
-                                                        <div class="pre">
-                                                            <input class="form-control form-control-lg" type="text" placeholder="Precio">
-                                                        </div>
-                                                    </div>
-                                
-                                                    <div class="col-sm-3 col-md-6 col-lg-4">
-                                                        <div class="cat">
-                                                            <input class="form-control form-control-lg" type="text" placeholder="Categoria">
-                                                        </div>
-                                                    </div>
-                                
-                                                    <div class="col-sm-3 col-md-6 col-lg-4">
-                                                        <div class="uni">
-                                                            <input class="form-control form-control-lg" type="text" placeholder="Unidades">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>        
-                                            <!-- Se crea un boton para guardar los datos del formulario -->
-                                            <div class="bot">
-                                                <input type="button" value="Subir archivo" class="btn" onclick="document.getElementById('text').click()">
-                                            </div>
-                                </div>
-                    </div>
-                    <!-- Se crea la segunda division que contendra nuestra parte derecha de la interfaz -->
-                    <div class="col-lg-6"> 
-                                    <div class="overlay2">
-                                        <!-- Se crea  -->
-                                        <form action=""> 
-                                            <div class="imagen">
-                                                <img id="previ1" src="/assets/img/3.logi.admin/default.jpg">                       
-                                                <input id="cargar1" type="file" name="imagen" onchange="previ(1);">
-                                            </div>
-                                        </form>
-                                    </div>                     
-                    </div>
-                </div>
-            </div>  
+                <label for="name">nombre</label>
+            <input type="text" id="nombre" name="name" placeholder= "Inserta el nombre del producto" required>
+
+                <label for="color">color</label>
+            <input type="text" id="color" name="color" placeholder="Inserta el color del producto" required>
+
+            <label for="material">material</label>
+            <input type="text" id="material" name="material" placeholder="Inserte el material del producto" required>
+
+            <label for="talla">talla</label>
+            <input type="text" id="talla" name="talla" placeholder="Inserta la talla del producto" required>
+
+            <label for="precio">precio</label>
+            <input type="text" id="precio" name="precio" placeholder="Precio del producto" required>
+
+            <label for="categoria">categoria</label>
+            <input type="text" id="categoria" name="categoria" placeholder="Categoria del producto" required>
+
+            <label for="subCategoria">sub-categoria</label>
+            <input type="text" id="subCategoria" name="subCategoria" placeholder="Inserte la sub-categoria del producto" required>
+
+                <label for="descripcion">Descripcion</label>
+            <textarea rows="3" placeholder="Describe el producto" id="descripcion" name="descripcion" required></textarea>
+                <button type="submit" id="submit" name="submit">Send</button>
+            
+          </form>
+          <div id="error"></div>
+          <div id="success-msg"></div>
+            </div>
+          </div>
+
+
+
+
+
+
+        
 
         <footer> <!--Inicio Pie-->
             <br>
@@ -201,7 +206,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <a href="/2.Acerca de Godiva.html">
                             <label>
-                                <strong>Preguntas frecuentes</strong>
+                                <p><strong>Preguntas frecuentes</strong></p>
                             </label>
                         </a>
                     </div>
@@ -215,6 +220,8 @@
             </div>
         </footer> <!--Fin Pie-->
 
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <!-- Link CSS -->
         <link href="/CSS/3.Login.Admin.css" rel="stylesheet">
         <!--Link de Font Awesome 5-->
