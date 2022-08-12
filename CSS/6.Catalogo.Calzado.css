@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.2rem;
 }
 
 body {
@@ -9,20 +10,57 @@ body {
     background-color: #f2f3f4;
 }
 
-.colaborador{
-    text-align: center;
+
+/*ENCABEZADO*/
+.row {
+    width: 98vw;
+    margin: 0;
+}
+
+.btn_buscar {
+    padding: 10px 30px 10px 30px;
+    color: #a42c33;
+    border: 1px solid #a42c33;
+    border-radius: 4px;
+}
+
+.btn_buscar:hover {
+    background-color: #a42c33;
+    color: #f2f3f4;
+}
+
+.icono {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px;
 }
 
 
-.titulo{
-    font-family: 'Unna', serif;
-    border-top-color: #a42c33;
+
+/*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES DE LOS ICONOS*/
+
+.imagen_icono {
+    height: 60px;
+    border-radius: 55px;
+    border: solid 3px #a42c33;
+    
 }
 
+
+.enlaces  {
+    text-decoration: none;
+    color: #a42c33;
+}
+
+.enlaces :hover {
+    color: #c47627;
+}
 
 /*MODIFICAMOS EL CONTENEDOR DE LAS CARDS CON LOS PRODUCTOS*/
 
 #contenedor_cards {
+    width: 99vw;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,6 +70,7 @@ body {
 
 /*MODIFICAMOS LAS CARDS*/
 .card_producto {
+    width: 20%;
     margin: 2%;
     border-radius: 6px;
     background-color: #f2f3f4;
@@ -45,32 +84,30 @@ body {
     transform: translateY(-3%);
 }
 
-/* .card_producto .imagen_producto {
-    width: 90%;
-    height: 350px;
-    margin: 5%;
-    
-} */
-
-.card_producto .contenido {
-    margin: 15px;
-    text-align: justify;
+.imagen_producto{
+    height: auto;
 }
 
-.descripcion{
+.card_producto .contenido  {
+    margin: 15px;
     text-align: center;
 }
+
 
 .card_producto .contenido .titulo_producto {
-    /* font-weight: 400; */
+    font-weight: 700;
     margin-bottom: 15px;
-    text-align: center;
 }
 
-.card_producto .contenido .enlaces {
+.pie {
+    text-align: center;
+    align-items: end;
+}
+
+.card_producto .pie .enlaces {
     text-decoration: none;
     display: inline-block;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 10px;
     margin-top: 10px;
     color: #a42c33;
     border: 1px solid #a42c33;
@@ -78,7 +115,7 @@ body {
     transition: all 400ms ease;
 }
 
-.card_producto .contenido .enlaces:hover {
+.card_producto .pie .enlaces:hover {
     background-color: #a42c33;
     color: #f2f3f4;
 }
@@ -87,12 +124,122 @@ select {
     border-radius: 8px;
 }
 
-option{
-    border-radius: 8px;
+
+
+/* *** CREAMOS EL PRIMER PUNTO DE QUIEBRE *** */
+
+@media screen and (max-width: 1240px) {
+
+    #contenedor_categorias {
+        /* position: fixed; */
+        width: 98vw;
+        height: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contenedor_cards {
+        margin-top: 50px;
+    }
+
+    .prendas  {
+        /*Aquí ya es necesario definir que su ancho sea del 100%*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  
+    }
+
+    .interiores {
+        border-bottom: 5px solid #a42c33;
+    }
+    
+    .categorias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .enlaces {
+        text-decoration: none;
+        color: #a42c33;
+    }
+    
+    .enlaces :hover {
+        color: #c47627;
+    }
+
+
+    /*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES*/
+    #contenedor_cards {
+        width: 98vw;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .card_producto {
+        height: 500px;
+        width: 350px;
+        margin: 20px;
+    }
+
+    .card_producto .imagen_producto {
+        width: 90%;
+        height: auto;
+        margin: 5%;
+    }
+    
+    .card_producto .contenido {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .card_producto .contenido .enlaces {
+        padding: 5px;
+        margin-top: 5px;
+    }
 }
 
-.card-footer{
+/*CREAMOS EL SEGUNDO PUNTO DE QUIEBRE*/
+@media (max-width: 600px) {
+    /*Tratar de hacer las categorias menu*/
+    #contenedor_categorias {
+        /* position: fixed; */
+        width: 100vw;
+        height: 150px;
+    }
+
+
+
+    .imagen_icono {
+        /*Quita el elemento del flujo de la pagina*/
+        display: none;
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    
+}
+
+
+/* Modificamos sección de enlaces para cargar páginas de calzado*/
+
+.paginas{
+    display: flex;
     text-align: center;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: auto;
+    /* padding-bottom: 25px; */
 }
 
-
+/* Modificamos sección de colaborador */
+.colaborador{
+    text-align: center;
+    padding-top: 25px;
+}
