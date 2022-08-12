@@ -9,8 +9,8 @@
         {
             "id" : 1,
             "imagen": "/assets/img/4.prendas/camisa_1.jpg",
-            "nombre_producto" : "Túnica interior 1770s - 1780s",
-            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "nombre" : "Camisa siglo XVIII",
+            "descripcion" : "Hecho de materiales de alta calidad",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Blanco", "Rojo", "Azul"],
@@ -19,7 +19,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/4.prendas/camisa_2.jpg",
-            "nombre_producto" : "Túnica interior, siglo XVIII",
+            "nombre" : "Túnica interior, siglo XVIII",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
@@ -29,7 +29,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/4.prendas/camisa_3.jpg",
-            "nombre_producto" : "Túnica romana, siglo XII",
+            "nombre" : "Túnica romana, siglo XII",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
@@ -39,7 +39,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/4.prendas/camisa_4.jpg",
-            "nombre_producto" : "Túnica, 1440s-1480s",
+            "nombre" : "Túnica, 1440s-1480s",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
@@ -49,7 +49,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/4.prendas/camisa_5.png",
-            "nombre_producto" : "Tunica Siglo XV",
+            "nombre" : "Tunica Siglo XV",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
@@ -59,7 +59,7 @@
         {
             "id" : 6,
             "imagen": "/assets/img/4.prendas/camisa_6.jpg",
-            "nombre_producto" : "Tunica Siglo XIV",
+            "nombre" : "Tunica Siglo XIV",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
@@ -69,7 +69,7 @@
         {
             "id" : 7,
             "imagen": "/assets/img/4.prendas/camisa_7.webp",
-            "nombre_producto" : "Tunica Siglo XIII",
+            "nombre" : "Tunica Siglo XIII",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
@@ -79,7 +79,7 @@
         {
             "id" : 8,
             "imagen": "/assets/img/4.prendas/camisa_8.jpg",
-            "nombre_producto" : "Tunica Siglo XV",
+            "nombre" : "Tunica Siglo XV",
             "descripcion" : "Siglo XVII, elaborada de forma artesanal",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
