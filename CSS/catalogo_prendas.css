@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.1em;
+    font-size: 1.2rem;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 
 .icono {
     border: none;
-    background-color: #f2f3f4;
+    background-color: rgba(255, 255, 255, 0);
     margin: 10px;
 }
 
@@ -84,7 +84,7 @@ body {
 .imagen_icono {
     height: 60px;
     border-radius: 55px;
-    border: solid 5px #a42c33;
+    border: solid 3px #a42c33;
     
 }
 
@@ -102,6 +102,7 @@ body {
 
 #contenedor_cards {
     width: 99vw;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -125,28 +126,29 @@ body {
     transform: translateY(-3%);
 }
 
-.card_producto .imagen_producto {
-    width: 90%;
-    height: 350px;
-    margin: 5%;
-    
+.imagen_producto{
+    height: 450px;
 }
 
-.card_producto .contenido {
+.card_producto .contenido  {
     margin: 15px;
     text-align: center;
 }
 
 
 .card_producto .contenido .titulo_producto {
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 
-.card_producto .contenido .enlaces {
+.pie {
+    text-align: center;
+}
+
+.card_producto .pie .enlaces {
     text-decoration: none;
     display: inline-block;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 10px;
     margin-top: 10px;
     color: #a42c33;
     border: 1px solid #a42c33;
@@ -154,7 +156,7 @@ body {
     transition: all 400ms ease;
 }
 
-.card_producto .contenido .enlaces:hover {
+.card_producto .pie .enlaces:hover {
     background-color: #a42c33;
     color: #f2f3f4;
 }
@@ -167,14 +169,18 @@ select {
 
 /* *** CREAMOS EL PRIMER PUNTO DE QUIEBRE *** */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1240px) {
 
     #contenedor_categorias {
         /* position: fixed; */
         width: 98vw;
-        height: 200px;
+        height: 1%;
         display: flex;
         flex-direction: column;
+    }
+
+    #contenedor_cards {
+        margin-top: 50px;
     }
 
     .prendas  {
@@ -182,6 +188,10 @@ select {
         display: flex;
         flex-direction: row;
         justify-content: space-around;  
+    }
+
+    .interiores {
+        border-bottom: 5px solid #a42c33;
     }
     
     .categorias {
@@ -201,11 +211,11 @@ select {
 
 
     /*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES*/
-    .contenedor_fila {
-        padding-left: 50px;
+    #contenedor_cards {
         width: 98vw;
+        margin-top: 50px;
         display: flex;
-        /*flex-wrap hace que las card se muevan a la parte de abajo*/
+        justify-content: space-evenly;
         flex-wrap: wrap;
     }
 
@@ -233,13 +243,15 @@ select {
 }
 
 /*CREAMOS EL SEGUNDO PUNTO DE QUIEBRE*/
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     /*Tratar de hacer las categorias menu*/
     #contenedor_categorias {
         /* position: fixed; */
         width: 100vw;
-        height: 100px;
+        height: 150px;
     }
+
+
 
     .imagen_icono {
         /*Quita el elemento del flujo de la pagina*/

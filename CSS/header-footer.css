@@ -30,6 +30,13 @@ body {
     margin-left: 1px;
 }
 
+.btn_buscar {
+    padding: 10px 30px 10px 30px;
+    color: #a42c33;
+    border: 1px solid #a42c33;
+    border-radius: 4px;
+}
+
 .logo-godiva {
     margin: auto auto auto auto;
 }
@@ -90,12 +97,10 @@ p {
 }
 
 footer {
-    display: inline-flexbox;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-    /* padding: 2em; */
+   align-items: top;
     color: rgba(0, 0, 0, 0.684);
+    padding: 15px;
+    
 
 }
 
@@ -126,8 +131,8 @@ footer {
     letter-spacing: 2px;
     /* Espacio entre letras */
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 555px;
+    right: 190px;
     transition: all 300ms ease 0ms;
 
     z-index: 99;
@@ -153,8 +158,8 @@ footer {
     letter-spacing: 2px;
     /* Espacio entre letras */
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 560px;
+    right: 85px;
     transition: all 300ms ease 0ms;
 
     z-index: 99;
@@ -182,7 +187,7 @@ footer {
     /* Espacio entre letras */
     position: fixed;
     bottom: 30px;
-    right: 0;
+    right: 40px;
     transition: all 300ms ease 0ms;
 
     z-index: 99;
@@ -196,53 +201,29 @@ footer {
 
 /* Breakpoint botones  */
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 600px) {
     .btn-flotante1 {
         font-size: 14px;
         padding: 12px 20px;
-        bottom: 490px;
-        right: 10px;
+        bottom: 350px;
+        right: 29px;
     }
 }
 
-@media only screen and (min-width: 414px) {
-    .btn-flotante1 {
-        font-size: 14px;
-        padding: 12px 20px;
-        bottom: 720px;
-        right: 15px;
-    }
-}
 
-@media only screen and (min-width: 375px) {
+
+@media only screen and (max-width: 600px) {
     .btn-flotante2 {
         font-size: 14px;
         padding: 12px 20px;
-        bottom: 440px;
-        right: 15px;
-    }
-}
-
-@media only screen and (min-width: 414px) {
-    .btn-flotante2 {
-        font-size: 14px;
-        padding: 12px 20px;
-        bottom: 650px;
-        right: 18px;
+        bottom: 270px;
+        right: 30px;
     }
 }
 
 
-@media only screen and (max-width: 667px) {
-    .btn-flotante3 {
-        font-size: 14px;
-        padding: 12px 20px;
-        bottom: 50px;
-        right: 10px;
-    }
-}
 
-@media only screen and (min-width: 414px) {
+@media only screen and (max-width: 600px) {
     .btn-flotante3 {
         font-size: 14px;
         padding: 12px 20px;
