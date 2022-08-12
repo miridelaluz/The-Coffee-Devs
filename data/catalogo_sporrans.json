@@ -10,7 +10,7 @@
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Bonetes/bonete1.jpg",
             "nombre_producto" : "Sporran maldiva",
-            "tallas": ["CH"],
+            "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
             "color" : ["Rojo"],
             "precio" : 800.00
@@ -50,24 +50,34 @@
             "material": "Paño de lana", 
             "color" : ["Azul/Café"],
             "precio" : 800.00
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete6.jpg",
+            "nombre_producto" : "Sporran renacentista",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Terciopelo", 
+            "color" : ["Café"],
+            "precio" : 500.00
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete7.jpg",
+            "nombre_producto" : "Sporran cortesano",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Terciopelo", 
+            "color" : ["Guindo"],
+            "precio" : 500.00
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/5.accesorios/Bonetes/bonete8.jpg",
+            "nombre_producto" : "Sporran duo",
+            "tallas": ["CH", "M", "G", "XG","XXG"],
+            "material": "Paño de lana", 
+            "color" : ["Azul/Rojo"],
+            "precio" : 500.00
         }
                    
     ]
 }
-
-// INSERT INTO categoria (nombre_categoria,nombre_subcategoria)VALUES("Prendas interiores","Camisas")
-// ("Prendas interiores","Túnicas")
-// ("Prendas interiores","Calzones"),
-// ("Prendas interiores","Winigas");
-// INSERT INTO categoria (nombre_categoria,nombre_subcategoria)VALUES("Prendas interiores","Túnicas"),
-// ("Prendas interiores","Vestidos"),
-// ("Prendas interiores","Sayón"),
-// ("Prendas interiores","Jubón"),
-// INSERT INTO producto (nombre_producto,talla,material,color,precio,categoría_idcategoria,descripción,imagen)
-// VALUES("Anillo Gosvinta","Ajustable","Latón","Dorado","350.00","Accesorios", "Precioso anillo de estulo visigodo, realizado en latón, ambientado en el siglo VI.","/assets/img/5.accesorios/Joyas/joya1.jpg");
-
-
-
-// INSERT INTO tallas (nombre_talla)VALUES("Ajsutable");
-// INSERT INTO tallas (nombre_talla)VALUES("Ajsutable");
-
