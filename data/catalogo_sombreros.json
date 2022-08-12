@@ -9,7 +9,7 @@
         {
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Sombreros/sombrero1.jpg",
-            "nombre_producto" : "Sombrero de palma",
+            "nombre" : "Sombrero de palma",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Palma", 
             "color" : ["Crema"],
@@ -18,7 +18,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/5.accesorios/Sombreros/sombrero2.jpg",
-            "nombre_producto" : "Sombrero plano de paja",
+            "nombre" : "Sombrero plano de paja",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paja", 
             "color" : ["Café"],
@@ -27,7 +27,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/5.accesorios/Sombreros/sombrero3.jpg",
-            "nombre_producto" : "Sombrero de tule",
+            "nombre" : "Sombrero de tule",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Tule", 
             "color" : ["Verde"],
@@ -36,7 +36,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/5.accesorios/Sombreros/sombrero4.jpg",
-            "nombre_producto" : "Sombrero redondo de paja",
+            "nombre" : "Sombrero redondo de paja",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paja", 
             "color" : ["Café"],
@@ -45,7 +45,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/5.accesorios/Sombreros/sombrero5.jpg",
-            "nombre_producto" : "Sombrero amplio",
+            "nombre" : "Sombrero amplio",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paja", 
             "color" : ["Café"],
@@ -54,7 +54,7 @@
         {
             "id" : 6,
             "imagen": "/assets/img/5.accesorios/Sombreros/sombrero6.jpg",
-            "nombre_producto" : "Collar Boltraffio",
+            "nombre" : "Collar Boltraffio",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Piedra natural y latón ", 
             "color" : ["Negro"],
@@ -63,7 +63,7 @@
         {
             "id" : 7,
             "imagen": "/assets/img/5.accesorios/Sombreros/sombrero7.jpg",
-            "nombre_producto" : "Calzón Venenciano Finales Siglo XVI",
+            "nombre" : "Calzón Venenciano Finales Siglo XVI",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Lino", 
             "color" : ["Rojo","Negro", "Azul"],
@@ -72,7 +72,7 @@
         {
             "id" : 8,
             "imagen": "/assets/img/5.accesorios/Sombreros/sombrero8.jpg",
-            "nombre_producto" : "Calzón Romano",
+            "nombre" : "Calzón Romano",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Lana", 
             "color" : ["Cafe", "Rojo", "Azul"],

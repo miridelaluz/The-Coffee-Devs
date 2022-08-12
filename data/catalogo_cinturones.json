@@ -9,7 +9,7 @@
         {
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Cinturones/cinturon1.jpg",
-            "nombre_producto" : "Cinturón Ajuar",
+            "nombre" : "Cinturón Ajuar",
             "tallas": ["Ajustable"],
             "material": "Piel", 
             "color" : ["Negro"],
@@ -18,7 +18,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/5.accesorios/Cinturones/cinturon2.jpg",
-            "nombre_producto" : "Cinturón Aledán",
+            "nombre" : "Cinturón Aledán",
             "tallas": ["Ajustable"],
             "material": "Piel", 
             "color" : ["Negro"],
@@ -27,7 +27,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/5.accesorios/Cinturones/cinturon3.jpg",
-            "nombre_producto" : "Cinturón Max",
+            "nombre" : "Cinturón Max",
             "tallas": ["Ajustable"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -36,7 +36,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/5.accesorios/Cinturones/cinturon4.jpg",
-            "nombre_producto" : "Cinturón sencillo",
+            "nombre" : "Cinturón sencillo",
             "tallas": ["Ajustable"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -45,7 +45,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/5.accesorios/Cinturones/cinturon5.jpg",
-            "nombre_producto" : "Cinturón botón",
+            "nombre" : "Cinturón botón",
             "tallas": ["Ajustable"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -54,7 +54,7 @@
         {
             "id" : 6,
             "imagen": "/assets/img/5.accesorios/Cinturones/cinturon6.jpg",
-            "nombre_producto" : "Cinturón Luan",
+            "nombre" : "Cinturón Luan",
             "tallas": ["Ajustable"],
             "material": "Piel", 
             "color" : ["Negro"],
@@ -63,7 +63,7 @@
         {
             "id" : 7,
             "imagen": "/assets/img/5.accesorios/Cinturones/cinturon7.jpg",
-            "nombre_producto" : "Cinturón Berro",
+            "nombre" : "Cinturón Berro",
             "tallas": ["Ajustable"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -72,7 +72,7 @@
         {
             "id" : 8,
             "imagen": "/assets/img/5.accesorios/Cinturones/cinturon8.jpg",
-            "nombre_producto" : "Cinturón de lucha",
+            "nombre" : "Cinturón de lucha",
             "tallas": ["Ajustable"],
             "material": "Piel", 
             "color" : ["Negro"],
