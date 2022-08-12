@@ -46,7 +46,7 @@ const llave = "datosProductos";
               </form>
               </p>
           </div>
-          <div class="card-footer">
+          <div class="pie card-footer">
               <a href="" class="enlaces">Agregar al carrito</a>
               <a>
                   <button class="btn btn_lista_deseos">
