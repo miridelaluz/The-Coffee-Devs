@@ -13,7 +13,7 @@ function previ(nb) {
     leer.onload = function (e) {             
         document.getElementById('previ'+nb).src = e.target.result;         
     };     
-}
+}``
 
 
 /* function captura(){
