@@ -1,0 +1,93 @@
+
+{
+    "page" : 2,
+    "total" : 8,
+    "total_pages":2,
+    "seccion" : "calzado",
+    "subseccion" : "calzado", 
+    "data":[
+
+        {
+            "id" : 9,
+            "imagen": "/assets/img/6.Calzado/zapato6.jpg",
+            "nombre_producto" : "Zapatos nórdicos",
+            "descripcion" : "Siglo IX",
+            "tallas": ["2", "3", "4", "5", "6", "7", "8", "9"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 700
+        },
+        {
+            "id" : 10,
+            "imagen": "/assets/img/6.Calzado/zapato14.jpg",
+            "nombre_producto" : "Zapato Bund con lazo y correa",
+            "descripcion" : "Siglo XV-XVI",
+            "tallas": ["2", "3", "4", "5", "6", "7", "8", "9"],
+            "material": "Piel", 
+            "color" : ["Rojo"],
+            "precio" : 2200
+        },
+        {
+            "id" : 11,
+            "imagen": "/assets/img/6.Calzado/zapato1.jpg",
+            "nombre_producto" : "Zapato para HMB",
+            "descripcion" : "Zapato para Batalla Medieval Histórica",
+            "tallas": ["2", "3", "4", "5", "6", "7", "8", "9"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 700
+        },
+        {
+            "id" : 12,
+            "imagen": "/assets/img/6.Calzado/zapato2.jpg",
+            "nombre_producto" : "Zapato de la baja edad media",
+            "descripcion" : "Siglos XIV-XV",
+            "tallas": ["2", "3", "4", "5", "6", "7", "8", "9"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 800
+        },
+        {
+            "id" : 13,
+            "imagen": "/assets/img/6.Calzado/zapato3.jpg",
+            "nombre_producto" : "Zapato renacimiento temprano",
+            "descripcion" : "Siglo XIV",
+            "tallas": ["2", "3", "4", "5", "6", "7", "8", "9"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 2900
+        },
+        {
+            "id" : 14,
+            "imagen": "/assets/img/6.Calzado/zapato4.jpg",
+            "nombre_producto" : "Zapato bajo con cordones laterales",
+            "descripcion" : "Siglo XIV",
+            "tallas": ["2", "3", "4", "5", "6", "7", "8", "9"],
+            "material": "Piel", 
+            "color" : ["Cagé"],
+            "precio" : 2400
+        },
+        {
+            "id" : 15,
+            "imagen": "/assets/img/6.Calzado/zapato13.jpg",
+            "nombre_producto" : "Reimerswaal",
+            "descripcion" : "Zapato de media altura con 2 correas sin trabilla. Siglo XV",
+            "tallas": ["2", "3", "4", "5", "6", "7", "8", "9"],
+            "material": "Piel", 
+            "color" : ["Café"],
+            "precio" : 2000
+        },
+        {
+            "id" : 16,
+            "imagen": "/assets/img/6.Calzado/zapato10.jpg",
+            "nombre_producto" : "Botas con ganchos y ojos",
+            "descripcion" : "Siglo XV",
+            "tallas": ["2", "3", "4", "5", "6", "7", "8", "9"],
+            "material": "Piel", 
+            "color" : ["Negro"],
+            "precio" : 1500
+        }
+                   
+    ]
+}
+
