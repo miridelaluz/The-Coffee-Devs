@@ -4,7 +4,9 @@
   "description": "Uso de NPM y bootstrap",
   "main": "\u001b[D\u001b[D\u001b[D\u001bscript_npm.js)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,13 @@
   },
   "homepage": "https://github.com/miridelaluz/The-Coffee-Devs#readme",
   "dependencies": {
-    "bootstrap": "^5.2.0"
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "bootstrap": "^5.2.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }

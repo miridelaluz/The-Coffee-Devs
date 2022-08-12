@@ -24,10 +24,15 @@ h1{
     }
 
 .carousel-inner{
-    height: 300px;
+    height: 100%;
     width: 100%;
     border-radius: 80px;
     }   
+
+.content .carousel-inner img{
+    width: 100px;
+    height: 300px;
+}
 
 .content2{
     display: grid;

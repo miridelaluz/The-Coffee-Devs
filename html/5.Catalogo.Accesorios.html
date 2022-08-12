@@ -9,22 +9,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!--Link Booststrap 5-->
-    <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script>
-    <!--Link de Font Awesome 5-->
     <link href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap" rel="stylesheet">
-    <!-- <link rel="icon" href="/assets/icons/icono_catalogo_prendas2.png"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/CSS/catalogo_prendas.css">
-    <link rel="stylesheet" href="/CSS/header-footer.css">
     <link rel="stylesheet" href="/CSS/5.catalogo.css">
-    <link rel="stylesheet" href="/CSS/1.Inicio.css">
+    <link rel="stylesheet" href="/CSS/6.Catalogo.Calzado.css">
+    <link rel="stylesheet" href="/CSS/header-footer.css">
+    <!-- <link rel="stylesheet" href="/CSS/1.Inicio.css"> -->
 </head>
 <script src="/JS/buscador.js"></script>
 <!--Script de JS-->
 
 
-<body class="container-fluid" >
+<body class="container-fluid">
     <header>
         <div id="main:wrapper">
             <div id="barra_buscar" class="row align-items-center pt-4">
@@ -34,7 +31,7 @@
                         <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar"
                             id="barraBuscar">
                         <button class="btn btn-outline-success" type="submit" id="botonBuscar"
-                            onclick="filtrar()">Buscar</button>
+                            onclick="">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -46,9 +43,14 @@
                                 aria-expanded="false">
                                 Catálogo
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                            <ul class="dropdown-menu dropright">
+                                <li><a class="dropdown-item" href="/html/4.Catalogo.Prendas.html">Prendas</a></li>
                                 <li><a class="dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/html/9.GuiaTallas.html">Guía de tallas</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -65,25 +67,31 @@
                     <span><a href="/html/7.Login.SignUp.html">Iniciar Sesion</a></span>
                     <span><a href="/html/7.Login.SignUp.html">Registrarse</a></span>
                 </div>
-
-                <div class="col-lg-2">
-                    <a class="" href="/html/8.Carrito.Compra.html" target="_blank">
-                        <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="">
-                        </button>
+                <div class="col-lg-2 col-md-12">
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="btn-flotante1" alt="icono-wishList"><img title="Lista de deseos"
+                                src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""> </button>
                     </a>
 
-
-                    <a class="" href="/html/8.Carrito.Compra.html" target="_blank">
-                        <button class="icono"><img src="/assets/iconos/Basket_no_icon_48.png" alt=""> </button>
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="btn-flotante2"><img title="Cesta" src="/assets/iconos/anadir-al-carrito.png"
+                                width="40" height="40" alt="icono-carrito"> </button>
                     </a>
-
-
                 </div>
+                
             </div>
         </div>
     </header>
     <!--Fin Encabezado-->
 
+        <!-- Inicia botón flotante guía tallas -->
+        <div>
+            <a class="" href="/html/9.GuiaTallas.html" target="_blank">
+                <button class="btn-flotante3"><img title="Guía de tallas" src="/assets/iconos/cinta-metrica.png"
+                        width="60px" height="auto" alt="Guía de tallas"></button>
+            </a>
+        </div>
+        <!-- Termina botón flotante guía de tallas -->
 
     <!--EMPIEZA LA SECCIÓN MEDIA-->
     <div class="container" style="text-align:center;">
@@ -94,88 +102,79 @@
     <!--INICIA Menú de Scroll-->
     <div id="contenedor_categorias">
         <!--Barra de navegacion de las categorias-->
-        <div class="accesorios1">
-            <!--Seccion de prendas interiores-->
-            <!-- <p>Prendas Interiores</p> Titulo de la seccion -->
+        <div class="accesorios parte1">
+            <!--Seccion de accesorios 1-->
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollJoyeria" class="joyeria">
-                    <img src="/assets/img/5.accesorios/joyeria.png" alt="" class="imagen_icono">
+                <a href="#" class="enlaces" id="joyeriaIn">
+                    <img src="/assets/img/5.accesorios/joyeria.png" alt="cam" class="imagen_icono">
                     <p>Joyería</p>
                 </a>
             </div>
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollTalegas" class="talegas" onclick=tunicas()>
-
+                <a href="#" class="enlaces" id="talegas">
                     <img src="/assets/img/5.accesorios/talegas.png" alt="" class="imagen_icono">
-
                     <p>Talegas</p>
                 </a>
             </div>
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollZurrones" class="zurrones">
-
+                <a href="#" class="enlaces" id="zurrones">
                     <img src="/assets/img/5.accesorios/Surrones.png" alt="" class="imagen_icono">
-
                     <p>Zurrones</p>
                 </a>
             </div>
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollSporrans" class="sporrans">
+                <a href="#" class="enlaces" id="sporrans">
                     <img src="/assets/img/5.accesorios/Sporrans.png" alt="" class="imagen_icono">
                     <p>Sporrans</p>
                 </a>
             </div>
-            <div class="categorias">
+            <div class="categorias" id="cinturones">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollCinturones" class="cinturones">
+                <a href="#" class="enlaces">
                     <img src="/assets/img/5.accesorios/cinturones.png" alt="" class="imagen_icono">
                     <p>Cinturones</p>
                 </a>
             </div>
         </div>
 
-        <div class="accesorios2">
+        <div class="accesorios parte2">
             <!--Seccion de prendas interiores-->
-            <!-- <p>Prendas Interiores</p> Titulo de la seccion -->
-            <div class="categorias titulo">
-                <h3></h3>
-            </div>
+
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollBolsos" class="bolsos">
-                    <img src="/assets/img/5.accesorios/bolsos.jpg" alt="" class="imagen_icono"
-                        style="border-radius: 50%;">
+                <a href="#" class="enlaces" id="bolsos">
+                    <img src="/assets/img/5.accesorios/bolsos1.jpg" alt="" class="imagen_icono">
                     <p>Bolsos</p>
                 </a>
             </div>
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollSombreros" class="sombreros">
+                <a href="#" class="enlaces" id="sombreros">
                     <img src="/assets/img/5.accesorios/sombreros.png" alt="" class="imagen_icono">
                     <p>Sombreros</p>
                 </a>
             </div>
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollBonetes" class="bonetes">
+                <a href="#" class="enlaces" id="bonetes">
                     <img src="/assets/img/5.accesorios/bonetes.png" alt="" class="imagen_icono">
                     <p>Bonetes</p>
                 </a>
             </div>
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollCapirotes" class="capirotes">
+                <a href="#" class="enlaces" id="capirotes">
                     <img src="/assets/img/5.accesorios/capirotes.jpg" alt="" class="imagen_icono">
                     <p>Capirotes</p>
                 </a>
             </div>
             <div class="categorias">
                 <!--Div que contiene una categoria-->
-                <a href="#scrollCofias" class="cofias">
+                <a href="#" class="enlaces" id="cofias">
                     <img src="/assets/img/5.accesorios/cofias.jpg" alt="" class="imagen_icono">
                     <p>Cofias</p>
                 </a>
@@ -184,2108 +183,270 @@
     </div>
     <!--TEMINA Menú de Scrill-->
 
-
-    <!-- Termina Menú de Scroll-->
-
-    <!-- Inicia mi contenido para referenciar de ScrollBar-->
+    <!-- Inicia mi contenido para accesorios-->
     <!-- Accesorios Joyería-->
-    <div class="contenedor_cards">
-        <div id="scrollJoyeria" class="scrollpsy" >
-            <h3 id="scrolljoyeria">Joyería</h3>
-            <!-- contenedor de artículos-->
-            <div id="container-fluid" >
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!-- Card uno-->
-                    <div class="col">
-                        <div class="card " id="articulocard">
-                            <img src="/assets/img/5.accesorios/Joyas/joya1.jpg"
-                                class="card-img-top accesorio_card img-fluid">
-                            <div class="card-body" style="text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Anillo Gosvinta</h5>
-                                <p class="card-text articulo_camisas_texto">Precioso anillo de estilo
-                                    visigodo, realizado en latón, ambientado en el siglo VI.
-                                </p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>Ajustable</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Dorado</option>
-                                    </select> <br>
-                                    <strong>Material: Latón </strong> <br>
-                                    <strong>Precio: </strong> $350.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Joyas/joya2.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style="text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Anillo Trastámara</h5>
-                                <p class="card-text articulo_camisas_texto">Estilo medieval realizado en latóny piedra
-                                    natural.
-                                </p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                    </select> <br>
-                                    <label><strong>Color:</strong></label>
-                                    <select name="color">
-                                        <option>Dorado</option>
-
-                                    </select> <br>
-                                    <strong>Material: </strong>Latón y piedra natural<br>
-                                    <strong>Precio: </strong> 400.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Joyas/joya3.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Anillo Jigmai</h5>
-                                <p class="card-text articulo_camisas_texto">Anillo ajustable de metatrón,
-                                    unisex.
-                                </p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Dorado</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> Acero inoxidable<br>
-                                    <strong>Precio: </strong> $200.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Joyas/joya4.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Anillo Trastámara estilo 2</h5>
-                                <p class="card-text articulo_camisas_texto"> Anilo de estilo medieval
-                                    de latón y piedra natural.
-                                </p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>Autoajustable</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Dorado</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Latón<br>
-                                    <strong>Precio: </strong> $400.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Joyas/joya5.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 5</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-        </div>
-    </div>
-        <!-- Accesorios Talegas-->
-        <div id="scrollTalegas" class="scrollpsy" >
-            <h3 id="scrolltalegas">Talegas</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Talegas/talega1.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div id="contenedor_cards">
+        <div class="card_producto card h-100">
+            <!--card_producto 1-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya1.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Anillo Gosvinta</h3>
+                <h5 class="descripcion">Reflejo de joya ambientado en siglo VI.</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option>Ajustable</option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Dorado</option>
+                    </select> <br>
+                    <strong>Material: </strong> Latón<br>
+                    <strong>Precio: </strong> $ 350.00 MXN<br>
+                </form>
+                </p>
+            </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
             </div>
         </div>
-        <!-- Accesorios Zurrones-->
-        <div id="scrollZurrones" class="scrollpsy" >
-            <h3 id="scrollZurrones">Zurrones</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card_producto card h-100">
+            <!--card_producto 2-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya2.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Anillo Tástamara</h3>
+                <h5 class="descripcion">Estilo medieval realizado en latón y piedra natural.</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option>CH</option>
+                        <option>M</option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Dorado</option>
+                    </select> <br>
+                    <strong>Material: </strong> Latón y piedra natural<br>
+                    <strong>Precio: </strong> $ 400.00MXN<br>
+                </form>
+                </p>
+            </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
             </div>
         </div>
-        <!-- Accesorios Sporrans-->
-        <div id="scrollSporrans" class="scrollpsy" >
-            <h3 id="scrollsporrans">Sporrans</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sporrans/sporran1.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sporran con botón de hueso</h5>
-                                <p class="card-text articulo_camisas_texto">Contemporáneo y funcional.
-                                    <strong>Medidas: </strong>18cm anchura x 20 altura<br>
-                                </p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> Piel<br>
-                                    <strong>Precio: </strong> $800.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sporrans/sporran2.jpg">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sporran sencillo (dos piezas)</h5>
-                                <p class="card-text articulo_camisas_texto">Con sujetador de cinturón, dos tamaños
-                                    práctico y clásico.
-                                    <strong>Medidas chico: </strong>20cm anchura x 25 altura <br>
-                                    <strong>Medidas grande: </strong>30cm anchura x 35 altura<br>
-                                </p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>G</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> Piel<br>
-                                    <strong>Precio: </strong> $1,600.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sporrans/sporran3.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sporran con hebilla y remaches</h5>
-                                <p class="card-text articulo_camisas_texto">
-                                    Estilo único con los detalles dignos de recordarlo.
-                                    <strong>Medidas: </strong>20cm anchura x 25 altura<br>
-                                </p>
-
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Piel<br>
-                                    <strong>Precio: </strong> $900.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sporrans/sporran4.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sporran con grabados</h5>
-                                <p class="card-text articulo_camisas_texto">Detalles bien establecidos, estilo sencillo
-                                    y un estilo destacable. <br>
-                                    <strong>Medidas: </strong>20cm anchura x 25 altura<br>
-                                </p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Piel<br>
-                                    <strong>Precio: </strong> $700.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sporrans/sporran5.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sporran sencillo con botón</h5>
-                                <p class="card-text articulo_camisas_texto">Sencillo, duradero y útil, para
-                                    la persona práctica y simple.
-                                    <strong>Medidas: </strong>20cm anchura x 23 altura<br>
-                                </p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Piel<br>
-                                    <strong>Precio: </strong> $700.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card_producto card h-100">
+            <!--card_producto 3-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya3.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Anillo Jigmai</h3>
+                <h5 class="descripcion">Anillo ajustable de metatrón, unisex.</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option>CH</option>
+                        <option>M</option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Dorado</option>
+                    </select> <br>
+                    <strong>Material: </strong> Acero inoxidable<br>
+                    <strong>Precio: </strong> $ 200.00 MXN<br>
+                </form>
+                </p>
+            </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
             </div>
         </div>
-        <!-- Accesorios Cinturones-->
-        <div id="scrollCinturones" class="scrollpsy" >
-            <h3 id="scrollcinturones">Cinturones</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card_producto card h-100">
+            <!--card_producto 4-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya4.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Anillo Trastámara estilo 2</h3>
+                <h5 class="descripcion">Anilo de estilo medieval de latón y piedra natural.</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option>CH</option>
+                        <option>M</option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Blanco</option>
+                        <option>Rojo</option>
+                        <option>Azul</option>
+                    </select> <br>
+                    <strong>Material: </strong> Lino<br>
+                    <strong>Precio: </strong> $ 900 MXN<br>
+                </form>
+                </p>
+            </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
             </div>
         </div>
-        <!-- Accesorios Bolsos-->
-        <div id="scrollBolsos" class="scrollpsy" >
-            <h3 id="scrollbolsos">Bolsos</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card_producto card h-100">
+            <!--card_producto 5-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya5.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Anillo Ysabel</h3>
+                <h5 class="descripcion">Anillo imponente, de estilo y presencia.</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option>Ajustable</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Dorado</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <strong>Material: </strong> Latón y perla<br>
+                    <strong>Precio: </strong> $ 400 MXN<br>
+                </form>
+                </p>
+            </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
             </div>
         </div>
-        <!-- Accesorios Somnbreros-->
-        <div id="scrollSombreros" class="scrollpsy" >
-            <h3 id="scrollsombreros">Sombreros</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sombreros/sombrero1.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sombrero de palma</h5>
-                                <p class="card-text articulo_camisas_texto">Sombrero artesanal, hecho a mano.
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro): </strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Crema</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Palma<br>
-                                    <strong>Precio: </strong> $400.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sombreros/sombrero2.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sombrero plano de paja</h5>
-                                <p class="card-text articulo_camisas_texto">Sombrero con plano redondo
-                                    por arriba, útil y simple.
-
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro):</strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Paja<br>
-                                    <strong>Precio: </strong> $350.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sombreros/sombrero3.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sombrero de tule</h5>
-                                <p class="card-text articulo_camisas_texto">Sombrero tejido con delicadeza
-                                    en la que destaca por su forma.
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro):</strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>verde</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> Tule<br>
-                                    <strong>Precio: </strong> $350.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sombreros/sombrero4.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sombrero redondo de paja</h5>
-                                <p class="card-text articulo_camisas_texto">De forma peculiar, destaca por su forma
-                                    redonda.
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro):</strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong>Paja</label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Paja<br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Sombreros/sombrero5.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Sombrero amplio de Palma</h5>
-                                <p class="card-text articulo_camisas_texto">Destaca por su gran base,
-                                    la cual lo hace muy útil y duradero.
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro):</strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $500.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card_producto card h-100">
+            <!--card_producto 6-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya6.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Collar cruz</h3>
+                <h5 class="descripcion">Collar de piedra natural, ambientado de siglo XVII</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option>CH</option>
+                        <option>M</option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Netro</option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <strong>Material: </strong>Piedra natural<br>
+                    <strong>Precio: </strong> $ 400 MXN<br>
+                </form>
+                </p>
+            </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
+            </div>
+        </div><div class="card_producto card h-100">
+            <!--card_producto 7-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya7.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Anillo Yrag</h3>
+                <h5 class="descripcion">Anillo de acero inoxidable, detallado primaveral</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option>CH</option>
+                        <option>M</option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Dorado</option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <strong>Material: </strong> Acero inoxidable<br>
+                    <strong>Precio: </strong> $ 400 MXN<br>
+                </form>
+                </p>
+            </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
             </div>
         </div>
-        <!-- Accesorios Bonetes-->
-        <div id="scrollBonetes" class="scrollpsy" >
-            <h3 id="scrollbonetes">Bonetes</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Bonetes/bonete1.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Bonete de paño 1</h5>
-                                <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
-                                    de finales del siglo XV.
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro): </strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Rojo</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Paño de lana<br>
-                                    <strong>Precio: </strong> $800.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Bonetes/bonete2.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Bonete de paño 2</h5>
-                                <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
-                                    de siglos XV-XVI
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro): </strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Paño de lana<br>
-                                    <strong>Precio: </strong> $800.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Bonetes/bonete3.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Bonete de paño 3</h5>
-                                <p class="card-text articulo_camisas_texto">De paño de lana, ambientado
-                                    del siglo XV/p>
-                                <form>
-                                    <label><strong>Talla (Diámetro): </strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Paño de lana<br>
-                                    <strong>Precio: </strong> $800.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Bonetes/bonete4.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Bonete de paño 4</h5>
-                                <p class="card-text articulo_camisas_texto">De paño de lana, le da un bicolor
-                                    reconocido y vanguardista de su época del siglo XV.
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro): </strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Rojo/Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> Paño de lana<br>
-                                    <strong>Precio: </strong> $800.00 MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="/assets/img/5.accesorios/Bonetes/bonete5.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Bonete de lana 5</h5>
-                                <p class="card-text articulo_camisas_texto">De paño de lana, con su bicolor cálido
-                                    representativo del siglo CV
-                                </p>
-                                <form>
-                                    <label><strong>Talla (Diámetro): </strong></label>
-                                    <select name="tallas">
-                                        <option>CH (54-55cm)</option>
-                                        <option>M (56-57cm)</option>
-                                        <option>G (58-59cm)</option>
-                                        <option>XG (60-61cm)</option>
-                                        <option>XXG (62-63cm)</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Azyl/Café</option>
-                                    </select> <br>
-                                    <strong>Material: </strong>Paño de lana<br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="card_producto card h-100">
+            <!--card_producto 8-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya8.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Pendientes Meridian</h3>
+                <h5 class="descripcion">Ambientados en el Siglo XVI</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Plata</option>
+                        <option></option>
+                        <option></option>
+                    </select> <br>
+                    <strong>Material: </strong> Plata<br>
+                    <strong>Precio: </strong> $ 700 MXN<br>
+                </form>
+                </p>
             </div>
-        </div>
-        <!-- Accesorios Capirotes-->
-        <div id="scrollCapirotes" class="scrollpsy" >
-            <h3 id="scrollcapirotes">Capirotes</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Accesorios Cofias-->
-        <div id="scrollCofias" class="scrollpsy" >
-            <h3 id="scrollcofias">Cofias</h3>
-            <div id="container">
-                <div class="row row-cols-md-4 row-cols-lg-6">
-                    <!--Card Uno-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 1</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Dos-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 2</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Tres-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Joya 3</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cuatro-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Card Cinco-->
-                    <div class="col">
-                        <div class="card" id="articulocard">
-                            <img src="https://mlyazqwnm7ri.i.optimole.com/g70rCmE.Bp_Q~21ef3/w:auto/h:auto/q:mauto/f:avif/id:4d915703d91471328fcc34f63e452090/https://www.espadasymas.com/Y2FtaXNhLXVuZGVyc2hpcnQtcmVjcmVhY2lvbmVzLWhpc3RvcmljYS02NjE1LmpwZzE5MDgwMjA5MjMyMA3D3D.jpg"
-                                class="card-img-top articulo_camisas_img; img-fluid">
-                            <div class="card-body" style=" text-align: center;">
-                                <h5 class="card-title articulo_camisas_titulo">Card title</h5>
-                                <p class="card-text articulo_camisas_texto">This content is a little bit
-                                    longer.
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam
-                                    voluptatibus
-                                    ratione ex totam fugiat minus mollitia ducimus, officiis tempore.</p>
-                                <form>
-                                    <label><strong>Talla: </strong></label>
-                                    <select name="tallas">
-                                        <option>CH</option>
-                                        <option>M</option>
-                                        <option>G</option>
-                                        <option>XG</option>
-                                    </select> <br>
-                                    <label><strong>Color: </strong></label>
-                                    <select name="color">
-                                        <option>Negro</option>
-                                        <option>Rojo</option>
-                                        <option>Azul</option>
-                                    </select> <br>
-                                    <strong>Material: </strong> <br>
-                                    <strong>Precio: </strong> $ MXN<br>
-                                </form>
-                            </div>
-                            <div class="card-footer" style="text-align: center;">
-                                <button class="btn btn-warning btn_carrito"
-                                    style="background-color: #a42c33; color: #f2f3f4;"><small>Agregar al
-                                        carrito</small></button>
-                                <button class="btn btn_lista_deseos">
-                                    <a href="#">
-                                        <img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="30px">
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
             </div>
         </div>
     </div>
@@ -2324,6 +485,7 @@
         </div>
     </footer>
     <!--Fin Pie-->
+    <script src="/JS/catalogo_accesorios.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>

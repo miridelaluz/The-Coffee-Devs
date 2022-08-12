@@ -20,74 +20,84 @@
 <body>
 
     <!-- Inicia encabezado -->
+
     <header>
         <div id="main:wrapper">
             <div id="barra_buscar" class="row align-items-center pt-4 barra_buscar">
                 <div class="col-lg-8"></div>
                 <div class="col-lg-4">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <input class="form-control me-2" type="Buscar" title="¿Qué estás buscando?" placeholder="Buscar"
+                            aria-label="Buscar">
+                        <button class="btn btn_buscar" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
-
-
+    
+    
             <div class="row align-items-center text-center">
                 <div class="col-lg-2">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                        <li class="nav-item dropdown"><br>
+    
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Catálogo
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu dropright">
                                 <li><a class="dropdown-item" href="/html/4.Catalogo.Prendas.html">Prendas</a></li>
                                 <li><a class="dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
                                 <li><a class="dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="/html/9.GuiaTallas.html">Estándares de tallas</a>
+                                <li><a class="dropdown-item" href="/html/9.GuiaTallas.html">Guía de tallas</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </div>
-
-                <div class="col-lg-2"><br>
+    
+                <div class="col-lg-2">
                     <span><a href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
                 </div>
-
-                <div class="col-lg-4 icono_carrito logo-godiva"><br>
-                    <span><a href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"></a></span>
+    
+                <div class="col-lg-4 logo-godiva">
+                    <span><a href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"
+                                alt="Logo-godivaSH" title="Inicio" style="text-align: center;"></a></span>
                 </div>
-
-                <div class="col-lg-2"><br>
+    
+                <div class="col-lg-2">
                     <span><a href="/html/7.Login.SignUp.html">Iniciar Sesión</a></span><br>
                     <span><a href="/html/7.Login.SignUp.html">Registrarse</a></span>
                 </div>
-
+    
                 <div class="col-lg-2">
                     <a class="" href="/8.Carrito.Compra.html" target="_blank">
-                        <button class="btn-flotante1"><img src="/assets/iconos/5172567_heart_like_love_icon.png"
-                                alt=""> </button>
+                        <button class="btn-flotante1" alt="icono-wishList"><img title="Lista de deseos"
+                                src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""> </button>
                     </a>
-
-
+    
                     <a class="" href="/8.Carrito.Compra.html" target="_blank">
-                        <button class="btn-flotante2"><img src="/assets/iconos/anadir-al-carrito.png" width="40"
-                                height="40" alt=""> </button>
+                        <button class="btn-flotante2"><img title="Cesta" src="/assets/iconos/anadir-al-carrito.png"
+                                width="40" height="40" alt="icono-carrito"> </button>
                     </a>
-
-
                 </div>
             </div>
             <!--AQUÍ TERMINA EL MENÚ -->
         </div>
     </header>
     <!--Fin Encabezado-->
+
+    <!-- Inicia botón flotante guía tallas -->
+    <div>
+        <a class="" href="/html/9.GuiaTallas.html" target="_blank">
+            <button class="btn-flotante3"><img title="Guía de tallas" src="/assets/iconos/cinta-metrica.png"
+                    width="60px" height="auto" alt="Guía de tallas"></button>
+        </a>
+    </div>
+    <!-- Termina botón flotante guía de tallas -->
+     
 
     <!--Guía de tallas-->
     <h1 class="titulo">Estándares de tallas</h1>
@@ -96,9 +106,16 @@
 
     <!-- inicia sección de prendas -->
 
-    <div class="titulo-seccion">
-        <img src="/assets/img/9.GuiaTallas/prendas.jpg" class="img-seccion" alt="" />
-        <h2 style="text-align: center; margin-top: 40px;">Prendas</h2>
+    <section class="superior">
+        <div class="tallas">
+            <div class="prendas-header">
+                <img src="/assets/img/9.GuiaTallas/prendas.jpg">
+            </div>
+            <div class="prendas-body">
+                <h2 style="text-align: center;">Prendas</h2>
+            </div>
+        </div>
+    </section>
 
     <section class="section-list">
         <div class="content">
@@ -234,9 +251,18 @@
         </div>
     </section>
 
-    <h2 style="text-align: center; margin-top: 30px;">Accesorios</h2>
+    <section class="superior">
+        <div class="tallas">
+            <div class="tallas-header" style="margin-top: 30px;">
+                <img src="/assets/img/9.GuiaTallas/accesorios.jpg">
+            </div>
+            <div class="prendas-body">
+                <h2 style="text-align: center;">Accesorios</h2>
+            </div>
+        </div>
+    </section>
 
-    <section class="section-list">
+    <section class="section-list2">
         <div class="content2">
             <article class="table4">
                 <div class="table-header">
@@ -278,8 +304,16 @@
         </div>
     </section>
 
-    <h2 style="text-align: center;">Calzado</h2>
-
+    <section class="superior">
+        <div class="tallas">
+            <div class="tallas-header" >
+                <img src="/assets/img/9.GuiaTallas/calzado.jpg">
+            </div>
+            <div class="prendas-body">
+                <h2 style="text-align: center;">Calzado</h2>
+            </div>
+        </div>
+    </section>
     <section class="section-list">
         <div class="content3">
             <article class="table5">
@@ -360,8 +394,8 @@
         </div>
     </section>
 
-    <h3>Las medidas son apróximadas. Si tus medidas no aparecen en las tablas no dudes en contactarnos para hacer el
-        artículo a tu medida.</h3>
+    <h4>Las medidas son apróximadas. Si tus medidas no aparecen en las tablas no dudes en contactarnos para hacer el
+        artículo a tu medida.</h4s>
     <!-- Fin Guía de tallas -->
 
 

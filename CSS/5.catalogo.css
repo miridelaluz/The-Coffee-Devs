@@ -1,102 +1,8 @@
-.container {
-    overflow:
-        scroll;
-    position:
-        relative;
-    justify-content: space-evenly;
-    
-}
-#contenedor_cards {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly; 
-    margin: auto auto;
-    
-}
 
-.scrollspy{
-    justify-content: space-evenly;
-    align-items: center;
- width: auto;
- margin: auto auto;
-}
-.scrollpsy-joyeria {
-    align-items: stretch;
-    text-align: center;
-}
 
-.btnscroll {
-    margin-top: 5px;
-    align-items: center;
-    background-color: #a42c33;
-    margin-left: 63px;
-    border: 1px solid #a42c33;
-    border-radius: 50px;
-    border-radius: 50px;
-    max-width: 80px;
-    max-height: 80px
-}
-
-.imgscroll {
-    border-radius: 50px;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.card {
-    width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    background-color: #f2f3f4;
-    box-shadow: 0px 1px 10px  #a42c325f;
-    cursor: default;
-    transition: all 400ms ease;
-}
-
-/*Modificamos lo hay dentro de cada seccion (categorias)*/
-.categorias {
-    display:table;
-    flex-direction: column;
-    width: 80px;
-    height: 80px;
-    margin:10px;
-}
-.enlaces{
-    border-radius: 50px;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-}
-.container{
-    align-items: center;
-    justify-content: space-evenly;
-}
-.contenedor_categorias{
-   
-    background-color: #a42c33;
-}
-.clases{
-    margin-top: 5px;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #a42c33;
-    margin-left: 63px;
-    border: 1px solid #a42c33;
-    border-radius: 50px;
-    border-radius: 50px;
-    max-width: 80px;
-    max-height: 80px
-}
-.contenedor_categorias {
-    background-color: #a42c33;
+/*#contenedor_categorias alberga los iconos de las categorias*/
+#contenedor_categorias {
+    /* background-color: #a42c33; */
     /*La posicion fixed ayuda a que el contenedor de las categorias no se mueva*/
     /*position: fixed;*/
     width: 99vw;
@@ -105,5 +11,117 @@
     /*Le indica a los contenedores que se colocaran en fila*/
     flex-direction: row;
     /*Hace que los elementos se pocisionen en el centro del eje Y**/
-    justify-content: space-evenly;
+    align-items: center;
+    border-top: 5px solid #a42c33;
+    border-bottom: 5px solid #a42c33;
+
+}
+
+
+/*.prendas se divide entre las secciones prendas interiores - prendas exteriores*/
+.accesorios  {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*El justifi-content hace que cada categoria esta a la misma distancia, tanto a la derecha como a la izquierda*/
+    justify-content: space-evenly;  
+    align-items: center;
+    text-align: center;
+}
+
+/*. titulo h3 hace referencia a el titulo de las secciones prendas interiores - prendas exteriores*/
+.titulo h3 {
+    color: #a42c33;
+}
+
+/*Modificamos lo hay dentro de cada seccion (categorias)*/
+.categorias {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES DE LOS ICONOS*/
+
+.imagen_icono {
+    height: 60px;
+    border-radius: 55px;
+    border: solid 3px #a42c33;
+    
+}
+
+
+.enlaces  {
+    text-decoration: none;
+    color: #a42c33;
+}
+
+.enlaces :hover {
+    color: #c47627;
+}
+
+/*  CSS para Cards */
+
+#contenedor_cards {
+    width: 99vw;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    
+}
+.card_producto {
+    width: 20%;
+    margin: 2%;
+    border-radius: 6px;
+    background-color: #f2f3f4;
+    box-shadow: 0px 1px 10px  #a42c325f;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card_producto:hover {
+    box-shadow: 5px 5px 20px #a42c325f;
+    transform: translateY(-3%);
+}
+
+.imagen_producto{
+    height: 450px;
+}
+
+.card_producto .contenido  {
+    margin: 15px;
+    text-align: center;
+}
+
+
+.card_producto .contenido .titulo_producto {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.pie {
+    text-align: center;
+}
+
+.card_producto .pie .enlaces {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+    color: #a42c33;
+    border: 1px solid #a42c33;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card_producto .pie .enlaces:hover {
+    background-color: #a42c33;
+    color: #f2f3f4;
+}
+
+select {
+    border-radius: 8px;
 }
