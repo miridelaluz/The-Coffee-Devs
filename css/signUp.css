@@ -6,10 +6,45 @@
 ##FFFFFF
  */
 
- 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+body {
+    font-family: 'Unna', serif;
+    background-color: #f2f3f4;
+}
 
 
-p {
+/*ENCABEZADO*/
+.row {
+    width: 98vw;
+    margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+}
+
+body {
+    font-family: 'Unna', serif;
+    background-color: #f2f3f4;
+}
+
+
+/*ENCABEZADO*/
+.row {
+    width: 98vw;
+    margin: 0;
+}
+
+ p {
 	font-size: 14px;
 	font-weight: 100;
 	line-height: 20px;
@@ -49,6 +84,8 @@ button.ghost {
 	border-color: #FFFFFF;
 }
 
+/*Etiqueta comentada debido a la desalineacion del boton de busqueda respecto a las demas paginas 
+
 form {
 	background-color: #FFFFFF;
 	display: flex;
@@ -59,7 +96,20 @@ form {
 	height: 100%;
 	text-align: center;
 	
-}
+} */
+.form-2 {  /* Problema solucionado usando clase en vez de etiqueta */
+	
+		background-color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 0 50px;
+		height: 100%;
+		text-align: center;
+		
+	}
+
 
 input {
 	background-color: #eee;
@@ -110,7 +160,7 @@ input {
 	animation: show 0.6s;
 }
 
-@keyframes show {
+@keyframes show {  /* Propiedades para la animacion show */
 	0%, 49.99% {
 		opacity: 0;
 		z-index: 1;
@@ -128,7 +178,7 @@ input {
 	left: 50%;
 	width: 50%;
 	height: 100%;
-	overflow: hidden;
+	overflow:hidden ;
 	transition: transform 0.6s ease-in-out;
 	z-index: 100;
 }
@@ -139,7 +189,7 @@ input {
 
 .overlay {
 	background: #a42c33; /* color de panel bienvenido */
-	background: -webkit-linear-gradient(to right, #a42c33, #7a3a42);
+	background: -webkit-linear-gradient(to right, #a42c33, #7a3a42); /* Efecto leve de difuminado en los colores del fonde del panel del formulario */
 	background: linear-gradient(to right, #a42c33, #7a3a42);
 	color: #FFFFFF;
 	position: relative; /* Mantiene centrados los elementos en el panel */
@@ -197,27 +247,17 @@ button de footer y header */
 
 }
 
-.remove2 {
-	background-color: #FFFFFF;
-	align-items: baseline !important;
-	justify-content: flex-start !important;
-	flex-direction: default ;
-	padding: 0 0 !important;
-	height: 100%;
-	text-align: center;
-	
-}
 
-.remove3{
-	
-	border-radius: 0 !important;
-	border: 0px solid #7a3a42 !important;
+
+.pp_button {
+	border-radius: 20px;
+	border: 1px solid #7a3a42;
 	background-color: #a42c33;
 	color: #f2f3f4;
-	font-size: 0 !important;
-	
-	padding: 0 0 !important;
-	letter-spacing: 0 !important;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
 }
