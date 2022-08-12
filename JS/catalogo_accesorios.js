@@ -1,14 +1,15 @@
 //Links de las categorias
-const joyeria = "/data/catalogo_camisas.json";
-const talegas = "/data/catalogo_tunicas.json";
-const zurrones = "/data/catalogo_calzones.json";
-const sporrans = "/data/catalogo_calzas.json";
-const cinturones = "/data/catalogo_winingas.json"
-const bolsos = "/data/catalogo_camisas.json";
-const sombreros = "/data/catalogo_tunicas.json";
-const bonetes = "/data/catalogo_calzones.json";
-const capirotes = "/data/catalogo_calzas.json";
-const cofias = "/data/catalogo_winingas.json"
+const joyeria = "/data/catalogo_joyeria.json";
+const talegas = "/data/catalogo_talegas.json";
+const zurrones = "/data/catalogo_zurrones.json";
+const sporrans = "/data/catalogo_sporrans.json";
+const cinturones = "/data/catalogo_cinturones.json"
+const bolsos = "/data/catalogo_bolsos.json";
+const sombreros = "/data/catalogo_sombreros.json";
+const bonetes = "/data/catalogo_bonetes.json";
+const capirotes = "/data/catalogo_capirotes.json";
+const cofias = "/data/catalogo_cofias.json";
+
 const llave = "datosProductos";
 
 /* function mostrarDatos(e) {

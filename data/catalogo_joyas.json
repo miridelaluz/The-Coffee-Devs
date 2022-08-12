@@ -45,7 +45,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/5.accesorios/Joyas/joya5.jpg",
-            "nombre_producto" : "Collar cruz",
+            "nombre_producto" : "Anillo Ysabel",
             "tallas": ["Ajustable"],
             "material": "Latón y perla", 
             "color" : ["Dorado"],
@@ -54,29 +54,29 @@
         {
             "id" : 6,
             "imagen": "/assets/img/5.accesorios/Joyas/joya6.jpg",
-            "nombre_producto" : "Talega dura",
+            "nombre_producto" : "Collar cruz",
             "tallas": ["Ajustable"],
-            "material": "Piel", 
+            "material": "piedra natural", 
             "color" : ["Café"],
-            "precio" : 500.00
+            "precio" : 400.00
         },
         {
             "id" : 7,
             "imagen": "/assets/img/5.accesorios/Joyas/joya7.jpg",
-            "nombre_producto" : "Talega sencilla 2",
-            "tallas": ["Ajustable"],
-            "material": "Piel", 
-            "color" : ["Negro"],
-            "precio" : 350.0
+            "nombre_producto" : "Anillo Floreado",
+            "tallas": ["CH","M"],
+            "material": "Acero inoxidable", 
+            "color" : ["Plata"],
+            "precio" : 200.0
         },
         {
             "id" : 8,
             "imagen": "/assets/img/5.accesorios/Joyas/joya8.jpg",
-            "nombre_producto" : "Talega tejida",
+            "nombre_producto" : "Pendientes Cruz",
             "tallas": ["CH"],
-            "material": "Piel", 
-            "color" : ["Cafe"],
-            "precio" : 350.00
+            "material": "Plata y circonita", 
+            "color" : ["Pata"],
+            "precio" : 650.00
         }
                    
     ]
