@@ -10,33 +10,6 @@ body {
     background-color: #f2f3f4;
 }
 
-
-/*ENCABEZADO*/
-.row {
-    width: 98vw;
-    margin: 0;
-}
-
-.btn_buscar {
-    padding: 10px 30px 10px 30px;
-    color: #a42c33;
-    border: 1px solid #a42c33;
-    border-radius: 4px;
-}
-
-.btn_buscar:hover {
-    background-color: #a42c33;
-    color: #f2f3f4;
-}
-
-.icono {
-    border: none;
-    background-color: rgba(255, 255, 255, 0);
-    margin: 10px;
-}
-
-
-
 /*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES DE LOS ICONOS*/
 
 .imagen_icono {
@@ -59,8 +32,9 @@ body {
 /*MODIFICAMOS EL CONTENEDOR DE LAS CARDS CON LOS PRODUCTOS*/
 
 #contenedor_cards {
-    width: 99vw;
-    margin-top: 50px;
+    width: 98vw;
+        margin-top: 50px;
+   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -71,7 +45,7 @@ body {
 /*MODIFICAMOS LAS CARDS*/
 .card_producto {
     width: 20%;
-    margin: 2%;
+    margin: 20px;
     border-radius: 6px;
     background-color: #f2f3f4;
     box-shadow: 0px 1px 10px  #a42c325f;
@@ -94,7 +68,7 @@ body {
 }
 
 
-.card_producto .contenido .titulo_producto {
+.card_producto .contenido /*.titulo_producto*/ {
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -118,6 +92,17 @@ body {
 .card_producto .pie .enlaces:hover {
     background-color: #a42c33;
     color: #f2f3f4;
+}
+
+.btn_lista_deseos {
+    border:none;
+    border-radius: 50%;
+}
+
+.btn_lista_deseos:hover {
+    /* background-color: #ffe0e9; Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    border: none;
 }
 
 select {
@@ -199,7 +184,9 @@ select {
         padding: 5px;
         margin-top: 5px;
     }
+
 }
+
 
 /*CREAMOS EL SEGUNDO PUNTO DE QUIEBRE*/
 @media (max-width: 600px) {
@@ -219,6 +206,9 @@ select {
 
     .titulo {
         display: none;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
     }
 
     
