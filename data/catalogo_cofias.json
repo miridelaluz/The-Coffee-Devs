@@ -9,7 +9,7 @@
         {
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Cofias/cofia1.jpeg",
-            "nombre_producto" : " Modelo 1",
+            "nombre" : " Modelo 1",
             "tallas": ["Ajustable"],
             "material": "Lino", 
             "color" : ["Amarillo","Verde"],
@@ -18,7 +18,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/5.accesorios/Cofias/cofia2.jpeg",
-            "nombre_producto" : " Modelo 2",
+            "nombre" : " Modelo 2",
             "tallas": ["Ajustable"],
             "material": "Tela", 
             "color" : ["Rojo"],
@@ -27,7 +27,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/5.accesorios/Cofias/cofia3.jpeg",
-            "nombre_producto" : " Modelo 3",
+            "nombre" : " Modelo 3",
             "tallas": ["Ajustable"],
             "material": "Tela", 
             "color" : ["Blanco"],
@@ -36,7 +36,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/5.accesorios/Cofias/cofia4.jpeg",
-            "nombre_producto" : " Modelo 4",
+            "nombre" : " Modelo 4",
             "tallas": ["Ajustable"],
             "material": "Lino", 
             "color" : ["Blanco"],
@@ -45,7 +45,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso5.jpg",
-            "nombre_producto" : " Modelo 5",
+            "nombre" : " Modelo 5",
             "tallas": ["Ajustable"],
             "material": "Tela", 
             "color" : ["Negro"],

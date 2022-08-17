@@ -9,7 +9,7 @@
         {
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso1.jpg",
-            "nombre_producto" : "Bolso Mabel",
+            "nombre" : "Bolso Mabel",
             "tallas": ["M"],
             "material": "Piel", 
             "color" : ["Azul","Verde","Gris","Café"],
@@ -18,7 +18,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso2.jpg",
-            "nombre_producto" : "Bolso dragón",
+            "nombre" : "Bolso dragón",
             "tallas": ["CH"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -27,7 +27,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso3.jpg",
-            "nombre_producto" : "Bolso Mini",
+            "nombre" : "Bolso Mini",
             "tallas": ["CH"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -36,7 +36,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso4.jpg",
-            "nombre_producto" : "Bolso sencillo",
+            "nombre" : "Bolso sencillo",
             "tallas": ["M"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -45,7 +45,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso5.jpg",
-            "nombre_producto" : "Bolso Eribur",
+            "nombre" : "Bolso Eribur",
             "tallas": ["M"],
             "material": "Piel", 
             "color" : ["Negro"],
@@ -54,7 +54,7 @@
         {
             "id" : 6,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso6.jpeg",
-            "nombre_producto" : "Bolso colmillo",
+            "nombre" : "Bolso colmillo",
             "tallas": ["CH"],
             "material": "Piel", 
             "color" : ["Negro"],
@@ -63,7 +63,7 @@
         {
             "id" : 7,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso7.jpeg",
-            "nombre_producto" : "Bolso de vista",
+            "nombre" : "Bolso de vista",
             "tallas": ["CH"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -72,7 +72,7 @@
         {
             "id" : 8,
             "imagen": "/assets/img/5.accesorios/Bolsos/bolso8.jpeg",
-            "nombre_producto" : "Bolzo cruz",
+            "nombre" : "Bolzo cruz",
             "tallas": ["CH"],
             "material": "Piel", 
             "color" : ["Negro"],

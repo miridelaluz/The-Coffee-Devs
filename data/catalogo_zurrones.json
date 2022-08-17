@@ -9,7 +9,7 @@
         {
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Zurrones/zurron1.jpg",
-            "nombre_producto" : "  Modelo 1",
+            "nombre" : "  Modelo 1",
             "tallas": ["CH"],
             "material": "Gamuza", 
             "color" : ["Café"],
@@ -18,7 +18,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/5.accesorios/Zurrones/zurron2.jpg",
-            "nombre_producto" : " Modelo 2",
+            "nombre" : " Modelo 2",
             "tallas": ["M"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -27,7 +27,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/5.accesorios/Zurrones/zurron3.jpg",
-            "nombre_producto" : " Modelo 3",
+            "nombre" : " Modelo 3",
             "tallas": ["M"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -36,7 +36,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/5.accesorios/Zurrones/zurron4.jpg",
-            "nombre_producto" : " Modelo 4",
+            "nombre" : " Modelo 4",
             "tallas": ["CH"],
             "material": "Piel", 
             "color" : ["Café"],
@@ -45,7 +45,7 @@
         {
             "id" : 5,
             "imagen": "/assets/img/5.accesorios/Zurrones/zurron5.jpg",
-            "nombre_producto" : " Modelo 5",
+            "nombre" : " Modelo 5",
             "tallas": ["M"],
             "material": "Piel", 
             "color" : ["Café"],
