@@ -1,0 +1,32 @@
+{
+    "page" : 3,
+    "total" : 4,
+    "total_pages":4,
+    "seccion" : "Accesorios",
+    "subseccion" : "Joyas", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya1.jpg",
+            "descripcion": "",
+            "nombre" : "Anillo Gosvinta",
+            "tallas": ["Ajustable"],
+            "material": "Latón", 
+            "color" : ["Dorado"],
+            "precio" : 350.00
+        },
+        
+        {
+            "id" : 8,
+            "imagen": "/assets/img/5.accesorios/Joyas/joya8.jpg",
+            "descripcion": "",
+            "nombre" : "Pendientes Cruz",
+            "tallas": ["CH"],
+            "material": "Plata y circonita", 
+            "color" : ["Pata"],
+            "precio" : 650.00
+        }
+                   
+    ]
+}

@@ -8,15 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap" rel="stylesheet">
+    <!-- link icono -->
     <link rel="icon" href="/assets/iconos/admin.png">
     <link rel="stylesheet" href="/CSS/3.Login.Admin.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
+    <link rel="stylesheet" href="/CSS/header-footer.css">
 
     
 </head>
+
 
 <body>
     <header>
@@ -25,29 +24,31 @@
                 <div class="col-lg-8"></div>
                 <div class="col-lg-4">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn_buscar" type="submit">Buscar</button>
+                        <input class="form-control me-2" type="Buscar" title="¿Qué estás buscando?" placeholder="Buscar"
+                            aria-label="Buscar">
+                        <button class="btn btn_buscar" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
+
 
             <div class="row align-items-center text-center">
                 <div class="col-lg-2">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item dropdown">
-                            <a class="enlaces nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Catálogo
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="enlaces dropdown-item" href="/html/4.Catalogo.Prendas.html">Prendas</a></li>
-                                <li><a class="enlaces dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
-                                <li><a class="enlaces dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
+                            <ul class="dropdown-menu dropright">
+                                <li><a class="dropdown-item" href="/html/4.Catalogo.Prendas.html">Prendas</a></li>
+                                <li><a class="dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="enlaces dropdown-item" href="/html/9.GuiaTallas.html">Estándares de tallas</a>
+                                <li><a class="dropdown-item" href="/html/9.GuiaTallas.html">Guía de tallas</a>
                                 </li>
                             </ul>
                         </li>
@@ -55,75 +56,117 @@
                 </div>
 
                 <div class="col-lg-2">
-                    <span><a class="enlaces" href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
+                    <span><a href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
                 </div>
 
-                <div class="col-lg-4 icono_carrito logo-godiva">
-                    <span><a class="enlaces" href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"></a></span>
-                </div>
-
-                <div class="col-lg-2">
-                    <span><a class="enlaces" href="/html/7.Login.SignUp.html">Iniciar Sesión</a></span><br>
-                    <span><a class="enlaces" href="/html/7.Login.SignUp.html">Registrarse</a></span>
+                <div class="col-lg-4 logo-godiva">
+                    <span><a href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"
+                                alt="Logo-godivaSH" title="Inicio" style="margin-right: 20%;"></a></span>
                 </div>
 
                 <div class="col-lg-2">
-                    <a class="" href="/html/8.Carrito.Compra.html" target="_blank">
-                        <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="">
-                        </button>
+                    <span><a href="/html/7.Iniciar-sesion.html" style="margin-left: -100%;">Iniciar Sesión</a></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <span><a href="/html/7.1.Registro.html" style="margin: -100%;">Registrarse</a></span>
+                </div>
+
+            <!--     <div class="col-lg-2">
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="btn-flotante1" alt="icono-wishList"><img title="Lista de deseos"
+                                src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""> </button>
                     </a>
 
-                    <a class="" href="/html/8.Carrito.Compra.html" target="_blank">
-                        <button class="icono"><img src="/assets/iconos/anadir-al-carrito.png" alt="" height="47px"> </button>
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="btn-flotante2"><img title="Cesta" src="/assets/iconos/anadir-al-carrito.png"
+                                width="40" height="40" alt="icono-carrito"> </button>
                     </a>
-                </div>
+                </div> -->
             </div>
             <!--AQUÍ TERMINA EL MENÚ -->
         </div>
     </header>
+    <!--Fin Encabezado-->
 
 
 
     
 
-
-
-
-        <!-- Botones subencabezado crear, actualizar, eliminar, buscar -->
-        <div class="menu">
-            <div class="container">
-                    <div class="row">
-
-
-                    <div class="col-xl-3 col-md-2 col-sm-4">
-                        <div class="item">
-                            <button type="button" class="btn btn-primary btn-sm">Crear</button>
-                          </div>
-                    </div>
+  <div id="contenedor_categorias">
+        <div class="accesorios parte1">
+            <div class="categorias">
+                <a href="#" class="enlaces" id="crearlo">
                     
-                    <div class="col-xl-3 col-md-2 col-sm-4">
-                        <div class="item">
-                            <button type="button" class="btn btn-primary btn-sm">Actualizar</button>
-                          </div>
-                    </div>
+                    <p>Crear</p>
+                </a>
+            </div>
+            <div class="categorias">
 
-                    <div class="col-xl-3 col-md-2 col-sm-4">
-                        <div class="item">
-                            <button type="button" class="btn btn-primary btn-sm">Eliminar</button>
-                          </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-2 col-sm-4">
-                        <div class="item">
-                            <button type="button" class="btn btn-primary btn-sm">Buscar</button>
-                          </div>
-                    </div>
-
-
-                </div>
-            </div>    
+                <a href="#" class="enlaces" id="actualizarlo">
+                   
+                    <p>Actualizar</p>
+                </a>
+            </div>
+    
+            
+            <div class="categorias">
+                <a href="#" class="enlaces" id="eliminarlo">
+                    <p>Eliminar</p>
+                </a>
+            </div>
+            <div class="categorias">
+                <a href="#" class="enlaces" id="buscarlo">
+                    <p>Buscar</p>
+                </a>
+            </div>
+    
         </div>
-        <!-- Terminan botones subencabezado crear, actualizar, eliminar, buscar -->
+  </div>
+
+
+
+
+
+      <!-- Inicia mi contenido para accesorios-->
+    <!-- Accesorios Joyería-->
+    <div id="contenedor_cards">
+        <div class="card_producto card h-100">
+            <!--card_producto 1-->
+            <img class="imagen_producto" src="/assets/img/5.accesorios/Joyas/joya1.jpg" alt="...">
+            <div class="contenido card-body">
+                <h3 class="titulo_producto">Anillo Gosvinta</h3>
+                <h5 class="descripcion">Reflejo de joya ambientado en siglo VI.</h5>
+                <p class="contenido_producto">
+                <form>
+                    <label><strong>Talla: </strong></label>
+                    <select name="tallas">
+                        <option>Ajustable</option>
+                    </select> <br>
+                    <label><strong>Color: </strong></label>
+                    <select name="color">
+                        <option>Dorado</option>
+                    </select> <br>
+                    <strong>Material: </strong> Latón<br>
+                    <strong>Precio: </strong> $ 350.00 MXN<br>
+                </form>
+                </p>
+            </div>
+            <div class="pie card-footer">
+                <a href="" class="enlaces">Agregar al carrito</a>
+                <a>
+                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+                            height="45px"> </button>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
 
 
 
@@ -143,6 +186,71 @@
 
 
             </div>
+
+
+
+            <div class="container">
+                <form class ="row mt-3 g-3 needs-validation" novalidate>
+                    <div class="col-6" position-relative>
+                        <label for="nameId" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nameId" required>
+                        <div class="valid-tooltip">
+                            Todo bien
+                        </div>
+                        <div class="invalid-tooltip">
+                            Es necesario poner el nombre
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-6" position-relative>
+                        <label for="nameId" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellidoId" required>
+                        <div class="valid-tooltip">
+                            Todo bien
+                        </div>
+                        <div class="invalid-tooltip">
+                            Es necesario poner el apellido
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+
+                </form>
+            </div>
+
+
+            <form action="" method="POST" id="form">
+                <div class = "form">
+                    <h1>Registro</h1>
+
+                    <div class="grupo">
+                        <input type="text" name="" id="name"><span class="barra"></span>
+                        <label for="">Nombre</label>
+                    </div>
+
+                    <div class="grupo">
+                        <input type="email" name="" id="email" ><span class="barra"></span>
+                        <label for="">Email</label>
+                    </div>
+
+                    <div class="grupo">
+                        <input type="password" name="" id="password"><span class="barra"></span>
+                        <label for="">password</label>
+                    </div>
+
+                    <button type="submit">Suscribirse</button>
+                    <p class="warnings" id="warnings"></p>
+
+                </div>
+            </form>
+
+
+
+
+
+
 
 
             <div class="right-col">
@@ -182,12 +290,6 @@
           <div id="success-msg"></div>
             </div>
           </div>
-
-
-
-
-
-
         
 
         <footer> <!--Inicio Pie-->
@@ -197,40 +299,53 @@
             <div class="text-center">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <p>¡Contactanos!</p>
-                        <a href="https://www.facebook.com/GodivaSH" target="_blank"> 
-                            <button class="icono icono_facebook"><img src="/assets/iconos/facebook_logo_48.png" alt=""></button>
-                        </a>
 
+                     <p></p>
+                       
+                     <a href="https://www.facebook.com/GodivaSH" target="_blank">
+                        <button class="remove"><img src="/assets/iconos/facebook_logo_48.png"
+                                alt="facebook.com/GodivaSH" style="margin-right: 50%; align-items: center"></button>
+                    </a>
+                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
+                        <button class="remove"><img src="/assets/iconos/Instagram_logo_48.png"
+                                alt="instagram.com/godiva.s.h" ></button>
+                    </a>
 
-                        <a href="https://www.instagram.com/godiva.s.h/" target="_blank"> 
-                            <button  class="icono icono_instagram"><img src="/assets/iconos/Instagram_logo_48.png" alt=""></button>
-                        </a>
                     </div>
+                 
+
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <a href="/2.Acerca de Godiva.html">
+                            <p></p>
                             <label>
-                                <p><strong>Preguntas frecuentes</strong></p>
+                                Preguntas frecuentes
                             </label>
                         </a>
                     </div>
+
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <p>Aceptamos:</p>
-                        <img src="/assets/iconos/Visa_logo_48.png" alt="">
-                        <img src="/assets/iconos/Mastercar_loco_48.png" alt="">
+                        <p></p>
+                        <img src="/assets/iconos/Visa_logo_48.png" alt="visa" >
+                        <img src="/assets/iconos/Mastercar_loco_48.png" alt="mastercard">
 
                     </div>
+
+
                 </div>
             </div>
         </footer> <!--Fin Pie-->
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+            crossorigin="anonymous"></script>
         <!-- Link CSS -->
-        <link href="/CSS/3.Login.Admin.css" rel="stylesheet">
+  <!--       <link href="/CSS/3.Login.Admin.css" rel="stylesheet"> -->
         <!--Link de Font Awesome 5-->
-        <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> 
-        <script src="/assets/fonts/cloister_black/CloisterBlack.ttf" crossorigin="anonymous"></script>
+ <!--        <script src="https://kit.fontawesome.com/cd2379a403.js" crossorigin="anonymous"></script> 
+        <script src="/assets/fonts/cloister_black/CloisterBlack.ttf" crossorigin="anonymous"></script> -->
         <script src="/JS/Login.Admin.js"></script>
     </body>
 
