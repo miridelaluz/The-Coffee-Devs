@@ -1,7 +1,5 @@
 //Trae los inputs del formulario
 let nameContact = document.getElementById("nameContact");
-let ApellidoPContact = document.getElementById("ApellidoPContact");
-let ApellidoMContact = document.getElementById("ApellidoMContact");
 let fechaNac = document.getElementById("birthDate");
 let country = document.getElementById("country")
 let mailContact = document.getElementById("mailContact")
@@ -24,31 +22,6 @@ function validarNombre() {
     }
 } //Validación nombre
 
-function validarApellidoP() {
-    if (ApellidoPContact.value.length < 3) {
-        ApellidoPContact.style.border = "red thin solid";
-        document.getElementById("alertnombreP").innerHTML = "Dato inválido, tu apellido debe contener más de 3 caracteres";
-        document.getElementById("alertnombreP").style = "display: block; margin-bottom: -10px;";
-        return false;
-    } else {
-        ApellidoPContact.style.border = "green thin solid";
-        document.getElementById("alertnombreP").style.display = "none";
-        return true;
-    }
-} // Validación apellido paterno
-
-function validarApellidoM() {
-    if (ApellidoMContact.value.length < 3) {
-        ApellidoMContact.style.border = "red thin solid";
-        document.getElementById("alertnombreM").innerHTML = "Dato inválido, tu apellido debe contener más de 3 caracteres";
-        document.getElementById("alertnombreM").style = "display: block; margin-bottom: -10px;";
-        return false;
-    } else {
-        ApellidoMContact.style.border = "green thin solid";
-        document.getElementById("alertnombreM").style.display = "none";
-        return true;
-    }
-} // Validación apellido materno
 
 let validacionBD = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/;
 
@@ -154,16 +127,6 @@ nameContact.addEventListener("blur", (e) => {
         validarNombre();
     }) //Nombre
 
-ApellidoPContact.addEventListener("blur", (e) => {
-        e.target.value = e.target.value.trim();
-        validarApellidoP();
-    }) //Apellido P
-
-ApellidoMContact.addEventListener("blur", (e) => {
-        e.target.value = e.target.value.trim();
-        validarApellidoM();
-    }) //Apellido M
-
 fechaNac.addEventListener("blur", (e) => {
         e.target.value = e.target.value.trim();
         validarfechaNac();
@@ -199,8 +162,6 @@ enviar.addEventListener("click", (event) => {
 
     // Se hacen validaciones
     validarNombre();
-    validarApellidoP();
-    validarApellidoM();
     validarfechaNac();
     validarContraseña();
     validarConfirContraseña();
@@ -221,8 +182,6 @@ enviar.addEventListener("click", (event) => {
 
     let newUsuario = {
         user_name: document.querySelector(`#nameContact`).value,
-        user_lastNF: document.querySelector(`#ApellidoPContact`).value,
-        user_lastNM: document.querySelector(`#ApellidoMContact`).value,
         user_date: document.querySelector(`#birthDate`).value,
         user_pass: document.querySelector(`#passwordContact`).value,
         user_country: document.querySelector(`#country`).value,
