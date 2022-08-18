@@ -68,10 +68,68 @@ function archivo(evt) {
       document.getElementById('files').addEventListener('change', archivo, false);
 
 
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
 
 
 
-const nombre = document.getElementById('nombre');
+
+
+
+
+const nombre = document.getElementById("name");
+const email = document.getElementById("email");
+const pass = document.getElementById("password");
+const form = document.getElementById("form");
+const parrafo = document.getElementById("warnings");
+
+form.addEventListener("submit", e=>{
+  e.preventDefault()
+  let warnings=""
+  let entrar = false
+  let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+  parrafo.innerHTML = ""
+  if(nombre.value.length <2){
+      warnings += 'El nombre no es valido <br>'
+      entrar = true
+  }
+  if(!regexEmail.test(email.value)){
+      warnings += 'el email no es valido <br>'
+      entrar = true
+    }
+    if(pass.value.length < 8){
+      warnings += 'Contraseña no es valido <br>'
+      entrar = true
+    }
+
+    if(entrar){
+        parrafo.innerHTML= warnings
+    }
+    else{
+      parrafo.innerHTML = "Enviado"
+    }
+
+})
+
+
+
 const color = document.getElementById('color');
 const material = document.getElementById('material');
 const talla = document.getElementById('talla');
@@ -84,7 +142,12 @@ const errorElement = document.getElementById('error');
 const successMsg = document.getElementById('success-msg');
 const submitBtn = document.getElementById('submit');
   
-const validate = (e) => {
+
+
+
+
+
+/* const validate = (e) => {
   e.preventDefault();
  
   if (nombre.value = "") {
@@ -113,4 +176,74 @@ const emailIsValid = email => {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
-submitBtn.addEventListener('click', validate);
+submitBtn.addEventListener('click', validate); */
+
+
+const crear = "/data/catalogo_locrear.json";
+const actualizar = "/data/catalogo_loactualizar.json";
+const eliminar = "/data/catalogo_loeliminar.json";
+const buscar = "/data/catalogo_lobuscar.json";
+
+
+
+function mostrarDatos(categoria) {
+  fetch(categoria)
+      .then ( (responseJSON) => { return responseJSON.json()})
+      .then(accesorios => {
+      let contenedor = document.getElementById("contenedor_cards");
+      contenedor.innerHTML = ``;   
+      for (let accesorio of accesorios.data) {
+         let div = `
+         <div class="card_producto card h-100"> <!--card_producto 1-->
+                      <img class="imagen_producto" src="${accesorio.imagen}" alt="...">
+                      <div class="contenido card-body">
+                          <h3 class="titulo_producto">${accesorio.nombre}</h3>
+                          <h5 class="descripcion">${accesorio.descripcion}</h5>
+                          <p class="contenido_producto">
+                              <form>
+                                  <label><strong>Talla: </strong></label> 
+                                  <select name="tallas">
+                                      <option>${accesorio.tallas[0]}</option>
+                                      <option>${accesorio.tallas[1]}</option>
+                                      <option>${accesorio.tallas[2]}</option>
+                                      <option>${accesorio.tallas[3]}</option>
+                                  </select> <br>
+                                  <label><strong>Color: </strong></label>
+                                  <select name="color">
+                                      <option>${accesorio.color[0]}</option>
+                                      <option>${accesorio.color[1]}</option>
+                                      <option>${accesorio.color[2]}</option>
+                                  </select> <br>
+                                  <strong>Material: </strong> ${accesorio.material}<br>
+                                  <strong>Precio: </strong> $ ${accesorio.precio} MXN<br>
+                              </form>
+                          </p>
+                      </div>
+                      <div class="pie card-footer">
+                          <a href="" class="enlaces">Agregar al carrito</a>
+                          <a>
+                              <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="45px"> </button>
+                          </a>
+                      </div>
+                  </div>
+         `;
+          contenedor.insertAdjacentHTML("afterbegin",div);
+      }
+      });
+      console.log('hey');console.log('hey');
+}
+
+
+
+
+
+const aCrear = document.getElementById("crearlo");
+const aActualizar = document.getElementById("actualizarlo");
+const aEliminar = document.getElementById("eliminarlo");
+const aBuscar = document.getElementById("buscarlo");
+
+
+aCrear.addEventListener('click', () => {mostrarDatos(crear)});
+aActualizar.addEventListener('click', () => {mostrarDatos(actualizar)});
+aEliminar.addEventListener('click', () => {mostrarDatos(eliminar)});
+aBuscar.addEventListener('click', () => {mostrarDatos(buscar)});
