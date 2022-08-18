@@ -17,7 +17,7 @@
         },
         {
             "id" : 2,
-            "imagen": "/assets/img/5.accesorios/Zurrones/zurron2.jpg",
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron2.jpeg",
             "nombre" : " Modelo 2",
             "tallas": ["M"],
             "material": "Piel", 
@@ -26,7 +26,7 @@
         },
         {
             "id" : 3,
-            "imagen": "/assets/img/5.accesorios/Zurrones/zurron3.jpg",
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron3.jpeg",
             "nombre" : " Modelo 3",
             "tallas": ["M"],
             "material": "Piel", 
@@ -35,7 +35,7 @@
         },
         {
             "id" : 4,
-            "imagen": "/assets/img/5.accesorios/Zurrones/zurron4.jpg",
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron4.jpeg",
             "nombre" : " Modelo 4",
             "tallas": ["CH"],
             "material": "Piel", 
@@ -44,7 +44,7 @@
         },
         {
             "id" : 5,
-            "imagen": "/assets/img/5.accesorios/Zurrones/zurron5.jpg",
+            "imagen": "/assets/img/5.accesorios/Zurrones/zurron5.jpeg",
             "nombre" : " Modelo 5",
             "tallas": ["M"],
             "material": "Piel", 
