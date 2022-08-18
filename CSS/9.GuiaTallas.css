@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+ 
+
 
 .superior{
     display: flex;
@@ -23,6 +25,7 @@
 }
 
 
+
 .section-list{
     display: flex;
     min-height: 100vh;
@@ -37,6 +40,7 @@
     grid-gap: 20px;
     max-width: 1000px;
     margin: auto;
+    font-family: 'Unna', serif;
 }
 
 .table-img-1{
@@ -124,6 +128,7 @@ article{
     height: 200px;
     text-align: center;
     margin-top: 10px;
+    font-family: 'Unna', serif;
 }
 
 article .table-striped{
