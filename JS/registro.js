@@ -204,7 +204,7 @@ enviar.addEventListener("click", (event) => {
     validarfechaNac();
     validarContraseña();
     validarConfirContraseña();
-    validarNumero();
+    validarPais();
     validarEmail();
     validarPoliticas();
     123
