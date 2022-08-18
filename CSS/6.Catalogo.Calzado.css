@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,44 +10,17 @@ body {
     background-color: #f2f3f4;
 }
 
-
-/*ENCABEZADO*/
-.row {
-    width: 98vw;
-    margin: 0;
-}
-
-.btn_buscar {
-    padding: 10px 30px 10px 30px;
-    color: #a42c33;
-    border: 1px solid #a42c33;
-    border-radius: 4px;
-}
-
-.btn_buscar:hover {
-    background-color: #a42c33;
-    color: #f2f3f4;
-}
-
-.icono {
-    border: none;
-    background-color: rgba(255, 255, 255, 0);
-    margin: 10px;
-}
-
-
-
 /*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES DE LOS ICONOS*/
 
 .imagen_icono {
     height: 60px;
     border-radius: 55px;
     border: solid 3px #a42c33;
-    
+
 }
 
 
-.enlaces  {
+.enlaces {
     text-decoration: none;
     color: #a42c33;
 }
@@ -59,22 +32,26 @@ body {
 /*MODIFICAMOS EL CONTENEDOR DE LAS CARDS CON LOS PRODUCTOS*/
 
 #contenedor_cards {
-    width: 99vw;
+    width: 98vw;
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
     
+}
+
+.contenido_producto {
+    background-color: white;
 }
 
 /*MODIFICAMOS LAS CARDS*/
 .card_producto {
     width: 20%;
-    margin: 2%;
+    margin: 20px;
     border-radius: 6px;
     background-color: #f2f3f4;
-    box-shadow: 0px 1px 10px  #a42c325f;
+    box-shadow: 0px 1px 10px #a42c325f;
     cursor: default;
     transition: all 400ms ease;
 }
@@ -84,19 +61,22 @@ body {
     transform: translateY(-3%);
 }
 
-.imagen_producto{
+.imagen_producto {
     height: auto;
 }
 
-.card_producto .contenido  {
-    margin: 15px;
+.card_producto .contenido {
+    /* margin: 15px; */
     text-align: center;
 }
 
 
-.card_producto .contenido .titulo_producto {
+.card_producto .contenido
+
+/*.titulo_producto*/
+    {
     font-weight: 700;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .pie {
@@ -108,7 +88,7 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 10px 10px 10px 10px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     color: #a42c33;
     border: 1px solid #a42c33;
     border-radius: 4px;
@@ -118,6 +98,17 @@ body {
 .card_producto .pie .enlaces:hover {
     background-color: #a42c33;
     color: #f2f3f4;
+}
+
+.btn_lista_deseos {
+    border: none;
+    border-radius: 50%;
+}
+
+.btn_lista_deseos:hover {
+    /* background-color: #ffe0e9; Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    border: none;
 }
 
 select {
@@ -130,40 +121,32 @@ select {
 
 @media screen and (max-width: 1240px) {
 
-    #contenedor_categorias {
-        /* position: fixed; */
-        width: 98vw;
-        height: 1%;
-        display: flex;
-        flex-direction: column;
-    }
-
     #contenedor_cards {
         margin-top: 50px;
     }
 
-    .prendas  {
+    .prendas {
         /*Aquí ya es necesario definir que su ancho sea del 100%*/
         display: flex;
         flex-direction: row;
-        justify-content: space-around;  
+        justify-content: space-around;
     }
 
     .interiores {
         border-bottom: 5px solid #a42c33;
     }
-    
+
     .categorias {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .enlaces {
         text-decoration: none;
         color: #a42c33;
     }
-    
+
     .enlaces :hover {
         color: #c47627;
     }
@@ -172,6 +155,7 @@ select {
     /*MODIFICAMOS EL INTERIOR DE LOS CONTENEDORES*/
     #contenedor_cards {
         width: 98vw;
+        height: 800vh;
         margin-top: 50px;
         display: flex;
         justify-content: space-evenly;
@@ -185,11 +169,11 @@ select {
     }
 
     .card_producto .imagen_producto {
-        width: 90%;
-        height: auto;
-        margin: 5%;
+        /* width: 90%; */
+        /* height: auto;
+        margin: 5%; */
     }
-    
+
     .card_producto .contenido {
         margin: 10px;
         text-align: center;
@@ -198,19 +182,14 @@ select {
     .card_producto .contenido .enlaces {
         padding: 5px;
         margin-top: 5px;
+        background-color: #f2f3f4;
     }
+
 }
+
 
 /*CREAMOS EL SEGUNDO PUNTO DE QUIEBRE*/
 @media (max-width: 600px) {
-    /*Tratar de hacer las categorias menu*/
-    #contenedor_categorias {
-        /* position: fixed; */
-        width: 100vw;
-        height: 150px;
-    }
-
-
 
     .imagen_icono {
         /*Quita el elemento del flujo de la pagina*/
@@ -219,15 +198,35 @@ select {
 
     .titulo {
         display: none;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
     }
 
-    
+    .card_producto .contenido {
+        /* margin: 10px; */
+        text-align: center;
+    }
+
+
+    .card_producto .contenido .enlaces {
+        padding: 5px;
+        margin-top: 5px;
+        background-color: #f2f3f4;
+    }
+
+    .card_producto {
+        height: 500px;
+        width: 350px;
+        margin: 20px;
+    }
+
 }
 
 
 /* Modificamos sección de enlaces para cargar páginas de calzado*/
 
-.paginas{
+.paginas {
     display: flex;
     text-align: center;
     border: none;
@@ -239,7 +238,7 @@ select {
 }
 
 /* Modificamos sección de colaborador */
-.colaborador{
+.colaborador {
     text-align: center;
     padding-top: 25px;
 }

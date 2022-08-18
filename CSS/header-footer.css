@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.2rem;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 }
 
 .nav-item {
-    font-family: sans-serif;
+    font-family: 'Unna', serif;
     font-size: 18px;
 }
 
@@ -35,6 +36,13 @@ body {
     color: #a42c33;
     border: 1px solid #a42c33;
     border-radius: 4px;
+}
+
+.btn_buscar:hover {
+	background-color: #a42c33;
+	color: #f2f3f4;
+	border: 1px solid #a42c33;
+	border-radius: 13px;
 }
 
 .logo-godiva {
@@ -64,14 +72,14 @@ a,
 p {
     text-decoration: none;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Unna', serif;
     color: black;
 }
 
 
 .encabezado {
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Unna', serif;
     color: #333;
     text-decoration: none;
     justify-content: space-evenly;
@@ -84,11 +92,16 @@ p {
 
 /* para unificar estilo de titulos */
 .titulo {
-    font-family: sans-serif;
+    /* font-family: 'Unna', serif;
     font-size: 50px;
     font-weight: 100;
     text-align: center;
-    padding: 1em;
+    padding-top: 1em; */
+    font-family: 'Unna', serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 3%;
+    letter-spacing: 4px;
 }
 
 .btn_agregar_carrito {
@@ -100,8 +113,7 @@ footer {
    align-items: top;
     color: rgba(0, 0, 0, 0.684);
     padding: 15px;
-    
-
+    padding-top: 25px; 
 }
 
 .icono_footer {
@@ -131,7 +143,7 @@ footer {
     letter-spacing: 2px;
     /* Espacio entre letras */
     position: fixed;
-    bottom: 555px;
+    bottom: 420px;
     right: 190px;
     transition: all 300ms ease 0ms;
 
@@ -142,6 +154,7 @@ footer {
     /* background-color: #ffe0e9; Color de fondo al pasar el cursor */
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-7px);
+    border: none;
 }
 
 .btn-flotante2 {
@@ -158,7 +171,7 @@ footer {
     letter-spacing: 2px;
     /* Espacio entre letras */
     position: fixed;
-    bottom: 560px;
+    bottom: 425px;
     right: 85px;
     transition: all 300ms ease 0ms;
 
@@ -169,6 +182,7 @@ footer {
     /* background-color: #f2f3f4; Color de fondo al pasar el cursor */
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-7px);
+    border: none;
 }
 
 
@@ -197,6 +211,7 @@ footer {
     /* background-color: #f2f3f4; Color de fondo al pasar el cursor */
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-7px);
+    border: none;
 }
 
 /* Breakpoint botones  */
@@ -205,8 +220,8 @@ footer {
     .btn-flotante1 {
         font-size: 14px;
         padding: 12px 20px;
-        bottom: 350px;
-        right: 29px;
+        bottom: 520px;
+        right: 17px;
     }
 }
 
@@ -216,8 +231,8 @@ footer {
     .btn-flotante2 {
         font-size: 14px;
         padding: 12px 20px;
-        bottom: 270px;
-        right: 30px;
+        bottom: 440px;
+        right: 18px;
     }
 }
 
@@ -227,7 +242,7 @@ footer {
     .btn-flotante3 {
         font-size: 14px;
         padding: 12px 20px;
-        bottom: 30px;
-        right: 15px;
+        bottom: 180px;
+        right: 5px;
     }
 }

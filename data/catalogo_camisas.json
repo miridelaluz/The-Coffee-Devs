@@ -10,81 +10,81 @@
             "id" : 1,
             "imagen": "/assets/img/4.prendas/camisa_1.jpg",
             "nombre" : "Camisa siglo XVIII",
-            "descripcion" : "Hecho de materiales de alta calidad",
+            "descripcion" : "Hecho de materiales de alta calidad.",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Blanco", "Rojo", "Azul"],
-            "precio" : 600
+            "color" : ["Blanco", "Beige", "---"],
+            "precio" : 1200
         },
         {
             "id" : 2,
             "imagen": "/assets/img/4.prendas/camisa_2.jpg",
-            "nombre" : "Túnica interior, siglo XVIII",
-            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "nombre" : "Camisa, año 1840",
+            "descripcion" : "Elaborada de manera artesanal.",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Blanco", "Rojo", "Azul"],
-            "precio" : 800
+            "color" : ["Blanco", "Beige", "---"],
+            "precio" : 900
         },
         {
             "id" : 3,
             "imagen": "/assets/img/4.prendas/camisa_3.jpg",
-            "nombre" : "Túnica romana, siglo XII",
-            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "nombre" : "Blusa, siglo XVI",
+            "descripcion" : "Detalles hechos a mano.",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Naranja", "Rojo", "Azul"],
-            "precio" : 800
+            "precio" : 1500
         },
         {
             "id" : 4,
             "imagen": "/assets/img/4.prendas/camisa_4.jpg",
-            "nombre" : "Túnica, 1440s-1480s",
-            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "nombre" : "Camisa Capitán de Mar,  año 1816",
+            "descripcion" : "Con detalles en el pecho",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Negro", "Rojo", "Azul"],
+            "color" : ["Blanco", "Beige", "Negro"],
             "precio" : 900
         },
         {
             "id" : 5,
             "imagen": "/assets/img/4.prendas/camisa_5.png",
-            "nombre" : "Tunica Siglo XV",
-            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "nombre" : "Camisa Victoriana",
+            "descripcion" : "Detalles de Lino en el pecho",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Negro", "Rojo", "Azul"],
+            "color" : ["Blanca", "Beige", "---"],
             "precio" : 1500
         },
         {
             "id" : 6,
             "imagen": "/assets/img/4.prendas/camisa_6.jpg",
-            "nombre" : "Tunica Siglo XIV",
-            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "nombre" : "Camisa Vikinga",
+            "descripcion" : "Cinturon de acero inoxidable",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Blanco", "Rojo", "Azul"],
-            "precio" : 800
+            "color" : ["Negro", "Vino", "Azul"],
+            "precio" : 1000
         },
         {
             "id" : 7,
             "imagen": "/assets/img/4.prendas/camisa_7.webp",
-            "nombre" : "Tunica Siglo XIII",
-            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "nombre" : "Camisa Siglo XVI",
+            "descripcion" : "Cinturón de cuero",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Camello", "Rojo", "Azul"],
+            "color" : ["Blanco", "Rojo", "Azul"],
             "precio" : 1200
         },
         {
             "id" : 8,
             "imagen": "/assets/img/4.prendas/camisa_8.jpg",
-            "nombre" : "Tunica Siglo XV",
-            "descripcion" : "Siglo XVII, elaborada de forma artesanal",
+            "nombre" : "Camisa, Siglo XII",
+            "descripcion" : "Tejida a mano",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Verde", "Rojo", "Azul"],
-            "precio" : 800
+            "precio" : 900
         }
                    
     ]

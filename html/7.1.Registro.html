@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+
+    <!-- link icono -->
+    <link rel="icon" href="/assets/img/logo.jpg">
+    <!--Link Booststrap 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="../CSS/signUp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Unna:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/header-footer.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="main:wrapper">
+            <div id="barra_buscar" class="row align-items-center pt-4 barra_buscar">
+                <div class="col-lg-8"></div>
+                <div class="col-lg-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="Buscar" title="¿Qué estás buscando?" placeholder="Buscar"
+                            aria-label="Buscar">
+                        <button class="btn btn_buscar" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="row align-items-center text-center">
+                <div class="col-lg-2">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Catálogo
+                            </a>
+                            <ul class="dropdown-menu dropright">
+                                <li><a class="dropdown-item" href="/html/4.Catalogo.Prendas.html">Prendas</a></li>
+                                <li><a class="dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
+                                <li><a class="dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/html/9.GuiaTallas.html">Guía de tallas</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2">
+                    <span><a href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
+                </div>
+
+                <div class="col-lg-4 logo-godiva">
+                    <span><a href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"
+                                alt="Logo-godivaSH" title="Inicio" style="text-align: center;"></a></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <span><a href="/html/7.Iniciar-sesion.html">Iniciar Sesión</a></span><br>
+                    <span><a href="/html/7.1.Registro.html">Registrarse</a></span>
+                </div>
+
+                <div class="col-lg-2">
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="btn-flotante1" alt="icono-wishList"><img title="Lista de deseos"
+                                src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""> </button>
+                    </a>
+
+                    <a class="" href="/8.Carrito.Compra.html" target="_blank">
+                        <button class="btn-flotante2"><img title="Cesta" src="/assets/iconos/anadir-al-carrito.png"
+                                width="40" height="40" alt="icono-carrito"> </button>
+                    </a>
+                </div>
+            </div>
+            <!--AQUÍ TERMINA EL MENÚ -->
+        </div>
+    </header>
+    <!--Fin Encabezado-->
+
+    <!-- Inicia sección para login -->
+
+    <h2 class="tituloRegistro">Regístrate</h2>
+    <p class="text">Completa el formulario correctamente</p>
+
+
+    <section id="fondo">
+        <section class="contenedor">
+            <section class="form form-container ">
+                <form class="formregistro .form-2" id="formRe">
+                    <br>
+                    <div class="formRegistro">
+
+                        <!-- Ingresar nombre -->
+                        <div class="casillaForm">
+                            <input type="text" class="form-control" id="nameContact" placeholder="Nombre"
+                                name="firstname">
+                            <!-- Alert "Dato inválido, tu nombre debe contener más de 3 caracteres"-->
+                            <div class="alert" id="alertnombre" style="display: none"></div>
+                        </div>
+
+                        <!-- Ingresar apellido -->
+                        <div class="casillaForm">
+                            <input type="text" class="form-control" id="ApellidoPContact" placeholder="Apellido paterno"
+                                name="lastname">
+                            <!-- Alert "Dato inválido, tu apellido debe contener más de 3 caracteres"-->
+                            <div class="alert" id="alertnombreP" style="display: none"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="formRegistro">
+                        <div class="casillaForm">
+                            <!--Campo para Apellido-->
+                            <input type="text" class="form-control" id="ApellidoMContact" placeholder="Apellido materno"
+                                required name="lastnamem">
+                            <!-- Alert "Dato inválido, tu apellido debe contener más de 3 caracteres" -->
+                            <div class="alert alert" id="alertnombreM" style="display: none"></div>
+                        </div>
+
+                        <div class="casillaForm">
+                            <!--Campo para Fecha de Nacimiento-->
+                            <label for="birthDate"   style="font-size: 18px;">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" id="birthDate"
+                                placeholder="Ingresa tu fecha de nacimiento" name="date">
+                            <!-- Alert "Debes ingresar una fecha de nacimiento válida" -->
+                            <div class="alert alert" id="alertBD" style="display: none"></div>
+                        </div>
+                    </div>
+
+                    <div class="formRegistro">
+
+                        <!-- Ingresa número de teléfono -->
+                        <div class="casillaForm">
+                            <input class="form-control" type="text" id="numberContact" placeholder="Número de teléfono"
+                                name="phone">
+                            <!-- Alert "Tu número debe tener 10 dígitos" -->
+                            <div class="alert" id="alertnum" style="display: none"></div>
+                        </div>
+
+                        <!-- Ingresa correo -->
+                        <div class="casillaForm">
+                            <input type="email" class="form-control" id="mailContact" placeholder="Correo electrónico"
+                                name="mail">
+                            <!-- Alert "Escribe un email válido"-->
+                            <div class="alert" id="alertmail" style="display: none"></div>
+                        </div>
+                    </div>
+
+                    <div class="formRegistro">
+
+                        <!-- Contraseña -->
+                        <div class="casillaForm">
+                            <input type="password" class="form-control" id="passwordContact"
+                                placeholder="Ingresa tu contraseña">
+                            <!-- Alert "Inválido, tu contraseña debe contener más de 5 caracteres" -->
+                            <div class="alert" id="alertPassword" style="display: none"></div>
+                        </div>
+
+                        <!-- Confirmar contraseña -->
+                        <div class="casillaForm">
+                            <input type="password" class="form-control" id="confirPassContact"
+                                placeholder="Confirmar contraseña">
+                            <!-- Alert "Dato inválido, la contraseña no coincide" -->
+                            <div class="alert" id="alertConfirPassword" style="display: none"></div>
+                        </div>
+                    </div>
+
+
+                    <div id="checkbox">
+                        <input id="politicas" class="text" type="checkbox" name="checkbox"> Acepto las políticas de
+                        privacidad</input>
+                        <br>
+                    </div>
+                    <!-- Alert "Por favor, acepta las políticas de privacidad" -->
+                    <div class="alert" id="alertpoliticas" style="display: none"></div>
+                    <br>
+                    <!--Incio de Boton-->
+                    <div class="containerBtn">
+                        <button type="button" class="btnForm" type="submit" id="enviar">Registrar</button>
+                        <button type="reset" class="btnForm">Limpiar Formulario</button>
+                    </div>
+
+                </form>
+
+
+                <!--Fin de Boton-->
+
+            </section>
+        </section>
+    </section>
+
+
+
+
+    <!-- Termina sección para login -->
+
+    <!--Inicio Pie-->
+    <footer>
+        <div class="text-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="https://www.facebook.com/GodivaSH" target="_blank">
+                        <button class="remove"><img src="/assets/iconos/facebook_logo_48.png"
+                                alt="facebook.com/GodivaSH" style="margin-right: 50%;"></button>
+                    </a>
+                    <a href="https://www.instagram.com/godiva.s.h/" target="_blank">
+                        <button class="remove"><img src="/assets/iconos/Instagram_logo_48.png"
+                                alt="instagram.com/godiva.s.h"></button>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="/2.Acerca de Godiva.html">
+                        <label>
+                            Preguntas frecuentes
+                        </label>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <img src="/assets/iconos/Visa_logo_48.png" alt="visa" style="margin: 5% align-items: top;">
+                    <img src="/assets/iconos/Mastercar_loco_48.png" alt="mastercard">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fin Pie-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="/JS/registro.js"></script>
+
+</body>
+
+</html>
