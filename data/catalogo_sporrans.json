@@ -8,7 +8,7 @@
 
         {
             "id" : 1,
-            "imagen": "/assets/img/5.accesorios/Bonetes/bonete1.jpg",
+            "imagen": "/assets/img/5.accesorios/Sporrans/sporran1.jpg",
             "nombre" : "Sporran maldiva",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
@@ -17,7 +17,7 @@
         },
         {
             "id" : 2,
-            "imagen": "/assets/img/5.accesorios/Bonetes/bonete2.jpg",
+            "imagen": "/assets/img/5.accesorios/Sporrans/sporran2.jpg",
             "nombre" : "Sporran sencillo (dos piezas)",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
@@ -26,7 +26,7 @@
         },
         {
             "id" : 3,
-            "imagen": "/assets/img/5.accesorios/Bonetes/bonete3.jpg",
+            "imagen": "/assets/img/5.accesorios/Sporrans/sporran3.jpg",
             "nombre" : "Sporran malamute",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
@@ -35,7 +35,7 @@
         },
         {
             "id" : 4,
-            "imagen": "/assets/img/5.accesorios/Bonetes/bonete4.jpg",
+            "imagen": "/assets/img/5.accesorios/Sporrans/sporran4.jpg",
             "nombre" : "Sporran grabado",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
@@ -44,7 +44,7 @@
         },
         {
             "id" : 5,
-            "imagen": "/assets/img/5.accesorios/Bonetes/bonete5.jpg",
+            "imagen": "/assets/img/5.accesorios/Sporrans/sporran5.jpg",
             "nombre" : "Sporran básico",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
@@ -53,7 +53,7 @@
         },
         {
             "id" : 6,
-            "imagen": "/assets/img/5.accesorios/Bonetes/bonete6.jpg",
+            "imagen": "/assets/img/5.accesorios/Sporrans/sporran6.jpg",
             "nombre" : "Sporran renacentista",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Terciopelo", 
@@ -62,7 +62,7 @@
         },
         {
             "id" : 7,
-            "imagen": "/assets/img/5.accesorios/Bonetes/bonete7.jpg",
+            "imagen": "/assets/img/5.accesorios/Sporrans/sporran7.jpg",
             "nombre" : "Sporran cortesano",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Terciopelo", 
@@ -71,7 +71,7 @@
         },
         {
             "id" : 8,
-            "imagen": "/assets/img/5.accesorios/Bonetes/bonete8.jpg",
+            "imagen": "/assets/img/5.accesorios/Sporrans/sporran8.jpg",
             "nombre" : "Sporran duo",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Paño de lana", 
