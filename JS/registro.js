@@ -3,7 +3,7 @@ let nameContact = document.getElementById("nameContact");
 let ApellidoPContact = document.getElementById("ApellidoPContact");
 let ApellidoMContact = document.getElementById("ApellidoMContact");
 let fechaNac = document.getElementById("birthDate");
-let numberContact = document.getElementById("numberContact")
+let country = document.getElementById("country")
 let mailContact = document.getElementById("mailContact")
 let passwordContact = document.getElementById("passwordContact")
 let confirPassContact = document.getElementById("confirPassContact")
@@ -94,20 +94,18 @@ function validarConfirContraseña() {
 } //Validación confirmación de contraseña
 
 
-let validacionCel = /^[0-9]{10}$/;
-
-function validarNumero() {
-    if (!validacionCel.test(numberContact.value)) {
-        numberContact.style.border = "red thin solid";
-        document.getElementById("alertnum").innerHTML = "Tu número debe tener 10 dígitos";
-        document.getElementById("alertnum").style = "display: block; margin-bottom: -10px;";
+function validarPais() {
+    if (!validacionPais.test(country.value)) {
+        country.style.border = "red thin solid";
+        document.getElementById("alertPais").innerHTML = "Debes seleccionar un país";
+        document.getElementById("alertPais").style = "display: block; margin-bottom: -10px;";
         return false;
     } else {
-        numberContact.style.border = "green thin solid";
-        document.getElementById("alertnum").style.display = "none";
+        country.style.border = "green thin solid";
+        document.getElementById("alertPais").style.display = "none";
         return true;
     }
-} // Validación de celular
+} // Validación de País
 
 let validacionEmail = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
@@ -171,7 +169,7 @@ fechaNac.addEventListener("blur", (e) => {
         validarfechaNac();
     }) //Fecha Nacimiento
 
-numberContact.addEventListener("blur", (e) => {
+country.addEventListener("blur", (e) => {
         e.target.value = e.target.value.trim();
         validarNumero();
     }) //Número
@@ -227,7 +225,7 @@ enviar.addEventListener("click", (event) => {
         user_lastNM: document.querySelector(`#ApellidoMContact`).value,
         user_date: document.querySelector(`#birthDate`).value,
         user_pass: document.querySelector(`#passwordContact`).value,
-        user_phone: document.querySelector(`#numberContact`).value,
+        user_country: document.querySelector(`#country`).value,
         user_email: document.querySelector(`#mailContact`).value,
         user_type_id: 1
     };
