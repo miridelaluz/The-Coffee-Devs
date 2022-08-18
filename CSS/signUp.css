@@ -249,7 +249,7 @@ footer {
 	justify-content: center;
 	/* margin-right: 50%; */
 	background-color: #f2f3f4;
-
+	text-align: center;
 }
 
 .tituloRegistro {
@@ -318,7 +318,7 @@ a:active {
 .btnForm:hover {
 	background-color: #a42c33;
 	color: #f2f3f4;
-	border: 1px solid #a42c33;
+	border: 1px solid #a42c33;	
 	border-radius: 13px;
 }
 

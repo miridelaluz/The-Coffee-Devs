@@ -104,7 +104,7 @@
                         <div class="casillaForm">
                             <input type="text" class="form-control" id="nameContact" placeholder="Nombre"
                                 name="firstname">
-                            <!-- Alert -->
+                            <!-- Alert "Dato inválido, tu nombre debe contener más de 3 caracteres"-->
                             <div class="alert" id="alertnombre" style="display: none"></div>
                         </div>
 
@@ -112,7 +112,7 @@
                         <div class="casillaForm">
                             <input type="text" class="form-control" id="ApellidoPContact" placeholder="Apellido paterno"
                                 name="lastname">
-                            <!-- Alert -->
+                            <!-- Alert "Dato inválido, tu apellido debe contener más de 3 caracteres"-->
                             <div class="alert" id="alertnombreP" style="display: none"></div>
                         </div>
 
@@ -123,16 +123,16 @@
                             <!--Campo para Apellido-->
                             <input type="text" class="form-control" id="ApellidoMContact" placeholder="Apellido materno"
                                 required name="lastnamem">
-                            <!-- Alert -->
+                            <!-- Alert "Dato inválido, tu apellido debe contener más de 3 caracteres" -->
                             <div class="alert alert" id="alertnombreM" style="display: none"></div>
                         </div>
 
                         <div class="casillaForm">
                             <!--Campo para Fecha de Nacimiento-->
-                            <label for="birthDate">Fecha de Nacimiento :</label>
+                            <label for="birthDate"   style="font-size: 18px;">Fecha de nacimiento</label>
                             <input type="date" class="form-control" id="birthDate"
                                 placeholder="Ingresa tu fecha de nacimiento" name="date">
-                            <!-- Alert -->
+                            <!-- Alert "Debes ingresar una fecha de nacimiento válida" -->
                             <div class="alert alert" id="alertBD" style="display: none"></div>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                         <div class="casillaForm">
                             <input class="form-control" type="text" id="numberContact" placeholder="Número de teléfono"
                                 name="phone">
-                            <!-- Alert -->
+                            <!-- Alert "Tu número debe tener 10 dígitos" -->
                             <div class="alert" id="alertnum" style="display: none"></div>
                         </div>
 
@@ -151,7 +151,7 @@
                         <div class="casillaForm">
                             <input type="email" class="form-control" id="mailContact" placeholder="Correo electrónico"
                                 name="mail">
-                            <!-- Alert -->
+                            <!-- Alert "Escribe un email válido"-->
                             <div class="alert" id="alertmail" style="display: none"></div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                         <div class="casillaForm">
                             <input type="password" class="form-control" id="passwordContact"
                                 placeholder="Ingresa tu contraseña">
-                            <!-- Alert -->
+                            <!-- Alert "Inválido, tu contraseña debe contener más de 5 caracteres" -->
                             <div class="alert" id="alertPassword" style="display: none"></div>
                         </div>
 
@@ -170,7 +170,7 @@
                         <div class="casillaForm">
                             <input type="password" class="form-control" id="confirPassContact"
                                 placeholder="Confirmar contraseña">
-                            <!-- Alert -->
+                            <!-- Alert "Dato inválido, la contraseña no coincide" -->
                             <div class="alert" id="alertConfirPassword" style="display: none"></div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                         privacidad</input>
                         <br>
                     </div>
-                    <!-- Alert -->
+                    <!-- Alert "Por favor, acepta las políticas de privacidad" -->
                     <div class="alert" id="alertpoliticas" style="display: none"></div>
                     <br>
                     <!--Incio de Boton-->

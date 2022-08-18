@@ -95,35 +95,42 @@
                 <form class="formregistro" id="formIn">
                     <h2 class="tituloRegistro">Inicia Sesión</h2>
                     <p>¡Nos da gusto tenerte de vuelta!</p>
+
                     <br>
+
+                    <!-- Ingresar correo electrónico -->
                     <div class="formRegistro">
                         <div class="casillaForm">
-                            <!--Campo para Correo-->
-                            <label for="mailContact">Correo electrónico :</label>
-                            <input type="email" class="form-control" id="mailContact" placeholder="name@example.com">
+                            <input type="email" class="form-control" id="mailContact" placeholder="Correo electrónico">
+                            <!-- Alert "Escribe un email válido"-->
                             <div class="alert" id="alertmail" style="display: none"></div>
                         </div>
-                    </div>
 
-                    <div class="formRegistro">
+
+                        <!-- Ingresar contraseña -->
+
                         <div class="casillaForm">
-                            <!--Campo para Contraseña-->
-                            <label for="passwordContact">Contraseña :</label>
-                            <input type="password" class="form-control" id="passwordContact" placeholder="Ingresa tu contraseña">
+                            <input type="password" class="form-control" id="passwordContact"
+                                placeholder="Ingresa tu contraseña">
+                            <!-- Alert "Inválido, tu contraseña debe contener más de 5 caracteres" -->
                             <div class="alert" id="alertPassword" style="display: none"></div>
                         </div>
 
                         <div class="formFinal">
                             <a href=""> ¿Has olvidado la contraseña? Haz click aquí </a>
                         </div>
+
                         <br>
 
                         <!--Incio de Boton-->
                         <div class="containerBtn">
-                            <button type="button" class="btnForm" type="submit" id="IniciarSesion">Iniciar Sesión</button>
-                            <button type="button" class="btnForm" type="submit"> <a href="./registro.html">Registrarse</a></button>
+                            <button type="button" class="btnForm" type="submit" id="IniciarSesion">Iniciar
+                                Sesión</button>
+                            <button type="button" class="btnForm" type="submit"
+                                style="background-color: #a42c33; border-radius: 13px;"> <a
+                                    href="./registro.html">Registrarse</a></button>
                         </div>
-
+                    </div>
                 </form>
             </section>
         </section>
