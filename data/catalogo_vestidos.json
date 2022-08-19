@@ -1,0 +1,92 @@
+{
+    "page" : 6,
+    "total" : 8,
+    "total_pages":10,
+    "seccion" : "Prendas Exteriores",
+    "subseccion" : "Vestidos", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/4.prendas/vestido_1.jpg",
+            "nombre" : "Vestido Siglo XV",
+            "descripcion" : "Vestido forrado en lino con ribete de piel",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Dorado", "Negro", "---"],
+            "precio" : 6000
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/4.prendas/vestido_2.jpg",
+            "nombre" : "Vestido Robe, Siglo XV",
+            "descripcion" : "Diseño Utilizado en Europa Central",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Naranja", "Vino", "---"],
+            "precio" : 5900
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/4.prendas/vestido_3.jpg",
+            "nombre" : "Vestido, siglo XVI",
+            "descripcion" : "Vestido ajustado de clase media",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Marron", "Beige", "---"],
+            "precio" : 5800
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/4.prendas/vestido_4.jpg",
+            "nombre" : "Camisa Capitán de Mar,  año 1816",
+            "descripcion" : "Traje burdeos en Damasco de seda",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Seda", 
+            "color" : ["Vino", "Dorado", "Negro"],
+            "precio" : 9000
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/4.prendas/vestido_5.jpg",
+            "nombre" : "Vestido Siglo XVI",
+            "descripcion" : "Diseño inspirado es Juana de Castilla",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Dorado", "Beige", "Blanco"],
+            "precio" : 9500
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/4.prendas/vestido_6.png",
+            "nombre" : "Vestido a Cuadros, Año 1830",
+            "descripcion" : "",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Rojo", "Naranja", "Azul"],
+            "precio" : 4500
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/4.prendas/vestido_7.jpg",
+            "nombre" : "Vestido Ingles Año 1540",
+            "descripcion" : "Capucha a juego",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Verde", "Marron", "---"],
+            "precio" : 8000
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/4.prendas/vestido_8.jpg",
+            "nombre" : "Vestido Burdeos Siglo XV",
+            "descripcion" : "Diseño de finales del siglo.",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Seda", 
+            "color" : ["Verde", "Rojo", "Azul"],
+            "precio" : 6000
+        }
+                   
+    ]
+}
+

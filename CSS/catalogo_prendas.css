@@ -295,6 +295,14 @@ select {
     border-radius: 8px;
 }
 
+.remove {
+    background-color: transparent;
+    border: transparent;
+    background-color: transparent;
+    border: transparent;
+    background-color: transparent;
+    border: transparent;
+}
 
 
 /* *** CREAMOS EL PRIMER PUNTO DE QUIEBRE *** */

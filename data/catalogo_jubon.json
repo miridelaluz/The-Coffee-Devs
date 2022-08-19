@@ -1,0 +1,91 @@
+{
+    "page" : 6,
+    "total" : 9,
+    "total_pages":10,
+    "seccion" : "Prendas Exteriores",
+    "subseccion" : "Jubon", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/4.prendas/jubon_1.jpg",
+            "nombre" : "Jubón Siglo XVII",
+            "descripcion" : "Jubón masculino de uso común",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lana", 
+            "color" : ["Marron", "Negro", "Beige"],
+            "precio" : 1200
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/4.prendas/jubon_2.jpg",
+            "nombre" : "Jubón Año 1630",
+            "descripcion" : "Inspirado en la epoca del Rey Luis XIII",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Cafe", "Vino", "---"],
+            "precio" : 1900
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/4.prendas/jubon_3.jpg",
+            "nombre" : "Jubón para Dama, Siglo XVIII",
+            "descripcion" : "Su forma es triangular",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Azul", "Dorado", "---"],
+            "precio" : 1800
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/4.prendas/jubon_4.jpg",
+            "nombre" : "Jubón año 1620",
+            "descripcion" : "Detalles en los hombros",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Dorado", "Negro", "Rojo"],
+            "precio" : 2100
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/4.prendas/jubon_5.jpg",
+            "nombre" : "Jubón año 1790",
+            "descripcion" : "Botones tejidos a mano",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Dorado", "Beige", "Blanco"],
+            "precio" : 2500
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/4.prendas/jubon_6.jpg",
+            "nombre" : "Jubón Siglo XX",
+            "descripcion" : "Inspirada en un estilo victoriano",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Negro", "Vino", "Azul"],
+            "precio" : 2300
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/4.prendas/jubon_7.jpg",
+            "nombre" : "Jubón Siglo XV",
+            "descripcion" : "Estilo militar",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Verde", "Marron", "Negro"],
+            "precio" : 3800
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/4.prendas/jubon_8.jpg",
+            "nombre" : "Jubón año 1620",
+            "descripcion" : "Estructura menos rigida",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Verde", "Rojo", "Azul"],
+            "precio" : 1900
+        }
+                   
+    ]
+}
