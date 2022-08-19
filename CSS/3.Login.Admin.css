@@ -12,6 +12,42 @@ body {
 }
 
 
+.logo {
+  width: 10%;
+  height: 10%;
+
+  margin:auto;
+
+  max-width: 2px;
+  /* 
+  display: block;  */
+  border-radius: 10px;
+
+}
+
+/*ENCABEZADO*/
+.row {
+  width: 98vw;
+  margin: 0;
+}
+
+.btn_buscar {
+  padding: 10px 30px 10px 30px;
+  color: #a42c33;
+  border: 1px solid #a42c33;
+  border-radius: 4px;
+}
+
+.btn_buscar:hover {
+  background-color: #a42c33;
+  color: #f2f3f4;
+}
+
+.icono {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 10px;
+}
 
 
 
@@ -24,7 +60,7 @@ body {
 }
 
 
-
+/* 
 footer {
 	align-items: top;
 	color: rgba(0, 0, 0, 0.684);
@@ -44,34 +80,7 @@ footer {
 	padding-bottom: 0;
 	color: rgba(0, 0, 0, 0.684);
 }
-
-
-.main:wrapper {
-	margin: 5%;
-	justify-content: space-evenly;
-}
-
-.nav-item {
-	font-family: 'Unna', serif;
-	font-size: 18px;
-}
-
-.barra_buscar {
-	justify-content: space-evenly;
-	margin-left: 1px;
-}
-
-.btn_buscar {
-	padding: 10px 30px 10px 30px;
-	color: #a42c33;
-	border: 1px solid #a42c33;
-	border-radius: 4px;
-}
-
-.btn_buscar:hover {
-	background-color: #a42c33;
-	color: #f2f3f4;
-}
+ */
 
 
 
@@ -148,7 +157,7 @@ footer {
 
 
 
-/* 
+ 
 .form{
   padding: 40px 0;
   box-shadow: 0 0 6px 0;
@@ -166,7 +175,7 @@ footer {
 
 input{
   background: none;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 10px 10px 5px;
   display: block;
   width: 100%;
@@ -179,7 +188,7 @@ input:focus{
 }
 
 label {
-  font-size: 16px;
+  font-size: 22px;
   position: absolute;
   left: 5px;
   top: 10px;
@@ -201,14 +210,30 @@ input:focus~label,
 }
 
 button{
-  font-family: 'roboto';
-  border: none;
+  
+  
   display: block;
   width: 80%;
-  margin: 10px auto;
+  margin: 15% auto;
   height: 40px;
   font-size: 16px;
   cursor: pointer;
+
+
+
+
+  background-color: #a42c33;
+  border: 5px solid #a42c33;
+  border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+  
+    
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Unna', serif;
+    color: #f2f3f4;
 }
 
 @media screen and (max-width:500px){
@@ -216,4 +241,152 @@ button{
       width: 80%;
     }
   
-} */
+} 
+
+
+
+
+
+
+
+h1 {
+  font-family: 'Unna', serif;
+  color: #a42c33;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+/* 
+@media only screen and (max-width: 950px) {
+  .logo {
+    width: 8rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+ 
+  button {
+    width: 7rem;
+  }
+
+
+}
+ */
+
+/* 
+h1, label, button, .description {
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+
+}
+
+h1 {
+  font-family: 'Unna', serif;
+  color: #a42c33;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+  letter-spacing: 0.01rem;
+  width: 30vw;
+  margin-top: 100%;
+}
+
+label, .description {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+ */
+/* form {
+  width: 31.25rem;
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+input, textarea, label {
+  width: 40vw;
+  display: block;
+}
+
+input, */
+/* 
+
+
+button {
+
+  background-color: #a42c33;
+border: 5px solid #a42c33;
+border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 10rem;
+  height: 2.25rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Unna', serif;
+  color: #f2f3f4;
+ 
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+
+*/
+
+
+  img {
+    
+  height: 300px;
+  width: 300px;
+  margin:auto;
+  align-items: center;
+
+  max-width: 500px;
+  /* 
+  display: block;  */
+  border-radius: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: url(bg.jpg);
+  height: 100vh;
+}
+
+.left {
+  margin: auto;
+  background-color: #f2f3f4;
+	font-family: 'Unna', serif;
+ 
+  place-items: center;
+}
+
+.right {
+  margin: auto;
+  background-color: #f2f3f4;
+	font-family: 'Unna', serif;
+  
+  place-items: center;
+}
+
+
+

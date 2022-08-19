@@ -23,7 +23,7 @@
             <div id="barra_buscar" class="row align-items-center pt-4 barra_buscar">
                 <div class="col-lg-8"></div>
                 <div class="col-lg-4">
-                    <form class="d-flex" role="search">
+                    <form class="cua" role="search">
                         <input class="form-control me-2" type="Buscar" title="¿Qué estás buscando?" placeholder="Buscar"
                             aria-label="Buscar">
                         <button class="btn btn_buscar" type="submit">Buscar</button>
@@ -58,9 +58,9 @@
                 <div class="col-lg-2">
                     <span><a href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
                 </div>
-
+                
                 <div class="col-lg-4 logo-godiva">
-                    <span><a href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"
+                    <span><a href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" height="10%" width="10%" max-width="10px";
                                 alt="Logo-godivaSH" title="Inicio" style="margin-right: 20%;"></a></span>
                 </div>
 
@@ -154,10 +154,10 @@
             </div>
             <div class="pie card-footer">
                 <a href="" class="enlaces">Agregar al carrito</a>
-                <a>
-                    <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt=""
+              <!--   <a>
+                    <button class="icono"><img src="" alt=""
                             height="45px"> </button>
-                </a>
+                </a> -->
             </div>
         </div>
         
@@ -170,26 +170,25 @@
 
 
 
-        <h1>Crear</h1>
-        <div class="contact-container">
-            <div class="left-col">
-                
+        
+            <!-- <div class="left-col">
+                 -->
                 <!-- 
                 <img id="previ1" src="/assets/img/3.logi.admin/default.jpg">                       
                 <input id="cargar1" type="file" name="imagen" onchange="previ(1);">
  -->
-                    
+                 <!--    
                     <input type="file" id="files" name="files[]" />
                     <br />
                     <output id="list"></output>
 
+ -->
+
+           <!--  </div> -->
 
 
-            </div>
 
-
-
-            <div class="container">
+<!--             <div class="container">
                 <form class ="row mt-3 g-3 needs-validation" novalidate>
                     <div class="col-6" position-relative>
                         <label for="nameId" class="form-label">Nombre</label>
@@ -218,42 +217,90 @@
                     <button type="submit" class="btn btn-primary">Enviar</button>
 
                 </form>
-            </div>
+            </div> -->
+
+           
+                <form action="" method="POST" id="form">
+                    <div class = "form">
+                        <h1>Crear</h1>
+
+                        <div class="container">
+                            <div class="left">
+                                <div class="grupo">
+                                    <input type="text" name="" id="nombre" required><span class="barra"></span>
+                                    <label for="">Nombre</label>
+                                </div>
+        
+                                <div class="grupo">
+                                    <input type="text" name="" id="color" required><span class="barra"></span>
+                                    <label for="">Color</label>
+                                </div>
+        
+                                <div class="grupo">
+                                    <input type="text" name="" id="material" required><span class="barra"></span>
+                                    <label for="">Material</label>
+                                </div>
+        
+                                <div class="grupo">
+                                    <input type="text" name="" id="talla" required><span class="barra"></span>
+                                    <label for="">Talla</label>
+                                </div>
+        
+                                <div class="grupo">
+                                    <input type="text" name="" id="precio" required><span class="barra"></span>
+                                    <label for="">Precio</label>
+                                </div>
+        
+                                <div class="grupo">
+                                    <input type="text" name="" id="categoria" required><span class="barra"></span>
+                                    <label for="">Categoria</label>
+                                </div>
+        
+                                <div class="grupo">
+                                    <input type="text" name="" id="subCategoria" required><span class="barra"></span>
+                                    <label for="">Sub-categoria</label>
+                                </div>
+        
+                                <div class="grupo">
+                                    <input type="text" name="" id="descripcion" required><span class="barra"></span>
+                                    <label for="">Descripcion</label>
+                                </div>
+                    
+                            </div>
 
 
-            <form action="" method="POST" id="form">
-                <div class = "form">
-                    <h1>Registro</h1>
+                            <div class="right">
+                                <div class="grupo">
+                                    <output id="list"></output>
 
-                    <div class="grupo">
-                        <input type="text" name="" id="name"><span class="barra"></span>
-                        <label for="">Nombre</label>
+    
+                                     
+                                      <input type="file" id="files" name="files[]"
+                                      accept=".jpg, .jpeg, .png">                                      
+                                 </div>
+                                
+                           
+
+
+                            </div>
+
+
+                        </div>
+
+
+                        <button type="submit">Subir producto</button>
+                        <p class="warnings" id="warnings"></p>
+
+    
+
+
+
+    
                     </div>
+                </form>
+            
 
-                    <div class="grupo">
-                        <input type="email" name="" id="email" ><span class="barra"></span>
-                        <label for="">Email</label>
-                    </div>
-
-                    <div class="grupo">
-                        <input type="password" name="" id="password"><span class="barra"></span>
-                        <label for="">password</label>
-                    </div>
-
-                    <button type="submit">Suscribirse</button>
-                    <p class="warnings" id="warnings"></p>
-
-                </div>
-            </form>
-
-
-
-
-
-
-
-
-            <div class="right-col">
+           <!--  <div class="right-col">
              
               
              
@@ -288,19 +335,17 @@
           </form>
           <div id="error"></div>
           <div id="success-msg"></div>
-            </div>
-          </div>
+            </div> -->
+          
         
 
-        <footer> <!--Inicio Pie-->
-            <br>
-            <br>
-            <br>
+<!--         <footer>
+           
             <div class="text-center">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
 
-                     <p></p>
+                     <p class="foot"></p>
                        
                      <a href="https://www.facebook.com/GodivaSH" target="_blank">
                         <button class="remove"><img src="/assets/iconos/facebook_logo_48.png"
@@ -316,7 +361,7 @@
 
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <a href="/2.Acerca de Godiva.html">
-                            <p></p>
+                            <p class="foot"></p>
                             <label>
                                 Preguntas frecuentes
                             </label>
@@ -324,7 +369,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <p></p>
+                        <p class="foot"></p>
                         <img src="/assets/iconos/Visa_logo_48.png" alt="visa" >
                         <img src="/assets/iconos/Mastercar_loco_48.png" alt="mastercard">
 
@@ -333,7 +378,7 @@
 
                 </div>
             </div>
-        </footer> <!--Fin Pie-->
+        </footer>  -->
 
 
    
