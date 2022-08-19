@@ -22,7 +22,7 @@
             "nombre" : "Kaftan Europeo Año 1900",
             "descripcion" : "Diseño inspirado en... ",
             "tallas": ["CH", "M", "G", "XG"],
-            "material": "Algodon", 
+            "material": "Algodón", 
             "color" : ["Dorado", "Vino", "---"],
             "precio" : 5900
         },
@@ -42,7 +42,7 @@
             "nombre" : "Kaftan Ruso, siglo XV",
             "descripcion" : "Con detalles en el pecho",
             "tallas": ["CH", "M", "G", "XG"],
-            "material": "Algodon", 
+            "material": "Algodón", 
             "color" : ["Verde", "Dorado", "Negro"],
             "precio" : 6000
         },
@@ -50,9 +50,9 @@
             "id" : 5,
             "imagen": "/assets/img/4.prendas/kaftan_5.jpg",
             "nombre" : "Kaftan Año 1800",
-            "descripcion" : "Inspiracion en el estilo Polaco",
+            "descripcion" : "Inspiración en el estilo Polaco",
             "tallas": ["CH", "M", "G", "XG"],
-            "material": "Algodon", 
+            "material": "Algodón", 
             "color" : ["Blanco", "Beige", "Vino"],
             "precio" : 9500
         },
@@ -60,9 +60,9 @@
             "id" : 6,
             "imagen": "/assets/img/4.prendas/kaftan_6.jpg",
             "nombre" : "Kaftan Ruso 1903",
-            "descripcion" : "Insipiracion en los Romanov",
+            "descripcion" : "Inspiración en los Romanov",
             "tallas": ["CH", "M", "G", "XG"],
-            "material": "Algodon", 
+            "material": "Algodón", 
             "color" : ["Rojo", "Naranja", "Azul"],
             "precio" : 8500
         },
@@ -73,7 +73,7 @@
             "descripcion" : "Decoraciones de seda bordada",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Dorado", "Marron", "---"],
+            "color" : ["Dorado", "Marrón", "---"],
             "precio" : 6000
         },
         {
@@ -89,4 +89,3 @@
                    
     ]
 }
-

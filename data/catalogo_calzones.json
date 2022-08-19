@@ -62,7 +62,7 @@
             "nombre" : "Calzón 1740 - 1790",
             "descripcion" : "Botones en los costados",
             "tallas": ["CH", "M", "G", "XG"],
-            "material": "Lino, Algodon", 
+            "material": "Lino, Algodón", 
             "color" : ["Blanco", "Rojo", "Azul"],
             "precio" : 2000
         },
@@ -70,7 +70,7 @@
             "id" : 7,
             "imagen": "/assets/img/4.prendas/calzon_7.png",
             "nombre" : "Calzón Venenciano Finales Siglo XVI",
-            "descripcion" : "Cintas de elastico en las rodillas",
+            "descripcion" : "Cintas de elástico en las rodillas",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Rojo","Negro", "Azul"],
@@ -83,7 +83,7 @@
             "descripcion" : "Cinturon de tela",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lana", 
-            "color" : ["Cafe", "Rojo", "Azul"],
+            "color" : ["Café", "Rojo", "Azul"],
             "precio" : 1000
         }
                    

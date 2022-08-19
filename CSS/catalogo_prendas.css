@@ -216,6 +216,7 @@ body {
 
 .enlaces :hover {
     color: #c47627;
+    cursor: pointer;
 }
 
 /*MODIFICAMOS EL CONTENEDOR DE LAS CARDS CON LOS PRODUCTOS*/
