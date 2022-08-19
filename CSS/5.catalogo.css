@@ -125,3 +125,14 @@
 select {
     border-radius: 8px;
 }
+
+.btn_lista_deseos {
+    border:none;
+    border-radius: 50%;
+}
+
+.btn_lista_deseos:hover {
+    /* background-color: #ffe0e9; Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+}

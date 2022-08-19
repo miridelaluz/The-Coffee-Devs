@@ -40,22 +40,22 @@ const llave = "datosProductos";
                                         <option>${accesorio.color[2]}</option>
                                     </select> <br>
                                     <strong>Material: </strong> ${accesorio.material}<br>
-                                    <strong>Precio: </strong> $ ${accesorio.precio} MXN<br>
+                                    <strong>Precio: $ </strong><span class="price">${accesorio.precio}</span><span> MXN</span>
                                 </form>
                             </p>
                         </div>
                         <div class="pie card-footer">
-                            <a href="" class="enlaces">Agregar al carrito</a>
+                            <a href="" class="enlaces cars">Agregar al carrito</a>
                             <a>
                                 <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="45px"> </button>
                             </a>
                         </div>
-                    </div>
+            </div>
            `;
             contenedor.insertAdjacentHTML("afterbegin",div);
         }
         });
-        console.log('hey');console.log('hey');
+        console.log('hey');
 }
 
 //Las variables para los enlaces 

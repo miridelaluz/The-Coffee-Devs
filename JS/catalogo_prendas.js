@@ -40,12 +40,12 @@ const kaftan = "/data/catalogo_kaftan.json"
                                         <option>${prenda.color[2]}</option>
                                     </select> <br>
                                     <strong>Material: </strong> ${prenda.material}<br>
-                                    <strong>Precio: </strong> $ ${prenda.precio} MXN<br>
+                                    <strong>Precio: $ </strong><span class="price">${prenda.precio}</span><span> MXN</span>
                                 </form>
                             </p>
                         </div>
                         <div class="pie card-footer">
-                            <a href="" class="enlaces">Agregar al carrito</a>
+                            <a href="" class="enlaces cars">Agregar al carrito</a>
                             <a>
                                 <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="45px"> </button>
                             </a>
@@ -82,4 +82,8 @@ aSayon.addEventListener('click', () => {mostrarDatos(sayon)});
 aJubon.addEventListener('click', () => {mostrarDatos(jubon)});
 aKaftan.addEventListener('click', () => {mostrarDatos(kaftan)});
 
+<<<<<<< HEAD
+//document.getElementById('camisas').addEventListener('click',console.log('hey'));
+=======
 
+>>>>>>> 69b0626bc557aa8dc934cd5d61cb76b2db46e795

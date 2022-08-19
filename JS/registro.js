@@ -1,14 +1,13 @@
 //Trae los inputs del formulario
 let nameContact = document.getElementById("nameContact");
 let fechaNac = document.getElementById("birthDate");
-let country = document.getElementById("country")
+let numberContact = document.getElementById("numberContact")
 let mailContact = document.getElementById("mailContact")
 let passwordContact = document.getElementById("passwordContact")
 let confirPassContact = document.getElementById("confirPassContact")
 let usuarios = [];
 const URL_MAIN = 'http://localhost:8080/api/users/'; // Url del api del backend para el metodo post de user (path="/api/users/")
 
-//------------------------> F U N C I O N E S    D E   V A L I D A C I O N E S <--------------------------------
 function validarNombre() {
     if (nameContact.value.length < 3) {
         nameContact.style.border = "red thin solid";
@@ -23,11 +22,11 @@ function validarNombre() {
 } //Validación nombre
 
 
+<<<<<<< HEAD
 let validacionBD = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/;
 
 function validarfechaNac() {
-    // console.log(birthDate.value);
-    // console.log(validacionBD);
+
     if (!validacionBD.test(fechaNac.value)) {
         fechaNac.style.border = "red thin solid";
         document.getElementById("alertBD").innerHTML = "Debes ingresar una fecha de nacimiento válida";
@@ -38,7 +37,7 @@ function validarfechaNac() {
         document.getElementById("alertBD").style.display = "none";
         return true;
     }
-} // Validación Fecha de Nacimiento
+} 
 
 function validarContraseña() {
     if (passwordContact.value.length < 5) {
@@ -51,7 +50,7 @@ function validarContraseña() {
         document.getElementById("alertPassword").style.display = "none";
         return true;
     }
-} // Validación contraseña
+} 
 
 function validarConfirContraseña() {
     if ((confirPassContact.value != passwordContact.value || confirPassContact.value.length == 0)) {
@@ -67,18 +66,20 @@ function validarConfirContraseña() {
 } //Validación confirmación de contraseña
 
 
-function validarPais() {
-    if (!validacionPais.test(country.value)) {
-        country.style.border = "red thin solid";
-        document.getElementById("alertPais").innerHTML = "Debes seleccionar un país";
-        document.getElementById("alertPais").style = "display: block; margin-bottom: -10px;";
+let validacionCel = /^[0-9]{10}$/;
+
+function validarNumero() {
+    if (!validacionCel.test(numberContact.value)) {
+        numberContact.style.border = "red thin solid";
+        document.getElementById("alertnum").innerHTML = "Tu número debe tener 10 dígitos";
+        document.getElementById("alertnum").style = "display: block; margin-bottom: -10px;";
         return false;
     } else {
-        country.style.border = "green thin solid";
-        document.getElementById("alertPais").style.display = "none";
+        numberContact.style.border = "green thin solid";
+        document.getElementById("alertnum").style.display = "none";
         return true;
     }
-} // Validación de País
+} // Validación de celular
 
 let validacionEmail = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
@@ -107,10 +108,7 @@ function validarPoliticas() {
         document.getElementById("alertpoliticas").style.display = "none";
         return true;
     }
-} // Validación de aceptar politicas de privacidad
-
-
-//--------------------------> E V E N T O S   I N P U T S   Y   C H E C K B O X <--------------------------------
+} 
 
 const checkbox = document.querySelector("input[name=checkbox]");
 checkbox.addEventListener("change", (e) => {
@@ -127,12 +125,18 @@ nameContact.addEventListener("blur", (e) => {
         validarNombre();
     }) //Nombre
 
+
 fechaNac.addEventListener("blur", (e) => {
         e.target.value = e.target.value.trim();
         validarfechaNac();
     }) //Fecha Nacimiento
 
 country.addEventListener("blur", (e) => {
+
+
+
+numberContact.addEventListener("blur", (e) => {
+>>>>>>> registry
         e.target.value = e.target.value.trim();
         validarNumero();
     }) //Número
@@ -155,22 +159,24 @@ confirPassContact.addEventListener("blur", (e) => {
 
 
 
-// -------------------------------> E N V I A R   F O R M U L A R I O <----------------------------------------
 let enviar = document.getElementById("enviar");
 enviar.addEventListener("click", (event) => {
     event.preventDefault();
 
     // Se hacen validaciones
     validarNombre();
+<<<<<<< HEAD
     validarfechaNac();
+=======
+>>>>>>> registry
     validarContraseña();
     validarConfirContraseña();
-    validarPais();
+    validarNumero();
     validarEmail();
     validarPoliticas();
     123
     //Si falla alguna validacion, se muestra alerta de error 
-    if ((!validarNombre()) || (!validarContraseña()) || (!validarApellidoM()) || (!validarNumero()) || (!validarConfirContraseña()) || (!validarApellidoP()) || (!validarEmail()) || (!validarPoliticas()) || (!validarfechaNac())) {
+    if ((!validarNombre()) || (!validarContraseña())  || (!validarNumero()) || (!validarConfirContraseña()) || (!validarEmail()) || (!validarPoliticas()) ) {
         Swal.fire({
             icon: 'error',
             title: 'Error',
@@ -181,12 +187,13 @@ enviar.addEventListener("click", (event) => {
 
 
     let newUsuario = {
-        user_name: document.querySelector(`#nameContact`).value,
-        user_date: document.querySelector(`#birthDate`).value,
-        user_pass: document.querySelector(`#passwordContact`).value,
-        user_country: document.querySelector(`#country`).value,
-        user_email: document.querySelector(`#mailContact`).value,
-        user_type_id: 1
+        nombre_usuario: document.querySelector(`#nameContact`).value,
+        correo_usuario: document.querySelector(`#mailContact`).value,
+        telefono_usuario: document.querySelector(`#numberContact`).value,
+        fecha_nacimiento: document.querySelector(`#birthDate`).value,
+        contrasena: document.querySelector(`#passwordContact`).value,
+       
+        Rol_idRol: 1
     };
 
     // POST solicitud con fetch()
@@ -225,11 +232,11 @@ enviar.addEventListener("click", (event) => {
 
             }
         });
-    
+
 });
 
 window.addEventListener("load", function() {
     if (localStorage.getItem("Usuario") != null) {
         usuarios = JSON.parse(localStorage.getItem("Usuario"));
     } // if
-});
+}); 
