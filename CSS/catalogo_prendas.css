@@ -294,6 +294,7 @@ select {
     border: transparent;
 }
 
+
 /* *** CREAMOS EL PRIMER PUNTO DE QUIEBRE *** */
 
 @media screen and (max-width: 1240px) {

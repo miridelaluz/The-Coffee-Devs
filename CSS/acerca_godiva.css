@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 1.2rem; */
+}
+
+body {
+    font-family: 'Unna', serif;
+}
+
+/*ENCABEZADO*/
+
+header {
+    font-size: 1.2rem;
+}
+
+.row {
+    width: 98vw;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.enlaces  {
+    text-decoration: none;
+    color: #a42c33;
+}
+
+.enlaces :hover {
+    color: #c47627;
+}
+
+.btn_buscar {
+    padding: 10px 30px 10px 30px;
+    color: #a42c33;
+    border: 1px solid #a42c33;
+    border-radius: 4px;
+}
+
+.btn_buscar:hover {
+    background-color: #a42c33;
+    color: #f2f3f4;
+}
+
+.icono {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px;
+}
+
+#portada {
+    height: 50vh;
+    width: 98vw;
+    /* background-color: red; */
+    /* background:linear-gradient(#a42c33, #a42c328e); */
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.portada_imagen {
+    height: 100%;
+    width: 40%;
+    /*Propiedades para el fondo del contenedor*/
+    background-image: url(/assets/img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.portada_texto {
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* color: #f2f3f4; */
+}
+
+.portada_texto h2 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.portada_texto p {
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+#contenedor_botones {
+    height: 30vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botones {
+    height: 70px;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 3px solid rgba(160, 19, 19, 0.452); */
+    /* padding: 20px; */
+    /*arriba-derecha, arriba-izquiera, abajo-derecha, abajo-izquierda */
+    border-radius: 50px 10px 10px 50px;
+    background-image: linear-gradient(to left, #a42c32, #a42c32d2, #a42c32c1);
+}
+
+.botones:hover{
+    background-image: linear-gradient(to right, #a42c32, #a42c32d2, #a42c32c0);
+    transition: 2s;
+}
+
+
+.botones_img {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.botones_texto a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+#contenedor_cards{
+    height: 60vh;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img2 {
+    display: none;
+}
+
+.card {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: none;
+}
+
+.card .imagen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.card .adelante {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #a42c33;
+}
+
+.card .adelante img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .adelante h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #ffff;
+    background: #a42c3284;
+    text-align: center;
+}
+
+.card .atras{
+    transform: perspective(600px) rotateY(180deg);
+    background-color: #a42c33;
+    padding: 15px;
+    color: #ffff;
+    text-align: center;
+    box-shadow: 0 5px 10px #a42c33;
+}
+
+.card .atras p{
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.card:hover .adelante {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .atras {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+hr{
+    border-top: 6px solid #a42c32;
+    opacity: 1;
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#seccion_faq {
+    margin-top: 5%;
+}
+
+#seccion_faq .faq_titulo{
+    text-align: center;
+}
+
+
+hr{
+    border-top: 3px solid #a42c32;
+    opacity: 1;
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#contenedor_faq{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.faq{
+    height: 350px;
+    width: 30%;
+    /*top, right, bottom, left*/
+    margin: 2% 1% 2% 2%;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.faq p {
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.contenedor_icono{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #a42c32;
+    border-radius: 15px 15px 0px 0px;
+    color: #f2f3f4;
+}
+
+.icono_imagen {
+    height: 40px;
+    padding-right: 20px;
+}
+
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.remove {
+    background-color: transparent;
+    border: transparent;
+    background-color: transparent;
+    border: transparent;
+    background-color: transparent;
+    border: transparent;
+}
+
+
+/*PRIMER PUNTO DE QUIEBRE*/
+
+@media only screen and (max-width: 1400px){
+
+    .faq{
+        height: 400px;
+        width: 30%;
+    }
+}
+
+/*SEGUNDO PUNTO DE QUIEBRE*/
+@media only screen and (max-width: 700px){
+
+    /*Portada*/
+    #portada {
+        height: 50vh;
+        width: 98vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .portada_imagen {
+        height: 50%;
+        width: 100%;
+    }
+    
+    .portada_texto {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .portada_texto h2 {
+        font-size: 2.3rem;
+    }
+    
+    .portada_texto p {
+        font-size: 1.3rem;
+    }
+
+    /*BOTONES*/
+    #contenedor_botones {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .botones {
+        height: 70px;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    /*CARDS*/
+    #contenedor_cards{
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+    }
+    
+    .card {
+        height: 25%;
+        width: 90%;
+    }
+    
+    .faq{
+        height: 540px;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .faq{
+        height: 91%;
+        width: 100%;
+    }
+}
