@@ -8,7 +8,6 @@ let confirPassContact = document.getElementById("confirPassContact")
 let usuarios = [];
 const URL_MAIN = 'http://localhost:8080/api/users/'; // Url del api del backend para el metodo post de user (path="/api/users/")
 
-//------------------------> F U N C I O N E S    D E   V A L I D A C I O N E S <--------------------------------
 function validarNombre() {
     if (nameContact.value.length < 3) {
         nameContact.style.border = "red thin solid";
@@ -27,8 +26,7 @@ function validarNombre() {
 let validacionBD = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/;
 
 function validarfechaNac() {
-    // console.log(birthDate.value);
-    // console.log(validacionBD);
+
     if (!validacionBD.test(fechaNac.value)) {
         fechaNac.style.border = "red thin solid";
         document.getElementById("alertBD").innerHTML = "Debes ingresar una fecha de nacimiento válida";
@@ -39,10 +37,7 @@ function validarfechaNac() {
         document.getElementById("alertBD").style.display = "none";
         return true;
     }
-} // Validación Fecha de Nacimiento
-=======
- // Validación Fecha de Nacimiento
->>>>>>> registry
+} 
 
 function validarContraseña() {
     if (passwordContact.value.length < 5) {
@@ -55,7 +50,7 @@ function validarContraseña() {
         document.getElementById("alertPassword").style.display = "none";
         return true;
     }
-} // Validación contraseña
+} 
 
 function validarConfirContraseña() {
     if ((confirPassContact.value != passwordContact.value || confirPassContact.value.length == 0)) {
@@ -113,10 +108,7 @@ function validarPoliticas() {
         document.getElementById("alertpoliticas").style.display = "none";
         return true;
     }
-} // Validación de aceptar politicas de privacidad
-
-
-//--------------------------> E V E N T O S   I N P U T S   Y   C H E C K B O X <--------------------------------
+} 
 
 const checkbox = document.querySelector("input[name=checkbox]");
 checkbox.addEventListener("change", (e) => {
@@ -133,14 +125,14 @@ nameContact.addEventListener("blur", (e) => {
         validarNombre();
     }) //Nombre
 
-<<<<<<< HEAD
+
 fechaNac.addEventListener("blur", (e) => {
         e.target.value = e.target.value.trim();
         validarfechaNac();
     }) //Fecha Nacimiento
 
 country.addEventListener("blur", (e) => {
-=======
+
 
 
 numberContact.addEventListener("blur", (e) => {
@@ -167,7 +159,6 @@ confirPassContact.addEventListener("blur", (e) => {
 
 
 
-// -------------------------------> E N V I A R   F O R M U L A R I O <----------------------------------------
 let enviar = document.getElementById("enviar");
 enviar.addEventListener("click", (event) => {
     event.preventDefault();
@@ -196,12 +187,13 @@ enviar.addEventListener("click", (event) => {
 
 
     let newUsuario = {
-        user_name: document.querySelector(`#nameContact`).value,
-        user_date: document.querySelector(`#birthDate`).value,
-        user_pass: document.querySelector(`#passwordContact`).value,
-        user_phone: document.querySelector(`#numberContact`).value,
-        user_email: document.querySelector(`#mailContact`).value,
-        user_type_id: 1
+        nombre_usuario: document.querySelector(`#nameContact`).value,
+        correo_usuario: document.querySelector(`#mailContact`).value,
+        telefono_usuario: document.querySelector(`#numberContact`).value,
+        fecha_nacimiento: document.querySelector(`#birthDate`).value,
+        contrasena: document.querySelector(`#passwordContact`).value,
+       
+        Rol_idRol: 1
     };
 
     // POST solicitud con fetch()
