@@ -144,3 +144,20 @@ window.addEventListener('load', function() {
         usuarios = JSON.parse(localStorage.getItem("Usuario"));
     } // if
 });
+
+//funcion admin login
+
+function ir(){
+    var c=12345;
+    var u="godiva@gmail.com";
+        if(document.formRegistro.passwordContact.value==c && document.formRegistro.mailContact.value==u){
+            alert("Administrador");
+           // window.location="/html/3.Login.Admin.html"
+            href="/html/3.Login.Admin.html"
+            ;}
+           else{
+           alert("porfavor agregue correctos");
+        }
+        
+}
+

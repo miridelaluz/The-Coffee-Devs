@@ -111,7 +111,7 @@ form.addEventListener("submit", e=>{
   let warnings=""
   let entrar = false
 
- 
+  parrafo.innerHTML = ""
   if(nombre.value.length <2){
       warnings += 'El nombre no es valido <br>'
       entrar = true
@@ -130,10 +130,16 @@ form.addEventListener("submit", e=>{
     }
     else{
       parrafo.innerHTML = "Enviado"
-      parrafo.innerHTML = ""
     }
 
+    document.getElementById('form').reset();
+    mailContact.style.border = "grey thin solid";
+    passwordContact.style.border = "grey thin solid";
+    
+
 })
+
+
 
 
 
