@@ -14,7 +14,7 @@
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Blanco", "Rojo", "Azul"],
-            "precio" : 600
+            "precio" : 1600
         },
         {
             "id" : 2,
@@ -24,7 +24,7 @@
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Blanco", "Rojo", "Azul"],
-            "precio" : 800
+            "precio" : 1800
         },
         {
             "id" : 3,
@@ -34,7 +34,7 @@
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Naranja", "Rojo", "Azul"],
-            "precio" : 800
+            "precio" : 1800
         },
         {
             "id" : 4,
@@ -44,7 +44,7 @@
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Negro", "Rojo", "Azul"],
-            "precio" : 900
+            "precio" : 1900
         },
         {
             "id" : 5,
@@ -64,7 +64,7 @@
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Blanco", "Rojo", "Azul"],
-            "precio" : 800
+            "precio" : 1800
         },
         {
             "id" : 7,
@@ -84,7 +84,7 @@
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Verde", "Rojo", "Azul"],
-            "precio" : 800
+            "precio" : 1800
         }
                    
     ]
