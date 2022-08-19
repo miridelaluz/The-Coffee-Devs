@@ -22,7 +22,7 @@ function validarNombre() {
 } //Validación nombre
 
 
-<<<<<<< HEAD
+
 let validacionBD = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/;
 
 function validarfechaNac() {
@@ -131,12 +131,12 @@ fechaNac.addEventListener("blur", (e) => {
         validarfechaNac();
     }) //Fecha Nacimiento
 
-country.addEventListener("blur", (e) => {
+
 
 
 
 numberContact.addEventListener("blur", (e) => {
->>>>>>> registry
+
         e.target.value = e.target.value.trim();
         validarNumero();
     }) //Número
@@ -165,10 +165,7 @@ enviar.addEventListener("click", (event) => {
 
     // Se hacen validaciones
     validarNombre();
-<<<<<<< HEAD
     validarfechaNac();
-=======
->>>>>>> registry
     validarContraseña();
     validarConfirContraseña();
     validarNumero();
@@ -239,4 +236,4 @@ window.addEventListener("load", function() {
     if (localStorage.getItem("Usuario") != null) {
         usuarios = JSON.parse(localStorage.getItem("Usuario"));
     } // if
-}); 
+});
