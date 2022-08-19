@@ -9,7 +9,7 @@
         {
             "id" : 1,
             "imagen": "/assets/img/5.accesorios/Capirotes/capirote1.jpg",
-            "nombre" : "Explorador",
+            "nombre" : "Hood medieval",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Lana", 
             "color" : ["Gris"],
@@ -18,7 +18,7 @@
         {
             "id" : 2,
             "imagen": "/assets/img/5.accesorios/Capirotes/capirote2.jpg",
-            "nombre" : "Uno",
+            "nombre" : "Hood",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Tela", 
             "color" : ["Blanco"],
@@ -27,7 +27,7 @@
         {
             "id" : 3,
             "imagen": "/assets/img/5.accesorios/Capirotes/capirote3.jpg",
-            "nombre" : "Dos",
+            "nombre" : "Hood",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Tela", 
             "color" : ["Blanco/Rojo"],
@@ -36,7 +36,7 @@
         {
             "id" : 4,
             "imagen": "/assets/img/5.accesorios/Capirotes/capirote4.jpg",
-            "nombre" : "Tres",
+            "nombre" : "Hood",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Verde", 
             "color" : ["Café"],
@@ -44,8 +44,8 @@
         },
         {
             "id" : 5,
-            "imagen": "/assets/img/5.accesorios/Joyas/joya5.jpg",
-            "nombre" : "Cuatro",
+            "imagen": "/assets/img/5.accesorios/Capirotes/capirote5.jpg",
+            "nombre" : "Hood",
             "tallas": ["CH", "M", "G", "XG","XXG"],
             "material": "Tela", 
             "color" : ["Rojo"],
