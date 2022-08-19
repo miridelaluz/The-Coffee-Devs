@@ -28,20 +28,22 @@
 <body class="container-fluid">
     <header>
         <div id="main:wrapper">
-            <div id="barra_buscar" class="row align-items-center pt-4">
+            <div id="barra_buscar" class="row align-items-center pt-4 barra_buscar">
                 <div class="col-lg-8"></div>
                 <div class="col-lg-4">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar"
-                            id="barraBuscar">
-                        <button class="btn btn-outline-success" type="submit" id="botonBuscar"
-                            onclick="">Buscar</button>
+                        <input class="form-control me-2" type="Buscar" title="¿Qué estás buscando?" placeholder="Buscar"
+                            aria-label="Buscar">
+                        <button class="btn btn_buscar" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
+
+
             <div class="row align-items-center text-center">
                 <div class="col-lg-2">
-                    <ul class="navbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -49,6 +51,7 @@
                             </a>
                             <ul class="dropdown-menu dropright">
                                 <li><a class="dropdown-item" href="/html/4.Catalogo.Prendas.html">Prendas</a></li>
+                                <li><a class="dropdown-item" href="/html/5.Catalogo.Accesorios.html">Accesorios</a></li>
                                 <li><a class="dropdown-item" href="/html/6.Catalogo.Calzado.html">Calzado</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
@@ -59,22 +62,28 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="col-lg-2">
                     <span><a href="/html/2.Acerca de Godiva.html">Acerca de Nosotros</a></span>
                 </div>
 
-                <div class="col-lg-4 icono_carrito">
-                    <img src="/assets/iconos/godiva_img.png" width="40%">
+                <div class="col-lg-4 logo-godiva">
+                    <span><a href="/html/1.Inicio.html"><img src="/assets/iconos/godiva_img.png" width="40%"
+                                alt="Logo-godivaSH" title="Inicio" style="text-align: center;"></a></span>
                 </div>
 
                 <div class="col-lg-2">
-                    <span><a href="/html/7.Login.SignUp.html">Iniciar Sesion</a></span>
+                    <span><a href="/html/7.Login.SignUp.html">Iniciar Sesión</a></span><br>
                     <span><a href="/html/7.Login.SignUp.html">Registrarse</a></span>
-                </div>                
+                </div>
+
+                
             </div>
+            <!--AQUÍ TERMINA EL MENÚ -->
         </div>
     </header>
     <!--Fin Encabezado-->
+
 
         <!-- Inicia botón flotante guía tallas -->
         <div>
@@ -246,8 +255,7 @@
             class="tab-pane fade show active container"
             id="pills-profile"
             role="tabpanel"
-            aria-labelledby="pills-profile-tab"
-        >
+            aria-labelledby="pills-profile-tab">
 
             <!-- Inicia mi contenido para accesorios-->
             <!-- Accesorios Joyería-->
