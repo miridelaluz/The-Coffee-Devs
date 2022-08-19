@@ -1,5 +1,5 @@
 {
-    "page" : 6,
+    "page" : 7,
     "total" : 8,
     "total_pages":10,
     "seccion" : "Prendas Exteriores",
@@ -73,7 +73,7 @@
             "descripcion" : "Capucha a juego",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Verde", "Marron", "---"],
+            "color" : ["Verde", "Marrón", "---"],
             "precio" : 8000
         },
         {
@@ -89,4 +89,3 @@
                    
     ]
 }
-

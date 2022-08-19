@@ -13,7 +13,7 @@
             "descripcion" : "",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
-            "color" : ["Marron", "Rojo", "Azul"],
+            "color" : ["Marrón", "Rojo", "Azul"],
             "precio" : 900
         },
         {
@@ -23,7 +23,7 @@
             "descripcion" : "",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lana", 
-            "color" : ["Cafe", "Rojo", "Azul"],
+            "color" : ["Café", "Rojo", "Azul"],
             "precio" : 800
         },
         {
@@ -62,7 +62,7 @@
             "nombre" : "Sayón Siglo XV",
             "descripcion" : "En proceso de elaboración",
             "tallas": ["CH", "M", "G", "XG"],
-            "material": "Lino, Algodon", 
+            "material": "Lino, Algodón", 
             "color" : ["Blanco", "Rojo", "Azul"],
             "precio" : 800
         },
@@ -83,7 +83,7 @@
             "descripcion" : "En proceso de elaboración",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lana", 
-            "color" : ["Cafe", "Rojo", "Azul"],
+            "color" : ["Café", "Rojo", "Azul"],
             "precio" : 700
         }
                    

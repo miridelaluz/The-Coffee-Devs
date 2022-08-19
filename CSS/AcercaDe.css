@@ -2,32 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-size: 1.2rem; */
 }
 
 body {
     font-family: 'Unna', serif;
+    background-color: #f2f3f4;
 }
 
 /*ENCABEZADO*/
-
-header {
-    font-size: 1.2rem;
-}
-
-.row {
-    width: 98vw;
-    margin: 0;
-    font-size: 1.2rem;
-}
-
-.enlaces  {
-    text-decoration: none;
-    color: #a42c33;
-}
-
-.enlaces :hover {
-    color: #c47627;
+#encabezado {
+    font-size: 1.4rem;
 }
 
 .btn_buscar {
@@ -42,18 +26,25 @@ header {
     color: #f2f3f4;
 }
 
-.icono {
+.icono_grupo {
     border: none;
     background-color: rgba(255, 255, 255, 0);
     margin: 10px;
 }
 
+.enlaces  {
+    text-decoration: none;
+    color: #a42c33;
+}
+
+.enlaces :hover {
+    color: #c47627;
+}
+
+/*INICIA PORTADA*/
 #portada {
     height: 50vh;
     width: 98vw;
-    /* background-color: red; */
-    /* background:linear-gradient(#a42c33, #a42c328e); */
-    /* background-size: cover; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -64,7 +55,7 @@ header {
     height: 100%;
     width: 40%;
     /*Propiedades para el fondo del contenedor*/
-    background-image: url(/assets/img/logo.jpg);
+    background-image: url(/assets/iconos/godiva_img.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -73,12 +64,10 @@ header {
 .portada_texto {
     height: 100%;
     width: 50%;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* color: #f2f3f4; */
 }
 
 .portada_texto h2 {
@@ -94,7 +83,6 @@ header {
 #contenedor_botones {
     height: 30vh;
     width: 100%;
-    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -107,8 +95,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* border: 3px solid rgba(160, 19, 19, 0.452); */
-    /* padding: 20px; */
     /*arriba-derecha, arriba-izquiera, abajo-derecha, abajo-izquierda */
     border-radius: 50px 10px 10px 50px;
     background-image: linear-gradient(to left, #a42c32, #a42c32d2, #a42c32c1);
@@ -118,7 +104,6 @@ header {
     background-image: linear-gradient(to right, #a42c32, #a42c32d2, #a42c32c0);
     transition: 2s;
 }
-
 
 .botones_img {
     height: 70px;
@@ -135,7 +120,6 @@ header {
 #contenedor_cards{
     height: 60vh;
     width: 100%;
-    /* background-color: aqua; */
     padding-top: 2%;
     display: flex;
     flex-direction: row;
@@ -209,15 +193,6 @@ header {
     transform: perspective(600px) rotateY(360deg);
 }
 
-hr{
-    border-top: 6px solid #a42c32;
-    opacity: 1;
-    width: 80vw;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-}
-
 #seccion_faq {
     margin-top: 5%;
 }
@@ -226,8 +201,7 @@ hr{
     text-align: center;
 }
 
-
-hr{
+#separador{
     border-top: 3px solid #a42c32;
     opacity: 1;
     width: 80vw;
@@ -283,23 +257,13 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-}
-
-.remove {
-    background-color: transparent;
-    border: transparent;
-    background-color: transparent;
-    border: transparent;
-    background-color: transparent;
-    border: transparent;
 }
 
 
 /*PRIMER PUNTO DE QUIEBRE*/
 
 @media only screen and (max-width: 1400px){
-
+    
     .faq{
         height: 400px;
         width: 30%;

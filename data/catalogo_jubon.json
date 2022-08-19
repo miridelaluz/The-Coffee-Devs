@@ -1,9 +1,9 @@
 {
-    "page" : 6,
-    "total" : 9,
+    "page" : 9,
+    "total" : 8,
     "total_pages":10,
     "seccion" : "Prendas Exteriores",
-    "subseccion" : "Jubon", 
+    "subseccion" : "Jubón", 
     "data":[
 
         {
@@ -20,7 +20,7 @@
             "id" : 2,
             "imagen": "/assets/img/4.prendas/jubon_2.jpg",
             "nombre" : "Jubón Año 1630",
-            "descripcion" : "Inspirado en la epoca del Rey Luis XIII",
+            "descripcion" : "Inspirado en la época del Rey Luis XIII",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Cafe", "Vino", "---"],
@@ -80,7 +80,7 @@
             "id" : 8,
             "imagen": "/assets/img/4.prendas/jubon_8.jpg",
             "nombre" : "Jubón año 1620",
-            "descripcion" : "Estructura menos rigida",
+            "descripcion" : "Estructura menos rígida",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Verde", "Rojo", "Azul"],
