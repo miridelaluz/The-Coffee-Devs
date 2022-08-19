@@ -35,12 +35,12 @@ const llave = "datosProductos";
                                         <option>${prenda.color[2]}</option>
                                     </select> <br>
                                     <strong>Material: </strong> ${prenda.material}<br>
-                                    <strong>Precio: </strong> $ ${prenda.precio} MXN<br>
+                                    <strong>Precio: $ </strong><span class="price">${prenda.precio}</span><span> MXN</span>
                                 </form>
                             </p>
                         </div>
                         <div class="pie card-footer">
-                            <a href="" class="enlaces">Agregar al carrito</a>
+                            <a href="" class="enlaces cars">Agregar al carrito</a>
                             <a>
                                 <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="45px"> </button>
                             </a>
@@ -68,4 +68,3 @@ aWiningas.addEventListener('click', () => {mostrarDatos(winingas)});
 
 
 //document.getElementById('camisas').addEventListener('click',console.log('hey'));
-

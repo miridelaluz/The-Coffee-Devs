@@ -1,0 +1,42 @@
+.pestana_carro, .alert{
+    z-index: 100;
+  }
+
+ .carrito{
+    min-height: 80vh;
+    margin: auto;
+    max-width: 1000px;
+    width: 50%;
+  }
+
+ .wishlist{
+  min-height: 80vh;
+  margin: auto;
+  max-width: 1000px;
+  width: 50%;
+}
+
+  .table__productos{
+    display: flex;
+  }
+
+  .table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+
+  .table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+
+  .hide, .remove, .hello{
+    display: none;
+  }
