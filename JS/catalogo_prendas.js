@@ -82,8 +82,3 @@ aSayon.addEventListener('click', () => {mostrarDatos(sayon)});
 aJubon.addEventListener('click', () => {mostrarDatos(jubon)});
 aKaftan.addEventListener('click', () => {mostrarDatos(kaftan)});
 
-<<<<<<< HEAD
-//document.getElementById('camisas').addEventListener('click',console.log('hey'));
-=======
-
->>>>>>> 69b0626bc557aa8dc934cd5d61cb76b2db46e795
