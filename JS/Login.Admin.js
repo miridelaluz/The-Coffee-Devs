@@ -111,7 +111,7 @@ form.addEventListener("submit", e=>{
   let warnings=""
   let entrar = false
 
-  parrafo.innerHTML = ""
+ 
   if(nombre.value.length <2){
       warnings += 'El nombre no es valido <br>'
       entrar = true
@@ -130,6 +130,7 @@ form.addEventListener("submit", e=>{
     }
     else{
       parrafo.innerHTML = "Enviado"
+      parrafo.innerHTML = ""
     }
 
 })
@@ -185,38 +186,9 @@ function mostrarDatos(categoria) {
       contenedor.innerHTML = ``;   
       for (let accesorio of accesorios.data) {
          let div = `
-         <div class="card_producto card h-100"> <!--card_producto 1-->
-                      <img class="imagen_producto" src="${accesorio.imagen}" alt="...">
-                      <div class="contenido card-body">
+
                           <h3 class="titulo_producto">${accesorio.nombre}</h3>
-                          <h5 class="descripcion">${accesorio.descripcion}</h5>
-                          <p class="contenido_producto">
-                              <form>
-                                  <label><strong>Talla: </strong></label> 
-                                  <select name="tallas">
-                                      <option>${accesorio.tallas[0]}</option>
-                                      <option>${accesorio.tallas[1]}</option>
-                                      <option>${accesorio.tallas[2]}</option>
-                                      <option>${accesorio.tallas[3]}</option>
-                                  </select> <br>
-                                  <label><strong>Color: </strong></label>
-                                  <select name="color">
-                                      <option>${accesorio.color[0]}</option>
-                                      <option>${accesorio.color[1]}</option>
-                                      <option>${accesorio.color[2]}</option>
-                                  </select> <br>
-                                  <strong>Material: </strong> ${accesorio.material}<br>
-                                  <strong>Precio: </strong> $ ${accesorio.precio} MXN<br>
-                              </form>
-                          </p>
-                      </div>
-                      <div class="pie card-footer">
-                          <a href="" class="enlaces">Agregar al carrito</a>
-                          <a>
-                              <button class="icono"><img src="/assets/iconos/5172567_heart_like_love_icon.png" alt="" height="45px"> </button>
-                          </a>
-                      </div>
-                  </div>
+                        
          `;
           contenedor.insertAdjacentHTML("afterbegin",div);
       }

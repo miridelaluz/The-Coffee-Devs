@@ -10,7 +10,7 @@
             "id" : 1,
             "imagen": "/assets/img/4.prendas/tunica_1.JPG",
             "nombre" : "Túnica interior 1770s - 1780s",
-            "descripcion" : "Elaborada de forma artesanal",
+            "descripcion" : "Detalles en las costuras",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Blanco", "Rojo", "Azul"],
@@ -20,7 +20,7 @@
             "id" : 2,
             "imagen": "/assets/img/4.prendas/tunica_2.jpg",
             "nombre" : "Túnica interior, siglo XVIII",
-            "descripcion" : "Elaborada de forma artesanal",
+            "descripcion" : "Mangas a 3/4",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Blanco", "Rojo", "Azul"],
@@ -30,7 +30,7 @@
             "id" : 3,
             "imagen": "/assets/img/4.prendas/tunica_3.JPG",
             "nombre" : "Túnica romana, siglo XII",
-            "descripcion" : "Elaborada de forma artesanal",
+            "descripcion" : "Cinturón a juego color café",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Naranja", "Rojo", "Azul"],
@@ -40,7 +40,7 @@
             "id" : 4,
             "imagen": "/assets/img/4.prendas/tunica_4.jpg",
             "nombre" : "Túnica, 1440s-1480s",
-            "descripcion" : "Elaborada de forma artesanal",
+            "descripcion" : "Detalles bordados a mano",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Negro", "Rojo", "Azul"],
@@ -49,8 +49,8 @@
         {
             "id" : 5,
             "imagen": "/assets/img/4.prendas/tunica_5.jpg",
-            "nombre" : "Tunica Siglo XV",
-            "descripcion" : "Elaborada de forma artesanal",
+            "nombre" : "Túnica Siglo XV",
+            "descripcion" : "Detalles en el pecho",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Negro", "Rojo", "Azul"],
@@ -59,8 +59,8 @@
         {
             "id" : 6,
             "imagen": "/assets/img/4.prendas/tunica_6.png",
-            "nombre" : "Tunica Siglo XIV",
-            "descripcion" : "Elaborada de forma artesanal",
+            "nombre" : "Túnica Siglo XIV",
+            "descripcion" : "Cinturón de cuero",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Blanco", "Rojo", "Azul"],
@@ -69,8 +69,8 @@
         {
             "id" : 7,
             "imagen": "/assets/img/4.prendas/tunica_7.png",
-            "nombre" : "Tunica Siglo XIII",
-            "descripcion" : "Elaborada de forma artesanal",
+            "nombre" : "Túnica Siglo XIII",
+            "descripcion" : "Botones bordados a mano",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Camello", "Rojo", "Azul"],
@@ -79,8 +79,8 @@
         {
             "id" : 8,
             "imagen": "/assets/img/4.prendas/tunica_8.png",
-            "nombre" : "Tunica Siglo XV",
-            "descripcion" : "Elaborada de forma artesanal",
+            "nombre" : "Túnica Siglo XV",
+            "descripcion" : "Cinturón con hebilla",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Verde", "Rojo", "Azul"],
@@ -89,4 +89,5 @@
                    
     ]
 }
+
 

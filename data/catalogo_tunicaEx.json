@@ -60,17 +60,17 @@
             "id" : 6,
             "imagen": "/assets/img/4.prendas/tunicaEx_6.webp",
             "nombre" : "Túnica Griega",
-            "descripcion" : "Cinturon de cuerda blanca",
+            "descripcion" : "Cinturón de cuerda blanca",
             "tallas": ["CH", "M", "G", "XG"],
-            "material": "Algodon", 
+            "material": "Algodón", 
             "color" : ["Azul","Rojo", "Naranja"],
-            "precio" : 8500
+            "precio" : 2500
         },
         {
             "id" : 7,
             "imagen": "/assets/img/4.prendas/tunicaEx_7.webp",
             "nombre" : "Túnica Romana",
-            "descripcion" : "Cinturon de tela",
+            "descripcion" : "Cinturón  de tela",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Amarillo", "Marron", "Naranja"],
@@ -80,7 +80,7 @@
             "id" : 8,
             "imagen": "/assets/img/4.prendas/tunicaEx_8.jpg",
             "nombre" : "Túnica Siglo XV",
-            "descripcion" : "Basado en elustraciones",
+            "descripcion" : "Basado en ilustraciones",
             "tallas": ["CH", "M", "G", "XG"],
             "material": "Lino", 
             "color" : ["Amarillo", "Rojo", "Azul"],
@@ -89,4 +89,3 @@
                    
     ]
 }
-
