@@ -1,7 +1,7 @@
 //Trae los inputs del formulario
 let nameContact = document.getElementById("nameContact");
 let fechaNac = document.getElementById("birthDate");
-let country = document.getElementById("country")
+let numberContact = document.getElementById("numberContact")
 let mailContact = document.getElementById("mailContact")
 let passwordContact = document.getElementById("passwordContact")
 let confirPassContact = document.getElementById("confirPassContact")
@@ -23,6 +23,7 @@ function validarNombre() {
 } //Validación nombre
 
 
+<<<<<<< HEAD
 let validacionBD = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$/;
 
 function validarfechaNac() {
@@ -39,6 +40,9 @@ function validarfechaNac() {
         return true;
     }
 } // Validación Fecha de Nacimiento
+=======
+ // Validación Fecha de Nacimiento
+>>>>>>> registry
 
 function validarContraseña() {
     if (passwordContact.value.length < 5) {
@@ -67,18 +71,20 @@ function validarConfirContraseña() {
 } //Validación confirmación de contraseña
 
 
-function validarPais() {
-    if (!validacionPais.test(country.value)) {
-        country.style.border = "red thin solid";
-        document.getElementById("alertPais").innerHTML = "Debes seleccionar un país";
-        document.getElementById("alertPais").style = "display: block; margin-bottom: -10px;";
+let validacionCel = /^[0-9]{10}$/;
+
+function validarNumero() {
+    if (!validacionCel.test(numberContact.value)) {
+        numberContact.style.border = "red thin solid";
+        document.getElementById("alertnum").innerHTML = "Tu número debe tener 10 dígitos";
+        document.getElementById("alertnum").style = "display: block; margin-bottom: -10px;";
         return false;
     } else {
-        country.style.border = "green thin solid";
-        document.getElementById("alertPais").style.display = "none";
+        numberContact.style.border = "green thin solid";
+        document.getElementById("alertnum").style.display = "none";
         return true;
     }
-} // Validación de País
+} // Validación de celular
 
 let validacionEmail = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
@@ -127,12 +133,18 @@ nameContact.addEventListener("blur", (e) => {
         validarNombre();
     }) //Nombre
 
+<<<<<<< HEAD
 fechaNac.addEventListener("blur", (e) => {
         e.target.value = e.target.value.trim();
         validarfechaNac();
     }) //Fecha Nacimiento
 
 country.addEventListener("blur", (e) => {
+=======
+
+
+numberContact.addEventListener("blur", (e) => {
+>>>>>>> registry
         e.target.value = e.target.value.trim();
         validarNumero();
     }) //Número
@@ -162,15 +174,18 @@ enviar.addEventListener("click", (event) => {
 
     // Se hacen validaciones
     validarNombre();
+<<<<<<< HEAD
     validarfechaNac();
+=======
+>>>>>>> registry
     validarContraseña();
     validarConfirContraseña();
-    validarPais();
+    validarNumero();
     validarEmail();
     validarPoliticas();
     123
     //Si falla alguna validacion, se muestra alerta de error 
-    if ((!validarNombre()) || (!validarContraseña()) || (!validarApellidoM()) || (!validarNumero()) || (!validarConfirContraseña()) || (!validarApellidoP()) || (!validarEmail()) || (!validarPoliticas()) || (!validarfechaNac())) {
+    if ((!validarNombre()) || (!validarContraseña())  || (!validarNumero()) || (!validarConfirContraseña()) || (!validarEmail()) || (!validarPoliticas()) ) {
         Swal.fire({
             icon: 'error',
             title: 'Error',
@@ -184,7 +199,7 @@ enviar.addEventListener("click", (event) => {
         user_name: document.querySelector(`#nameContact`).value,
         user_date: document.querySelector(`#birthDate`).value,
         user_pass: document.querySelector(`#passwordContact`).value,
-        user_country: document.querySelector(`#country`).value,
+        user_phone: document.querySelector(`#numberContact`).value,
         user_email: document.querySelector(`#mailContact`).value,
         user_type_id: 1
     };
@@ -225,11 +240,11 @@ enviar.addEventListener("click", (event) => {
 
             }
         });
-    
+
 });
 
 window.addEventListener("load", function() {
     if (localStorage.getItem("Usuario") != null) {
         usuarios = JSON.parse(localStorage.getItem("Usuario"));
     } // if
-});
+}); 
