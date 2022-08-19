@@ -1,0 +1,91 @@
+{
+    "page" : 8,
+    "total" : 8,
+    "total_pages":10,
+    "seccion" : "Prendas Interiores",
+    "subseccion" : "Sayon", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/4.prendas/sayon_1.jpg",
+            "nombre" : "Sayón Castellano",
+            "descripcion" : "",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Marron", "Rojo", "Azul"],
+            "precio" : 900
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/4.prendas/sayon_2.jpg",
+            "nombre" : "Sayón Siglo XVI",
+            "descripcion" : "",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lana", 
+            "color" : ["Cafe", "Rojo", "Azul"],
+            "precio" : 800
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/4.prendas/sayon_3.jpg",
+            "nombre" : "Sayón Siglo XVII",
+            "descripcion" : "",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Naranja", "Rojo", "Azul"],
+            "precio" : 900
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/4.prendas/sayon_4.jpg",
+            "nombre" : "Sayón Siglo XV",
+            "descripcion" : "",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lana, Lino", 
+            "color" : ["Azul", "Rojo", "Negro"],
+            "precio" : 800
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/4.prendas/sayon_5.png",
+            "nombre" : "Sayón Siglo XVI",
+            "descripcion" : "En proceso de elaboración",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino, Lana", 
+            "color" : ["Verde", "Rojo", "Azul"],
+            "precio" : 700
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/4.prendas/sayon_6.png",
+            "nombre" : "Sayón Siglo XV",
+            "descripcion" : "En proceso de elaboración",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino, Algodon", 
+            "color" : ["Blanco", "Rojo", "Azul"],
+            "precio" : 800
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/4.prendas/sayon_7.png",
+            "nombre" : "Sayón Año 1698",
+            "descripcion" : "En proceso de elaboración",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Rojo","Negro", "Azul"],
+            "precio" : 900
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/4.prendas/sayon_8.png",
+            "nombre" : "Sayón Año 1600",
+            "descripcion" : "En proceso de elaboración",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lana", 
+            "color" : ["Cafe", "Rojo", "Azul"],
+            "precio" : 700
+        }
+                   
+    ]
+}

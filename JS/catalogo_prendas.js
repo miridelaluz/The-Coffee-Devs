@@ -4,7 +4,12 @@ const tunicas = "/data/catalogo_tunicas.json";
 const calzones = "/data/catalogo_calzones.json";
 const calzas = "/data/catalogo_calzas.json";
 const winingas = "/data/catalogo_winingas.json"
-const llave = "datosProductos";
+
+const tunicasEx = "/data/catalogo_tunicaEx.json";
+const vestidos = "/data/catalogo_vestidos.json";
+const sayon = "/data/catalogo_sayon.json";
+const jubon = "/data/catalogo_jubon.json";
+const kaftan = "/data/catalogo_kaftan.json"
 
  function mostrarDatos(categoria) {
     fetch(categoria)
@@ -49,23 +54,32 @@ const llave = "datosProductos";
             contenedor.insertAdjacentHTML("afterbegin",div);
         }
         });
-
-        console.log('hey');
 }
-//Selecciona
+
+//Selecciona el id del HTML
 const aCamisas = document.getElementById("camisas");
 const aTunicas = document.getElementById("tunicaIn");
 const aCalzones = document.getElementById("calzones");
 const aCalzas = document.getElementById("calzas");
 const aWiningas = document.getElementById("winingas");
 
+const aTunicaEx = document.getElementById("tunicaEx");
+const aVestidos = document.getElementById("vestidos");
+const aSayon = document.getElementById("sayon");
+const aJubon = document.getElementById("jubon");
+const aKaftan = document.getElementById("kaftan");
+
 //La funcion flecha evita que la funcion de mostrar datos se eejcute al cargar la pagina
-aCamisas.addEventListener('click', () => {mostrarDatos(camisas)});//mostrarDatos(camisas));
+aCamisas.addEventListener('click', () => {mostrarDatos(camisas)});
 aTunicas.addEventListener('click', () => {mostrarDatos(tunicas)});
 aCalzones.addEventListener('click', () => {mostrarDatos(calzones)});
 aCalzas.addEventListener('click', () => {mostrarDatos(calzas)});
 aWiningas.addEventListener('click', () => {mostrarDatos(winingas)});
 
+aTunicaEx.addEventListener('click', () => {mostrarDatos(tunicasEx)});
+aVestidos.addEventListener('click', () => {mostrarDatos(vestidos)});
+aSayon.addEventListener('click', () => {mostrarDatos(sayon)});
+aJubon.addEventListener('click', () => {mostrarDatos(jubon)});
+aKaftan.addEventListener('click', () => {mostrarDatos(kaftan)});
 
-//document.getElementById('camisas').addEventListener('click',console.log('hey'));
 

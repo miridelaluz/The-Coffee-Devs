@@ -1,0 +1,92 @@
+{
+    "page" : 6,
+    "total" : 8,
+    "total_pages":10,
+    "seccion" : "Prendas Exteriores",
+    "subseccion" : "Tunicas Ex", 
+    "data":[
+
+        {
+            "id" : 1,
+            "imagen": "/assets/img/4.prendas/tunicaEx_1.jpg",
+            "nombre" : "Túnica Siglo XIV",
+            "descripcion" : "Mangas ajustadas",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Rojo", "Negro", "---"],
+            "precio" : 1600
+        },
+        {
+            "id" : 2,
+            "imagen": "/assets/img/4.prendas/tunicaEx_2.jpg",
+            "nombre" : "Túnica Año 1300",
+            "descripcion" : "Detalles confeccionados a mano",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Dorado", "Vino", "---"],
+            "precio" : 1200
+        },
+        {
+            "id" : 3,
+            "imagen": "/assets/img/4.prendas/tunicaEx_3.jpg",
+            "nombre" : "Túnica Siglo XIV",
+            "descripcion" : "Diseño cristiano",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Gris", "Beige", "rojo"],
+            "precio" : 1800
+        },
+        {
+            "id" : 4,
+            "imagen": "/assets/img/4.prendas/tunicaEx_4.jpg",
+            "nombre" : "Túnica Siglo XIV",
+            "descripcion" : "Manto a juego con el color",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Azul", "Dorado", "Negro"],
+            "precio" : 1600
+        },
+        {
+            "id" : 5,
+            "imagen": "/assets/img/4.prendas/tunicaEx_5.jpg",
+            "nombre" : "Túnica Romana",
+            "descripcion" : "Conjunto formado por dos Peplos de gasa de seda",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Seda", 
+            "color" : ["Blanco", "Beige", "Vino"],
+            "precio" : 2500
+        },
+        {
+            "id" : 6,
+            "imagen": "/assets/img/4.prendas/tunicaEx_6.webp",
+            "nombre" : "Túnica Griega",
+            "descripcion" : "Cinturon de cuerda blanca",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Algodon", 
+            "color" : ["Azul","Rojo", "Naranja"],
+            "precio" : 8500
+        },
+        {
+            "id" : 7,
+            "imagen": "/assets/img/4.prendas/tunicaEx_7.webp",
+            "nombre" : "Túnica Romana",
+            "descripcion" : "Cinturon de tela",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Amarillo", "Marron", "Naranja"],
+            "precio" : 1600
+        },
+        {
+            "id" : 8,
+            "imagen": "/assets/img/4.prendas/tunicaEx_8.jpg",
+            "nombre" : "Túnica Siglo XV",
+            "descripcion" : "Basado en elustraciones",
+            "tallas": ["CH", "M", "G", "XG"],
+            "material": "Lino", 
+            "color" : ["Amarillo", "Rojo", "Azul"],
+            "precio" : 1600
+        }
+                   
+    ]
+}
+
